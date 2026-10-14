@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Tributário · Grupo Dicon</title>
+<link rel="icon" href="logo-icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#121854; --blue:#2737CF; --white:#FCFCFC;
+  --glow:#5B6BFF;
+  --bg:#070B2C; --bg2:#0C1242; --panel:rgba(22,30,100,.55); --panel-solid:#111863;
+  --line:rgba(120,135,255,.18); --line-strong:rgba(120,135,255,.35);
+  --text:#FCFCFC; --muted:#A9B1E6; --soft:#7D86C4;
+  --alto:#FF5C7A; --medio:#FFB547; --baixo:#2FD8A3;
+  --shadow:0 10px 40px rgba(0,0,0,.35);
+  --radius:16px;
+}
+:root[data-theme="light"]{
+  --bg:#EEF1FB; --bg2:#E4E8F8; --panel:rgba(252,252,252,.92); --panel-solid:#FCFCFC;
+  --line:rgba(18,24,84,.10); --line-strong:rgba(39,55,207,.30);
+  --text:#121854; --muted:#4A5290; --soft:#7A80AE;
+  --shadow:0 8px 28px rgba(18,24,84,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Manrope,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  background:var(--bg); color:var(--text); min-height:100vh; line-height:1.5;
+  background-image:
+    radial-gradient(1200px 500px at 85% -10%, rgba(39,55,207,.35), transparent 60%),
+    radial-gradient(900px 400px at -10% 10%, rgba(91,107,255,.18), transparent 60%),
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size:auto,auto,48px 48px,48px 48px;
+  background-attachment:fixed;
+}
+:root[data-theme="light"] body{background-image:radial-gradient(1200px 500px at 85% -10%, rgba(39,55,207,.12), transparent 60%),linear-gradient(var(--line) 1px, transparent 1px),linear-gradient(90deg, var(--line) 1px, transparent 1px);background-size:auto,48px 48px,48px 48px}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer}
+.mono{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace}
+
+/* ---------- Topo ---------- */
+.topo{
+  position:sticky;top:0;z-index:50;
+  background:linear-gradient(180deg,#121854 0%,#0E1452 100%);
+  border-bottom:1px solid rgba(91,107,255,.35);
+  box-shadow:0 6px 30px rgba(7,11,44,.45);
+}
+.topo-in{max-width:1440px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.marca{display:flex;align-items:center;gap:14px;min-width:0}
+.logo-box{width:48px;height:48px;border-radius:12px;background:#FCFCFC;display:grid;place-items:center;overflow:hidden;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.2),0 0 24px rgba(91,107,255,.45)}
+.logo-box img{width:100%;height:100%;object-fit:contain;padding:4px}
+.logo-pill{height:50px;padding:6px 14px;border-radius:12px;background:#FCFCFC;display:flex;align-items:center;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.25),0 0 26px rgba(91,107,255,.45)}
+.logo-pill img{height:100%;width:auto;display:block}
+.logo-pill .txt-logo{font-family:Sora,sans-serif;font-weight:800;color:#121854;font-size:17px;letter-spacing:-.4px}
+.sep{width:1px;height:38px;background:rgba(255,255,255,.18)}
+.logo-box .mono-logo{font-family:Sora,sans-serif;font-weight:800;color:#121854;font-size:18px;letter-spacing:-.5px}
+.marca h1{font-family:Sora,sans-serif;font-size:19px;font-weight:700;color:#FCFCFC;letter-spacing:-.3px;line-height:1.1}
+.marca h1 span{color:#8C97FF;font-weight:600}
+.marca small{display:block;color:#AEB6EE;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;margin-top:3px}
+.topo-dir{margin-left:auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.relogio{display:flex;flex-direction:column;align-items:flex-end;color:#FCFCFC}
+.relogio .hora{font-family:"JetBrains Mono",monospace;font-size:22px;font-weight:500;letter-spacing:.5px;text-shadow:0 0 18px rgba(91,107,255,.8)}
+.relogio .data{font-size:11.5px;color:#AEB6EE;text-transform:capitalize}
+.atualiz{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#DCE0FF;font-size:12px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--baixo);box-shadow:0 0 0 0 rgba(47,216,163,.7);animation:pulso 2s infinite}
+.dot.velho{background:var(--medio);animation:none}
+@keyframes pulso{0%{box-shadow:0 0 0 0 rgba(47,216,163,.6)}70%{box-shadow:0 0 0 9px rgba(47,216,163,0)}100%{box-shadow:0 0 0 0 rgba(47,216,163,0)}}
+.btn{border:1px solid transparent;border-radius:10px;padding:9px 14px;font-weight:700;font-size:13px;display:inline-flex;align-items:center;gap:8px;transition:.18s}
+.btn-prim{background:#2737CF;color:#FCFCFC;box-shadow:0 6px 20px rgba(39,55,207,.55)}
+.btn-prim:hover{background:#3445E0;transform:translateY(-1px)}
+.btn-ghost{background:rgba(255,255,255,.07);color:#FCFCFC;border-color:rgba(255,255,255,.16)}
+.btn-ghost:hover{background:rgba(255,255,255,.14)}
+.btn svg{width:16px;height:16px}
+
+/* ---------- Menu ---------- */
+.menu{max-width:1440px;margin:0 auto;padding:0 24px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.menu::-webkit-scrollbar{display:none}
+.menu button{background:none;border:0;color:#AEB6EE;font-weight:600;font-size:14px;padding:12px 16px 14px;position:relative;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.menu button:hover{color:#FCFCFC}
+.menu button.ativo{color:#FCFCFC}
+.menu button.ativo::after{content:"";position:absolute;left:12px;right:12px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:linear-gradient(90deg,#2737CF,#8C97FF);box-shadow:0 0 14px #5B6BFF}
+.menu .qt{font-family:"JetBrains Mono",monospace;font-size:11px;background:rgba(255,255,255,.1);padding:1px 7px;border-radius:20px}
+
+/* ---------- Layout ---------- */
+.aviso-demo{max-width:1440px;margin:16px auto 0;padding:0 24px}
+.aviso-demo div{border:1px dashed var(--medio);color:var(--text);background:rgba(255,181,71,.08);padding:10px 14px;border-radius:12px;font-size:13px}
+main{max-width:1440px;margin:0 auto;padding:22px 24px 60px;display:grid;grid-template-columns:290px 1fr;gap:22px}
+.painel{background:var(--panel);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+aside{position:sticky;top:132px;align-self:start;padding:18px;max-height:calc(100vh - 150px);overflow:auto}
+aside h3{font-family:Sora,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin:18px 0 10px}
+aside h3:first-child{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line-strong);background:transparent;color:var(--muted);padding:6px 11px;border-radius:30px;font-size:12.5px;font-weight:600;transition:.15s}
+.chip:hover{color:var(--text);border-color:var(--glow)}
+.chip.on{background:#2737CF;border-color:#2737CF;color:#FCFCFC;box-shadow:0 4px 14px rgba(39,55,207,.45)}
+.chip .b{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.campo{width:100%;background:var(--bg2);border:1px solid var(--line-strong);color:var(--text);border-radius:10px;padding:9px 11px;font-family:inherit;font-size:13px}
+.campo:focus{outline:2px solid var(--glow);outline-offset:1px}
+.datas .campo{min-width:0;padding:8px 6px;font-size:12px}
+.datas{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px;margin-top:8px}
+.datas label{font-size:11px;color:var(--soft)}
+.limpar{margin-top:18px;width:100%;background:transparent;border:1px solid var(--line-strong);color:var(--muted);padding:9px;border-radius:10px;font-weight:600;font-size:13px}
+.limpar:hover{color:var(--text);border-color:var(--glow)}
+.busca{position:relative}
+.busca svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--soft)}
+.busca input{padding-left:34px}
+
+/* ---------- Conteúdo ---------- */
+.conteudo{min-width:0;display:flex;flex-direction:column;gap:22px}
+.secao-tit{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.secao-tit h2{font-family:Sora,sans-serif;font-size:26px;letter-spacing:-.6px;font-weight:700}
+.secao-tit p{color:var(--muted);font-size:14px}
+.ordem{display:flex;gap:6px;align-items:center;font-size:12px;color:var(--soft)}
+.ordem select{width:auto}
+
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.kpi{padding:16px 16px 14px;position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;inset:0 0 auto 0;height:2px;background:linear-gradient(90deg,transparent,var(--c,#5B6BFF),transparent)}
+.kpi .n{font-family:Sora,sans-serif;font-size:30px;font-weight:800;letter-spacing:-1px;line-height:1.1}
+.kpi .l{font-size:12px;color:var(--muted);font-weight:600}
+.kpi .s{font-size:11px;color:var(--soft);margin-top:2px}
+
+.mapa{padding:16px 18px}
+.mapa-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:10px;flex-wrap:wrap}
+.mapa-top h4{font-family:Sora,sans-serif;font-size:15px}
+.mapa-top span{font-size:12px;color:var(--soft)}
+.ufs{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:7px}
+.uf{border:1px solid var(--line);background:var(--bg2);border-radius:10px;padding:7px 6px 6px;text-align:center;color:var(--muted);transition:.15s;position:relative}
+.uf b{display:block;font-family:Sora,sans-serif;font-size:14px;color:var(--text)}
+.uf i{font-style:normal;font-family:"JetBrains Mono",monospace;font-size:11px}
+.uf.foco{border-color:rgba(91,107,255,.6);background:linear-gradient(160deg,rgba(39,55,207,.35),rgba(39,55,207,.08))}
+.uf.foco::after{content:"";position:absolute;top:5px;right:5px;width:6px;height:6px;border-radius:50%;background:#8C97FF;box-shadow:0 0 8px #8C97FF}
+.uf.tem-alto i{color:var(--alto)}
+.uf:hover{border-color:var(--glow);transform:translateY(-1px)}
+.uf.on{background:#2737CF;border-color:#2737CF;color:#FCFCFC}
+.uf.on b{color:#FCFCFC}
+
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+.card{padding:16px 18px 14px;display:flex;flex-direction:column;gap:10px;border-left:4px solid var(--imp);transition:.18s;animation:entra .35s ease both}
+.card:hover{transform:translateY(-2px);border-color:var(--line-strong);border-left-color:var(--imp);box-shadow:0 14px 40px rgba(7,11,44,.45)}
+@keyframes entra{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.card[data-imp="alto"]{--imp:var(--alto)}
+.card[data-imp="medio"]{--imp:var(--medio)}
+.card[data-imp="baixo"]{--imp:var(--baixo)}
+.card-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--soft)}
+.selo{font-weight:800;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:6px;color:#0B0F33;background:var(--imp)}
+.esf{font-weight:700;color:var(--muted);border:1px solid var(--line-strong);padding:2px 8px;border-radius:6px;font-size:11px}
+.card-top .fonte{font-weight:700;color:var(--muted)}
+.card-top .quando{margin-left:auto;font-family:"JetBrains Mono",monospace;font-size:11px}
+.card h5{font-family:Sora,sans-serif;font-size:16px;line-height:1.35;font-weight:600;letter-spacing:-.2px}
+.card .resumo{font-size:13.5px;color:var(--muted)}
+.porque{font-size:12.5px;background:rgba(39,55,207,.14);border:1px solid rgba(91,107,255,.25);border-radius:10px;padding:8px 10px;color:var(--text)}
+:root[data-theme="light"] .porque{background:rgba(39,55,207,.06)}
+.porque b{color:#8C97FF;font-weight:700}
+:root[data-theme="light"] .porque b{color:#2737CF}
+.card-base{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:auto}
+.tag{font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;background:var(--bg2);border:1px solid var(--line);color:var(--muted);cursor:pointer}
+.tag:hover,.tag.on{border-color:var(--glow);color:var(--text)}
+.ler{margin-left:auto;font-size:12.5px;font-weight:700;color:#8C97FF;text-decoration:none;display:flex;align-items:center;gap:4px}
+:root[data-theme="light"] .ler{color:#2737CF}
+.ler:hover{text-decoration:underline}
+.vazio{padding:40px;text-align:center;color:var(--muted)}
+.vazio b{display:block;font-family:Sora,sans-serif;font-size:18px;color:var(--text);margin-bottom:6px}
+.mais{align-self:center}
+
+/* ---------- Reforma ---------- */
+.placar{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tributo{padding:20px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
+.tributo::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,var(--c) 0%,transparent 70%);opacity:.18}
+.trib-top{display:flex;align-items:center;gap:16px}
+.anel{width:96px;height:96px;flex:none;position:relative}
+.anel svg{width:100%;height:100%;transform:rotate(-90deg)}
+.anel .pct{position:absolute;inset:0;display:grid;place-items:center;font-family:Sora,sans-serif;font-weight:800;font-size:22px}
+.trib-top h4{font-family:Sora,sans-serif;font-size:22px;font-weight:800;letter-spacing:-.5px}
+.trib-top p{font-size:12.5px;color:var(--muted)}
+.fase{font-size:13px;padding:10px 12px;border-radius:10px;background:var(--bg2);border:1px solid var(--line)}
+.fase b{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-bottom:2px}
+.prox{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);gap:8px}
+.prox .cd{font-family:"JetBrains Mono",monospace;color:var(--text);font-size:12px;background:rgba(39,55,207,.25);padding:3px 8px;border-radius:6px;white-space:nowrap}
+.marcos{list-style:none;display:flex;flex-direction:column;gap:6px}
+.marcos li{display:flex;gap:9px;align-items:flex-start;font-size:12.5px;color:var(--muted)}
+.marcos li::before{content:"";flex:none;width:14px;height:14px;border-radius:50%;border:2px solid var(--line-strong);margin-top:2px}
+.marcos li.ok{color:var(--text)}
+.marcos li.ok::before{background:var(--c);border-color:var(--c);box-shadow:0 0 8px var(--c)}
+.marcos li span{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--soft);margin-left:auto;white-space:nowrap}
+
+.linha{padding:22px 20px 18px}
+.linha h4{font-family:Sora,sans-serif;font-size:15px;margin-bottom:4px}
+.linha p.sub{font-size:12px;color:var(--soft);margin-bottom:18px}
+.trilha{position:relative;display:grid;grid-template-columns:repeat(8,1fr);gap:6px}
+.trilha::before{content:"";position:absolute;left:0;right:0;top:9px;height:3px;background:var(--line-strong);border-radius:3px}
+.trilha .prog{position:absolute;left:0;top:9px;height:3px;background:linear-gradient(90deg,#2737CF,#8C97FF);border-radius:3px;box-shadow:0 0 12px #5B6BFF}
+.passo{position:relative;padding-top:26px;font-size:11.5px;color:var(--muted)}
+.passo::before{content:"";position:absolute;top:2px;left:0;width:17px;height:17px;border-radius:50%;background:var(--bg2);border:3px solid var(--line-strong)}
+.passo.ok::before{background:#2737CF;border-color:#8C97FF}
+.passo.agora::before{background:#FCFCFC;border-color:#2737CF;box-shadow:0 0 0 5px rgba(39,55,207,.35)}
+.passo b{display:block;font-family:Sora,sans-serif;font-size:14px;color:var(--text)}
+
+/* ---------- Modal Boletim ---------- */
+.modal{position:fixed;inset:0;background:rgba(5,8,32,.72);backdrop-filter:blur(6px);display:none;align-items:flex-start;justify-content:center;padding:40px 16px;z-index:100;overflow:auto}
+.modal.aberto{display:flex}
+.boletim{background:#FCFCFC;color:#121854;width:100%;max-width:820px;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.bol-cab{background:linear-gradient(120deg,#121854,#2737CF);color:#FCFCFC;padding:24px 28px;display:flex;align-items:center;gap:16px}
+.bol-cab h3{font-family:Sora,sans-serif;font-size:22px}
+.bol-cab p{font-size:13px;color:#C9CFFF}
+.bol-cab .x{margin-left:auto;background:rgba(255,255,255,.15);border:0;color:#fff;width:36px;height:36px;border-radius:10px;font-size:20px}
+.bol-corpo{padding:22px 28px 26px;display:flex;flex-direction:column;gap:18px}
+.bol-nums{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.bol-nums div{background:#EEF1FB;border-radius:12px;padding:12px}
+.bol-nums b{display:block;font-family:Sora,sans-serif;font-size:24px}
+.bol-nums span{font-size:12px;color:#4A5290}
+.bol-corpo h4{font-family:Sora,sans-serif;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:#2737CF;border-bottom:2px solid #EEF1FB;padding-bottom:6px}
+.bol-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed #E1E5F5;font-size:13.5px}
+.bol-item .selo{flex:none;align-self:flex-start;margin-top:2px}
+.bol-item a{font-weight:700;text-decoration:none;color:#121854}
+.bol-item a:hover{text-decoration:underline}
+.bol-item small{display:block;color:#4A5290}
+.bol-acoes{display:flex;gap:8px;justify-content:flex-end;padding:0 28px 24px}
+.bol-acoes .btn-ghost{color:#121854;border-color:#D5DAF3;background:#F3F5FC}
+.toast{opacity:0;pointer-events:none;position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#121854;color:#fff;padding:10px 18px;border-radius:10px;font-weight:600;font-size:13px;transition:.25s;z-index:200;border:1px solid #2737CF}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+footer{max-width:1440px;margin:0 auto;padding:0 24px 30px;color:var(--soft);font-size:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+footer .depto{letter-spacing:.12em;text-transform:uppercase;font-size:11px}
+
+.oculto{display:none!important}
+.menu .filtros-btn{display:none}
+
+@media (max-width:1100px){
+  .kpis{grid-template-columns:repeat(3,1fr)}
+  .placar{grid-template-columns:1fr}
+}
+@media (max-width:900px){
+  main{grid-template-columns:1fr}
+  aside{position:static;max-height:none;display:none}
+  aside.aberto{display:block}
+  .menu .filtros-btn{display:flex;order:-1;color:#FCFCFC}
+  .topo{position:relative}
+  .relogio .hora{font-size:18px}
+  .grade{grid-template-columns:1fr}
+  .trilha{grid-template-columns:repeat(4,1fr);row-gap:18px}
+  .trilha::before,.trilha .prog{display:none}
+}
+@media (max-width:560px){
+  .logo-pill{height:40px;padding:5px 10px}
+  .sep{display:none}
+  .topo-in{padding:12px 16px}
+  .menu{padding:0 10px}
+  main,.aviso-demo,footer{padding-left:16px;padding-right:16px}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .bol-nums{grid-template-columns:repeat(2,1fr)}
+  .atualiz .txt-longo{display:none}
+  .marca small{display:none}
+  .relogio .data{display:none}
+  .topo-dir{gap:8px;margin-left:0;width:100%}
+  .topo-dir .btn-prim{margin-left:auto}
+}
+@media print{
+  body{background:#fff}
+  body > *:not(.modal){display:none!important}
+  .modal{position:static;display:block!important;background:none;padding:0}
+  .boletim{box-shadow:none;max-width:none}
+  .bol-acoes,.bol-cab .x{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-in">
+    <div class="marca">
+      <div class="logo-pill"><img src="logo.png" alt="Grupo Dicon"></div>
+      <div class="sep"></div>
+      <div>
+        <h1>Radar <span>Tributário</span></h1>
+        <small>Departamento Fiscal</small>
+      </div>
+    </div>
+    <div class="topo-dir">
+      <div class="atualiz" title="Quando o robô buscou as notícias pela última vez">
+        <span class="dot" id="dot"></span>
+        <span><span class="txt-longo">Última atualização: </span><b id="ultAtual">—</b></span>
+      </div>
+      <div class="relogio">
+        <div class="hora" id="hora">--:--:--</div>
+        <div class="data" id="dataHoje">—</div>
+      </div>
+      <button class="btn btn-ghost" id="btnTema" title="Alternar tema claro/escuro" aria-label="Alternar tema">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="btn btn-prim" id="btnBoletim">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+        Boletim do dia
+      </button>
+    </div>
+  </div>
+  <nav class="menu" id="menu"></nav>
+</header>
+
+<div class="aviso-demo oculto" id="avisoDemo"><div>⚠️ <b>Modo demonstração:</b> as notícias abaixo são <b>exemplos fictícios</b> só para mostrar o visual. Elas serão trocadas por notícias reais assim que o robô rodar pela primeira vez.</div></div>
+
+<main>
+  <aside class="painel" id="filtros">
+    <h3>Buscar</h3>
+    <div class="busca">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input class="campo" id="fBusca" placeholder="Ex.: ICMS, NCM, prazo…">
+    </div>
+
+    <h3>Esfera</h3>
+    <div class="chips" id="fEsfera"></div>
+
+    <h3>Impacto</h3>
+    <div class="chips" id="fImpacto"></div>
+
+    <h3>Data</h3>
+    <div class="chips" id="fPeriodo"></div>
+    <div class="datas">
+      <div><label for="fDe">De</label><input type="date" class="campo" id="fDe"></div>
+      <div><label for="fAte">Até</label><input type="date" class="campo" id="fAte"></div>
+    </div>
+
+    <h3>Tipo de fonte</h3>
+    <div class="chips" id="fTipo"></div>
+
+    <h3>Estado</h3>
+    <select class="campo" id="fUF"></select>
+
+    <h3>Assuntos em foco</h3>
+    <div class="chips" id="fTags"></div>
+
+    <button class="limpar" id="btnLimpar">Limpar filtros</button>
+  </aside>
+
+  <section class="conteudo" id="conteudo"></section>
+</main>
+
+<footer>
+  <span>© <span id="ano"></span> Grupo Dicon · Radar Tributário — resumos automáticos; confira sempre a fonte oficial antes de aplicar.</span>
+  <span class="depto">Departamento Fiscal</span>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="bolTitulo">
+  <div class="boletim">
+    <div class="bol-cab">
+      <div class="logo-pill"><img src="logo.png" alt="Grupo Dicon"></div>
+      <div>
+        <h3 id="bolTitulo">Boletim Tributário do Dia</h3>
+        <p id="bolData">—</p>
+      </div>
+      <button class="x" id="fechar" aria-label="Fechar">×</button>
+    </div>
+    <div class="bol-corpo" id="bolCorpo"></div>
+    <div class="bol-acoes">
+      <button class="btn btn-ghost" id="btnCopiar">Copiar texto</button>
+      <button class="btn btn-prim" id="btnImprimir">Imprimir / salvar PDF</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<!--DADOS_INICIO-->
+<script id="radar-dados">
+window.RADAR_DADOS = {
+ "meta": {"atualizado_em": null, "demo": true, "fontes_consultadas": 0, "versao": 1},
+ "noticias": [
+  {"id":"d1","dias_atras":0,"titulo":"[Exemplo] Estado retira grupo de autopeças da substituição tributária a partir do próximo mês","resumo":"Decreto publicado hoje tira uma lista de produtos do regime em que o ICMS é pago antecipadamente pelo fabricante. As empresas passam a recolher o imposto em cada venda.","porque":"Muda quem paga o ICMS e como o produto é cadastrado no sistema. Revise cadastro, estoque e preço.","link":"https://portal.fazenda.sp.gov.br/","fonte":"SEFAZ-SP","tipo_fonte":"SEFAZ estadual","esfera":"Estadual","uf":"SP","impacto":"alto","tags":["Exclusão da ST","ICMS","Legislação estadual"],"reforma":false,"fiscal":true,"internacional":false},
+  {"id":"d2","dias_atras":0,"titulo":"[Exemplo] Receita prorroga prazo de entrega de declaração mensal","resumo":"O prazo de entrega de uma obrigação mensal foi adiado em 15 dias por causa de ajustes no sistema da Receita.","porque":"A data de entrega mudou. Atualize a agenda de obrigações da equipe.","link":"https://www.gov.br/receitafederal/pt-br/assuntos/noticias","fonte":"Receita Federal","tipo_fonte":"Órgão federal","esfera":"Federal","uf":"","impacto":"alto","tags":["Prazo","Obrigação acessória"],"reforma":false,"fiscal":true,"internacional":false},
+  {"id":"d3","dias_atras":0,"titulo":"[Exemplo] Comitê Gestor do IBS divulga novo manual para emissão de notas","resumo":"Documento explica como preencher os novos campos de IBS e CBS nas notas fiscais eletrônicas durante a fase de testes.","porque":"As notas fiscais terão campos novos. O sistema emissor da empresa precisa estar preparado.","link":"https://www.gov.br/fazenda/pt-br/assuntos/noticias","fonte":"Ministério da Fazenda","tipo_fonte":"Órgão federal","esfera":"Federal","uf":"","impacto":"alto","tags":["IBS","CBS","Reforma Tributária","NF-e/NFS-e"],"reforma":true,"fiscal":true,"internacional":false},
+  {"id":"d4","dias_atras":1,"titulo":"[Exemplo] Bahia altera data de vencimento do ICMS para alguns setores","resumo":"O dia de pagamento do ICMS mudou para empresas do comércio atacadista do estado.","porque":"O imposto vence em outro dia. Ajuste o calendário de pagamentos para não pagar multa.","link":"https://www.sefaz.ba.gov.br/","fonte":"SEFAZ-BA","tipo_fonte":"SEFAZ estadual","esfera":"Estadual","uf":"BA","impacto":"alto","tags":["Vencimento","ICMS"],"reforma":false,"fiscal":true,"internacional":false},
+  {"id":"d5","dias_atras":1,"titulo":"[Exemplo] Senado aprova ajustes no Imposto Seletivo","resumo":"Projeto muda a lista de produtos que pagarão o imposto sobre itens prejudiciais à saúde e ao meio ambiente.","porque":"Pode alterar o custo de alguns produtos a partir de 2027.","link":"https://www12.senado.leg.br/noticias","fonte":"Senado Federal","tipo_fonte":"Legislativo","esfera":"Federal","uf":"","impacto":"medio","tags":["Imposto Seletivo","Reforma Tributária"],"reforma":true,"fiscal":false,"internacional":false},
+  {"id":"d6","dias_atras":1,"titulo":"[Exemplo] Tabela NCM recebe novos códigos para produtos eletrônicos","resumo":"Alguns produtos ganharam códigos de classificação novos, que valem para notas emitidas a partir do mês que vem.","porque":"O código do produto (NCM) errado pode gerar rejeição de nota e imposto calculado errado.","link":"https://www.gov.br/receitafederal/pt-br/assuntos/noticias","fonte":"Receita Federal","tipo_fonte":"Órgão federal","esfera":"Federal","uf":"","impacto":"alto","tags":["NCM"],"reforma":false,"fiscal":true,"internacional":false},
+  {"id":"d7","dias_atras":2,"titulo":"[Exemplo] Prefeitura de São Paulo muda regras da nota fiscal de serviço","resumo":"Prestadores de serviço terão de informar novos dados ao emitir a NFS-e no município.","porque":"Afeta quem presta ou contrata serviços em São Paulo capital.","link":"https://www.prefeitura.sp.gov.br/","fonte":"Portal Contábeis","tipo_fonte":"Portal de notícias","esfera":"Municipal","uf":"SP","impacto":"medio","tags":["ISS","NF-e/NFS-e"],"reforma":false,"fiscal":true,"internacional":false},
+  {"id":"d8","dias_atras":2,"titulo":"[Exemplo] Produtor rural: novas regras para o FUNRURAL","resumo":"Orientação explica como recolher a contribuição do produtor rural sobre a venda da produção.","porque":"Importante para clientes do agro e para quem compra de produtor rural.","link":"https://www.gov.br/agricultura/pt-br/assuntos/noticias","fonte":"MAPA","tipo_fonte":"Órgão federal","esfera":"Federal","uf":"","impacto":"medio","tags":["FUNRURAL","Agro"],"reforma":false,"fiscal":false,"internacional":false},
+  {"id":"d9","dias_atras":3,"titulo":"[Exemplo] Goiás publica convênio sobre benefício fiscal de ICMS","resumo":"O estado prorrogou um benefício que reduz o ICMS de alguns produtos industriais.","porque":"Pode reduzir o imposto de clientes industriais em Goiás. Vale conferir se o cliente se enquadra.","link":"https://goias.gov.br/economia/","fonte":"SEFAZ-GO","tipo_fonte":"SEFAZ estadual","esfera":"Estadual","uf":"GO","impacto":"medio","tags":["ICMS","Benefício fiscal","Legislação estadual"],"reforma":false,"fiscal":true,"internacional":false},
+  {"id":"d10","dias_atras":3,"titulo":"[Exemplo] CFC divulga calendário de cursos de atualização","resumo":"O Conselho Federal de Contabilidade abriu inscrições para cursos online sobre a reforma.","porque":"Boa oportunidade de capacitação para a equipe.","link":"https://cfc.org.br/","fonte":"CFC","tipo_fonte":"Entidade contábil","esfera":"Federal","uf":"","impacto":"baixo","tags":["Reforma Tributária"],"reforma":true,"fiscal":false,"internacional":false},
+  {"id":"d11","dias_atras":4,"titulo":"[Exemplo] Acordo internacional evita cobrança dupla de imposto","resumo":"O Brasil assinou acordo com outro país para que empresas não paguem imposto duas vezes sobre o mesmo lucro.","porque":"Interessa a clientes que exportam ou têm sócios no exterior.","link":"https://www.gov.br/fazenda/pt-br/assuntos/noticias","fonte":"Ministério da Fazenda","tipo_fonte":"Órgão federal","esfera":"Internacional","uf":"","impacto":"baixo","tags":["Internacional"],"reforma":false,"fiscal":false,"internacional":true},
+  {"id":"d12","dias_atras":5,"titulo":"[Exemplo] PGFN abre nova negociação de dívidas com desconto","resumo":"Empresas com débitos inscritos em dívida ativa podem parcelar com redução de juros e multa.","porque":"Chance de regularizar dívidas de clientes com condições melhores. Tem data limite para aderir.","link":"https://www.gov.br/pgfn/pt-br/assuntos/noticias","fonte":"PGFN","tipo_fonte":"Órgão federal","esfera":"Federal","uf":"","impacto":"medio","tags":["Parcelamento/Transação","Prazo"],"reforma":false,"fiscal":false,"internacional":false}
+ ]
+};
+</script>
+<!--DADOS_FIM-->
+
+<script>
+(function(){
+"use strict";
+/* ================= CONFIGURAÇÃO DO PAINEL ================= */
+const UFS = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
+const UF_FOCO = ["SP","AM","BA","CE","ES","GO","MG","PE","PI","RJ","RN","SC"];
+const TAGS_FOCO = ["Exclusão da ST","Reforma Tributária","NCM","Prazo","Nova obrigação","Vencimento","Legislação estadual","ICMS","IBS","CBS","FUNRURAL"];
+const TIPOS = ["Órgão federal","Legislativo","SEFAZ estadual","Entidade contábil","Portal de notícias"];
+const SECOES = [
+  {id:"radar",nome:"Radar do Dia",ic:"◉"},
+  {id:"reforma",nome:"Reforma Tributária",ic:"⟳"},
+  {id:"fiscal",nome:"Fiscal",ic:"▦"},
+  {id:"federal",nome:"Federal",ic:"⬢"},
+  {id:"estadual",nome:"Estadual",ic:"◆"},
+  {id:"municipal",nome:"Municipal",ic:"▲"},
+  {id:"internacional",nome:"Internacional",ic:"◎"}
+];
+const IMP = {alto:{n:"Alto",c:"var(--alto)",p:3},medio:{n:"Médio",c:"var(--medio)",p:2},baixo:{n:"Baixo",c:"var(--baixo)",p:1}};
+
+/* Cronograma oficial da Reforma (EC 132/2023 e LC 214/2025) — o placar se atualiza sozinho pela data de hoje */
+const REFORMA = {
+  CBS:{cor:"#5B6BFF",nome:"CBS",desc:"Contribuição federal — substitui PIS e Cofins",marcos:[
+    ["2023-12-20","Emenda Constitucional 132 promulgada"],
+    ["2025-01-16","Lei Complementar 214 sancionada (regras gerais)"],
+    ["2026-01-01","Ano de teste: alíquota de 0,9% destacada na nota"],
+    ["2027-01-01","CBS em vigor de verdade · fim do PIS e da Cofins"]]},
+  IBS:{cor:"#2FD8A3",nome:"IBS",desc:"Imposto de estados e municípios — substitui ICMS e ISS",marcos:[
+    ["2023-12-20","Emenda Constitucional 132 promulgada"],
+    ["2025-01-16","Lei Complementar 214 sancionada"],
+    ["2026-01-01","Ano de teste: alíquota de 0,1% destacada na nota"],
+    ["2029-01-01","Começa a troca: ICMS e ISS caem 10%"],
+    ["2030-01-01","ICMS e ISS caem 20%"],
+    ["2031-01-01","ICMS e ISS caem 30%"],
+    ["2032-01-01","ICMS e ISS caem 40%"],
+    ["2033-01-01","IBS completo · ICMS e ISS deixam de existir"]]},
+  IS:{cor:"#FFB547",nome:"Imposto Seletivo",desc:"Imposto extra sobre itens prejudiciais à saúde e ao meio ambiente",marcos:[
+    ["2023-12-20","Emenda Constitucional 132 promulgada"],
+    ["2025-01-16","Lei Complementar 214 define a lista de produtos"],
+    ["2027-01-01","Imposto Seletivo começa a ser cobrado · IPI zerado (exceto Zona Franca)"]]}
+};
+const LINHA = [
+  ["2023","Emenda aprovada"],["2025","Lei regulamenta"],["2026","Ano de teste"],["2027","CBS e Seletivo valem"],
+  ["2029","Transição começa"],["2030–31","ICMS/ISS diminuem"],["2032","Última etapa"],["2033","Novo sistema completo"]
+];
+const LINHA_DATAS = ["2023-12-20","2025-01-16","2026-01-01","2027-01-01","2029-01-01","2030-01-01","2032-01-01","2033-01-01"];
+
+/* ================= ESTADO ================= */
+const DADOS = window.RADAR_DADOS || {meta:{},noticias:[]};
+const hoje0 = () => { const d=new Date(); d.setHours(0,0,0,0); return d; };
+if (DADOS.meta && DADOS.meta.demo){
+  const base = new Date();
+  DADOS.noticias.forEach((n,i)=>{ const d=new Date(base); d.setDate(d.getDate()-(n.dias_atras||0)); d.setHours(9-(i%4),15*(i%4),0,0); n.data=d.toISOString(); });
+  if(!DADOS.meta.atualizado_em){ const d=new Date(); d.setHours(8,0,0,0); if(d>new Date()) d.setDate(d.getDate()-1); DADOS.meta.atualizado_em=d.toISOString(); }
+}
+const NOT = (DADOS.noticias||[]).map(n=>({...n,_d:new Date(n.data||Date.now()),tags:n.tags||[]}));
+
+const F = {secao:"radar",esfera:"todas",impacto:"todos",periodo:"7",de:"",ate:"",tipo:"todos",uf:"todas",tags:[],busca:"",ordem:"impacto",limite:24};
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtData = d => d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit",year:"numeric"});
+const fmtHora = d => d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+function relativo(d){
+  const min=Math.round((Date.now()-d)/60000);
+  if(min<1) return "agora";
+  if(min<60) return "há "+min+" min";
+  const h=Math.round(min/60); if(h<24) return "há "+h+"h";
+  const dias=Math.round(h/24); return dias===1?"ontem":"há "+dias+" dias";
+}
+
+/* ================= TEMA ================= */
+function lerTema(){ try{return localStorage.getItem("dicon-tema");}catch(e){return null;} }
+function salvarTema(t){ try{localStorage.setItem("dicon-tema",t);}catch(e){} }
+function aplicarTema(t){ if(t==="light") document.documentElement.setAttribute("data-theme","light"); else document.documentElement.removeAttribute("data-theme"); }
+aplicarTema(lerTema());
+$("#btnTema").onclick=()=>{ const novo=document.documentElement.getAttribute("data-theme")==="light"?"dark":"light"; aplicarTema(novo); salvarTema(novo); };
+
+/* ================= LOGO ================= */
+function logoFallback(box){ box.innerHTML='<span class="txt-logo">Grupo Dicon</span>'; }
+document.querySelectorAll(".logo-pill img").forEach(img=>{
+  img.addEventListener("error",()=>logoFallback(img.parentElement));
+  if(img.complete && img.naturalWidth===0) logoFallback(img.parentElement);
+});
+
+/* ================= RELÓGIO ================= */
+function tique(){
+  const d=new Date();
+  $("#hora").textContent=d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit",second:"2-digit"});
+  $("#dataHoje").textContent=d.toLocaleDateString("pt-BR",{weekday:"long",day:"2-digit",month:"long",year:"numeric"});
+  const at=DADOS.meta&&DADOS.meta.atualizado_em?new Date(DADOS.meta.atualizado_em):null;
+  if(at){
+    $("#ultAtual").textContent=fmtData(at)+" às "+fmtHora(at)+" ("+relativo(at)+")";
+    $("#dot").classList.toggle("velho",(Date.now()-at)>26*3600*1000);
+  }
+}
+tique(); setInterval(tique,1000);
+$("#ano").textContent=new Date().getFullYear();
+/* recarrega a página a cada 30 min para pegar a versão nova publicada pelo robô */
+setTimeout(()=>location.reload(),30*60*1000);
+if(DADOS.meta&&DADOS.meta.demo) $("#avisoDemo").classList.remove("oculto");
+
+/* ================= FILTRAGEM ================= */
+function naSecao(n,sec){
+  switch(sec){
+    case "reforma": return !!n.reforma;
+    case "fiscal": return !!n.fiscal;
+    case "federal": return n.esfera==="Federal";
+    case "estadual": return n.esfera==="Estadual";
+    case "municipal": return n.esfera==="Municipal";
+    case "internacional": return n.esfera==="Internacional"||!!n.internacional;
+    default: return true;
+  }
+}
+function filtrar(ignorarSecao){
+  const t=F.busca.trim().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+  let ini=null, fim=null;
+  if(F.de||F.ate){ if(F.de) ini=new Date(F.de+"T00:00:00"); if(F.ate) fim=new Date(F.ate+"T23:59:59"); }
+  else if(F.periodo!=="todos"){ ini=hoje0(); ini.setDate(ini.getDate()-(Number(F.periodo)-1)); }
+  return NOT.filter(n=>{
+    if(!ignorarSecao && !naSecao(n,F.secao)) return false;
+    if(F.esfera!=="todas" && n.esfera!==F.esfera) return false;
+    if(F.impacto!=="todos" && n.impacto!==F.impacto) return false;
+    if(F.tipo!=="todos" && n.tipo_fonte!==F.tipo) return false;
+    if(F.uf!=="todas" && n.uf!==F.uf) return false;
+    if(F.tags.length && !F.tags.some(tg=>n.tags.includes(tg))) return false;
+    if(ini && n._d<ini) return false;
+    if(fim && n._d>fim) return false;
+    if(t){ const alvo=(n.titulo+" "+n.resumo+" "+n.fonte+" "+n.tags.join(" ")+" "+(n.uf||"")).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,""); if(!alvo.includes(t)) return false; }
+    return true;
+  }).sort((a,b)=> F.ordem==="data" ? b._d-a._d : (IMP[b.impacto].p-IMP[a.impacto].p) || (b._d-a._d));
+}
+
+/* ================= MENU E FILTROS ================= */
+function montarMenu(){
+  const base=filtrar(true);
+  $("#menu").innerHTML=SECOES.map(s=>{
+    const q=base.filter(n=>naSecao(n,s.id)).length;
+    return `<button data-s="${s.id}" class="${F.secao===s.id?"ativo":""}"><span aria-hidden="true">${s.ic}</span>${s.nome}<span class="qt">${q}</span></button>`;
+  }).join("")+`<button class="filtros-btn" id="abrirFiltros">⚙ Filtros</button>`;
+  $("#menu").querySelectorAll("button[data-s]").forEach(b=>b.onclick=()=>{F.secao=b.dataset.s;F.limite=24;render();window.scrollTo({top:0,behavior:"smooth"});});
+  const af=$("#abrirFiltros"); if(af) af.onclick=()=>$("#filtros").classList.toggle("aberto");
+}
+function chips(el,opcoes,chave,multi){
+  $(el).innerHTML=opcoes.map(o=>{
+    const on = multi ? F[chave].includes(o.v) : F[chave]===o.v;
+    return `<button class="chip ${on?"on":""}" data-v="${esc(o.v)}">${o.cor?`<span class="b" style="background:${o.cor}"></span>`:""}${esc(o.n)}</button>`;
+  }).join("");
+  $(el).querySelectorAll(".chip").forEach(b=>b.onclick=()=>{
+    const v=b.dataset.v;
+    if(multi){ F[chave]=F[chave].includes(v)?F[chave].filter(x=>x!==v):[...F[chave],v]; }
+    else { F[chave]=v; if(chave==="periodo"){F.de="";F.ate="";$("#fDe").value="";$("#fAte").value="";} }
+    F.limite=24; render();
+  });
+}
+function montarFiltros(){
+  chips("#fEsfera",[{v:"todas",n:"Todas"},{v:"Federal",n:"Federal"},{v:"Estadual",n:"Estadual"},{v:"Municipal",n:"Municipal"},{v:"Internacional",n:"Internacional"}],"esfera");
+  chips("#fImpacto",[{v:"todos",n:"Todos"},{v:"alto",n:"Alto",cor:"var(--alto)"},{v:"medio",n:"Médio",cor:"var(--medio)"},{v:"baixo",n:"Baixo",cor:"var(--baixo)"}],"impacto");
+  chips("#fPeriodo",[{v:"1",n:"Hoje"},{v:"3",n:"3 dias"},{v:"7",n:"7 dias"},{v:"30",n:"30 dias"},{v:"todos",n:"Tudo"}].map(o=>({...o})),"periodo");
+  if(F.de||F.ate) $("#fPeriodo").querySelectorAll(".chip").forEach(c=>c.classList.remove("on"));
+  chips("#fTipo",[{v:"todos",n:"Todos"},...TIPOS.map(t=>({v:t,n:t}))],"tipo");
+  chips("#fTags",TAGS_FOCO.map(t=>({v:t,n:t})),"tags",true);
+  const opts=['<option value="todas">Todos os estados</option>','<optgroup label="★ Estados em foco">']
+    .concat(UF_FOCO.map(u=>`<option value="${u}">${u}</option>`),['</optgroup><optgroup label="Demais estados">'],
+      UFS.filter(u=>!UF_FOCO.includes(u)).map(u=>`<option value="${u}">${u}</option>`),['</optgroup>']);
+  $("#fUF").innerHTML=opts.join(""); $("#fUF").value=F.uf;
+}
+$("#fUF").onchange=e=>{F.uf=e.target.value;render();};
+$("#fBusca").oninput=e=>{F.busca=e.target.value;F.limite=24;renderConteudo();montarMenu();};
+$("#fDe").onchange=e=>{F.de=e.target.value;render();};
+$("#fAte").onchange=e=>{F.ate=e.target.value;render();};
+$("#btnLimpar").onclick=()=>{Object.assign(F,{esfera:"todas",impacto:"todos",periodo:"7",de:"",ate:"",tipo:"todos",uf:"todas",tags:[],busca:"",limite:24});$("#fBusca").value="";$("#fDe").value="";$("#fAte").value="";render();};
+
+/* ================= CARDS ================= */
+function card(n){
+  const i=IMP[n.impacto]||IMP.baixo;
+  return `<article class="card painel" data-imp="${esc(n.impacto)}">
+    <div class="card-top">
+      <span class="selo">${i.n} impacto</span>
+      <span class="esf">${esc(n.esfera)}${n.uf?" · "+esc(n.uf):""}</span>
+      <span class="fonte">${esc(n.fonte)}</span>
+      <span class="quando" title="${fmtData(n._d)} ${fmtHora(n._d)}">${fmtData(n._d)}</span>
+    </div>
+    <h5>${esc(n.titulo)}</h5>
+    ${n.resumo?`<p class="resumo">${esc(n.resumo)}</p>`:""}
+    ${n.porque?`<div class="porque"><b>Por que importa:</b> ${esc(n.porque)}</div>`:""}
+    <div class="card-base">
+      ${n.tags.slice(0,5).map(t=>`<span class="tag ${F.tags.includes(t)?"on":""}" data-tag="${esc(t)}">${esc(t)}</span>`).join("")}
+      <a class="ler" href="${esc(n.link)}" target="_blank" rel="noopener">Ler na fonte ↗</a>
+    </div>
+  </article>`;
+}
+function grade(lista){
+  if(!lista.length) return `<div class="painel vazio"><b>Nenhuma notícia encontrada</b>Tente aumentar o período ou limpar os filtros.</div>`;
+  const vis=lista.slice(0,F.limite);
+  return `<div class="grade">${vis.map(card).join("")}</div>`+
+    (lista.length>F.limite?`<button class="btn btn-prim mais" id="verMais">Ver mais ${Math.min(24,lista.length-F.limite)} de ${lista.length-F.limite} restantes</button>`:"");
+}
+function ligarCards(){
+  document.querySelectorAll(".tag[data-tag]").forEach(t=>t.onclick=()=>{const v=t.dataset.tag;F.tags=F.tags.includes(v)?F.tags.filter(x=>x!==v):[...F.tags,v];render();});
+  const vm=$("#verMais"); if(vm) vm.onclick=()=>{F.limite+=24;renderConteudo();};
+  document.querySelectorAll(".uf[data-uf]").forEach(u=>u.onclick=()=>{F.uf=F.uf===u.dataset.uf?"todas":u.dataset.uf;$("#fUF").value=F.uf;render();});
+  const ord=$("#ordem"); if(ord) ord.onchange=e=>{F.ordem=e.target.value;renderConteudo();};
+}
+
+/* ================= BLOCOS ================= */
+function kpis(lista){
+  const hojeL=lista.filter(n=>n._d>=hoje0());
+  const altos=lista.filter(n=>n.impacto==="alto").length;
+  const prazos=lista.filter(n=>n.tags.some(t=>["Prazo","Vencimento","Nova obrigação"].includes(t))).length;
+  const st=lista.filter(n=>n.tags.includes("Exclusão da ST")).length;
+  const k=[
+    [lista.length,"Notícias no filtro",`${hojeL.length} publicadas hoje`,"#5B6BFF"],
+    [altos,"Alto impacto","pedem ação da equipe","var(--alto)"],
+    [prazos,"Prazos e obrigações","datas novas ou alteradas","var(--medio)"],
+    [st,"Mudanças na ST","inclusões e exclusões","#8C97FF"],
+    [new Set(lista.filter(n=>n.uf).map(n=>n.uf)).size+"/27","Estados com notícia",`${UF_FOCO.length} estados em foco`,"var(--baixo)"]
+  ];
+  return `<div class="kpis">${k.map(x=>`<div class="kpi painel" style="--c:${x[3]}"><div class="n">${x[0]}</div><div class="l">${x[1]}</div><div class="s">${x[2]}</div></div>`).join("")}</div>`;
+}
+function mapaUF(){
+  const base=filtrar(true).filter(n=>n.esfera==="Estadual"||n.uf);
+  const cont={}, alto={};
+  base.forEach(n=>{ if(!n.uf) return; cont[n.uf]=(cont[n.uf]||0)+1; if(n.impacto==="alto") alto[n.uf]=1; });
+  const ordem=[...UF_FOCO,...UFS.filter(u=>!UF_FOCO.includes(u))];
+  return `<div class="mapa painel"><div class="mapa-top"><h4>SEFAZ · 27 estados monitorados</h4><span>● em destaque = estados em foco · clique para filtrar</span></div>
+    <div class="ufs">${ordem.map(u=>`<button class="uf ${UF_FOCO.includes(u)?"foco":""} ${alto[u]?"tem-alto":""} ${F.uf===u?"on":""}" data-uf="${u}" title="${cont[u]||0} notícia(s)"><b>${u}</b><i>${cont[u]||0}</i></button>`).join("")}</div></div>`;
+}
+function progresso(marcos){
+  const agora=new Date(); const feitos=marcos.filter(m=>new Date(m[0]+"T00:00:00")<=agora).length;
+  const ini=new Date(marcos[0][0]), fim=new Date(marcos[marcos.length-1][0]);
+  const tempo=Math.min(1,Math.max(0,(agora-ini)/(fim-ini)));
+  const pct=Math.round(((feitos/marcos.length)*0.5+tempo*0.5)*100);
+  const prox=marcos.find(m=>new Date(m[0]+"T00:00:00")>agora);
+  const atual=[...marcos].reverse().find(m=>new Date(m[0]+"T00:00:00")<=agora);
+  return {pct:Math.min(100,pct),prox,atual};
+}
+function placar(){
+  const R=40,C=2*Math.PI*R;
+  const cards=Object.values(REFORMA).map(t=>{
+    const p=progresso(t.marcos);
+    const dias=p.prox?Math.ceil((new Date(p.prox[0]+"T00:00:00")-new Date())/86400000):0;
+    return `<div class="tributo painel" style="--c:${t.cor}">
+      <div class="trib-top">
+        <div class="anel"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="${R}" fill="none" stroke="var(--line-strong)" stroke-width="9"/>
+          <circle cx="50" cy="50" r="${R}" fill="none" stroke="${t.cor}" stroke-width="9" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-p.pct/100)}" style="filter:drop-shadow(0 0 6px ${t.cor});transition:stroke-dashoffset 1s"/></svg>
+          <div class="pct">${p.pct}%</div></div>
+        <div><h4>${t.nome}</h4><p>${t.desc}</p></div>
+      </div>
+      <div class="fase"><b>Fase atual</b>${p.atual?esc(p.atual[1]):"Aguardando início"}</div>
+      ${p.prox?`<div class="prox"><span>Próximo: ${esc(p.prox[1])}</span><span class="cd">${dias} dias</span></div>`:`<div class="prox"><span>Implantação concluída</span></div>`}
+      <ul class="marcos">${t.marcos.map(m=>`<li class="${new Date(m[0]+"T00:00:00")<=new Date()?"ok":""}">${esc(m[1])}<span>${m[0].slice(0,4)}</span></li>`).join("")}</ul>
+    </div>`;
+  }).join("");
+  const agora=new Date(); let idx=-1; LINHA_DATAS.forEach((d,i)=>{if(new Date(d+"T00:00:00")<=agora) idx=i;});
+  const largura=idx<0?0:Math.min(100,((idx+0.5)/LINHA.length)*100);
+  const trilha=`<div class="linha painel"><h4>Linha do tempo da Reforma</h4><p class="sub">Calendário definido pela Emenda Constitucional 132/2023 e pela Lei Complementar 214/2025. O placar avança sozinho conforme as datas passam.</p>
+    <div class="trilha"><div class="prog" style="width:${largura}%"></div>${LINHA.map((l,i)=>`<div class="passo ${i<idx?"ok":i===idx?"agora":""}"><b>${l[0]}</b>${l[1]}</div>`).join("")}</div></div>`;
+  return `<div class="placar">${cards}</div>${trilha}`;
+}
+const TEXTOS={
+  radar:["Radar do Dia","Tudo o que saiu nas fontes monitoradas, das notícias mais importantes para as menos."],
+  reforma:["Reforma Tributária","Placar da implantação de IBS, CBS e Imposto Seletivo e as notícias do tema."],
+  fiscal:["Fiscal","Rotina do dia a dia: substituição tributária, NCM, prazos, vencimentos e obrigações."],
+  federal:["Federal","Receita Federal, PGFN, Ministério da Fazenda, Congresso e entidades nacionais."],
+  estadual:["Estadual","SEFAZ dos 27 estados — com mais atenção aos estados em foco."],
+  municipal:["Municipal","ISS, nota fiscal de serviço e regras das prefeituras."],
+  internacional:["Internacional","Acordos, comércio exterior e regras de outros países que afetam o Brasil."]
+};
+function renderConteudo(){
+  const lista=filtrar(false);
+  const [tit,sub]=TEXTOS[F.secao];
+  let h=`<div class="secao-tit"><div><h2>${tit}</h2><p>${sub}</p></div>
+    <div class="ordem">Ordenar <select class="campo" id="ordem"><option value="impacto" ${F.ordem==="impacto"?"selected":""}>Impacto</option><option value="data" ${F.ordem==="data"?"selected":""}>Mais recentes</option></select></div></div>`;
+  if(F.secao==="reforma") h+=placar();
+  if(F.secao==="radar") h+=kpis(lista);
+  if(F.secao==="radar"||F.secao==="estadual") h+=mapaUF();
+  h+=grade(lista);
+  $("#conteudo").innerHTML=h;
+  ligarCards();
+}
+function render(){ montarMenu(); montarFiltros(); renderConteudo(); }
+
+/* ================= BOLETIM ================= */
+function listaBoletim(){
+  let l=NOT.filter(n=>n._d>=hoje0());
+  if(!l.length && NOT.length){ const ult=Math.max(...NOT.map(n=>+n._d)); l=NOT.filter(n=>n._d>=new Date(ult-24*3600*1000)); }
+  return l.sort((a,b)=>(IMP[b.impacto].p-IMP[a.impacto].p)||(b._d-a._d));
+}
+function itemBol(n){ const i=IMP[n.impacto]; return `<div class="bol-item"><span class="selo" style="--imp:${i.c}">${i.n}</span><div><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a><small>${esc(n.fonte)}${n.uf?" · "+esc(n.uf):""} — ${esc(n.porque||n.resumo||"")}</small></div></div>`; }
+function abrirBoletim(){
+  const l=listaBoletim();
+  $("#bolData").textContent=new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"2-digit",month:"long",year:"numeric"})+" · "+l.length+" notícia(s)";
+  const alto=l.filter(n=>n.impacto==="alto");
+  const prazos=l.filter(n=>n.tags.some(t=>["Prazo","Vencimento","Nova obrigação"].includes(t)));
+  const reforma=l.filter(n=>n.reforma);
+  const est=l.filter(n=>n.esfera==="Estadual");
+  const porEsf=["Federal","Estadual","Municipal","Internacional"].map(e=>[e,l.filter(n=>n.esfera===e).length]);
+  let h=`<div class="bol-nums"><div><b>${l.length}</b><span>notícias</span></div><div><b style="color:#E2335A">${alto.length}</b><span>alto impacto</span></div><div><b>${prazos.length}</b><span>prazos/obrigações</span></div><div><b>${reforma.length}</b><span>reforma tributária</span></div></div>`;
+  h+=`<p style="font-size:13px;color:#4A5290">Por esfera: ${porEsf.map(x=>`<b>${x[0]}</b> ${x[1]}`).join(" · ")}</p>`;
+  if(!l.length) h+=`<p>Nenhuma notícia nova hoje.</p>`;
+  if(alto.length) h+=`<h4>🔴 Precisa de atenção</h4>${alto.slice(0,10).map(itemBol).join("")}`;
+  if(prazos.length) h+=`<h4>📅 Prazos, vencimentos e obrigações</h4>${prazos.slice(0,8).map(itemBol).join("")}`;
+  if(reforma.length) h+=`<h4>⟳ Reforma Tributária</h4>${reforma.slice(0,6).map(itemBol).join("")}`;
+  if(est.length) h+=`<h4>◆ Estados</h4>${est.filter(n=>n.impacto!=="alto").slice(0,8).map(itemBol).join("")||"<p style='font-size:13px'>Itens estaduais já listados acima.</p>"}`;
+  $("#bolCorpo").innerHTML=h;
+  $("#modal").classList.add("aberto");
+}
+function textoBoletim(){
+  const l=listaBoletim();
+  return ["BOLETIM TRIBUTÁRIO — GRUPO DICON · Departamento Fiscal", new Date().toLocaleDateString("pt-BR"), ""]
+    .concat(l.slice(0,25).map(n=>`[${IMP[n.impacto].n.toUpperCase()}] ${n.titulo} (${n.fonte}${n.uf?" · "+n.uf:""})\n→ ${n.porque||n.resumo}\n${n.link}\n`)).join("\n");
+}
+function toast(m){ const t=$("#toast"); t.textContent=m; t.classList.add("on"); setTimeout(()=>t.classList.remove("on"),2200); }
+$("#btnBoletim").onclick=abrirBoletim;
+$("#fechar").onclick=()=>$("#modal").classList.remove("aberto");
+$("#modal").onclick=e=>{ if(e.target.id==="modal") $("#modal").classList.remove("aberto"); };
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") $("#modal").classList.remove("aberto"); });
+$("#btnImprimir").onclick=()=>window.print();
+$("#btnCopiar").onclick=()=>{
+  const txt=textoBoletim();
+  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(()=>toast("Boletim copiado!"),()=>toast("Não foi possível copiar"));
+  else { const ta=document.createElement("textarea"); ta.value=txt; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");toast("Boletim copiado!");}catch(e){toast("Não foi possível copiar");} ta.remove(); }
+};
+
+render();
+})();
+</script>
+</body>
+</html>
