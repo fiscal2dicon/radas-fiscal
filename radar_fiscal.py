@@ -51,6 +51,10 @@ ARQUIVO_LOG = PASTA / "radar.log"
 
 HORARIO_DIARIO = "08:00"      # horário da busca automática (modo --agendar)
 DIAS_PARA_TRAS = 3            # pega notícias publicadas nos últimos X dias
+DIAS_PRIMEIRA_EXECUCAO = 30   # na 1ª execução (sem histórico) busca mais para trás
+DIAS_LEGISLACAO = 15          # atos do portal de legislação da SEFAZ-SP: últimos X dias
+INCLUIR_RESPOSTAS_CONSULTA = True   # incluir as Respostas à Consulta (RC) da SEFAZ-SP
+ARQUIVO_DESTAQUES = PASTA / "destaques.json"  # atos fixados pela equipe ("Fique de olho")
 DIAS_NO_PAINEL = 30           # o painel guarda notícias dos últimos X dias
 MAX_NO_PAINEL = 600           # limite de notícias no painel
 
@@ -407,6 +411,86 @@ def coletar_estado(uf):
     return achadas
 
 
+# Portal de legislação da SEFAZ-SP: dados abertos com todos os atos
+# (portarias, decretos, comunicados, respostas à consulta) — não depende de virar notícia.
+LEGIS_SP_API = ("https://legislacao.fazenda.sp.gov.br/_api/web/lists/getbytitle('P%C3%A1ginas')/items"
+                "?$top=200&$orderby=Created%20desc&$select=Title,Tipo,DataPublicacao,DataAto,FileLeafRef,Ementa")
+LEGIS_SP_PAGINA = "https://legislacao.fazenda.sp.gov.br/Paginas/"
+
+
+def coletar_legislacao_sp():
+    try:
+        r = SESSAO.get(LEGIS_SP_API, timeout=TIMEOUT, headers={"Accept": "application/json;odata=nometadata"})
+        itens = r.json().get("value", []) if r.status_code == 200 else []
+    except Exception as e:  # noqa: BLE001
+        log.info(f"   ! portal de legislação SP indisponível ({type(e).__name__})")
+        return []
+    limite = datetime.now(timezone.utc) - timedelta(days=max(DIAS_LEGISLACAO, DIAS_PARA_TRAS))
+    achadas = []
+    for it in itens:
+        tipo = (it.get("Tipo") or "").strip()
+        if "Consulta" in tipo and not INCLUIR_RESPOSTAS_CONSULTA:
+            continue
+        bruto = it.get("DataPublicacao") or it.get("DataAto")
+        if not bruto or not it.get("FileLeafRef"):
+            continue
+        try:
+            data = datetime.fromisoformat(bruto.replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if data < limite:
+            continue
+        nome = (it.get("Title") or "").strip()
+        ementa = limpar_html(it.get("Ementa") or "")
+        achadas.append({
+            "titulo": f"{nome}: {encurtar(ementa, 150)}" if ementa else nome,
+            "resumo": encurtar(ementa, 360) if len(ementa) > 150 else "",
+            "link": LEGIS_SP_PAGINA + it["FileLeafRef"],
+            "fonte": "SEFAZ-SP · Legislação",
+            "tipo_fonte": "SEFAZ estadual",
+            "data": data.isoformat(),
+            "_uf": "SP",
+            "_ato": tipo,
+        })
+    return achadas
+
+
+def carregar_destaques():
+    """Lê o destaques.json: atos importantes fixados pela equipe, com data de vigência."""
+    if not ARQUIVO_DESTAQUES.exists():
+        return []
+    try:
+        lista = json.loads(ARQUIVO_DESTAQUES.read_text(encoding="utf-8")).get("destaques", [])
+    except Exception as e:  # noqa: BLE001
+        log.info(f"destaques.json com erro de digitação, ignorado ({e}). Confira vírgulas e aspas.")
+        return []
+    hoje = datetime.now(FUSO_BR).date().isoformat()
+    saida = []
+    for d in lista:
+        if not d.get("titulo"):
+            continue
+        vig = d.get("vigencia") or d.get("publicado_em") or hoje
+        ate = d.get("fixar_ate") or (datetime.fromisoformat(vig) + timedelta(days=90)).date().isoformat()
+        if ate < hoje:
+            continue  # já passou do prazo de ficar fixado
+        n = {"titulo": d["titulo"], "resumo": d.get("resumo", ""), "link": d.get("link", ""),
+             "fonte": d.get("fonte", "Equipe Dicon"), "tipo_fonte": d.get("tipo_fonte", "SEFAZ estadual"),
+             "data": f"{d.get('publicado_em') or vig}T12:00:00+00:00"}
+        if d.get("uf"):
+            n["_uf"] = d["uf"]
+        n = classificar(n)
+        for campo in ("esfera", "impacto", "porque"):
+            if d.get(campo):
+                n[campo] = d[campo]
+        if d.get("tags"):
+            n["tags"] = d["tags"]
+            n["reforma"] = bool(set(d["tags"]) & TAGS_REFORMA) or n["reforma"]
+            n["fiscal"] = bool(set(d["tags"]) & TAGS_FISCAL) or n["fiscal"]
+        n.update({"id": "fx-" + chave(n), "fixo": True, "vigencia": vig})
+        saida.append(n)
+    return saida
+
+
 def coletar_temas():
     achadas = []
     for tag, consulta in BUSCAS_TEMAS:
@@ -495,6 +579,10 @@ def classificar(n):
         "reforma": bool(set(tags) & TAGS_REFORMA), "fiscal": bool(set(tags) & TAGS_FISCAL),
         "internacional": "Internacional" in tags,
     })
+    if "Consulta" in (n.get("_ato") or ""):
+        n["tags"] = (["Resposta à Consulta"] + n["tags"])[:6]
+    elif n.get("_ato"):
+        n["ato"] = n["_ato"]
     for k in [k for k in n if k.startswith("_")]:
         n.pop(k)
     return n
@@ -559,7 +647,8 @@ def simplificar_com_ia(noticias):
 def carregar_historico():
     if ARQUIVO_HISTORICO.exists():
         try:
-            return json.loads(ARQUIVO_HISTORICO.read_text(encoding="utf-8")).get("noticias", [])
+            todas = json.loads(ARQUIVO_HISTORICO.read_text(encoding="utf-8")).get("noticias", [])
+            return [n for n in todas if not n.get("fixo")]
         except Exception:  # noqa: BLE001
             log.info("Histórico ilegível; começando do zero.")
     return []
@@ -655,7 +744,7 @@ def publicar_github():
         return
     api = f"https://api.github.com/repos/{GITHUB_REPOSITORIO}/contents/"
     cab = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"}
-    for arq in ["index.html", "noticias.json", "logo.png", "logo-icone.png"]:
+    for arq in ["index.html", "noticias.json", "destaques.json", "logo.png", "logo-icone.png"]:
         caminho = PASTA / arq
         if not caminho.exists():
             continue
@@ -680,7 +769,17 @@ def executar(teste=False, sem_email=False):
     inicio = time.time()
     log.info("=" * 60)
     log.info("RADAR TRIBUTÁRIO — iniciando busca de notícias")
+    global DIAS_PARA_TRAS
+    historico = carregar_historico()
+    if not historico:
+        DIAS_PARA_TRAS = max(DIAS_PARA_TRAS, DIAS_PRIMEIRA_EXECUCAO)
+        log.info(f"Primeira execução: buscando os últimos {DIAS_PARA_TRAS} dias.")
     coletadas, n_fontes = [], 0
+
+    legis = coletar_legislacao_sp()
+    n_fontes += 1
+    log.info(f" {'SEFAZ-SP · Legislação':<24} {len(legis):>3} ato(s)")
+    coletadas += legis
 
     for f in FONTES:
         itens = coletar_fonte(f)
@@ -711,11 +810,14 @@ def executar(teste=False, sem_email=False):
         log.info("Modo teste: o painel NÃO foi alterado.")
         return
 
-    historico = carregar_historico()
+    fixos = carregar_destaques()
+    log.info(f"Destaques fixados pela equipe: {len(fixos)}")
     if not novas and historico:
         log.info("Nenhuma notícia nova encontrada (internet fora do ar?). Painel mantido como estava.")
     simplificar_com_ia(novas)
     todas = juntar(historico, novas)
+    ids_fixos = {f["id"] for f in fixos}
+    todas = fixos + [n for n in todas if n["id"] not in ids_fixos]
     atualizar_painel(todas, n_fontes)
     log.info(f"Painel atualizado com {len(todas)} notícia(s) dos últimos {DIAS_NO_PAINEL} dias.")
     if not sem_email:

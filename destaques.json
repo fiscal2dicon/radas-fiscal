@@ -1,0 +1,20 @@
+{
+  "como_usar": "Cada bloco entre { } é um ato fixado na faixa 'Fique de olho' do painel. Para incluir outro, copie um bloco inteiro, cole depois do último (separando com vírgula) e troque os textos. Datas no formato AAAA-MM-DD. O ato sai do painel sozinho depois da data em fixar_ate.",
+  "destaques": [
+    {
+      "titulo": "Portaria SRE 34/2026 (SP): vários grupos de produtos saem da substituição tributária do ICMS",
+      "resumo": "A SEFAZ-SP revogou anexos da Portaria CAT 68/2019 (VII, VIII, XIV, XVIII, XXI e os itens 2 a 10 e 15 do XXII), as portarias de base de cálculo da ST de autopeças, pneus e protetores de borracha, tintas, vernizes e outros produtos químicos, materiais elétricos, ferramentas e baterias chumbo-ácido, e os itens 2 a 11 da Portaria SRE 32/2026 (eletrônicos, eletroeletrônicos e eletrodomésticos).",
+      "porque": "Desde 01/10/2026 esses produtos não têm mais ICMS retido antecipadamente em SP. Revise o cadastro dos produtos (CST/CSOSN e cálculo do ICMS próprio). O tratamento das mercadorias que saíram da ST segue a Portaria CAT 28/2020 (art. 2º da SRE 34).",
+      "link": "https://legislacao.fazenda.sp.gov.br/Paginas/Portaria-SRE-34-de-2026.aspx",
+      "fonte": "SEFAZ-SP · Legislação",
+      "tipo_fonte": "SEFAZ estadual",
+      "esfera": "Estadual",
+      "uf": "SP",
+      "impacto": "alto",
+      "tags": ["Exclusão da ST", "ICMS", "Legislação estadual"],
+      "publicado_em": "2026-06-30",
+      "vigencia": "2026-10-01",
+      "fixar_ate": "2027-01-31"
+    }
+  ]
+}

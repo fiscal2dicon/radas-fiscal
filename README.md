@@ -17,6 +17,7 @@ O Radar tem duas partes:
 | Arquivo | Para que serve |
 |---|---|
 | `index.html` | O painel. Dois cliques abrem no navegador. |
+| `destaques.json` | Atos importantes fixados pela equipe na faixa "Fique de olho". |
 | `logo.png` e `logo-icone.png` | Sua logo (topo do painel e ícone da aba). |
 | `radar_fiscal.py` | O robô que busca as notícias. |
 | `requirements.txt` | Lista de componentes que o robô precisa. |
@@ -178,7 +179,27 @@ Pronto: toda vez que o robô rodar, o site da equipe é atualizado.
 
 ---
 
-## 6. Ajustes que você pode fazer sozinho(a)
+## 6. Atos fixados — a faixa "📌 Fique de olho"
+
+O robô busca o que foi publicado **nos últimos dias**. Um ato publicado meses antes e que entra em vigor agora (como a Portaria SRE 34/2026, publicada em junho e válida desde 01/10) precisa ser **fixado** pela equipe. Ele aparece no topo do painel, com a contagem de dias até a vigência (ou "em vigor desde"), e também no boletim.
+
+**Para fixar um ato no GitHub:**
+1. Na aba **Code**, abra o arquivo `destaques.json` e clique no **lápis** (editar).
+2. Copie o bloco inteiro do exemplo que já está lá, do `{` até o `}`.
+3. Coloque uma **vírgula** depois do `}` do último bloco e cole o bloco novo em seguida.
+4. Troque os textos. Os campos mais importantes são:
+   - `titulo`: frase curta do que mudou.
+   - `porque`: o que a equipe precisa fazer.
+   - `link`: endereço do ato.
+   - `uf`: sigla do estado (deixe `""` se for federal) e `esfera`: `Federal`, `Estadual` ou `Municipal`.
+   - `publicado_em`, `vigencia` e `fixar_ate`: datas no formato `2026-10-01`. O ato sai do painel sozinho depois de `fixar_ate`.
+5. Clique em **Commit changes**. O painel mostra o ato na próxima execução do robô. Para ver na hora, rode o robô pelo botão **Run workflow** (Passo A5).
+
+> Se o painel deixar de mostrar os fixados depois de uma edição, quase sempre é uma vírgula ou aspas faltando. O registro da execução avisa: "destaques.json com erro de digitação".
+
+**Legislação de SP direto da fonte:** além das notícias, o robô lê todo dia o **portal de legislação da SEFAZ-SP** (portarias, decretos, comunicados e respostas à consulta) dos últimos 15 dias, mesmo que o ato não tenha virado notícia. Para não receber as Respostas à Consulta, troque `INCLUIR_RESPOSTAS_CONSULTA = True` por `False` no `radar_fiscal.py`.
+
+## 7. Ajustes que você pode fazer sozinho(a)
 
 Abra `radar_fiscal.py` com o Bloco de Notas. Tudo o que pode ser mudado está no começo, no quadro **"CONFIGURAÇÕES — PODE EDITAR AQUI"**:
 
@@ -196,7 +217,7 @@ Na Opção A, faça a alteração direto no GitHub: abra o arquivo `radar_fiscal
 
 ---
 
-## 7. Se algo der errado
+## 8. Se algo der errado
 
 | O que aconteceu | O que fazer |
 |---|---|
