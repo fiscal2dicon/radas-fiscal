@@ -2,7 +2,7 @@ name: Radar Tributário diário
 
 on:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "17 10,15 * * *"
   workflow_dispatch:
 
 permissions:
