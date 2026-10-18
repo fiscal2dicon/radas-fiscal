@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-18T10:44:07.805966+00:00",
+ "atualizado_em": "2026-10-18T15:42:39.880471+00:00",
  "noticias": [
   {
    "titulo": "Portaria SRE 34/2026 (SP): vários grupos de produtos saem da substituição tributária do ICMS",
@@ -25,9 +25,121 @@
    "vigencia": "2026-10-01"
   },
   {
+   "titulo": "Trabalho em feriados: o que o DP deve conferir no comércio",
+   "resumo": "Entenda as regras da Portaria MTE nº 1.316/2026 e o que conferir na convenção coletiva, na escala e no pagamento de feriados no comércio. Leia mais em https://www.contabeis.com.br/noticias/80054/trabalho-em-feriados-o-que-o-dp-deve-conferir-no-comercio/",
+   "link": "https://www.contabeis.com.br/noticias/80054/trabalho-em-feriados-o-que-o-dp-deve-conferir-no-comercio/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T14:00:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "NF-e/NFS-e"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "id": "6769c1536dad"
+  },
+  {
+   "titulo": "Unifipa e Inpet promovem curso de atualização em Reforma Tributária",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGx4SDU5U2o2YVJmNHVHSGZNTF9takF4VzB6ZXUtaDNjMFpDUWpVRnlfdzNuaVFBaDAwbmVZdXRvM3o5SW5JN0lCajdKNW1WRF8xREFwbHdWUTlBOXJXTklabVctUE9kU0tfaXlwSTViLVVocE9zV2JiTHdRdmtjRmRfVUhxMTJkZGVsMTdMaElRS0VVeVUxTmJ2c3NpUURpUG5zdDNwZzM?oc=5",
+   "fonte": "O Regional",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T13:12:24+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Reforma Tributária"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "d4d18fcb712d"
+  },
+  {
+   "titulo": "Ownership: o que é senso de dono e como aplicar no trabalho",
+   "resumo": "Entenda o conceito de ownership e veja exemplos de responsabilidade, iniciativa e autonomia para aplicar na rotina de empresas e escritórios contábeis. Leia mais em…",
+   "link": "https://www.contabeis.com.br/noticias/80133/ownership-o-que-e-senso-de-dono-e-como-aplicar-no-trabalho/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T13:00:02+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "ac944add7777"
+  },
+  {
+   "titulo": "Sócio quer sair da empresa? Veja as etapas legais",
+   "resumo": "A saída de um sócio exige observar o contrato social , formalizar a retirada, calcular os haveres e atualizar o registro da empresa. Leia mais em https://www.contabeis.com.br/noticias/80049/socio-quer-sair-da-empresa-veja-as-etapas-legais/",
+   "link": "https://www.contabeis.com.br/noticias/80049/socio-quer-sair-da-empresa-veja-as-etapas-legais/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T12:00:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "fe1fb44aa6b5"
+  },
+  {
+   "titulo": "Justiça afasta IBS e CBS da base de cálculo do ICMS",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYnZ1UThmMFJrel8xdjl4YVRFOThEWnZBbERQWlI3Yk42eHNNQk9vOVhjZjB2VlFTNDd2SzVaWE15NXg4VFB6MGFOZnpreFR2UkhhS2MySkY0X09UR1J6OFVPT0w4aDNSd0FDZHBEclc5ZlVvcEl1ckUtU19QM2JUUHk3N3UxYzI1S3VBZ09HT21rczh4N3lWZXdB?oc=5",
+   "fonte": "Jornal Primeira Página",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T11:06:08+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "impacto": "alto",
+   "tags": [
+    "IBS",
+    "CBS",
+    "ICMS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "id": "c4f87a7db138"
+  },
+  {
+   "titulo": "Alíquota da reforma tributária estoura o teto antes da eleição decidir",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcTg3UmR5RXhvMWxkZ3BuTlR5bERIVXVxUDktTUFabWw5S21HWmJMeVNuTGFxb1R5LW1fVW5KQ2F4WS05WjVaa0QtRzJvQmJPSHJBTWVtTG5KMmxFdzVHMU54MS1NU2pCdGg5MHpTOHdkN2FrQXR4SGhOcV9PSUZ5bnNEQmFLNldsWWdYdUFnczlGbjU0WUFFOEIzREp3WjdWY0p1Y3hVV1pYRktFazBHM2p4NVE1SzNZWGRPSnFB?oc=5",
+   "fonte": "TV Sim Brasil",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T10:04:10+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Reforma Tributária"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "460a10d74e4e"
+  },
+  {
    "titulo": "Eleições aumentam incertezas sobre reforma tributária",
    "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWldTbjRGVWt5SXFYYlR4S0t5SHFvTU1hcmhRelNqeS00OXA5TW9BOWFVZjZUWnFMSnRyalZQZURraWdqZGFSM01KdlRqcW9kRFRiQWNCcGZaOTJsZ2dCanQzdXVsdnQ3OGlYUGxmRk1DbGQwWjMtQXdWNVcydWpCckdLVXdrZmpENHlJWVFkWEZWNmpZaE9YQkJmR1QtUQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFFzQ255TjB0QjMzMnlTbXRKNjcwMm1XNWlpUjJlZzIyejlGaUN6WGhJcnRDYTJMbzV4N2NSV0xiMHZiOVZ2MHoxeVZaZnZjaXV6ZVBza1RObENKckpwRXl3VU5KV0c3ZHVFRG1YM185TWxGY2xud2gyX1VfU3o2a19KZF9wUTFpeWtvY0ZqMnFzdkwwbS12LWxQUmVYQQ?oc=5",
    "fonte": "Poder360",
    "tipo_fonte": "Portal de notícias",
    "data": "2026-10-18T09:04:52+00:00",
@@ -42,6 +154,23 @@
    "fiscal": false,
    "internacional": false,
    "id": "ccc386f39297"
+  },
+  {
+   "titulo": "As Transmissões da Câmara dos Deputados",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zZUMwWmdVTlF2TXV4eTUyb0VrOUhNMzNZYUxUVGtIOXdQN0oyeXdyUWpKTHRna0FjQlFfTVJiZklMUnhoWEktdFU1c3JqbGVBakdZQQ?oc=5",
+   "fonte": "Câmara dos Deputados",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-10-18T08:21:28+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "fb5ca4a85a81"
   },
   {
    "titulo": "O maior desafio institucional da reforma tributária",
@@ -78,6 +207,42 @@
    "fiscal": false,
    "internacional": false,
    "id": "a2e66cdacb77"
+  },
+  {
+   "titulo": "Comitiva do setor de Serviços leva ao Senado preocupação quanto ao aumento da carga tributária",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV3l2VzBqMVc5ZWI4WkNSYVVNNGotZF9MdmtuRHpWSUhTaVdlYVZOTWVDMzRMTTM5blhMT2JzMXF5QUM0aUx2YkYtRy10UE95OVRwQWZCQTlYaWpyT3ZPeEhJZHFpN3BTbzZ4YXA1NnlTNGhLODcwTmZjenhzenB6WDNkVURNZENXMGtnNUt6T0FyNzVhaHVWWUpaX0hleHowRTFSajV3c2NQai1mdDdOczZsa3ZnaVpoVlFBV2lHRndTaC1odHZEdXpfWTg?oc=5",
+   "fonte": "FecomercioSP",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T03:35:47+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "d3e1197a2b4e"
+  },
+  {
+   "titulo": "O governo federal quer discutir a prorrogação da cobrança do Imposto sobre Produtos Industrializados até 31 de janeiro de 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYWtNYlc2TDRld3IyWUlFZ2FYQnYwV0JtSV92QWJxOFJ5WC1VSkM1elJlcHZ3NmFjRnpUSDRSeDlrcU1fSTZGeTR5d21MTVpFVUw5UWNpWk02YTV2a1ZSV0dzc1g5dWtBa3BJLXI0RUdCYXNYbDRKdUdqblNtdldsY0NubU9qeFJnV1Y0Y3lOeG9Ha1Q1dzh5dTZxVmlqMU93VTI3YTBuQkRBMGhWbnZwbGdOSFRobUs5SVI2WHEwUFRoQ0ZfWHgxX0tYWld1dzJ6WGFCeDMzcG8tT3c4djlSM2hkRUlDNFlfeEE40gHrAUFVX3lxTE1ha01iVzZMNGV3cjJZSUVnYVhCdjBXQm1JX3ZBYnE4UnlYLVVKQzV6UmVwdnc2YWNGelRINFJ4OWtxTV9JNkZ5NHl3bUxNWkVVTDlRY2laTTZhNXZrVlJXR3NzWDl1a0FrcEktcjRFR0Jhc1hsNEp1R2puU212V2xjQ25tT2p4UmdXVjRjeU54b0drVDV3OHl1NnFWaWoxT3dVMjdhMG5CREEwaFZudnBsZ05IVGhtSzlJUjZYcTBQVGhDRl9YeDFfS1haV3V3MnpYYUJ4MzNwby1Pdzh2OVIzaGRFSUM0WV94QTg?oc=5",
+   "fonte": "Jornal O Sul",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T02:03:03+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Prazo"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "id": "1a0c8e35c94e"
   },
   {
    "titulo": "ES firma parceria para preparar municípios para Reforma Tributária",
@@ -1837,6 +2002,26 @@
    "id": "4a97b7fbf031"
   },
   {
+   "titulo": "Receita Federal e Comitê Gestor definem modelo de nota fiscal para plataformas digitais",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPd05RR0dlME5EOVV3Y25nTHZheGpWMmREZjVZSzZNN0stOWFpZTlHaG5KaWtVb1pVMnF3ZG1KSC1HX3hxWE5LWkx2RWwxTHdxT2FlUlY1dWx2OUlTQWxlTHE4VDJhSFRfZ3JkLU1mNngwdDlhZ2Q3anR4bHRpSS1NY1VB?oc=5",
+   "fonte": "Imprensa 24h",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-16T13:19:15+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Reforma Tributária",
+    "NF-e/NFS-e"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "id": "2dc7395303e6"
+  },
+  {
    "titulo": "Pequenos negócios gastam 468 horas por ano com burocracia",
    "resumo": "Pesquisa mostra quanto tempo empreendedores dedicam a obrigações fiscais, controle financeiro e notas fiscais e como isso afeta a gestão. Leia mais em https://www.contabeis.com.br/noticias/80070/pequenos-negocios-gastam-468-horas-por-ano-com-burocracia/",
    "link": "https://www.contabeis.com.br/noticias/80070/pequenos-negocios-gastam-468-horas-por-ano-com-burocracia/",
@@ -2205,6 +2390,23 @@
    "fiscal": false,
    "internacional": false,
    "id": "a2130bb8302c"
+  },
+  {
+   "titulo": "Sefaz orienta municípios sobre mudanças na arrecadação com novo sistema tributário",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNktKQ3F0a3FfWDZTZHBDU3NyUTNqaDMzbmZvXzF2MGNkM01XWDZyVUhzUzBfdHNDMmNCZlE2LTNYTDF0eGhuQThlX2h0cEtzWDA1MS1NNE80WFIteDdHaTd5LThHYjV0TUZUTklSelU3cFJFTkJnV2ZmN0p1UmRMTTFuTWFuTFZVR3VLNlk3WFVsUDZXaVVFQ3BkSjl5WFQ5b0VNX1ZBejRZRFZTeDQzZ0pSZllGc01kRVlGRHN3?oc=5",
+   "fonte": "Informa Araguaia",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-16T11:52:08+00:00",
+   "esfera": "Municipal",
+   "uf": "MG",
+   "impacto": "baixo",
+   "tags": [],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "440a1c29856a"
   },
   {
    "titulo": "Funrural: quem pagou precisa conferir seus direitos",
@@ -3752,6 +3954,26 @@
    "id": "cf7762628855"
   },
   {
+   "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSjV2eWg2M05qZ28xQ2JsRjFSTWVudERpTWpnb29qcEdvclV2dHlwMThjaE1IcS04eHo5bzlvZVJ1bWVfRnFOV1lLUG52cHVYVEtXcnFoTlJGdG11S1FoaFFyQWs3aWtlR0JWRmhpVkpuTjJsOUJyOURFWmE5OXJxS3pRRWFGRHlHNmY1WEVIZVdkS3l6UVlYUGNraG_SAZwBQVVfeXFMUDNtb3hKOXI4cDBRYmZEbmlTZXFlYXdiZHNENkxSTUNMNmFwalhMd2tUdmxiNTFfMk9WX2JqS2gteFVTOVEwTVB4bExDMnUyc0hIbkp3NzR3aVBWTU1JblI4eGxvR3NZVjBER0wzVXdickcwWDJjdjY5MUN3ZWNVSWpsM1RNR0FucUJCdFNtRnhCTUMxS2VHc0FfdE9O?oc=5",
+   "fonte": "diariodigital.com.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-15T15:55:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "medio",
+   "tags": [
+    "CBS",
+    "Reforma Tributária"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "fb45793bb764"
+  },
+  {
    "titulo": "Fazenda Nacional atualiza formas de adesão de municípios ao Cadin",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY3Zuay03cm9yU1UzbXU2cVgyWElRaDhKdlg2N3JKUEppdEg5STNRNGxMRllDSXZzM1dzMnF1aklFcUxIQ2NxS213RWgxblVfQkllaG52b3VZZFJDR0hyVjZRaW8xMnRaZU5RbUVnVVNtY3k3Z19rUDlfXzljTG5sazE2VzhLSmRFMkh3dGFGZXNITzVjOFgxc1VIVWhMRXJm?oc=5",
@@ -3861,26 +4083,6 @@
    "fiscal": false,
    "internacional": false,
    "id": "49686cea3af5"
-  },
-  {
-   "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM21veEo5cjhwMFFiZkRuaVNlcWVhd2Jkc0Q2TFJNQ0w2YXBqWEx3a1R2bGI1MV8yT1ZfYmpLaC14VVM5UTBNUHhsTEMydTJzSEhuSnc3NHdpUFZNTUluUjh4bG9Hc1lWMERHTDNVd2JyRzBYMmN2NjkxQ3dlY1VJamwzVE1HQW5xQkJ0U21GeEJNQzFLZUdzQV90T07SAZwBQVVfeXFMUDNtb3hKOXI4cDBRYmZEbmlTZXFlYXdiZHNENkxSTUNMNmFwalhMd2tUdmxiNTFfMk9WX2JqS2gteFVTOVEwTVB4bExDMnUyc0hIbkp3NzR3aVBWTU1JblI4eGxvR3NZVjBER0wzVXdickcwWDJjdjY5MUN3ZWNVSWpsM1RNR0FucUJCdFNtRnhCTUMxS2VHc0FfdE9O?oc=5",
-   "fonte": "diariodigital.com.br",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-15T14:55:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "impacto": "medio",
-   "tags": [
-    "CBS",
-    "Reforma Tributária"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "id": "fb45793bb764"
   },
   {
    "titulo": "Imposto de Renda 2026: tudo o que você precisa saber para declarar corretamente",
@@ -4326,23 +4528,6 @@
    "fiscal": false,
    "internacional": false,
    "id": "2cda1e392d5a"
-  },
-  {
-   "titulo": "Sefaz orienta municípios sobre mudanças na arrecadação com novo sistema tributário",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOFkwUjdhQjd1OTk0OWNjMmlGcHdFOTdGYmRzOEJXLXFBcXRYWmJjalloTTZXNTRWaU8yX0o5WmE2QVRDM2JmTU4zVjNpMXpQbGJJNUdaOWNna0tvOTY1Nmpub256a1dEdktMSWxJcDhhM1NEelpTdkVlT2RONWZWTEk4d2dTbW9sRUtjLTk0b1ZWVlFoUFhkNHJHdDRTSTdlTVRfbTFybTN2WWUzTWZibQ?oc=5",
-   "fonte": "Primeira Hora",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-15T12:22:48+00:00",
-   "esfera": "Municipal",
-   "uf": "RJ",
-   "impacto": "baixo",
-   "tags": [],
-   "porque": "",
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "id": "440a1c29856a"
   },
   {
    "titulo": "Perdão de dívidas do MEI: saiba como consultar quem tem direito ao benefício",
@@ -6694,23 +6879,6 @@
    "fiscal": false,
    "internacional": false,
    "id": "c155c23cd3c5"
-  },
-  {
-   "titulo": "As Transmissões da Câmara dos Deputados",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zZUMwWmdVTlF2TXV4eTUyb0VrOUhNMzNZYUxUVGtIOXdQN0oyeXdyUWpKTHRna0FjQlFfTVJiZklMUnhoWEktdFU1c3JqbGVBakdZQQ?oc=5",
-   "fonte": "Câmara dos Deputados",
-   "tipo_fonte": "Legislativo",
-   "data": "2026-10-14T10:34:25+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "impacto": "baixo",
-   "tags": [],
-   "porque": "",
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "id": "fb5ca4a85a81"
   },
   {
    "titulo": "Domingos Sávio defende revisão da dívida de Minas e critica reforma tributária",
