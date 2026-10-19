@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-18T15:42:39.880471+00:00",
+ "atualizado_em": "2026-10-19T10:48:36.374488+00:00",
  "noticias": [
   {
    "titulo": "Portaria SRE 34/2026 (SP): vários grupos de produtos saem da substituição tributária do ICMS",
@@ -23,6 +23,182 @@
    "id": "fx-5c8627d0cc6f",
    "fixo": true,
    "vigencia": "2026-10-01"
+  },
+  {
+   "titulo": "Como funciona o recolhimento de IBS e CBS para lucro presumido?",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONTgxLUk2MjZTZ0dRdzU4cWZSZEp5bDRId1ljZU5VQUZhWWpZQVdMMmlNU2RGcmx6NE5PejRqQm9NRUJpeW8yQW1tY3Z5QlZEZmp4aWU0SDdNWE53YWViSi11NVVoZWhTMHhqOERiS0JvR1MwdXlYby1PcFdwcUpwa25zR3pYMjTSAYwBQVVfeXFMTmNIcGdJSnR6MVR2QTlHUk5hdDRoWC1NVTRwd3pucnpFMGdYLWRua0R1QWV5QXJVUnZyTHBIQ1FELXB3Nk5MTE5fYVpJNnRMc3ZYRmtsM3pQSjFpXzlqM3BPc0xjVlJDZVpMV242TUdOLTE4TTZXR1dHRnBDWm42ZEd3QzRKTXl5cHVKbFA?oc=5",
+   "fonte": "InfoMoney",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-19T10:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "medio",
+   "tags": [
+    "IBS",
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "33aef4af04e1"
+  },
+  {
+   "titulo": "A reforma tributária no orçamento das empresas em 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYWtkbEhOa3U3MFF2bURVeG1kQ1oyWkx6UzFWOHJiRU9GQ0lNTDloTFE1a3lHMXJ0eld1dlBlbXZmejlkU3lGMjE2Q2p3dllwclVTT2prbnlMMFZXeW9FemhHVlM4MDFxTlY3UXNlbFdXMjZ4NDdMYnNBdE1kZTNyUWtsSWVIbXlxSW8tWXYtZmJYbTZESnIwb2ZST2RwVzlxS2NTOHozOFI5WmNNWmxDaDlNVTk3UGdHZk9TTnpR0gHMAUFVX3lxTE9MVkwweFVJaEtsM2FMWndraFo4cnZHLXlkYVV6LUltOEFxNGtTS1NSbDVCaGZRb25CNXZReDhFWThxZ0xYclZJTk5XTDhBbGk3UkQ1NWJPVERtMXJ0alFDY1NuUW92aGR2cHg0MHp1MU10Y2NPTHVnSXFjS3ZtQ0tzbWNXS3d6YlJtcTlqV0hzZTBtX3FfbEFHNHZ0SDJMMHVDejNkSmp4eWMxSC0ycUMzZmhvd1VRMG1IMFJNRVVWWk9nMzdSeHM1UjZHeA?oc=5",
+   "fonte": "Valor Econômico",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-19T10:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Reforma Tributária"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "b6ababf34835"
+  },
+  {
+   "titulo": "Funrural anterior a 2018 tem cobrança invalidada",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSTZZVEwtLU5CSE10VUhQSWFtUWY4LXFzd2Z1cVFsZlp2bnVTZS1iTzJHTW4wUGpFRHJwYWhBeWVMc3ZVNWZxNnJJRi05c21vemU0U1lTYnpFVzZ2NTZJUHdpcTZ6ZGU0V3ZIR2swQlF0SWdQZlZPRklVbTZKZ1NITUFzYzlINEtubzlLYzZLOUlhMWswTzd3WGUyaWNqdw?oc=5",
+   "fonte": "Agrolink",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-19T09:28:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "FUNRURAL",
+    "Agro"
+   ],
+   "porque": "Afeta produtores rurais e quem compra deles. Confira clientes do agro.",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "b3e0d394f658"
+  },
+  {
+   "titulo": "O STF derrubou o Funrural antigo e agora?",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYXNVY0pzT2Q5Y2R1QVNHVi1vUXlPNlFBS3J6ZF9uUGlhcHJoaHVTM1BfYm5HSXBfcjc5b20yNW4xUHNJR2diUnJXQ2ZvbldLN0U5R0NrSldVU0U1cW9oSUE3SFlPQW5oX0VXTmNpZE01OExIY0lubUVDX196Qm1YMU9xRnJaMXJNVkN1OGVscG5zaE1QR2JWWVFKYWltY01NNjVYTm50QV9qYkk1NzhZ?oc=5",
+   "fonte": "ND Mais",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-19T09:12:42+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "FUNRURAL",
+    "Agro"
+   ],
+   "porque": "Afeta produtores rurais e quem compra deles. Confira clientes do agro.",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "9dd6e779d062"
+  },
+  {
+   "titulo": "Receita Federal dá prazo para empresas regularizarem",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWUl3UExtSzdVV1Z5Rl9pU1RKTHVONnJjNnozVFV2QjhPaUE5OVdmWHdoc2VDOGNKanotcUI0ZXpmR3pQTlFNNXM1NFVJS0VzRkNidWtudExtb080V3p4U25PbkduekVneU53VGpvbXI4eWJiRTYzZ2VMSkRQdHR5OUdtN1kxOW9kcWR4LTZuMjk?oc=5",
+   "fonte": "Seu Crédito Digital",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-19T03:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Prazo"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "id": "2aff91378ff4"
+  },
+  {
+   "titulo": "Fim da Escala 6x1, Imposto Seletivo, MEI e maioridade penal: Confira propostas que avançaram no Congresso Nacional e o que será discutido após as eleições",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPS2NZRzlyd1VhMl90V3lyWUdXV3Y0bllJS0x5d1JIeFM4dDVfWDRmenhVcVA1QUJwTWRVdWNGS2hBbXItR0NLRE9FanF2aE5sdG1jcEwzeERjeG42RVNqdXNodEVQcWRrNUJXRTJha3hIRHNqYndmX1UteDRLV0o3RVJlaHFoVlNITV9TZGh5RHBPWWx6SFBJQ3piNTh4Q3BqRlBXTFNMWUh6Q3k0TkdPNHp0ME56dDY4WlJQOVdjMktZaU82eUJueDV1cjZQN1dwbTdWbFRqRHpYd1AzOFVVaTNqdUJneHlGc1h4WXUtZ19vdHJRcld2aDYyVjdVSFZwT0JfT1ZXVmxDTnZxRmk3T1cwSTVrVFB0ZW84T0JMUzg1dw?oc=5",
+   "fonte": "Polêmica Paraíba",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-19T01:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Imposto Seletivo",
+    "Simples Nacional"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "f4fc8216bf7b"
+  },
+  {
+   "titulo": "Como fica a rotina do produtor rural com novas regras tributárias, em 2027?",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSVJ1ZEJuNkQ0WDFPb3BXcnJlOGtFWVoxLXVWaW5vRmtnZ3V6U0hBdUloZXA2N0t4Nm5KckFaYmc0MjBzbWlJQjI5Qm13UWRHNm1JbEhIN1RDQTlkMkhncnhLRWQ0eG9QLXZhWEE0TGxlMVJjZUJkYVFsTUtrVlZPLXZjeVd2YWdPTjdFYU5VQWdUY05feE1tcXg1bWxwMUxfZS1pYkMxX2hPS1BOdF9lN2VYUGRKUQ?oc=5",
+   "fonte": "O Estado Online",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T18:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Agro"
+   ],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "278ce8a8c4b9"
+  },
+  {
+   "titulo": "Reforma Tributária vai mudar arrecadação das prefeituras e exige preparação de empresas em Colatina, Linhares e região",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTGlqQ3pOaHV2RUFKcUpuUTZTajQ5REJkNlhvUDQ2U2REa2hvQnN0YU9pRVFSdlBEZDJlYTZtNW1vbFJyOUVLWWJMdTVwdFBTUG1oUl9qRlpfZFZOb2lETXk5eWw3WWI0SHdpSWFUMEpyTzduOE9Jbk15WFkwYVg5aEd0Q3c4bGZ5ZVJJVjU1c3RWR2Z6OFVlNkFCTG81N1g5eXA4TQ?oc=5",
+   "fonte": "ES Fala",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T16:30:00+00:00",
+   "esfera": "Municipal",
+   "uf": "ES",
+   "impacto": "medio",
+   "tags": [
+    "Reforma Tributária",
+    "Obrigação acessória"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "id": "d3294d2377af"
+  },
+  {
+   "titulo": "Alívio no bolso? Entenda por que o novo imposto dos carros pode atrasar e baratear veículos",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaldnWHBpUDdBWjlMR09PZFBrakU5REJqTEhlRVVGNU1EV2pJZWhicTYwaks5S2kyOTh1OGNOcEFtY0RoTUpXbUZyeHp4UzR4M0RubGNSa09SOVVYc2ltQ0twZ3JwaDVUZVBNQUNVNmRFWEVRYVluZ1RLTjFUR0prcklqQnFxRDFIQVBzMlFYWHAxZGRuSlpCc2wyX05zQlZsREtCc0txVFhiOGZFWmtNOG44UlNha1VzekJuM0FpWVJjVVY4OHFhQw?oc=5",
+   "fonte": "Perfil Brasil",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T15:48:37+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Imposto Seletivo"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "326e609dbb92"
   },
   {
    "titulo": "Trabalho em feriados: o que o DP deve conferir no comércio",
@@ -49,7 +225,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGx4SDU5U2o2YVJmNHVHSGZNTF9takF4VzB6ZXUtaDNjMFpDUWpVRnlfdzNuaVFBaDAwbmVZdXRvM3o5SW5JN0lCajdKNW1WRF8xREFwbHdWUTlBOXJXTklabVctUE9kU0tfaXlwSTViLVVocE9zV2JiTHdRdmtjRmRfVUhxMTJkZGVsMTdMaElRS0VVeVUxTmJ2c3NpUURpUG5zdDNwZzM?oc=5",
    "fonte": "O Regional",
    "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-18T13:12:24+00:00",
+   "data": "2026-10-18T13:14:14+00:00",
    "esfera": "Federal",
    "uf": "",
    "impacto": "baixo",
@@ -95,6 +271,25 @@
    "fiscal": false,
    "internacional": false,
    "id": "fe1fb44aa6b5"
+  },
+  {
+   "titulo": "Reforma Tributária pode mudar custos de empresas de Marília",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQblVDM2MzSFhFY1kzSWNqbFdsY2JGWUJhaDR0SkZBM19Eak9KTG45YnlzZTZNNGpHWGc0TEhFWEFIaTJoYjRweExoSFRBU2dfNHhGZkpCTXEtWGJNZmN0dUdIcmJCZ2dWalo4dlNhSmZHcEU1ODduVHItbTJNYXlRMngwTVVkcUlRd0cyUWVueWxTQmhkcEVsdnUwNzUwRnJGSnV1Q0pSQW4?oc=5",
+   "fonte": "Marília Notícia",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-18T12:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Reforma Tributária"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "669f4d7594ca"
   },
   {
    "titulo": "Justiça afasta IBS e CBS da base de cálculo do ICMS",
@@ -279,6 +474,25 @@
    "fiscal": false,
    "internacional": false,
    "id": "f07f4d3095be"
+  },
+  {
+   "titulo": "Congresso aprova pacote do MEI com teto de até R$ 140 mil, dois empregados e perdão de dívidas federais",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFpjRjN4dmVRVE82cC1IaTI2V0tNYmM1ZWYzdkhjTmdPLVlYcGZLZXlqUV94Y0k2SEFVb1U1dXhMWEVnSnpoOUFZTWwyNVlITUVpOFlHTUhnX2ExZnF4LUpqV1c2ZXIwcU5Qbnd4RHR1aWczcFRCa0VpdkxIMllvRVlTTC1FR2hOQmFzMFY2VXhGNGRuZzY5MzJubnhjWUlXN0VUNkh3LWZiS3JjN2RGOGswQ0xCdGt1UGlvMnJiUVV4bnYtd3YwMUxLTHBiaUo5Z1VKaF9CemQwa09RM1N1b3A5Yw?oc=5",
+   "fonte": "Receita Federal",
+   "tipo_fonte": "Órgão federal",
+   "data": "2026-10-17T18:37:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Simples Nacional"
+   ],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "f63b8a83f3c6"
   },
   {
    "titulo": "STF valida cobrança do Funrural antes de 2018 e decisão pode afetar produtores com ações na Justiça",
@@ -608,9 +822,11 @@
    "esfera": "Federal",
    "uf": "",
    "impacto": "baixo",
-   "tags": [],
-   "porque": "",
-   "reforma": false,
+   "tags": [
+    "Imposto Seletivo"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "reforma": true,
    "fiscal": false,
    "internacional": false,
    "id": "b6d7b8b5f0bc"
@@ -631,6 +847,26 @@
    "fiscal": false,
    "internacional": false,
    "id": "4c699285d4bb"
+  },
+  {
+   "titulo": "STF derruba cobrança do Funrural de empregadores rurais até fim de 2017",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYkZlYXdpejZVWFVHV1FST0Q2c3d3bjcweDZwZHpiaFc3U1FRU3FXRnJmcFNRcklmSGxsangzMWpUVXAyVFlLbnFQVDZmWGNMU3Z4NndUOXYtLWN5T3hCdGhpelhaMzJNZF9xYWJSdXk5OWxjSk50V0hTZzhnc3gxamJhekhiUENZUXdReHJWemNLVmNPWGlmM29JQXQtT0RRRHVMT1lyOGlLZw?oc=5",
+   "fonte": "CNN Brasil",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-17T07:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "FUNRURAL",
+    "Agro"
+   ],
+   "porque": "Afeta produtores rurais e quem compra deles. Confira clientes do agro.",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "0ce14ce01feb"
   },
   {
    "titulo": "Exigência de CNPJ e nota fiscal pode afastar nanoempreendedores da formalização",
@@ -707,6 +943,25 @@
    "id": "83c580cef892"
   },
   {
+   "titulo": "Emissão de NFS-e será feita exclusivamente pelo Portal Nacional a partir desta terça-feira (7)",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOb1BaU1IzRVRrSUhqUFdmdHZqZGZBa0lWbU9CenBIQ1E3VHZMOTB1VE9yMUQwVzkwR1dDTUJGZl95NGdPb2JUQkpkS1ZCWmpqclZub0d0RFlqbXVuWUZOUFRiWTA0YWZtQkpWdUN0eDdHa1FXdlR0eWhsMmNna2ZqZDdhNEJXQ29NTGNtTVRVQUxRVUV2Tk5fNE5GVlgtSTNhMzA4VEQyM3lpdS1aaWR6b3J4eTVkaVdVWUhXX2Q3OERKMUpmMGtKZUpJalo0UnRacVpYSVJJWkxmNVNObEg1RkdYOTd2UHZMdjZtU3VNVGlnRGZONjR6Vk5KSFBJenNwaUJYYlRjcUprT2M?oc=5",
+   "fonte": "Prefeitura de Lucas do Rio Verde",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-17T01:28:52+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "NF-e/NFS-e"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "id": "f108c091cad5"
+  },
+  {
    "titulo": "STF derrubou cobrança do Funrural, mas restituição enfrenta obstáculos, diz avogada",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTUp0YlVNZjdPbnZRdGtwQUlaZHFFTWVBM3UxaC1GVnZ2TXNZbko4RDJuZ1NBN0tEZ2I4aVF2enVWcDBVY3o4V0g0eUZmVURZeGZ1RDRLLWV4SUYxczRRYkcyX0V4ek5LQkdaR1ZrbVVvNFg3cmtNdDRuaFFXS0kyc0taQ0VUYXFKUEhCRUhHNWVaN0tHYjZfclY0RXZJYWxhVTZDYnd0c0dxWGVqQ2dUWkpmY3I5SGFiTU1JcHZYclJMZw?oc=5",
@@ -778,6 +1033,25 @@
    "fiscal": false,
    "internacional": false,
    "id": "e48b9baf979a"
+  },
+  {
+   "titulo": "Dario Durigan indica MP do Imposto Seletivo no fim de outubro",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdGh0S1BRV3QwV08tQVJVMlBTTkxGN0lORE5wRmNHc1h3NmE5WnNseGJaaDcxQzZCdVU3aGsxZUNzUmp5TEhodC1LLUpBQXUwWDBsRzRsQkJobllFN19tRE9vRDV5Sl82LXN1cUNmTU5YakZFN2dYNG5fNmM5M2xVNjM0X2lsTk1tM1dzanp4d0o5RjFkWUE?oc=5",
+   "fonte": "Conselho Regional de Contabilidade do Maranhão",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-16T22:55:56+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [
+    "Imposto Seletivo"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "id": "f3ed2bfce008"
   },
   {
    "titulo": "Imposto, pneus e pedágio eletrônico: mudanças previstas podem mexer com o bolso de quem tem carro",
@@ -1401,6 +1675,23 @@
    "id": "2d482fb62ae3"
   },
   {
+   "titulo": "Prefeitura divulga lista de 160 pré-selecionados para o Residencial Moradas do Ianduí",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX25HUmtjb25BQ1ItZ3htdEtsNFVudUszcUtSZTAzZ0xzVkFyV3hKdU5iaU1LblQybHRjdlBjc0s0NlB1RWRsWEw5bVN1cVFENXlfU2NmdlV3MWh2b09qNUZQWGExY2xkU0VRNy1Bc0tnQkJKMGpqN1pQSjQ1Rm9TOVo2NXFhWERnRGtYOTFTLUktOFBOeEpOVjA3NmFETDNvOV82OFlKV3NZb0pzR21rTFNYRVd2WU5OZ2JUNFFtSkxZdk4ybFFmZHRJUUFKbzZBYXBONTVvdlZYMjJhSjM5ZHIyWQ?oc=5",
+   "fonte": "Receita Federal",
+   "tipo_fonte": "Órgão federal",
+   "data": "2026-10-16T17:59:50+00:00",
+   "esfera": "Municipal",
+   "uf": "",
+   "impacto": "baixo",
+   "tags": [],
+   "porque": "",
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "id": "8ee5f311305f"
+  },
+  {
    "titulo": "Áudio: Projeto cria Dia Nacional de Conscientização sobre a Síndrome do Nariz Vazio",
    "resumo": "Está pronto para votação na Comissão de Assuntos Sociais do Senado (CAS) o projeto de lei que cria o Dia Nacional de Conscientização sobre a Síndrome do Nariz Vazio, a ser celebrado em 4 de novembro. O projeto (PL 5.772/2025) foi apresentado pela senadora…",
    "link": "https://www12.senado.leg.br/noticias/audios/2026/10/projeto-cria-dia-nacional-de-conscientizacao-sobre-a-sindrome-do-nariz-vazio",
@@ -1941,9 +2232,9 @@
   },
   {
    "titulo": "STF afasta Funrural de empregador rural pessoa física até 2017",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV1AxOXNpeFBZUzN0ZHBEWjNMUkE1cy1ja2tIOWJ1aW40c1Jwa0VPcVJfLTR3V1JxNEZ3aDVUWm1OWExPR0M5MmVUQlJUajBqaGY1bF94ZFVsVmU4aVZCeTNlcjZ1QkpQNEdNWGloYVlPVjNQTEEtNDVnWVBSYnlOMENIdUUySjNFb1dWTWRJUTdqQ29zTC1mV2I4UW50QldFdjU5dEh0WVVYRXM?oc=5",
-   "fonte": "Portal Contabeis",
+   "resumo": "STF considera inconstitucional cobrança do Funrural de empregadores rurais pessoas físicas antes de 2018. Decisão também alcança adquirentes. Leia mais em…",
+   "link": "https://www.contabeis.com.br/noticias/80130/stf-afasta-funrural-de-empregador-rural-pessoa-fisica-ate-2017/",
+   "fonte": "Portal Contábeis",
    "tipo_fonte": "Portal de notícias",
    "data": "2026-10-16T13:45:01+00:00",
    "esfera": "Federal",
@@ -1958,6 +2249,26 @@
    "fiscal": false,
    "internacional": false,
    "id": "92375392c350"
+  },
+  {
+   "titulo": "Reforma tributária: empresas correm para salvar créditos bilionários com o fim do ICMS",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbS1RR3ZESlFVZHVFbGQxMWJWZUhLaWthNnhHdVN5SHdvU3l3MEFGT0xEeDVaSktxTlVQLWt6ekNlRThWNS1FT1VtMEVoYVluTjl3dGU0RDNlYkpiWFRCeWdKMVFobXMyZDVWbVJhcWtJZGZDcjFvNThVUjdjTjVNSWNLSm80UG5wRnRWSmEyLUVPV25kRE5sTjdSVUtUcW1LMnl1YmpxYW04cTROS1lNenl5V00tLTVSbjE3dk5uY3Jadw?oc=5",
+   "fonte": "Prensa Mercosur",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-16T13:44:10+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "impacto": "medio",
+   "tags": [
+    "Reforma Tributária",
+    "ICMS"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "id": "1b0cc41d9906"
   },
   {
    "titulo": "Entenda o que mudou no Simples Nacional para adequação à Reforma Tributária do Consumo",
@@ -2202,9 +2513,9 @@
    "fonte": "Contadores.cnt.br",
    "tipo_fonte": "Portal de notícias",
    "data": "2026-10-16T12:50:00+00:00",
-   "esfera": "Estadual",
-   "uf": "SP",
-   "impacto": "alto",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "medio",
    "tags": [
     "IBS",
     "CBS",
@@ -2252,6 +2563,27 @@
    "fiscal": false,
    "internacional": false,
    "id": "1e8c72fd786f"
+  },
+  {
+   "titulo": "Governo quer mudar reforma tributária para prorrogar IPI e cobrir atraso no Imposto Seletivo",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON1k1eGxuV0JZZklDdTRXUjA0UzM4bXNQY2x0YWt6WWdBcWs2bW5SOXA3OVJZWUFGSU1mQU91SUFKdml4d3dNNk9FWFJXNU1OeW1lREdEVFd1SEd6ZXZJeW1RSFJmb0dIUFE4OW5DenlUYVpIRVU4empOcXhoa2Z2UVNoTThGYzNpd1ZxaDRDZlZqWUZ5TUotMHpoaTdiMW94MnBmNG1sTzJueENaOFIyQUFkSVdGV240QTV0OXdVME5IVXBOeHFoNdIBzgFBVV95cUxOT3BoWUI5TGpUZEprQ1M4TGVZcXpIZlpjWWpSelRsM01JeXN5ZGFmcGxKSkhtVmpmZldDcU5wZ1puMUFoVGhVMk9hbGZBZld0SFhKdXRZamYwOUhjUHNCTk1Wamc5RlFrZklQcDZ4NS1TbUZLQzNkektUenhyTXg3NS1SVTRmQWZmdkl5X252Y2JFWm9HS0l2cXEwcTZiR2tXX1RhUjYtZ2lrVzZoVEpfcTdiSE9Lb1ZwbnJLWFM4VTM4MzV2S3ctN3llZlNhUQ?oc=5",
+   "fonte": "Fenafisco",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-16T12:38:23+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "impacto": "alto",
+   "tags": [
+    "Imposto Seletivo",
+    "Reforma Tributária",
+    "Prazo"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "id": "a191ff1a9a0d"
   },
   {
    "titulo": "IBS e CBS: testes de novos campos são adiados para até 26/10",
@@ -2775,27 +3107,6 @@
    "id": "6fd6ba0d747d"
   },
   {
-   "titulo": "Governo quer mudar reforma tributária para prorrogar IPI e cobrir atraso no Imposto Seletivo",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORzZfSkQ5cWdORXV2RzBubzdCbGwxR2ZkeDRId1ZDWUVvS3NyOGZ0RUMtb0F0WGo1dC00dk5EWFFPTENCRXdGSWFLZGVFQnBUQU5NLTd3Vzl6Vzg1eUJLbl93aHA2ZnVOWVNVeXZBVk1KRm92SjJnSXBSbmp5MnJNN0tTX1B5YllwNklnY1pkNzJmeEFKdjFTZW9rTnFEX3o0RUZ4LU1vei1sWUZzdHNTekNZc3BmTEh0T2t2djVMSVRwTTd5TXd3RW9rLXdMT05HdkdMeDc1UjVfek43?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-16T02:00:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "impacto": "alto",
-   "tags": [
-    "Imposto Seletivo",
-    "Reforma Tributária",
-    "Prazo"
-   ],
-   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "id": "a191ff1a9a0d"
-  },
-  {
    "titulo": "No meio da travessia: como serão calculadas as alíquotas ad rem do IBS e da CBS sobre operações com combustíveis",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeW1XNzBLSVlmdm9oOVNKTjFVS0hDNlF3NzM1eHJqeGl5c1hudjZTN0hBLU5zY0hyQ3dHQUNVNDFzSjFhVmFTRTZ2R2hkcHFQQkdPUjlKQU5zY256V1NnbnYwekd1LVNsWGg3bHo2ZlA1cEx3LXM4ME9QaU9DMVlYUU4wTTU4QlliRUJvOEN0S2d4aEJHU2hsemRPc0dOMVNuVnk4UkYzX0VRSW5qUXRkUGFTYmZrdUloWUdYTlhfRzFNMmlkNlU3Xy1LVk1RY2d0MnV6dGp5b1NZSE0zMkd1NFlrNA?oc=5",
@@ -3265,26 +3576,6 @@
    "fiscal": false,
    "internacional": false,
    "id": "ab03b282feee"
-  },
-  {
-   "titulo": "STF derruba cobrança do Funrural de empregadores rurais até fim de 2017",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYkZlYXdpejZVWFVHV1FST0Q2c3d3bjcweDZwZHpiaFc3U1FRU3FXRnJmcFNRcklmSGxsangzMWpUVXAyVFlLbnFQVDZmWGNMU3Z4NndUOXYtLWN5T3hCdGhpelhaMzJNZF9xYWJSdXk5OWxjSk50V0hTZzhnc3gxamJhekhiUENZUXdReHJWemNLVmNPWGlmM29JQXQtT0RRRHVMT1lyOGlLZw?oc=5",
-   "fonte": "CNN Brasil",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-15T20:50:46+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "impacto": "baixo",
-   "tags": [
-    "FUNRURAL",
-    "Agro"
-   ],
-   "porque": "Afeta produtores rurais e quem compra deles. Confira clientes do agro.",
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "id": "0ce14ce01feb"
   },
   {
    "titulo": "Receita identifica R$ 745 milhões em créditos indevidos",
@@ -4672,26 +4963,6 @@
    "fiscal": true,
    "internacional": false,
    "id": "15ee1428ab9d"
-  },
-  {
-   "titulo": "Reforma tributária: empresas correm para salvar créditos bilionários com o fim do ICMS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTkhZWl9hZkdVamhOZ0xvb1JaN1ZySktLU0FxdDRhaDlRTjcxSnE3c2t6eGRJUHZzU2dIbUx5MFBEMzdoeTRTLTBOaXNYWXNfN3BydlFlT0NHOUhrSXhDR1czeGRIWmc5c0NNX3RWYWpSZzR0SndyWDdIRXBld2xIZjNsYnlEVjZIRmhxaEdVdExUSnBJR2E5OG84aFVnUzlfNm1xejJQRVZ4aUhMYnYwUzhBWQ?oc=5",
-   "fonte": "Exame",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-15T09:04:29+00:00",
-   "esfera": "Estadual",
-   "uf": "SP",
-   "impacto": "medio",
-   "tags": [
-    "Reforma Tributária",
-    "ICMS"
-   ],
-   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "id": "1b0cc41d9906"
   },
   {
    "titulo": "Especialista alerta: reforma tributária pode impactar custo de serviços em condomínios",
