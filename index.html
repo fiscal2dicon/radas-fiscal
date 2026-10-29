@@ -4844,9 +4844,9 @@ function fixosDaSecao(){
 let FIXOS_ABERTO=false;
 function blocoFixos(){
   const l=fixosDaSecao(); if(!l.length) return "";
-  const auto=l.every(n=>n.auto);
+  const auto=l.every(n=>n.auto || (n.vigencia && situacaoVig(n).cls==="futura"));
   const titulo=auto?"⏰ Entram em vigor em breve — mudanças em documentos fiscais e convênios":"📌 Fique de olho — atos que mudam a rotina";
-  const sub=auto?"lido direto do CONFAZ · some sozinho 7 dias após a vigência":"atos oficiais e fixados pela equipe";
+  const sub=auto?"CONFAZ e Diário Oficial · some sozinho após a vigência":"atos oficiais e fixados pela equipe";
   const VIS=4;
   return `<div class="fixos painel ${FIXOS_ABERTO?"":"fechado"}" id="blocoFixos"><div class="fixos-top"><h4>${titulo}</h4><span>${sub}</span></div>
   ${l.map((n,i)=>{const s=situacaoVig(n);return `<div class="fixo ${i>=VIS?"extra":""}">

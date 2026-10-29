@@ -589,25 +589,35 @@ def _data_extenso(dia, mes, ano):
         return None
 
 
-def ler_ato_confaz(sigla, ano, numero):
-    nome, pasta, prefixo = CONFAZ_TIPOS[sigla]
-    url = f"{CONFAZ_BASE}/{pasta}/{ano}/{prefixo}{numero:03d}_{str(ano)[2:]}"
-    try:
-        r = SESSAO.get(url, timeout=TIMEOUT)
-    except Exception as e:  # noqa: BLE001
-        return "erro", None
-    if r.status_code == 404:
-        return "nao_existe", None
-    if r.status_code != 200 or not r.content:
-        return "erro", None
-    if not r.encoding or r.encoding.lower() == "iso-8859-1":
-        r.encoding = r.apparent_encoding
-    texto = limpar_html(re.sub(r"(?is)<(script|style).*?</\1>", " ", r.text))
-    sa = sem_acento(texto)
-    if f"{sem_acento(nome)}" not in sa:
-        return "nao_existe", None   # página genérica (ex.: "página não encontrada" com código 200)
+NAVEGADOR = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/126.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.5",
+}
+DIAG_CONFAZ = {}   # diagnóstico gravado no noticias.json (para conferir se o CONFAZ/DOU responderam)
 
-    # Data de publicação: "Publicado no DOU de 14.09.26" (ou a data do próprio ato)
+
+def baixar_pagina(url, tentativas=2):
+    """Baixa uma página como um navegador comum. Devolve (código, texto)."""
+    ultimo = (0, "")
+    for i in range(tentativas):
+        try:
+            r = SESSAO.get(url, timeout=30, headers=NAVEGADOR)
+            if not r.encoding or r.encoding.lower() == "iso-8859-1":
+                r.encoding = r.apparent_encoding
+            ultimo = (r.status_code, r.text or "")
+            if r.status_code in (200, 404):
+                return ultimo
+        except Exception as e:  # noqa: BLE001
+            ultimo = (0, type(e).__name__)
+        time.sleep(1.5 * (i + 1))
+    return ultimo
+
+
+def analisar_ato(texto, nome, numero, ano, url, sigla):
+    """Extrai publicação, ementa e vigência do texto de um Ajuste SINIEF / Convênio ICMS."""
+    sa = sem_acento(texto)
     pub = None
     m = re.search(r"publicad[oa] no d\.?o\.?u\.? de (\d{1,2})[./](\d{1,2})[./](\d{2,4})", sa)
     if m:
@@ -616,27 +626,48 @@ def ler_ato_confaz(sigla, ano, numero):
             pub = datetime(a, int(m.group(2)), int(m.group(1))).date()
         except ValueError:
             pub = None
-    if not pub:
-        m = re.search(rf"{sem_acento(nome)} n?[o°º.]*\s*{numero}\s*,?\s*de (\d{{1,2}}º?) de (\w+) de (\d{{4}})", sa)
-        pub = _data_extenso(*m.groups()) if m else None
-
-    # Ementa: primeira frase "Altera / Dispõe / Autoriza ..." antes de "O Conselho Nacional..."
-    corpo = re.split(r"O Conselho Nacional de Pol[ií]tica Fazend[áa]ria", texto)[0]
+    data_ato = None
+    m = re.search(rf"{sem_acento(nome)} n?[o°º.]*\s*{numero}\s*,?\s*de (\d{{1,2}}º?) de (\w+) de (\d{{4}})", sa)
+    if m:
+        data_ato = _data_extenso(*m.groups())
+    corpo = re.split(r"O Conselho Nacional de Pol[ií]tica Fazend[áa]ria|O CONSELHO NACIONAL DE POL[ÍI]TICA", texto)[0]
     m = re.search(r"((?:Altera|Disp[õo]e|Institui|Autoriza|Prorroga|Revoga|Acrescenta|Estabelece|Concede|Dispensa|"
                   r"Aprova|Define|Inclui|Reduz|Fixa|Torna)[^.]{8,600}\.)", corpo)
     ementa = m.group(1).strip() if m else ""
-
-    # Vigência: "produzindo efeitos a partir de 1º de novembro de 2026" (vale a data mais distante citada)
     datas = [_data_extenso(*x) for x in re.findall(
         r"a partir de (\d{1,2})º? de (janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|"
         r"novembro|dezembro) de (\d{4})", sa)]
     datas = [d for d in datas if d]
     vig = max(datas) if datas else None
-    if not vig and re.search(r"entra em vigor na data de sua publicacao", sa) and pub:
-        vig = pub
-    return "ok", {"sigla": sigla, "ano": ano, "numero": numero, "url": url, "nome": f"{nome} {numero}/{ano}",
-                  "ementa": ementa, "publicado": pub.isoformat() if pub else "",
-                  "vigencia": vig.isoformat() if vig else ""}
+    if not vig and re.search(r"entra em vigor na data de sua publicacao", sa):
+        vig = pub or data_ato
+    pub = pub or data_ato
+    return {"sigla": sigla, "ano": ano, "numero": numero, "url": url, "nome": f"{nome} {numero}/{ano}",
+            "ementa": ementa, "publicado": pub.isoformat() if pub else "",
+            "vigencia": vig.isoformat() if vig else ""}
+
+
+def ler_ato_confaz(sigla, ano, numero):
+    nome, pasta, prefixo = CONFAZ_TIPOS[sigla]
+    arquivo = f"{prefixo}{numero:03d}_{str(ano)[2:]}"
+    codigo, html_txt = 0, ""
+    for base in (CONFAZ_BASE, CONFAZ_BASE.replace("://www.", "://")):
+        url = f"{base}/{pasta}/{ano}/{arquivo}"
+        codigo, html_txt = baixar_pagina(url)
+        if codigo in (200, 404):
+            break
+    DIAG_CONFAZ.setdefault("confaz_respostas", {}).setdefault(str(codigo), 0)
+    DIAG_CONFAZ["confaz_respostas"][str(codigo)] += 1
+    if codigo == 404:
+        return "nao_existe", None
+    if codigo != 200 or not html_txt:
+        DIAG_CONFAZ["confaz_ultimo_erro"] = f"{url} -> {codigo} {html_txt[:80] if codigo == 0 else ''}"
+        return "erro", None
+    texto = limpar_html(re.sub(r"(?is)<(script|style).*?</\1>", " ", html_txt))
+    if sem_acento(nome) not in sem_acento(texto):
+        DIAG_CONFAZ["confaz_pagina_estranha"] = f"{url}: {texto[:160]}"
+        return "nao_existe", None
+    return "ok", analisar_ato(texto, nome, numero, ano, url, sigla)
 
 
 def atualizar_cache_confaz(cache):
@@ -653,9 +684,10 @@ def atualizar_cache_confaz(cache):
             while faltas < 3 and erros < 3 and n < teto:
                 status, ato = ler_ato_confaz(sigla, ano, n)
                 if status == "ok":
+                    if str(n) not in info["atos"]:
+                        novos += 1
                     info["atos"][str(n)] = ato
                     info["ultimo"] = n
-                    novos += 1
                     faltas = 0
                 elif status == "nao_existe":
                     faltas += 1
@@ -664,7 +696,77 @@ def atualizar_cache_confaz(cache):
                 n += 1
                 time.sleep(0.4)
             if erros >= 3:
-                log.info(f"   ! CONFAZ ({CONFAZ_TIPOS[sigla][0]} {ano}) não respondeu; tento de novo na próxima execução")
+                log.info(f"   ! CONFAZ ({CONFAZ_TIPOS[sigla][0]} {ano}) não respondeu "
+                         f"({DIAG_CONFAZ.get('confaz_ultimo_erro', '')}); uso o Diário Oficial como reserva")
+    return novos
+
+
+# --------------------- Diário Oficial da União (reserva) ---------------------
+# Todo Ajuste SINIEF e Convênio ICMS sai no DOU em despacho do CONFAZ (Seção 1).
+DOU_LEITURA = "https://www.in.gov.br/leiturajornal?data={data}&secao=do1"
+DOU_ATO = "https://www.in.gov.br/web/dou/-/{slug}"
+DOU_DIAS_PRIMEIRA = 75     # 1ª leitura: volta X dias (pega atos publicados antes e que ainda vão vigorar)
+RE_ATO_NO_TEXTO = re.compile(r"(AJUSTE SINIEF|CONV[ÊE]NIO ICMS)\s+N[º°o.]*\s*(\d{1,3})\s*,\s*DE\s+\d{1,2}º?\s+DE\s+"
+                             r"[A-ZÇÃÉÍÓÚÂÊÔa-zçãéíóúâêô]+\s+DE\s+(\d{4})", re.I)
+
+
+def ler_dou_confaz(cache):
+    """Lê os despachos do CONFAZ no DOU e acrescenta os atos ao cache. Nunca interrompe o robô."""
+    estado = cache.setdefault("_dou", {"ultimo_dia": ""})
+    hoje = datetime.now(FUSO_BR).date()
+    inicio = (datetime.fromisoformat(estado["ultimo_dia"]).date() - timedelta(days=2)) if estado["ultimo_dia"] \
+        else hoje - timedelta(days=DOU_DIAS_PRIMEIRA)
+    dia, achados, lidos, falhas = inicio, 0, 0, 0
+    while dia <= hoje and falhas < 4:
+        if dia.weekday() < 5 or dia == hoje:
+            codigo, pagina = baixar_pagina(DOU_LEITURA.format(data=dia.strftime("%d-%m-%Y")))
+            m = re.search(r'<script id="params" type="application/json">\s*(\{.*?\})\s*</script>', pagina, re.S)
+            if codigo != 200 or not m:
+                falhas += 1
+                DIAG_CONFAZ["dou_ultimo_erro"] = f"{dia} -> {codigo}"
+            else:
+                falhas, lidos = 0, lidos + 1
+                try:
+                    itens = json.loads(m.group(1)).get("jsonArray", [])
+                except ValueError:
+                    itens = []
+                for it in itens:
+                    hier = sem_acento(it.get("hierarchyStr", "") + " " + it.get("pubName", ""))
+                    if "politica fazendaria" not in hier and "confaz" not in hier:
+                        continue
+                    slug = it.get("urlTitle", "")
+                    if not slug:
+                        continue
+                    achados += registrar_despacho(cache, DOU_ATO.format(slug=slug), dia)
+                estado["ultimo_dia"] = dia.isoformat()
+            time.sleep(0.5)
+        dia += timedelta(days=1)
+    DIAG_CONFAZ["dou_dias_lidos"] = lidos
+    return achados
+
+
+def registrar_despacho(cache, url, dia_pub):
+    codigo, pagina = baixar_pagina(url)
+    if codigo != 200:
+        return 0
+    texto = limpar_html(re.sub(r"(?is)<(script|style).*?</\1>", " ", pagina))
+    partes = list(RE_ATO_NO_TEXTO.finditer(texto))
+    novos = 0
+    for i, m in enumerate(partes):
+        trecho = texto[m.start(): partes[i + 1].start() if i + 1 < len(partes) else len(texto)]
+        sigla = "AJ" if "AJUSTE" in m.group(1).upper() else "CV"
+        numero, ano = int(m.group(2)), int(m.group(3))
+        nome = CONFAZ_TIPOS[sigla][0]
+        ato = analisar_ato(trecho, nome, numero, ano, url, sigla)
+        if not ato["publicado"] or ato["publicado"] < dia_pub.isoformat():
+            ato["publicado"] = dia_pub.isoformat()   # no DOU, a data de publicação é o dia da edição
+        info = cache.setdefault(f"{sigla}-{ano}", {"ultimo": 0, "atos": {}})
+        atual = info["atos"].get(str(numero))
+        if atual and "confaz.fazenda.gov.br" in atual.get("url", ""):
+            continue  # já temos a versão do site do CONFAZ
+        if not atual:
+            novos += 1
+        info["atos"][str(numero)] = ato
     return novos
 
 
@@ -673,7 +775,9 @@ def itens_confaz(cache):
     hoje = datetime.now(FUSO_BR).date()
     noticias, alertas = [], []
     limite_pub = hoje - timedelta(days=max(DIAS_LEGISLACAO, DIAS_PARA_TRAS))
-    for info in cache.values():
+    for chave_c, info in cache.items():
+        if chave_c.startswith("_"):
+            continue
         for ato in info.get("atos", {}).values():
             pub = datetime.fromisoformat(ato["publicado"]).date() if ato.get("publicado") else None
             vig = datetime.fromisoformat(ato["vigencia"]).date() if ato.get("vigencia") else None
@@ -1064,7 +1168,8 @@ def atualizar_painel(noticias, n_fontes):
         raise RuntimeError("Não achei as marcações <!--DADOS_INICIO--> / <!--DADOS_FIM--> no index.html")
     ARQUIVO_PAINEL.write_text(novo, encoding="utf-8")
     ARQUIVO_HISTORICO.write_text(json.dumps({"atualizado_em": dados["meta"]["atualizado_em"],
-                                             "noticias": noticias, "confaz": CACHE_CONFAZ},
+                                             "noticias": noticias, "confaz": CACHE_CONFAZ,
+                                             "diagnostico_confaz": DIAG_CONFAZ},
                                             ensure_ascii=False, indent=1),
                                  encoding="utf-8")
 
@@ -1171,6 +1276,17 @@ def executar(teste=False, sem_email=False):
     if CONFAZ_ATIVO:
         CACHE_CONFAZ = carregar_cache_confaz()
         novos = atualizar_cache_confaz(CACHE_CONFAZ)
+        try:
+            pelo_dou = ler_dou_confaz(CACHE_CONFAZ)
+        except Exception as e:  # noqa: BLE001
+            pelo_dou = 0
+            DIAG_CONFAZ["dou_falha"] = f"{type(e).__name__}: {e}"[:200]
+        log.info(f" {'Diário Oficial (CONFAZ)':<24} {pelo_dou:>3} ato(s) novo(s) "
+                 f"({DIAG_CONFAZ.get('dou_dias_lidos', 0)} edição(ões) lida(s))")
+        DIAG_CONFAZ["em"] = datetime.now(FUSO_BR).isoformat(timespec="minutes")
+        DIAG_CONFAZ["atos_no_cache"] = sum(len(v.get("atos", {})) for k, v in CACHE_CONFAZ.items()
+                                           if not k.startswith("_"))
+        log.info(f"   diagnóstico CONFAZ: {DIAG_CONFAZ}")
         n_fontes += 1
         noticias_cf, alertas_confaz = itens_confaz(CACHE_CONFAZ)
         log.info(f" {'CONFAZ (SINIEF/Convênios)':<24} {novos:>3} ato(s) novo(s); "
@@ -1209,7 +1325,10 @@ def executar(teste=False, sem_email=False):
 
     fixos = carregar_destaques()
     log.info(f"Destaques fixados pela equipe: {len(fixos)}")
-    fixos += [alerta_vigencia(a) for a in alertas_confaz]
+    ja_fixados = {re.sub(r"\s+", " ", m.group(0)) for f in fixos
+                  for m in re.finditer(r"(ajuste sinief|convenio icms) \d+", sem_acento(f["titulo"]))}
+    fixos += [alerta_vigencia(a) for a in alertas_confaz
+              if not any(j in sem_acento(a["titulo"]) for j in ja_fixados)]
     if not novas and historico:
         log.info("Nenhuma notícia nova encontrada (internet fora do ar?). Painel mantido como estava.")
     simplificar_com_ia(novas)

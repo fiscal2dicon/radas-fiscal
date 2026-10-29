@@ -18,5 +18,44 @@
     "vigencia": "2026-10-01",
     "fixar_ate": "2027-01-31"
   },
-  "destaques": []
+  "destaques": [
+    {
+      "titulo": "Ajuste SINIEF 40/2026: muda regras de integração e a inutilização de numeração da NF-e",
+      "resumo": "Altera o Ajuste SINIEF 07/05 (NF-e): novas regras de integração com os sistemas e de aplicação do pedido de inutilização de número da NF-e. Publicado no DOU de 14/09/2026 (Despacho CONFAZ 42/2026).",
+      "porque": "Vale a partir de 01/11/2026. Confirme com os clientes que o sistema emissor de NF-e está atualizado. A SEFAZ-BA já avisou que o pedido de inutilização da NF-e deixa de ser aceito a partir de 03/11.",
+      "link": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+      "fonte": "CONFAZ",
+      "tipo_fonte": "CONFAZ",
+      "esfera": "Estadual",
+      "uf": "",
+      "impacto": "alto",
+      "tags": [
+        "Ajuste SINIEF",
+        "NF-e/NFS-e",
+        "Nova regra"
+      ],
+      "publicado_em": "2026-09-14",
+      "vigencia": "2026-11-01",
+      "fixar_ate": "2026-11-08"
+    },
+    {
+      "titulo": "Ajuste SINIEF 38/2026: muda regras de integração e a inutilização de numeração da NFC-e",
+      "resumo": "Altera o Ajuste SINIEF 19/16 (NFC-e): novas regras de integração com os sistemas e de aplicação do pedido de inutilização de número da NFC-e. Publicado no DOU de 14/09/2026 (Despacho CONFAZ 42/2026).",
+      "porque": "Vale a partir de 01/11/2026. Avise os clientes do varejo que emitem NFC-e e confirme a atualização do sistema emissor (PDV).",
+      "link": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+      "fonte": "CONFAZ",
+      "tipo_fonte": "CONFAZ",
+      "esfera": "Estadual",
+      "uf": "",
+      "impacto": "alto",
+      "tags": [
+        "Ajuste SINIEF",
+        "NF-e/NFS-e",
+        "Nova regra"
+      ],
+      "publicado_em": "2026-09-14",
+      "vigencia": "2026-11-01",
+      "fixar_ate": "2026-11-08"
+    }
+  ]
 }
