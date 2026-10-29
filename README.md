@@ -17,7 +17,7 @@ O Radar tem duas partes:
 | Arquivo | Para que serve |
 |---|---|
 | `index.html` | O painel. Dois cliques abrem no navegador. |
-| `destaques.json` | Atos importantes fixados pela equipe na faixa "Fique de olho". |
+| `destaques.json` | Atos fixados pela equipe por arquivo (alternativa ao botão 📌 Fixar do painel). |
 | `logo.png` e `logo-icone.png` | Sua logo (topo do painel e ícone da aba). |
 | `radar_fiscal.py` | O robô que busca as notícias. |
 | `requirements.txt` | Lista de componentes que o robô precisa. |
@@ -179,27 +179,57 @@ Pronto: toda vez que o robô rodar, o site da equipe é atualizado.
 
 ---
 
-## 6. Atos fixados — a faixa "📌 Fique de olho"
+## 6. Itens no topo do painel
 
-O robô busca o que foi publicado **nos últimos dias**. Um ato publicado meses antes e que entra em vigor agora (como a Portaria SRE 34/2026, publicada em junho e válida desde 01/10) precisa ser **fixado** pela equipe. Ele aparece no topo do painel, com a contagem de dias até a vigência (ou "em vigor desde"), e também no boletim.
+O topo do painel tem dois blocos:
 
-**Para fixar um ato no GitHub:**
-1. Na aba **Code**, abra o arquivo `destaques.json` e clique no **lápis** (editar).
-2. Copie o bloco inteiro do exemplo que já está lá, do `{` até o `}`.
-3. Coloque uma **vírgula** depois do `}` do último bloco e cole o bloco novo em seguida.
-4. Troque os textos. Os campos mais importantes são:
-   - `titulo`: frase curta do que mudou.
-   - `porque`: o que a equipe precisa fazer.
-   - `link`: endereço do ato.
-   - `uf`: sigla do estado (deixe `""` se for federal) e `esfera`: `Federal`, `Estadual` ou `Municipal`.
-   - `publicado_em`, `vigencia` e `fixar_ate`: datas no formato `2026-10-01`. O ato sai do painel sozinho depois de `fixar_ate`.
-5. Clique em **Commit changes**. O painel mostra o ato na próxima execução do robô. Para ver na hora, rode o robô pelo botão **Run workflow** (Passo A5).
+- **📌 Fixados pela equipe:** o que você escolheu fixar (veja abaixo).
+- **⏰ Entram em vigor em breve:** automático. Mostra Ajustes SINIEF, Convênios ICMS e portarias/decretos que começam a valer em breve, com a contagem de dias. Mudanças na substituição tributária aparecem com até 150 dias de antecedência; os demais, com 30. Cada item sai sozinho 7 dias depois de entrar em vigor.
 
-> Se o painel deixar de mostrar os fixados depois de uma edição, quase sempre é uma vírgula ou aspas faltando. O registro da execução avisa: "destaques.json com erro de digitação".
+### Fixar notícias pelo próprio painel (recomendado)
 
-**Legislação de SP direto da fonte:** além das notícias, o robô lê todo dia o **portal de legislação da SEFAZ-SP** (portarias, decretos, comunicados e respostas à consulta) dos últimos 15 dias, mesmo que o ato não tenha virado notícia. Para não receber as Respostas à Consulta, troque `INCLUIR_RESPOSTAS_CONSULTA = True` por `False` no `radar_fiscal.py`.
+**Ligar o modo edição (só no seu computador):**
+1. Abra o painel com `?editar=1` no final do endereço:
+   `https://fiscal2dicon.github.io/radas-fiscal/?editar=1`
+2. Aparece no topo a etiqueta **✏️ Modo edição**, e cada cartão ganha o botão **📌 Fixar**. O navegador lembra disso; para sair, clique em **Sair**.
+3. A equipe, que abre o link normal (ou pelo SharePoint), **não vê** esses botões.
 
-## 7. Ajustes que você pode fazer sozinho(a)
+**Fixar uma notícia:**
+1. Clique em **📌 Fixar** no cartão.
+2. Abre uma página do GitHub já preenchida. Se quiser, escreva no campo **O que fazer** a orientação para a equipe e, se houver data, a **Vigência** (dd/mm/aaaa).
+3. Clique em **Create** (ou **Submit new issue**).
+4. Em 1 a 2 minutos a notícia aparece no bloco **📌 Fixados pela equipe**, no topo, para todos. Aperte F5.
+
+**Fixar um aviso que não está no painel:** no topo, clique em **+ Fixar aviso novo**, preencha o título, o link (opcional), o que fazer e a vigência (opcional), e clique em **Create**.
+
+**Desafixar:** no modo edição, clique em **Desafixar** ao lado do item. Abre a página da issue; clique em **Close issue**. Em 1 a 2 minutos o item sai do topo.
+
+> Só fixa quem está logado na conta do GitHub dona do painel ou em uma conta adicionada como colaboradora (Settings → Collaborators). Pedidos de outras pessoas são ignorados.
+
+### Fixar pelo arquivo `destaques.json` (alternativa)
+
+Útil para atos com data de vigência, que somem sozinhos depois de `fixar_ate`. Na aba **Code**, abra o `destaques.json`, clique no **lápis**, copie o bloco de `"modelo"` para dentro de `"destaques": [ ]` (separe vários blocos com vírgula), troque os textos e clique em **Commit changes**. Datas no formato `2026-10-01`.
+
+> Se os itens do arquivo pararem de aparecer depois de uma edição, quase sempre é uma vírgula ou aspas faltando. O registro da execução avisa: "destaques.json com erro de digitação".
+
+### Fontes oficiais lidas direto (mesmo sem virar notícia)
+
+- **Portal de legislação da SEFAZ-SP:** portarias, decretos, comunicados e respostas à consulta dos últimos 15 dias. O robô abre cada portaria/decreto para ler a data de vigência. Revogação de itens da Portaria CAT 68/19 é marcada como **Exclusão da ST**. Para não receber as Respostas à Consulta, troque `INCLUIR_RESPOSTAS_CONSULTA = True` por `False` no `radar_fiscal.py`.
+- **CONFAZ (Ajustes SINIEF e Convênios ICMS):** o robô tenta o site do CONFAZ e, se ele não responder, lê os despachos do CONFAZ no **Diário Oficial da União**. Ato publicado há pouco vira cartão de alto impacto; ato com vigência próxima vai para a faixa ⏰.
+
+## 7. Como o robô decide o que entra no painel
+
+O robô coleta centenas de notícias por dia, mas **só entram no painel as que interessam ao Departamento Fiscal**:
+
+- **Precisa tratar de um assunto fiscal:** ICMS/ST, IPI, PIS/Cofins, ISS, IBS, CBS, Imposto Seletivo, NCM, documentos fiscais, obrigações acessórias, vencimentos, benefícios fiscais, legislação estadual, Simples Nacional e afins.
+- **Fica de fora:** Imposto de Renda de pessoa física (malha fina, restituição), INSS, FGTS, eSocial, cursos, sorteios, concursos, investimentos, política e eleições, e posts de redes sociais.
+- **Reforma Tributária:** só entra quando há um **fato concreto** (alíquota definida, regra publicada, prazo, início de vigência). Opinião e previsão genérica ficam de fora.
+- **Alto impacto** vai para o que pede ação: definição de alíquota, regra nova publicada, Ajuste SINIEF, prazo que acaba ou muda, exclusão da ST, NCM, nova obrigação, vencimento. Estados em foco e órgãos oficiais ganham mais peso; especulação ("deve", "pode") e decisões judiciais isoladas ganham menos.
+- **Notícias repetidas viram um cartão só**, com "📰 Também noticiado por N veículos". Quanto mais veículos repercutem, maior o impacto.
+
+As regras ficam no `radar_fiscal.py`, no quadro **"FILTRO DE RELEVÂNCIA"**. Você pode, por exemplo, apagar um item da lista `DESCARTAR` (para voltar a receber esse assunto) ou incluir um novo.
+
+## 8. Ajustes que você pode fazer sozinho(a)
 
 Abra `radar_fiscal.py` com o Bloco de Notas. Tudo o que pode ser mudado está no começo, no quadro **"CONFIGURAÇÕES — PODE EDITAR AQUI"**:
 
@@ -217,7 +247,7 @@ Na Opção A, faça a alteração direto no GitHub: abra o arquivo `radar_fiscal
 
 ---
 
-## 8. Se algo der errado
+## 9. Se algo der errado
 
 | O que aconteceu | O que fazer |
 |---|---|

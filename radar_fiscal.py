@@ -64,6 +64,7 @@ CONFAZ_TIPOS = {
     "CV": ("Convênio ICMS", "convenios", "CV"),
 }
 VIGENCIA_ANTECEDENCIA = 30    # faixa "Entram em vigor em breve": atos que começam a valer nos próximos X dias
+VIGENCIA_ANTECEDENCIA_ST = 150   # ...para exclusão/alteração da ST o aviso começa bem antes (preparar estoque e cadastro)
 VIGENCIA_APOS = 7             # ...e continuam na faixa por X dias depois de entrar em vigor
 DIAS_NO_PAINEL = 30           # o painel guarda notícias dos últimos X dias
 MAX_NO_PAINEL = 600           # limite de notícias no painel
@@ -498,6 +499,24 @@ LEGIS_SP_API = ("https://legislacao.fazenda.sp.gov.br/_api/web/lists/getbytitle(
 LEGIS_SP_PAGINA = "https://legislacao.fazenda.sp.gov.br/Paginas/"
 
 
+def extrair_vigencia(texto):
+    """Data em que o ato passa a valer ('produzindo efeitos a partir de 1º de fevereiro de 2027'). Vale a maior."""
+    sa = sem_acento(texto)
+    datas = [_data_extenso(*x) for x in re.findall(
+        r"a partir de (\d{1,2})º? de (janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|"
+        r"novembro|dezembro) de (\d{4})", sa)]
+    datas += [_data_num(*x) for x in re.findall(r"a partir de (\d{1,2})[./](\d{1,2})[./](\d{4})", sa)]
+    datas = [d for d in datas if d]
+    return max(datas).isoformat() if datas else ""
+
+
+def _data_num(d, m, a):
+    try:
+        return datetime(int(a), int(m), int(d)).date()
+    except ValueError:
+        return None
+
+
 def coletar_legislacao_sp():
     try:
         r = SESSAO.get(LEGIS_SP_API, timeout=TIMEOUT, headers={"Accept": "application/json;odata=nometadata"})
@@ -506,7 +525,7 @@ def coletar_legislacao_sp():
         log.info(f"   ! portal de legislação SP indisponível ({type(e).__name__})")
         return []
     limite = datetime.now(timezone.utc) - timedelta(days=max(DIAS_LEGISLACAO, DIAS_PARA_TRAS))
-    achadas = []
+    achadas, lidas_vig = [], [0]
     for it in itens:
         tipo = (it.get("Tipo") or "").strip()
         if "Consulta" in tipo and not INCLUIR_RESPOSTAS_CONSULTA:
@@ -522,7 +541,15 @@ def coletar_legislacao_sp():
             continue
         nome = (it.get("Title") or "").strip()
         ementa = limpar_html(it.get("Ementa") or "")
+        vigencia = ""
+        if not any(x in tipo for x in ("Consulta", "Comunicado")) and lidas_vig[0] < 25:
+            lidas_vig[0] += 1
+            codigo, pagina = baixar_pagina(LEGIS_SP_PAGINA + it["FileLeafRef"], tentativas=1)
+            if codigo == 200:
+                vigencia = extrair_vigencia(limpar_html(re.sub(r"(?is)<(script|style).*?</\1>", " ", pagina)))
+            time.sleep(0.4)
         achadas.append({
+            "vigencia": vigencia,
             "titulo": f"{nome}: {encurtar(ementa, 150)}" if ementa else nome,
             "resumo": encurtar(ementa, 360) if len(ementa) > 150 else "",
             "link": LEGIS_SP_PAGINA + it["FileLeafRef"],
@@ -533,6 +560,113 @@ def coletar_legislacao_sp():
             "_ato": tipo,
         })
     return achadas
+
+
+# ---------------- Fixados pela equipe (Issues do GitHub) ----------------
+# No painel, em modo edição (?editar=1), cada cartão tem o botão "📌 Fixar", que abre uma issue
+# já preenchida. Issue aberta = item fixado para todos; issue fechada = desafixado.
+REPO_PAINEL = os.getenv("GITHUB_REPOSITORY", "")          # preenchido automaticamente no GitHub
+TOKEN_ACTIONS = os.getenv("GITHUB_TOKEN", "")              # idem
+QUEM_PODE_FIXAR = {"OWNER", "MEMBER", "COLLABORATOR"}       # pessoas de fora não conseguem fixar
+
+
+def _campo(corpo, rotulo):
+    """Texto depois de 'Rótulo:' até o próximo rótulo conhecido (aceita várias linhas)."""
+    m = re.search(rf"{rotulo}[^:\n]*:\s*(.*?)(?=\n\s*(?:\*\*)?(?:Vig[eê]ncia|Estado|Link|Not[ií]cia|Fonte|O que fazer|"
+                  rf"T[ií]tulo|Para desafixar)[^:\n]*:|\nPara desafixar|<!--|$)", corpo, re.S | re.I)
+    return re.sub(r"\*\*", "", m.group(1)).strip() if m else ""
+
+
+def carregar_fixados_issues(noticias):
+    if not TOKEN_ACTIONS or "/" not in REPO_PAINEL:
+        return []
+    try:
+        r = SESSAO.get(f"https://api.github.com/repos/{REPO_PAINEL}/issues?state=open&per_page=100", timeout=TIMEOUT,
+                       headers={"Authorization": f"Bearer {TOKEN_ACTIONS}", "Accept": "application/vnd.github+json"})
+        issues = r.json() if r.status_code == 200 else []
+    except Exception as e:  # noqa: BLE001
+        log.info(f"   ! não consegui ler os fixados ({type(e).__name__})")
+        return []
+    por_link = {}
+    for n in noticias:
+        por_link.setdefault(n.get("link", ""), n)
+        for o in n.get("outras_fontes", []):
+            por_link.setdefault(o.get("link", ""), n)
+    fixados = []
+    for iss in issues if isinstance(issues, list) else []:
+        if "pull_request" in iss or "FIXAR" not in (iss.get("title") or "").upper():
+            continue
+        if iss.get("author_association") not in QUEM_PODE_FIXAR:
+            continue
+        corpo = iss.get("body") or ""
+        dados = {}
+        m = re.search(r"<!--radar:(\{.*?\})-->", corpo, re.S)
+        if m:
+            try:
+                dados = json.loads(m.group(1))
+            except ValueError:
+                dados = {}
+        link = dados.get("link") or _campo(corpo, "Link")
+        base = dict(por_link.get(link) or {})
+        if not base:   # aviso novo, escrito à mão, ou notícia que já saiu do painel
+            titulo = dados.get("titulo") or _campo(corpo, "T[ií]tulo") or \
+                re.sub(r"^\W*FIXAR\W*", "", iss["title"], flags=re.I).strip()
+            base = {"titulo": titulo, "resumo": dados.get("resumo", ""), "link": link or iss["html_url"],
+                    "fonte": dados.get("fonte") or "Equipe Dicon", "tipo_fonte": dados.get("tipo_fonte", "Equipe"),
+                    "esfera": dados.get("esfera") or "Estadual" if _campo(corpo, "Estado") else dados.get("esfera", "Federal"),
+                    "uf": (dados.get("uf") or _campo(corpo, "Estado")[:2]).upper(), "tags": dados.get("tags", []),
+                    "data": dados.get("data") or iss["created_at"], "reforma": dados.get("reforma", False),
+                    "fiscal": True, "internacional": False, "porque": dados.get("porque", ""), "outras_fontes": []}
+        orientacao = _campo(corpo, "O que fazer")
+        if orientacao and not orientacao.lower().startswith("(opcional"):
+            base["porque"] = orientacao
+        vig = _campo(corpo, "Vig[eê]ncia")
+        mv = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", vig)
+        if mv and _data_num(*mv.groups()):
+            base["vigencia"] = _data_num(*mv.groups()).isoformat()
+        base.update({"id": f"pin-{iss['number']}", "fixo": True, "manual": True, "impacto": "alto",
+                     "issue": iss["html_url"], "fixado_em": iss["created_at"][:10]})
+        base.pop("auto", None)
+        fixados.append(base)
+    log.info(f"Fixados pela equipe (issues): {len(fixados)}")
+    return fixados
+
+
+def aplicar_fixados(todas, fixos_auto):
+    """Põe fixados manuais + agenda no topo e tira do feed as notícias que foram fixadas."""
+    manuais = carregar_fixados_issues(todas)
+    links_fixados = {f.get("link") for f in manuais}
+    feed = [n for n in todas if not n.get("fixo") and n.get("link") not in links_fixados]
+    fixos = manuais + fixos_auto
+    ids = set()
+    unicos = []
+    for f in fixos:
+        if f["id"] not in ids:
+            ids.add(f["id"])
+            unicos.append(f)
+    return unicos + feed
+
+
+def so_fixados():
+    """Execução rápida (quando alguém fixa ou desafixa): não busca notícias, só refaz o painel."""
+    global CACHE_CONFAZ, AGENDA
+    log.info("Atualizando apenas os fixados…")
+    try:
+        dados = json.loads(ARQUIVO_HISTORICO.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        dados = {}
+    CACHE_CONFAZ = dados.get("confaz", {})
+    AGENDA = dados.get("agenda", [])
+    noticias = [n for n in dados.get("noticias", []) if not n.get("fixo")]
+    fixos = carregar_destaques()
+    ja = {re.sub(r"\s+", " ", m.group(0)) for f in fixos
+          for m in re.finditer(r"(ajuste sinief|convenio icms|portaria (sre|cat)) \d+", sem_acento(f["titulo"]))}
+    hoje = datetime.now(FUSO_BR).date()
+    fixos += [a for a in AGENDA if datetime.fromisoformat(a["vigencia"]).date() >= hoje - timedelta(days=VIGENCIA_APOS)
+              and not any(j in sem_acento(a["titulo"]) for j in ja)]
+    todas = aplicar_fixados(noticias, fixos)
+    atualizar_painel(todas, 0, atualizado_em=dados.get("atualizado_em"))
+    log.info("Painel atualizado (somente fixados).")
 
 
 def carregar_destaques():
@@ -844,6 +978,9 @@ CAPITAIS = {"rio branco": "AC", "maceio": "AL", "macapa": "AP", "manaus": "AM", 
             "campinas": "SP", "guarulhos": "SP", "niteroi": "RJ", "uberlandia": "MG", "contagem": "MG",
             "feira de santana": "BA", "joinville": "SC", "mossoro": "RN", "caruaru": "PE"}
 # Verbo de saída + "substituição tributária" na mesma frase = Exclusão da ST
+# SP: exclusões da ST saem como "revoga anexos/itens da Portaria CAT 68/19" (lista de mercadorias sujeitas à ST)
+RE_EXCLUSAO_CAT68 = re.compile(r"\b(revog|exclu|retir)\w*\b[^.]{0,200}\b(cat\s*n?[º°o.]*\s*68|anexos? [ivxl]+ da portaria cat)"
+                               r"|\b(cat\s*n?[º°o.]*\s*68)\b[^.]{0,200}\b(revog|exclu|retir)\w*")
 RE_EXCLUSAO_ST = re.compile(r"\b(exclu\w*|retir\w*|revog\w*|deixa\w* de|fim d[aoe]|saida d\w*|remov\w*|tira\w*)\b"
                             r"[^.]{0,80}\b(substituicao tributaria|icms[- /]?st|regime de st|da st)\b")
 TIPO_OFICIAL = {"Órgão federal", "Legislativo", "SEFAZ estadual", "CONFAZ"}
@@ -880,7 +1017,7 @@ def classificar(n):
         return None
 
     tags = [t for t, palavras in TAGS.items() if any(p in texto for p in palavras)]
-    if "Exclusão da ST" not in tags and RE_EXCLUSAO_ST.search(texto):
+    if "Exclusão da ST" not in tags and (RE_EXCLUSAO_ST.search(texto) or RE_EXCLUSAO_CAT68.search(texto)):
         tags.append("Exclusão da ST")
     if n.get("_tag_busca") in ("FUNRURAL", "Imposto Seletivo") and n["_tag_busca"] not in tags:
         tags.append(n["_tag_busca"])
@@ -1068,8 +1205,8 @@ def cru(n):
         r["_outras"] = n["outras_fontes"]
     if n.get("tipo_fonte") == "CONFAZ":
         r["_minimo"] = n.get("pontos", 0)
-        if n.get("vigencia"):
-            r["vigencia"] = n["vigencia"]
+    if n.get("vigencia"):
+        r["vigencia"] = n["vigencia"]
     return r
 
 
@@ -1154,11 +1291,43 @@ def juntar(historico, novas):
 
 
 CACHE_CONFAZ = {}
+AGENDA = []   # atos que entram em vigor em breve (guardados até passar a vigência, mesmo após sair das notícias)
 
 
-def atualizar_painel(noticias, n_fontes):
-    dados = {"meta": {"atualizado_em": datetime.now(timezone.utc).isoformat(), "demo": False,
-                      "fontes_consultadas": n_fontes, "versao": 1},
+def janela_vigencia(n):
+    return VIGENCIA_ANTECEDENCIA_ST if {"Exclusão da ST", "Substituição Tributária"} & set(n.get("tags", [])) \
+        else VIGENCIA_ANTECEDENCIA
+
+
+def atualizar_agenda(candidatos):
+    """Junta à agenda os atos com vigência próxima e tira os que já passaram de VIGENCIA_APOS dias."""
+    global AGENDA
+    hoje = datetime.now(FUSO_BR).date()
+    try:
+        AGENDA = json.loads(ARQUIVO_HISTORICO.read_text(encoding="utf-8")).get("agenda", [])
+    except Exception:  # noqa: BLE001
+        AGENDA = []
+    por_id = {a["id"]: a for a in AGENDA}
+    for n in candidatos:
+        if not n.get("vigencia"):
+            continue
+        vig = datetime.fromisoformat(n["vigencia"]).date()
+        relevante = (n.get("tipo_fonte") in ("CONFAZ", "SEFAZ estadual", "Órgão federal")
+                     and ({"Exclusão da ST", "Substituição Tributária", "Ajuste SINIEF", "NF-e/NFS-e", "NCM",
+                           "Nova obrigação", "Vencimento"} & set(n.get("tags", []))))
+        if relevante and hoje - timedelta(days=VIGENCIA_APOS) <= vig <= hoje + timedelta(days=janela_vigencia(n)):
+            item = {k: v for k, v in n.items() if k not in ("outras_fontes", "pontos")}
+            item.update({"id": "vig-" + chave(n), "fixo": True, "auto": True, "impacto": "alto"})
+            por_id[item["id"]] = item
+    AGENDA = [a for a in por_id.values()
+              if datetime.fromisoformat(a["vigencia"]).date() >= hoje - timedelta(days=VIGENCIA_APOS)]
+    AGENDA.sort(key=lambda a: a["vigencia"])
+    return AGENDA
+
+
+def atualizar_painel(noticias, n_fontes, atualizado_em=None):
+    dados = {"meta": {"atualizado_em": atualizado_em or datetime.now(timezone.utc).isoformat(), "demo": False,
+                      "fontes_consultadas": n_fontes, "versao": 1, "repo": REPO_PAINEL},
              "noticias": noticias}
     js = json.dumps(dados, ensure_ascii=False, indent=0).replace("</", "<\\/")
     bloco = f'<!--DADOS_INICIO-->\n<script id="radar-dados">\nwindow.RADAR_DADOS = {js};\n</script>\n<!--DADOS_FIM-->'
@@ -1168,7 +1337,7 @@ def atualizar_painel(noticias, n_fontes):
         raise RuntimeError("Não achei as marcações <!--DADOS_INICIO--> / <!--DADOS_FIM--> no index.html")
     ARQUIVO_PAINEL.write_text(novo, encoding="utf-8")
     ARQUIVO_HISTORICO.write_text(json.dumps({"atualizado_em": dados["meta"]["atualizado_em"],
-                                             "noticias": noticias, "confaz": CACHE_CONFAZ,
+                                             "noticias": noticias, "confaz": CACHE_CONFAZ, "agenda": AGENDA,
                                              "diagnostico_confaz": DIAG_CONFAZ},
                                             ensure_ascii=False, indent=1),
                                  encoding="utf-8")
@@ -1326,9 +1495,7 @@ def executar(teste=False, sem_email=False):
     fixos = carregar_destaques()
     log.info(f"Destaques fixados pela equipe: {len(fixos)}")
     ja_fixados = {re.sub(r"\s+", " ", m.group(0)) for f in fixos
-                  for m in re.finditer(r"(ajuste sinief|convenio icms) \d+", sem_acento(f["titulo"]))}
-    fixos += [alerta_vigencia(a) for a in alertas_confaz
-              if not any(j in sem_acento(a["titulo"]) for j in ja_fixados)]
+                  for m in re.finditer(r"(ajuste sinief|convenio icms|portaria (sre|cat)) \d+", sem_acento(f["titulo"]))}
     if not novas and historico:
         log.info("Nenhuma notícia nova encontrada (internet fora do ar?). Painel mantido como estava.")
     simplificar_com_ia(novas)
@@ -1341,8 +1508,11 @@ def executar(teste=False, sem_email=False):
              f"(alto: {sum(n['impacto'] == 'alto' for n in todas)}, "
              f"médio: {sum(n['impacto'] == 'medio' for n in todas)}, "
              f"baixo: {sum(n['impacto'] == 'baixo' for n in todas)})")
-    ids_fixos = {f["id"] for f in fixos}
-    todas = fixos + [n for n in todas if n["id"] not in ids_fixos]
+    candidatos = [alerta_vigencia(a) for a in alertas_confaz]
+    agenda = atualizar_agenda(candidatos + [n for n in todas if n.get("vigencia")])
+    fixos += [a for a in agenda if not any(j in sem_acento(a["titulo"]) for j in ja_fixados)]
+    log.info(f"Faixa 'Entram em vigor em breve': {len(fixos)} ato(s)")
+    todas = aplicar_fixados(todas, fixos)
     atualizar_painel(todas, n_fontes)
     log.info(f"Painel atualizado com {len(todas)} notícia(s) dos últimos {DIAS_NO_PAINEL} dias.")
     if not sem_email:
@@ -1370,8 +1540,11 @@ if __name__ == "__main__":
     p.add_argument("--agendar", action="store_true", help="fica ligado e roda todo dia no horário configurado")
     p.add_argument("--teste", action="store_true", help="só mostra o que achou, sem mexer no painel")
     p.add_argument("--sem-email", action="store_true", help="não envia o e-mail nesta execução")
+    p.add_argument("--so-fixados", action="store_true", help="só atualiza os itens fixados (rápido)")
     a = p.parse_args()
-    if a.agendar:
+    if a.so_fixados:
+        so_fixados()
+    elif a.agendar:
         agendar()
     else:
         executar(teste=a.teste, sem_email=a.sem_email)
