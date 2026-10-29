@@ -1,6 +1,78 @@
 {
- "atualizado_em": "2026-10-29T13:11:59.549210+00:00",
+ "atualizado_em": "2026-10-29T13:35:15.265532+00:00",
  "noticias": [
+  {
+   "titulo": "Ajuste SINIEF 40/2026: muda regras de integração e a inutilização de numeração da NF-e",
+   "resumo": "Altera o Ajuste SINIEF 07/05 (NF-e): novas regras de integração com os sistemas e de aplicação do pedido de inutilização de número da NF-e. Publicado no DOU de 14/09/2026 (Despacho CONFAZ 42/2026).",
+   "link": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-09-14T12:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "Ajuste SINIEF",
+    "NF-e/NFS-e",
+    "Nova regra"
+   ],
+   "porque": "Vale a partir de 01/11/2026. Confirme com os clientes que o sistema emissor de NF-e está atualizado. A SEFAZ-BA já avisou que o pedido de inutilização da NF-e deixa de ser aceito a partir de 03/11.",
+   "pontos": 8,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [],
+   "id": "fx-8c639cc88219",
+   "fixo": true,
+   "vigencia": "2026-11-01"
+  },
+  {
+   "titulo": "Ajuste SINIEF 38/2026: muda regras de integração e a inutilização de numeração da NFC-e",
+   "resumo": "Altera o Ajuste SINIEF 19/16 (NFC-e): novas regras de integração com os sistemas e de aplicação do pedido de inutilização de número da NFC-e. Publicado no DOU de 14/09/2026 (Despacho CONFAZ 42/2026).",
+   "link": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-09-14T12:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "Ajuste SINIEF",
+    "NF-e/NFS-e",
+    "Nova regra"
+   ],
+   "porque": "Vale a partir de 01/11/2026. Avise os clientes do varejo que emitem NFC-e e confirme a atualização do sistema emissor (PDV).",
+   "pontos": 8,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [],
+   "id": "fx-4ffd6f21eb97",
+   "fixo": true,
+   "vigencia": "2026-11-01"
+  },
+  {
+   "titulo": "Cultura organizacional transforma empresas contábeis",
+   "resumo": "Episódio 135 do Mais que Gestão aborda como a cultura organizacional pode impulsionar a inovação e a transformação de empresas contábeis. Leia mais em https://www.contabeis.com.br/noticias/80461/cultura-organizacional-transforma-empresas-contabeis/",
+   "link": "https://www.contabeis.com.br/noticias/80461/cultura-organizacional-transforma-empresas-contabeis/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-29T13:30:02+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "PIS/Cofins"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "36f88d3e1c0a",
+   "n_fontes": 1
+  },
   {
    "titulo": "Agenda tributária de novembro de 2026: confira os prazos",
    "resumo": "Veja os vencimentos tributários de novembro de 2026, desde o início do mês, e os prazos de declarações como DCTFWeb, EFD-Reinf e PGDAS-D . Leia mais em https://www.contabeis.com.br/noticias/80445/agenda-tributaria-de-novembro-de-2026-confira-os-prazos/",
@@ -50,34 +122,12 @@
    "n_fontes": 1
   },
   {
-   "titulo": "CBS: alíquota média para a população deve ficar em torno de 7%",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Qtc3E0cmM2THRxUXpLaUw5ZXhKNGlDVVB3MmJKaVZTQVlTbUdUakh6R0xWd2xacjI0NDRzRDZic1NzREtjdE1TWU1sbWp6TFFFV05lRUNNTF9hM0NGMmNKY1JTaEdvZ1NuTmNaai1PX3ByUVFUclVRbnBVQkxBMkp3Nk1nUkh2VE1UcFJ5Q1pjSDlpdFM4T3Jnald3cUR5SC1qVTh4YnVad1NOdzNwRHJoS29kR3JnY0VwUG5NRzA0NlM0VExSTkpTUdIB2gFBVV95cUxOTW5RNzlxWWN1b29BUlJRbFp6LUVxa0FfdGgxdURrQTVTbGhQVU5KRWVLYktrckw2V0pJRHlHbm1ac1VPSGRIQUh4cXhORHhCSEJQUnpxNW1QdzJTalFEc1lkZnhwM2hIUGNFMVFiMTM4bmR0cHhPdW1uQ0d3QlJsZWNobURKdUFPZWpZRzJOWm9qbFJwVXBoUjQtN0ttd2ZWcGl5NXp3Q2p0d3Q1eXlSYkZ5LXBRT1JNRllwa05CU0tEMHRqOHZ6T0lQemkxcDdTUmVkbGxSSnFoZw?oc=5",
-   "fonte": "O GLOBO",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-29T12:47:29+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 1,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "7050547d4af0",
-   "n_fontes": 1
-  },
-  {
    "titulo": "Reforma tributária: TCU calcula alíquota da CBS em 11,3% para 2027",
    "resumo": "O Tribunal de Contas da União (TCU) aprovou nesta quarta-feira (28) uma proposta para que a Contribuição sobre Bens e Serviços (CBS) seja de 11,3% no ano que vem. O valor da alíquota precisa ser chancelado pelo Senado até 15 de dezembro. Caso isso não ocorra…",
    "link": "https://www12.senado.leg.br/noticias/materias/2026/10/28/reforma-tributaria-tcu-calcula-aliquota-da-cbs-em-11-3-para-2027",
    "fonte": "Senado Federal",
    "tipo_fonte": "Legislativo",
-   "data": "2026-10-29T12:45:01+00:00",
+   "data": "2026-10-29T12:53:00+00:00",
    "esfera": "Federal",
    "uf": "",
    "tags": [
@@ -143,6 +193,50 @@
    ],
    "id": "cecd4947ad48",
    "n_fontes": 30
+  },
+  {
+   "titulo": "CBS: alíquota média para a população deve ficar em torno de 7%",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Qtc3E0cmM2THRxUXpLaUw5ZXhKNGlDVVB3MmJKaVZTQVlTbUdUakh6R0xWd2xacjI0NDRzRDZic1NzREtjdE1TWU1sbWp6TFFFV05lRUNNTF9hM0NGMmNKY1JTaEdvZ1NuTmNaai1PX3ByUVFUclVRbnBVQkxBMkp3Nk1nUkh2VE1UcFJ5Q1pjSDlpdFM4T3Jnald3cUR5SC1qVTh4YnVad1NOdzNwRHJoS29kR3JnY0VwUG5NRzA0NlM0VExSTkpTUdIB2gFBVV95cUxOTW5RNzlxWWN1b29BUlJRbFp6LUVxa0FfdGgxdURrQTVTbGhQVU5KRWVLYktrckw2V0pJRHlHbm1ac1VPSGRIQUh4cXhORHhCSEJQUnpxNW1QdzJTalFEc1lkZnhwM2hIUGNFMVFiMTM4bmR0cHhPdW1uQ0d3QlJsZWNobURKdUFPZWpZRzJOWm9qbFJwVXBoUjQtN0ttd2ZWcGl5NXp3Q2p0d3Q1eXlSYkZ5LXBRT1JNRllwa05CU0tEMHRqOHZ6T0lQemkxcDdTUmVkbGxSSnFoZw?oc=5",
+   "fonte": "O GLOBO",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-29T12:47:29+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "7050547d4af0",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "CBS para produtores rurais poderá ter alíquota de 4,52% em operações com redução tributária",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbEwyak96SDVERTdwZWR5VkZ5akZYMU1HN3F1bzYzVV83SWRmWnUzSlB3SHlOMGJvNG5SR2xmYmtORDQ1S2piUWx6RElJbFZMVTBDMG4xc3VuRWVSbjE3enJ2R19HLTRsYW93LTFBdFNEcTEtbUJuVUs2dll5ZmNwUXc2ZWtwTnJ4UndnYW5sZ1o0eHlDQ0tfRnRmWDJJQ2lmZlZKbE1nRmZhSHM0RGhYWjAzOVlUVzFtYWNPSExpODlzRjQ0NnlQMmlqMmJTbXB3NVBzdTJZblVRS3ZlamVCUjlocw?oc=5",
+   "fonte": "MT Econômico",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-29T12:38:05+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "e754d4d5b8e8",
+   "n_fontes": 1
   },
   {
    "titulo": "Áudio: Comissão cobra informações da ANTT sobre concessão da BR-364",
@@ -250,6 +344,55 @@
    "impacto": "baixo",
    "outras_fontes": [],
    "id": "eeb733faa273",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Convênio ICMS 119/2026: Autoriza a instituição de Plano de Regularização de créditos tributários com redução de penalidades e acréscimos legais, na forma que especifica; - Convênio ICMS nº…",
+   "resumo": "Autoriza a instituição de Plano de Regularização de créditos tributários com redução de penalidades e acréscimos legais, na forma que especifica; - Convênio ICMS nº 126/26 - Autoriza a redução de juros e multas de débitos fiscais relacionados com o ICM e o ICMS.",
+   "link": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-26-de-28-de-outubro-de-2026-741107655",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-29T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "Nova regra",
+    "ICMS",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 5,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "0903b02b1583",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Convênio ICMS 122/2026",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-29T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "ICMS",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "8daf76551805",
    "n_fontes": 1
   },
   {
@@ -478,37 +621,6 @@
    "outras_fontes": [],
    "id": "d64166c310ff",
    "n_fontes": 1
-  },
-  {
-   "titulo": "Estados aprovam aumento do ICMS sobre gasolina, diesel e gás de cozinha a partir de 2027",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS3ZQdm44akxvanJxMVZXTXlXWEExUHdMMV9VdGZXYkF1aExrU2E5Vmd4QURXZWl6Z3V1VGxGWVhpWDFOTFVJN2hXYV9HSXBaWk5OZUdGUzNOWndmaDBrX2IwaXJWckMzd0hFeWxTeXctaldoZkcwU2lIWW9QTW5zYzFRRkkxSjFqMXI2ZzFQa2FRYlVwdlRGWFo0ZUxlcDQ4bWszSlNGeElOdndEY1Z5NEUtYW1aZDhPaE50cldmeEZaZFF6Umw2MzNZUjFMZVpKVC1jdUdKZDBpcWZ0emFv0gHuAUFVX3lxTE5veDBvN1l3U1pMY1JNMTh2N0JZM0l0YTlEb0d1VGFBWkphR2JzZm9xbS1yenJnbFdpN2hHNThSbE1Tc2VpT25KVkdFSTlKWFRCbHRPRjdmd0lZQndnZnp0Wmo3VWJvZVR3Q2tkYzFqcy1fOHpNbnNULWNhblZnLVI5VC03S2JaU0kyVkhjbHJpeFhhMk5wNV9UREZPQUxRNE05ZkEyZU9VeGtMQzdTWmE3TjhmZ2JDNnE1dnRpZVpKbGpRZ08xZEQzenFPUXVPcmJZZnc4eWtoQ1lrdUl5NEZtSE8zT2lFdy03T0piWnc?oc=5",
-   "fonte": "O GLOBO",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-10-28T23:39:18+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 2,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "G1",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcVBhLTdIZlVRMHBoVDBHbVYyUVZlb2FMNzF3UGdOVGJ1S0RTMWIwcVF6NTFDX25FZW5YV2JhbWx3bzFpbGxlSy1JZV8zZE1Xd1lKRmhkYmZGMEpZakI2eVN2cUdnalRXdFZxdXBPeW8ycWNnNUh1YVM4QmpyUkh1NS1YMDNUalRFRy1WcnFJcUR0UlR3ck5GSXI5UVlCUDdEOEtNV0Utd1diMWM4ekh3V2V1cnF4RVlacjY1WU83MldEYTM10gHTAUFVX3lxTFBMaWR2VzRnUlVaeFdRRWs4XzZCdkFtUE9xTVE1Z09uSnQwS1BxVUk0TTAxb1FRS1hPODZOaUlFdXQwellISjAzeE0wR1lXZDJpWjhDdXR0WllnLUEzLW1POVlQc3h5TXFBMEhSOW5SRDZtdnhOQ3lhUi0zMDN6dGpwTTNwSnYzZldqUkFFbHVVcGkyUEdnbVFQeDdJTlFKTjNzWXFGMmpuRG5NdHFGbzlhMkJ3N2JtTEtnekFLbXA5eXhxclk3eGZ5d3pkM25SNm96MFE?oc=5"
-    },
-    {
-     "fonte": "O Republicano",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOXhNWnRQdngyLVB3UG9sYWFPdksxZVpVWkRZa3RqQTdoTk02Ni15cWZ1eGlqay1kUi1zOFRHTHB1Xy1ZN3dJb1ljRXphWTlERncwd0IxMXZ2OG9oZDlMemNkUFE1R1BJRmlfakFEcnFXZGhZWEZ0N1VFVk1KU1BfUkZXYm92akVBUXZXcE9kR0JNZUFjbjhTNGlNMTZEa2NCY0pfUtIBqgFBVV95cUxPZDRvZkNBSVQxWjJjM1UwOFpqb2xMZW9VM1BKYzJKYk9ONV80X3JlRzNuWG5sVE9HQ0t2a2t3eTdseEZHNElCNHJPcndLTU5PQldRMnhuemtScXkydWZUczZFZWxBazBUc1hrLWxLTzB2bnpJY3V3dTBUVUwycXlBcDEyeWVBN2RQdFZyQWc5ZFRkZW1pbFd1dlhJRzBTb1I3MTRuc3NXekl1Zw?oc=5"
-    }
-   ],
-   "id": "642cbffbae1e",
-   "n_fontes": 3
   },
   {
    "titulo": "CBS fica fora de notas de 2,1 mil estabelecimentos de telecom",
@@ -1055,6 +1167,28 @@
    "n_fontes": 1
   },
   {
+   "titulo": "Estados aprovam aumento do ICMS sobre gasolina, diesel e gás de cozinha a partir de 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS3ZQdm44akxvanJxMVZXTXlXWEExUHdMMV9VdGZXYkF1aExrU2E5Vmd4QURXZWl6Z3V1VGxGWVhpWDFOTFVJN2hXYV9HSXBaWk5OZUdGUzNOWndmaDBrX2IwaXJWckMzd0hFeWxTeXctaldoZkcwU2lIWW9QTW5zYzFRRkkxSjFqMXI2ZzFQa2FRYlVwdlRGWFo0ZUxlcDQ4bWszSlNGeElOdndEY1Z5NEUtYW1aZDhPaE50cldmeEZaZFF6Umw2MzNZUjFMZVpKVC1jdUdKZDBpcWZ0emFv0gHuAUFVX3lxTE5veDBvN1l3U1pMY1JNMTh2N0JZM0l0YTlEb0d1VGFBWkphR2JzZm9xbS1yenJnbFdpN2hHNThSbE1Tc2VpT25KVkdFSTlKWFRCbHRPRjdmd0lZQndnZnp0Wmo3VWJvZVR3Q2tkYzFqcy1fOHpNbnNULWNhblZnLVI5VC03S2JaU0kyVkhjbHJpeFhhMk5wNV9UREZPQUxRNE05ZkEyZU9VeGtMQzdTWmE3TjhmZ2JDNnE1dnRpZVpKbGpRZ08xZEQzenFPUXVPcmJZZnc4eWtoQ1lrdUl5NEZtSE8zT2lFdy03T0piWnc?oc=5",
+   "fonte": "O GLOBO",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-10-28T16:19:57+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "642cbffbae1e",
+   "n_fontes": 1
+  },
+  {
    "titulo": "Imposto Seletivo cobre 40% do IPI; CBS absorve 60% da perda",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb2tNVmhiMEh3UlExLUhudEotM1VGUlJaZW02M3BCS2o4aXE3cmlvenBoTGlGRDhWRUtEV0NRS1dEck9jdzdDeDZvcEx1ZGYtQXIwTl9HS2E4dmgwTlBmcHlzWGJ1N2pzODV6VGxCMkFIY2xpZmlQVWVCN281MHM2b25xMTBiV3hTclZST2IyRGxBQjRZeTVhV3E2LTlNLVI3Q3c?oc=5",
@@ -1510,8 +1644,8 @@
   },
   {
    "titulo": "CBS pode favorecer terceirização e agências em 2027",
-   "resumo": "Com a CBS em vigor em 2027, créditos tributários podem mudar a escolha entre equipe própria, agências e fornecedores de serviços. Leia mais em https://www.contabeis.com.br/noticias/80355/cbs-pode-favorecer-terceirizacao-e-agencias-em-2027/",
-   "link": "https://www.contabeis.com.br/noticias/80355/cbs-pode-favorecer-terceirizacao-e-agencias-em-2027/",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN1QtcWVLeEtzamo4Y0lFYlB6dEtEcXNjcW1LS252ZmN4U2Z0aXdEQUM0eTJjcDVSX3U5S2xxbUNWeXpwaDFDVHBnbF9kQzRaNmxGT2pRNGhNX1hOWVRFMFUyZ3Y3dGQwZFo0M1h5cjNRaHRYOUxrekNhSW45ZTRTNHBVN3VfRXJDVmY4VklrNzFPeWdDTnZqRUZhNzA?oc=5",
    "fonte": "Portal Contábeis",
    "tipo_fonte": "Portal de notícias",
    "data": "2026-10-27T23:00:02+00:00",
@@ -1589,11 +1723,11 @@
     "ICMS"
    ],
    "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 2,
+   "pontos": 4,
    "reforma": true,
    "fiscal": true,
    "internacional": false,
-   "impacto": "baixo",
+   "impacto": "medio",
    "outras_fontes": [
     {
      "fonte": "TAGD Advogados",
@@ -2765,6 +2899,54 @@
    "n_fontes": 1
   },
   {
+   "titulo": "Ajuste SINIEF 19/2026",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-113-de-23-de-outubro-de-2026-740360266",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-26T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "Ajuste SINIEF",
+    "Legislação estadual"
+   ],
+   "porque": "Muda regras de emissão de documentos fiscais (NF-e, NFC-e, CT-e etc.). Avise clientes e confira se o sistema emissor está atualizado até a data de vigência.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "d12cac586dec",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Convênio ICMS 126/2026: Autoriza a redução de juros e multas de débitos fiscais relacionados com o ICM e o ICMS.",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-26T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "ICMS",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "33f0e9e538cd",
+   "n_fontes": 1
+  },
+  {
    "titulo": "Gomide Contabilidade completa 60 anos com foco em tecnologia e pessoas",
    "resumo": "Fundada em Brasília, a Gomide Contabilidade completa 60 anos em 2026 com mais de 150 profissionais, 900 CNPJs atendidos e sete áreas integradas. Leia mais em…",
    "link": "https://www.contabeis.com.br/noticias/80217/gomide-contabilidade-completa-60-anos-com-foco-em-tecnologia-e-pessoas/",
@@ -3634,6 +3816,30 @@
    "n_fontes": 1
   },
   {
+   "titulo": "Convênio ICMS 92/2026",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-25-de-16-de-outubro-de-2026-738836735",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-23T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "ICMS",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "182ad1a0c10e",
+   "n_fontes": 1
+  },
+  {
    "titulo": "Primeira contribuição da reforma tributária entra em vigor em 2027",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHVfbFFnZ1J2czFObFBaUTk3NENCeFVBMkVGOU4tV0k1aWNGXzYwMm1jYUJadXowR3IwRXQydlZmRzNZM3ZUTU9tbGFWdnotU1VMYjYzUXV5NFdXd3B5MlNXNFZXWE9QWkxkWHVjQzMzM0FGZk5McXR6TWVsT0pTeEJrNTJDMWxTQkJENGtRUGZXUEJib3l0ejN5aHZwZlF4ZVFZSmdEYU84cHZFNWlnX1dZLVdZWTZSTVN6ZE5BVERzb3BxT0liMTRXZW9uQQ?oc=5",
@@ -4055,6 +4261,30 @@
    "n_fontes": 1
   },
   {
+   "titulo": "Convênio ICMS 79/2026",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-24-de-13-de-outubro-de-2026-738070771",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-16T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "ICMS",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "6da18bd278e0",
+   "n_fontes": 1
+  },
+  {
    "titulo": "RC 40055/2026: ICMS – Substituição tributária – Operações com produtos da indústria alimentícia. I. Nas remessas interestaduais de produtos alimentícios de…",
    "resumo": "ICMS – Substituição tributária – Operações com produtos da indústria alimentícia. I. Nas remessas interestaduais de produtos alimentícios de contribuinte estabelecido em outro Estado, sem acordo de substituição tributária assinado, com destino à filial atacadista paulista, o imposto referente às operações subsequentes não deve ser recolhido, por…",
    "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC40055_2026.aspx",
@@ -4152,16 +4382,4170 @@
    "outras_fontes": [],
    "id": "3c3f996d396f",
    "n_fontes": 1
+  },
+  {
+   "titulo": "Convênio ICMS 116/2026: Autoriza a instituição de programa de parcelamento de débitos fiscais relacionados com o ICMS, na forma que especifica e dá outras providências.",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-14T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "Nova regra",
+    "ICMS",
+    "Parcelamento/Transação",
+    "Legislação estadual"
+   ],
+   "porque": "Oportunidade de regularizar dívidas com condições melhores. Observe o prazo de adesão.",
+   "pontos": 6,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [],
+   "id": "b4d1944aa12c",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Ajuste SINIEF 7/2005",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-10-14T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "Ajuste SINIEF",
+    "Legislação estadual"
+   ],
+   "porque": "Muda regras de emissão de documentos fiscais (NF-e, NFC-e, CT-e etc.). Avise clientes e confira se o sistema emissor está atualizado até a data de vigência.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "0832abf7b857",
+   "n_fontes": 1
   }
  ],
  "confaz": {
   "AJ-2026": {
    "ultimo": 0,
-   "atos": {}
+   "atos": {
+    "19": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 19,
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-113-de-23-de-outubro-de-2026-740360266",
+     "nome": "Ajuste SINIEF 19/2026",
+     "ementa": "",
+     "publicado": "2026-10-26",
+     "vigencia": ""
+    },
+    "28": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 28,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 28/2026",
+     "ementa": "Dispõe sobre os procedimentos relativos a condomínios de armazenagem.",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "29": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 29,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 29/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "30": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 30,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 30/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "31": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 31,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 31/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "32": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 32,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 32/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "33": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 33,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 33/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "34": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 34,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 34/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "35": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 35,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 35/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "36": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 36,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 36/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "37": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 37,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 37/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "38": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 38,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 38/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "39": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 39,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 39/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "40": {
+     "sigla": "AJ",
+     "ano": 2026,
+     "numero": 40,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 40/2026",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
   },
   "CV-2026": {
    "ultimo": 0,
-   "atos": {}
+   "atos": {
+    "93": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 93,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 93/2026",
+     "ementa": "Autoriza a concessão de crédito presumido nas operações com óleo diesel marítimo (NCM 2710.",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "94": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 94,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 94/2026",
+     "ementa": "Autoriza a convalidação de procedimentos e altera o prazo para pagamento do imposto previsto nos Convênios ICMS nº 110, de 28 de setembro de 2007, nº 199, de 22 de dezembro de 2022 e nº 15, de 31 de março de 2023, decorrentes da necessidade de retificações de Anexos VI e VI-M do período 03/2026, nas condições que especifica.",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "95": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 95,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 95/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "96": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 96,
+     "url": "https://www.in.gov.br/web/dou/-/retificacao-732106706",
+     "nome": "Convênio ICMS 96/2026",
+     "ementa": "",
+     "publicado": "2026-09-16",
+     "vigencia": ""
+    },
+    "97": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 97,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 97/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "98": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 98,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 98/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "99": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 99,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 99/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "100": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 100,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 100/2026",
+     "ementa": "Autoriza a concessão de isenção do ICMS nas saídas de fármacos e medicamentos fabricados por Laboratórios Públicos Oficiais e destinados a órgãos da Administração Pública.",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "101": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 101,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 101/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "102": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 102,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 102/2026",
+     "ementa": "Autoriza a concessão de isenção de ICMS na importação de equipamento \"Flying Theater (o-Ride)\", destinado à empresa Iter Participações S.",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "103": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 103,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 103/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "104": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 104,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 104/2026",
+     "ementa": "Autoriza a concessão de isenção do ICMS nas operações internas com areia, piçarra, barro e saibro promovidas pelo extrator e destinadas a empresas de construção civil cuja atividade principal esteja enquadrada nas divisões 41 e 42 da CNAE.",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "105": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 105,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 105/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "106": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 106,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 106/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "107": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 107,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 107/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "108": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 108,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-40-de-8-de-setembro-de-2026-730773343",
+     "nome": "Convênio ICMS 108/2026",
+     "ementa": "",
+     "publicado": "2026-09-09",
+     "vigencia": ""
+    },
+    "109": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 109,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-44-de-21-de-setembro-de-2026-733214059",
+     "nome": "Convênio ICMS 109/2026",
+     "ementa": "",
+     "publicado": "2026-09-22",
+     "vigencia": ""
+    },
+    "110": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 110,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-44-de-21-de-setembro-de-2026-733214059",
+     "nome": "Convênio ICMS 110/2026",
+     "ementa": "",
+     "publicado": "2026-09-22",
+     "vigencia": ""
+    },
+    "111": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 111,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-44-de-21-de-setembro-de-2026-733214059",
+     "nome": "Convênio ICMS 111/2026",
+     "ementa": "Autoriza a concessão de remissão e instituição de programa de anistia e de parcelamento de débitos tributários relativos ao ICMS na forma que especifica.",
+     "publicado": "2026-09-22",
+     "vigencia": ""
+    },
+    "112": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 112,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-46-de-23-de-setembro-de-2026-733738828",
+     "nome": "Convênio ICMS 112/2026",
+     "ementa": "",
+     "publicado": "2026-09-24",
+     "vigencia": ""
+    },
+    "113": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 113,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-46-de-23-de-setembro-de-2026-733738828",
+     "nome": "Convênio ICMS 113/2026",
+     "ementa": "",
+     "publicado": "2026-09-24",
+     "vigencia": ""
+    },
+    "79": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 79,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-24-de-13-de-outubro-de-2026-738070771",
+     "nome": "Convênio ICMS 79/2026",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "114": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 114,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-47-de-30-de-setembro-de-2026-735703672",
+     "nome": "Convênio ICMS 114/2026",
+     "ementa": "Autoriza a redução de juros e multas e a remissão parcial do imposto, na forma que especifica.",
+     "publicado": "2026-10-01",
+     "vigencia": ""
+    },
+    "115": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 115,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+     "nome": "Convênio ICMS 115/2026",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "116": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 116,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+     "nome": "Convênio ICMS 116/2026",
+     "ementa": "Autoriza a instituição de programa de parcelamento de débitos fiscais relacionados com o ICMS, na forma que especifica e dá outras providências.",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "117": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 117,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+     "nome": "Convênio ICMS 117/2026",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "118": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 118,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+     "nome": "Convênio ICMS 118/2026",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "119": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 119,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-26-de-28-de-outubro-de-2026-741107655",
+     "nome": "Convênio ICMS 119/2026",
+     "ementa": "Autoriza a instituição de Plano de Regularização de créditos tributários com redução de penalidades e acréscimos legais, na forma que especifica; - Convênio ICMS nº 126/26 - Autoriza a redução de juros e multas de débitos fiscais relacionados com o ICM e o ICMS.",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "120": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 120,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+     "nome": "Convênio ICMS 120/2026",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "92": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 92,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-25-de-16-de-outubro-de-2026-738836735",
+     "nome": "Convênio ICMS 92/2026",
+     "ementa": "",
+     "publicado": "2026-10-19",
+     "vigencia": ""
+    },
+    "121": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 121,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+     "nome": "Convênio ICMS 121/2026",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "122": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 122,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+     "nome": "Convênio ICMS 122/2026",
+     "ementa": "",
+     "publicado": "2026-10-26",
+     "vigencia": ""
+    },
+    "123": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 123,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+     "nome": "Convênio ICMS 123/2026",
+     "ementa": "",
+     "publicado": "2026-10-26",
+     "vigencia": ""
+    },
+    "124": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 124,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+     "nome": "Convênio ICMS 124/2026",
+     "ementa": "Autoriza a instituição de Plano de Regularização de créditos tributários com redução de penalidades e acréscimos legais, na forma que especifica.",
+     "publicado": "2026-10-26",
+     "vigencia": ""
+    },
+    "125": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 125,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+     "nome": "Convênio ICMS 125/2026",
+     "ementa": "",
+     "publicado": "2026-10-26",
+     "vigencia": ""
+    },
+    "126": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 126,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+     "nome": "Convênio ICMS 126/2026",
+     "ementa": "Autoriza a redução de juros e multas de débitos fiscais relacionados com o ICM e o ICMS.",
+     "publicado": "2026-10-26",
+     "vigencia": ""
+    },
+    "127": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 127,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-50-de-27-de-outubro-de-2026-740656710",
+     "nome": "Convênio ICMS 127/2026",
+     "ementa": "",
+     "publicado": "2026-10-28",
+     "vigencia": ""
+    },
+    "128": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 128,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-50-de-27-de-outubro-de-2026-740656710",
+     "nome": "Convênio ICMS 128/2026",
+     "ementa": "",
+     "publicado": "2026-10-28",
+     "vigencia": ""
+    },
+    "129": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 129,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-51-de-28-de-outubro-de-2026-741106783",
+     "nome": "Convênio ICMS 129/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "130": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 130,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-51-de-28-de-outubro-de-2026-741106783",
+     "nome": "Convênio ICMS 130/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "131": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 131,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 131/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "3": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 3,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 3/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "6": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 6,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 6/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "17": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 17,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 17/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "27": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 27,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 27/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "53": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 53,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 53/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "60": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 60,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 60/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "74": {
+     "sigla": "CV",
+     "ano": 2026,
+     "numero": 74,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 74/2026",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "_dou": {
+   "ultimo_dia": "2026-10-29"
+  },
+  "CV-2024": {
+   "ultimo": 0,
+   "atos": {
+    "49": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 49,
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-94-de-11-de-setembro-de-2026-731384371",
+     "nome": "Convênio ICMS 49/2024",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "181": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 181,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-51-de-28-de-outubro-de-2026-741106783",
+     "nome": "Convênio ICMS 181/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": "2027-03-01"
+    },
+    "11": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 11,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 11/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "19": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 19,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 19/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "26": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 26,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 26/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "28": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 28,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 28/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "30": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 30,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 30/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "40": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 40,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 40/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "41": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 41,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 41/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "56": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 56,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 56/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "61": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 61,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 61/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "81": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 81,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 81/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "86": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 86,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 86/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "110": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 110,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 110/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "114": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 114,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 114/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "115": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 115,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 115/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "125": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 125,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 125/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "129": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 129,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 129/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "132": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 132,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 132/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "136": {
+     "sigla": "CV",
+     "ano": 2024,
+     "numero": 136,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 136/2024",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2022": {
+   "ultimo": 0,
+   "atos": {
+    "199": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 199,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-27-de-28-de-outubro-de-2026-741102579",
+     "nome": "Convênio ICMS 199/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "113": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 113,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-20-de-25-de-setembro-de-2026-734820858",
+     "nome": "Convênio ICMS 113/2022",
+     "ementa": "",
+     "publicado": "2026-09-28",
+     "vigencia": ""
+    },
+    "27": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 27,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 27/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "41": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 41,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 41/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "71": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 71,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 71/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "88": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 88,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 88/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "89": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 89,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 89/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "91": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 91,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 91/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "92": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 92,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 92/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "123": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 123,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 123/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "156": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 156,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 156/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "184": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 184,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 184/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "185": {
+     "sigla": "CV",
+     "ano": 2022,
+     "numero": 185,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 185/2022",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2023": {
+   "ultimo": 0,
+   "atos": {
+    "15": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 15,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-27-de-28-de-outubro-de-2026-741102579",
+     "nome": "Convênio ICMS 15/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "217": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 217,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-25-de-16-de-outubro-de-2026-738836735",
+     "nome": "Convênio ICMS 217/2023",
+     "ementa": "",
+     "publicado": "2026-10-19",
+     "vigencia": ""
+    },
+    "82": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 82,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-20-de-25-de-setembro-de-2026-734820858",
+     "nome": "Convênio ICMS 82/2023",
+     "ementa": "",
+     "publicado": "2026-09-28",
+     "vigencia": ""
+    },
+    "194": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 194,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 194/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "32": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 32,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-23-de-8-de-outubro-de-2026-737464821",
+     "nome": "Convênio ICMS 32/2023",
+     "ementa": "Autoriza a concessão de remissão e instituição de programa de anistia e de parcelamento de débitos tributários relativos ao ICMS na forma que especifica.",
+     "publicado": "2026-10-09",
+     "vigencia": ""
+    },
+    "22": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 22,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 22/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "21": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 21,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 21/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "35": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 35,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 35/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "56": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 56,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 56/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "63": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 63,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 63/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "87": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 87,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 87/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "95": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 95,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 95/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "98": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 98,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 98/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "103": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 103,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 103/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "108": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 108,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 108/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "119": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 119,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 119/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "121": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 121,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 121/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "138": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 138,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 138/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "153": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 153,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 153/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "170": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 170,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 170/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "184": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 184,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 184/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "185": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 185,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 185/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "195": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 195,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 195/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "213": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 213,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 213/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "219": {
+     "sigla": "CV",
+     "ano": 2023,
+     "numero": 219,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 219/2023",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2007": {
+   "ultimo": 0,
+   "atos": {
+    "110": {
+     "sigla": "CV",
+     "ano": 2007,
+     "numero": 110,
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/pmpf-n-29-de-22-de-outubro-de-2026-739949643",
+     "nome": "Convênio ICMS 110/2007",
+     "ementa": "",
+     "publicado": "2026-10-23",
+     "vigencia": ""
+    },
+    "23": {
+     "sigla": "CV",
+     "ano": 2007,
+     "numero": 23,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 23/2007",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "57": {
+     "sigla": "CV",
+     "ano": 2007,
+     "numero": 57,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 57/2007",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "65": {
+     "sigla": "CV",
+     "ano": 2007,
+     "numero": 65,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 65/2007",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "66": {
+     "sigla": "CV",
+     "ano": 2007,
+     "numero": 66,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 66/2007",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "95": {
+     "sigla": "CV",
+     "ano": 2007,
+     "numero": 95,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 95/2007",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2018": {
+   "ultimo": 0,
+   "atos": {
+    "142": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 142,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-51-de-28-de-outubro-de-2026-741106783",
+     "nome": "Convênio ICMS 142/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "3": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 3,
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-112-de-20-de-outubro-de-2026-739408761",
+     "nome": "Convênio ICMS 3/2018",
+     "ementa": "",
+     "publicado": "2026-10-21",
+     "vigencia": ""
+    },
+    "139": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 139,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-26-de-28-de-outubro-de-2026-741107655",
+     "nome": "Convênio ICMS 139/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "24": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 24,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 24/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "90": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 90,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 90/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "95": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 95,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 95/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "129": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 129,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 129/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "131": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 131,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 131/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "136": {
+     "sigla": "CV",
+     "ano": 2018,
+     "numero": 136,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 136/2018",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2017": {
+   "ultimo": 0,
+   "atos": {
+    "102": {
+     "sigla": "CV",
+     "ano": 2017,
+     "numero": 102,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-39-de-28-de-agosto-de-2026-729099636",
+     "nome": "Convênio ICMS 102/2017",
+     "ementa": "",
+     "publicado": "2026-08-31",
+     "vigencia": ""
+    },
+    "190": {
+     "sigla": "CV",
+     "ano": 2017,
+     "numero": 190,
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-confaz/mf-n-77-de-9-de-setembro-de-2026-733234178",
+     "nome": "Convênio ICMS 190/2017",
+     "ementa": "",
+     "publicado": "2026-09-22",
+     "vigencia": ""
+    },
+    "4": {
+     "sigla": "CV",
+     "ano": 2017,
+     "numero": 4,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 4/2017",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "9": {
+     "sigla": "CV",
+     "ano": 2017,
+     "numero": 9,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 9/2017",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "100": {
+     "sigla": "CV",
+     "ano": 2017,
+     "numero": 100,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 100/2017",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "188": {
+     "sigla": "CV",
+     "ano": 2017,
+     "numero": 188,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 188/2017",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "224": {
+     "sigla": "CV",
+     "ano": 2017,
+     "numero": 224,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 224/2017",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2020": {
+   "ultimo": 0,
+   "atos": {
+    "79": {
+     "sigla": "CV",
+     "ano": 2020,
+     "numero": 79,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-49-de-23-de-outubro-de-2026-740369216",
+     "nome": "Convênio ICMS 79/2020",
+     "ementa": "",
+     "publicado": "2026-10-26",
+     "vigencia": ""
+    },
+    "77": {
+     "sigla": "CV",
+     "ano": 2020,
+     "numero": 77,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-25-de-16-de-outubro-de-2026-738836735",
+     "nome": "Convênio ICMS 77/2020",
+     "ementa": "",
+     "publicado": "2026-10-19",
+     "vigencia": ""
+    },
+    "16": {
+     "sigla": "CV",
+     "ano": 2020,
+     "numero": 16,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 16/2020",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "50": {
+     "sigla": "CV",
+     "ano": 2020,
+     "numero": 50,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 50/2020",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "143": {
+     "sigla": "CV",
+     "ano": 2020,
+     "numero": 143,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 143/2020",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "151": {
+     "sigla": "CV",
+     "ano": 2020,
+     "numero": 151,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 151/2020",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2016": {
+   "ultimo": 0,
+   "atos": {
+    "121": {
+     "sigla": "CV",
+     "ano": 2016,
+     "numero": 121,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-20-de-25-de-setembro-de-2026-734820858",
+     "nome": "Convênio ICMS 121/2016",
+     "ementa": "",
+     "publicado": "2026-09-28",
+     "vigencia": ""
+    },
+    "19": {
+     "sigla": "CV",
+     "ano": 2016,
+     "numero": 19,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 19/2016",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "64": {
+     "sigla": "CV",
+     "ano": 2016,
+     "numero": 64,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 64/2016",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "73": {
+     "sigla": "CV",
+     "ano": 2016,
+     "numero": 73,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 73/2016",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "101": {
+     "sigla": "CV",
+     "ano": 2016,
+     "numero": 101,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 101/2016",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2005": {
+   "ultimo": 0,
+   "atos": {
+    "79": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 79,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-20-de-25-de-setembro-de-2026-734820858",
+     "nome": "Convênio ICMS 79/2005",
+     "ementa": "",
+     "publicado": "2026-09-28",
+     "vigencia": ""
+    },
+    "23": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 23,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 23/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "32": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 32,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 32/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "40": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 40,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 40/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "41": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 41,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 41/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "65": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 65,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 65/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "122": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 122,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 122/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "131": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 131,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 131/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "140": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 140,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 140/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "161": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 161,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 161/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "170": {
+     "sigla": "CV",
+     "ano": 2005,
+     "numero": 170,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 170/2005",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2025": {
+   "ultimo": 0,
+   "atos": {
+    "93": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 93,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 93/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "35": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 35,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-25-de-16-de-outubro-de-2026-738836735",
+     "nome": "Convênio ICMS 35/2025",
+     "ementa": "",
+     "publicado": "2026-10-19",
+     "vigencia": ""
+    },
+    "11": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 11,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 11/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "20": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 20,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 20/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "22": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 22,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 22/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "23": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 23,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 23/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "24": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 24,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 24/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "41": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 41,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 41/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "42": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 42,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 42/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "43": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 43,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 43/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "58": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 58,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 58/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "77": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 77,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 77/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "86": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 86,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 86/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "91": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 91,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 91/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "128": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 128,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 128/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "144": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 144,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 144/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "148": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 148,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 148/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "161": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 161,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 161/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "164": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 164,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 164/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "171": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 171,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 171/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "179": {
+     "sigla": "CV",
+     "ano": 2025,
+     "numero": 179,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 179/2025",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2011": {
+   "ultimo": 0,
+   "atos": {
+    "73": {
+     "sigla": "CV",
+     "ano": 2011,
+     "numero": 73,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-20-de-25-de-setembro-de-2026-734820858",
+     "nome": "Convênio ICMS 73/2011",
+     "ementa": "",
+     "publicado": "2026-09-28",
+     "vigencia": ""
+    },
+    "98": {
+     "sigla": "CV",
+     "ano": 2011,
+     "numero": 98,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 98/2011",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2013": {
+   "ultimo": 0,
+   "atos": {
+    "17": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 17,
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe-icms-n-87-de-9-de-setembro-de-2026-731061340",
+     "nome": "Convênio ICMS 17/2013",
+     "ementa": "",
+     "publicado": "2026-09-10",
+     "vigencia": ""
+    },
+    "1": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 1,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 1/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "24": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 24,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 24/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "27": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 27,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 27/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "30": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 30,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 30/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "46": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 46,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 46/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "58": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 58,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 58/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "62": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 62,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 62/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "63": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 63,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 63/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "64": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 64,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 64/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "80": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 80,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 80/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "81": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 81,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 81/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "82": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 82,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 82/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "126": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 126,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 126/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "161": {
+     "sigla": "CV",
+     "ano": 2013,
+     "numero": 161,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 161/2013",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2025": {
+   "ultimo": 0,
+   "atos": {
+    "32": {
+     "sigla": "AJ",
+     "ano": 2025,
+     "numero": 32,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 32/2025",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": "2026-12-14"
+    },
+    "49": {
+     "sigla": "AJ",
+     "ano": 2025,
+     "numero": 49,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 49/2025",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2005": {
+   "ultimo": 0,
+   "atos": {
+    "7": {
+     "sigla": "AJ",
+     "ano": 2005,
+     "numero": 7,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-48-de-13-de-outubro-de-2026-738066350",
+     "nome": "Ajuste SINIEF 7/2005",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2017": {
+   "ultimo": 0,
+   "atos": {
+    "1": {
+     "sigla": "AJ",
+     "ano": 2017,
+     "numero": 1,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 1/2017",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2020": {
+   "ultimo": 0,
+   "atos": {
+    "3": {
+     "sigla": "AJ",
+     "ano": 2020,
+     "numero": 3,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 3/2020",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2007": {
+   "ultimo": 0,
+   "atos": {
+    "9": {
+     "sigla": "AJ",
+     "ano": 2007,
+     "numero": 9,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 9/2007",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2010": {
+   "ultimo": 0,
+   "atos": {
+    "21": {
+     "sigla": "AJ",
+     "ano": 2010,
+     "numero": 21,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 21/2010",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2019": {
+   "ultimo": 0,
+   "atos": {
+    "1": {
+     "sigla": "AJ",
+     "ano": 2019,
+     "numero": 1,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 1/2019",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    },
+    "36": {
+     "sigla": "AJ",
+     "ano": 2019,
+     "numero": 36,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 36/2019",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2021": {
+   "ultimo": 0,
+   "atos": {
+    "5": {
+     "sigla": "AJ",
+     "ano": 2021,
+     "numero": 5,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 5/2021",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2016": {
+   "ultimo": 0,
+   "atos": {
+    "19": {
+     "sigla": "AJ",
+     "ano": 2016,
+     "numero": 19,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 19/2016",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2022": {
+   "ultimo": 0,
+   "atos": {
+    "7": {
+     "sigla": "AJ",
+     "ano": 2022,
+     "numero": 7,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-42-de-11-de-setembro-de-2026-731392796",
+     "nome": "Ajuste SINIEF 7/2022",
+     "ementa": "",
+     "publicado": "2026-09-14",
+     "vigencia": ""
+    }
+   }
+  },
+  "AJ-2018": {
+   "ultimo": 0,
+   "atos": {
+    "3": {
+     "sigla": "AJ",
+     "ano": 2018,
+     "numero": 3,
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-102-de-23-de-setembro-de-2026-733744599",
+     "nome": "Ajuste SINIEF 3/2018",
+     "ementa": "",
+     "publicado": "2026-09-24",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1991": {
+   "ultimo": 0,
+   "atos": {
+    "75": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 75,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 75/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "16": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 16,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 16/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "38": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 38,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 38/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "39": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 39,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 39/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "41": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 41,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 41/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "52": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 52,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 52/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "57": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 57,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 57/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "58": {
+     "sigla": "CV",
+     "ano": 1991,
+     "numero": 58,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 58/1991",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1994": {
+   "ultimo": 0,
+   "atos": {
+    "66": {
+     "sigla": "CV",
+     "ano": 1994,
+     "numero": 66,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-21-de-25-de-setembro-de-2026-734865091",
+     "nome": "Convênio ICMS 66/1994",
+     "ementa": "",
+     "publicado": "2026-09-28",
+     "vigencia": ""
+    },
+    "13": {
+     "sigla": "CV",
+     "ano": 1994,
+     "numero": 13,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 13/1994",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "55": {
+     "sigla": "CV",
+     "ano": 1994,
+     "numero": 55,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 55/1994",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1997": {
+   "ultimo": 0,
+   "atos": {
+    "133": {
+     "sigla": "CV",
+     "ano": 1997,
+     "numero": 133,
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-confaz/mf-n-78-de-23-de-setembro-de-2026-739130045",
+     "nome": "Convênio ICMS 133/1997",
+     "ementa": "",
+     "publicado": "2026-10-20",
+     "vigencia": ""
+    },
+    "84": {
+     "sigla": "CV",
+     "ano": 1997,
+     "numero": 84,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 84/1997",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "136": {
+     "sigla": "CV",
+     "ano": 1997,
+     "numero": 136,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 136/1997",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2019": {
+   "ultimo": 0,
+   "atos": {
+    "7": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 7,
+     "url": "https://www.in.gov.br/web/dou/-/ato-declaratorio-n-24-de-13-de-outubro-de-2026-738070771",
+     "nome": "Convênio ICMS 7/2019",
+     "ementa": "",
+     "publicado": "2026-10-14",
+     "vigencia": ""
+    },
+    "52": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 52,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 52/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "57": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 57,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 57/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "65": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 65,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 65/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "75": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 75,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 75/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "76": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 76,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 76/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "77": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 77,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 77/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "78": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 78,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 78/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "79": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 79,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 79/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "80": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 80,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 80/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "81": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 81,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 81/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "82": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 82,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 82/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "83": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 83,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 83/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "85": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 85,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 85/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "86": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 86,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 86/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "87": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 87,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 87/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "88": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 88,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 88/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "89": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 89,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 89/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "90": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 90,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 90/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "91": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 91,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 91/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "92": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 92,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 92/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "94": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 94,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 94/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "103": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 103,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 103/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "124": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 124,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 124/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "128": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 128,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 128/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "149": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 149,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 149/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "153": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 153,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 153/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "178": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 178,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 178/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "181": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 181,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 181/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "183": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 183,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 183/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "215": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 215,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 215/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "218": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 218,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 218/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "225": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 225,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 225/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "229": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 229,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 229/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "233": {
+     "sigla": "CV",
+     "ano": 2019,
+     "numero": 233,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 233/2019",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2012": {
+   "ultimo": 0,
+   "atos": {
+    "95": {
+     "sigla": "CV",
+     "ano": 2012,
+     "numero": 95,
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-108-de-15-de-outubro-de-2026-738585584",
+     "nome": "Convênio ICMS 95/2012",
+     "ementa": "",
+     "publicado": "2026-10-16",
+     "vigencia": "2012-09-28"
+    },
+    "46": {
+     "sigla": "CV",
+     "ano": 2012,
+     "numero": 46,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 46/2012",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "61": {
+     "sigla": "CV",
+     "ano": 2012,
+     "numero": 61,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 61/2012",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "91": {
+     "sigla": "CV",
+     "ano": 2012,
+     "numero": 91,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 91/2012",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "127": {
+     "sigla": "CV",
+     "ano": 2012,
+     "numero": 127,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 127/2012",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "129": {
+     "sigla": "CV",
+     "ano": 2012,
+     "numero": 129,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 129/2012",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "147": {
+     "sigla": "CV",
+     "ano": 2012,
+     "numero": 147,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 147/2012",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1989": {
+   "ultimo": 0,
+   "atos": {
+    "24": {
+     "sigla": "CV",
+     "ano": 1989,
+     "numero": 24,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 24/1989",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1990": {
+   "ultimo": 0,
+   "atos": {
+    "74": {
+     "sigla": "CV",
+     "ano": 1990,
+     "numero": 74,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 74/1990",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1992": {
+   "ultimo": 0,
+   "atos": {
+    "2": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 2,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 2/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "3": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 3,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 3/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "4": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 4,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 4/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "20": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 20,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 20/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "55": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 55,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 55/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "78": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 78,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 78/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "97": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 97,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 97/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "123": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 123,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 123/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "142": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 142,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 142/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "147": {
+     "sigla": "CV",
+     "ano": 1992,
+     "numero": 147,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 147/1992",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1993": {
+   "ultimo": 0,
+   "atos": {
+    "9": {
+     "sigla": "CV",
+     "ano": 1993,
+     "numero": 9,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 9/1993",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "29": {
+     "sigla": "CV",
+     "ano": 1993,
+     "numero": 29,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 29/1993",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "50": {
+     "sigla": "CV",
+     "ano": 1993,
+     "numero": 50,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 50/1993",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "61": {
+     "sigla": "CV",
+     "ano": 1993,
+     "numero": 61,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 61/1993",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "132": {
+     "sigla": "CV",
+     "ano": 1993,
+     "numero": 132,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 132/1993",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "138": {
+     "sigla": "CV",
+     "ano": 1993,
+     "numero": 138,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 138/1993",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1995": {
+   "ultimo": 0,
+   "atos": {
+    "82": {
+     "sigla": "CV",
+     "ano": 1995,
+     "numero": 82,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 82/1995",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1996": {
+   "ultimo": 0,
+   "atos": {
+    "20": {
+     "sigla": "CV",
+     "ano": 1996,
+     "numero": 20,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 20/1996",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "29": {
+     "sigla": "CV",
+     "ano": 1996,
+     "numero": 29,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 29/1996",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "33": {
+     "sigla": "CV",
+     "ano": 1996,
+     "numero": 33,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 33/1996",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1998": {
+   "ultimo": 0,
+   "atos": {
+    "5": {
+     "sigla": "CV",
+     "ano": 1998,
+     "numero": 5,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 5/1998",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "47": {
+     "sigla": "CV",
+     "ano": 1998,
+     "numero": 47,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 47/1998",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "57": {
+     "sigla": "CV",
+     "ano": 1998,
+     "numero": 57,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 57/1998",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "76": {
+     "sigla": "CV",
+     "ano": 1998,
+     "numero": 76,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 76/1998",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "91": {
+     "sigla": "CV",
+     "ano": 1998,
+     "numero": 91,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 91/1998",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "95": {
+     "sigla": "CV",
+     "ano": 1998,
+     "numero": 95,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 95/1998",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "116": {
+     "sigla": "CV",
+     "ano": 1998,
+     "numero": 116,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 116/1998",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-1999": {
+   "ultimo": 0,
+   "atos": {
+    "33": {
+     "sigla": "CV",
+     "ano": 1999,
+     "numero": 33,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 33/1999",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2000": {
+   "ultimo": 0,
+   "atos": {
+    "33": {
+     "sigla": "CV",
+     "ano": 2000,
+     "numero": 33,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 33/2000",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "63": {
+     "sigla": "CV",
+     "ano": 2000,
+     "numero": 63,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 63/2000",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "74": {
+     "sigla": "CV",
+     "ano": 2000,
+     "numero": 74,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 74/2000",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "96": {
+     "sigla": "CV",
+     "ano": 2000,
+     "numero": 96,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 96/2000",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2001": {
+   "ultimo": 0,
+   "atos": {
+    "33": {
+     "sigla": "CV",
+     "ano": 2001,
+     "numero": 33,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 33/2001",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "41": {
+     "sigla": "CV",
+     "ano": 2001,
+     "numero": 41,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 41/2001",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "49": {
+     "sigla": "CV",
+     "ano": 2001,
+     "numero": 49,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 49/2001",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "116": {
+     "sigla": "CV",
+     "ano": 2001,
+     "numero": 116,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 116/2001",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "117": {
+     "sigla": "CV",
+     "ano": 2001,
+     "numero": 117,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 117/2001",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "125": {
+     "sigla": "CV",
+     "ano": 2001,
+     "numero": 125,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 125/2001",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2002": {
+   "ultimo": 0,
+   "atos": {
+    "11": {
+     "sigla": "CV",
+     "ano": 2002,
+     "numero": 11,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 11/2002",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "63": {
+     "sigla": "CV",
+     "ano": 2002,
+     "numero": 63,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 63/2002",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "74": {
+     "sigla": "CV",
+     "ano": 2002,
+     "numero": 74,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 74/2002",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "150": {
+     "sigla": "CV",
+     "ano": 2002,
+     "numero": 150,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 150/2002",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2003": {
+   "ultimo": 0,
+   "atos": {
+    "8": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 8,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 8/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "14": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 14,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 14/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "18": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 18,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 18/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "22": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 22,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 22/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "62": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 62,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 62/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "65": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 65,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 65/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "74": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 74,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 74/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "81": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 81,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 81/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "87": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 87,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 87/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "89": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 89,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 89/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "90": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 90,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 90/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "133": {
+     "sigla": "CV",
+     "ano": 2003,
+     "numero": 133,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 133/2003",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2004": {
+   "ultimo": 0,
+   "atos": {
+    "2": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 2,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 2/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "4": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 4,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 4/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "15": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 15,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 15/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "44": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 44,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 44/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "70": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 70,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 70/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "128": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 128,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 128/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "137": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 137,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 137/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "153": {
+     "sigla": "CV",
+     "ano": 2004,
+     "numero": 153,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 153/2004",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2006": {
+   "ultimo": 0,
+   "atos": {
+    "9": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 9,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 9/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "19": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 19,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 19/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "27": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 27,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 27/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "30": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 30,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 30/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "31": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 31,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 31/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "32": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 32,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 32/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "35": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 35,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 35/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "51": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 51,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 51/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "74": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 74,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 74/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "80": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 80,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 80/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "82": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 82,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 82/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "85": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 85,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 85/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "95": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 95,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 95/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "97": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 97,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 97/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "133": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 133,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 133/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "144": {
+     "sigla": "CV",
+     "ano": 2006,
+     "numero": 144,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 144/2006",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2008": {
+   "ultimo": 0,
+   "atos": {
+    "4": {
+     "sigla": "CV",
+     "ano": 2008,
+     "numero": 4,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 4/2008",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "7": {
+     "sigla": "CV",
+     "ano": 2008,
+     "numero": 7,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 7/2008",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "8": {
+     "sigla": "CV",
+     "ano": 2008,
+     "numero": 8,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 8/2008",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "88": {
+     "sigla": "CV",
+     "ano": 2008,
+     "numero": 88,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 88/2008",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "134": {
+     "sigla": "CV",
+     "ano": 2008,
+     "numero": 134,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 134/2008",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "159": {
+     "sigla": "CV",
+     "ano": 2008,
+     "numero": 159,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 159/2008",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2009": {
+   "ultimo": 0,
+   "atos": {
+    "8": {
+     "sigla": "CV",
+     "ano": 2009,
+     "numero": 8,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 8/2009",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "26": {
+     "sigla": "CV",
+     "ano": 2009,
+     "numero": 26,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 26/2009",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "34": {
+     "sigla": "CV",
+     "ano": 2009,
+     "numero": 34,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 34/2009",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2010": {
+   "ultimo": 0,
+   "atos": {
+    "16": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 16,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 16/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "26": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 26,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 26/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "45": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 45,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 45/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "47": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 47,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 47/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "89": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 89,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 89/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "106": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 106,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 106/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "118": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 118,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 118/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "138": {
+     "sigla": "CV",
+     "ano": 2010,
+     "numero": 138,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 138/2010",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2014": {
+   "ultimo": 0,
+   "atos": {
+    "17": {
+     "sigla": "CV",
+     "ano": 2014,
+     "numero": 17,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 17/2014",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "112": {
+     "sigla": "CV",
+     "ano": 2014,
+     "numero": 112,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 112/2014",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "127": {
+     "sigla": "CV",
+     "ano": 2014,
+     "numero": 127,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 127/2014",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2015": {
+   "ultimo": 0,
+   "atos": {
+    "57": {
+     "sigla": "CV",
+     "ano": 2015,
+     "numero": 57,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 57/2015",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "137": {
+     "sigla": "CV",
+     "ano": 2015,
+     "numero": 137,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 137/2015",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
+  },
+  "CV-2021": {
+   "ultimo": 0,
+   "atos": {
+    "34": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 34,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 34/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "54": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 54,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 54/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "71": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 71,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 71/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "102": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 102,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 102/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "119": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 119,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 119/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "139": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 139,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 139/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "149": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 149,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 149/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "151": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 151,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 151/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "179": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 179,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 179/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "183": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 183,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 183/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "210": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 210,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 210/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    },
+    "213": {
+     "sigla": "CV",
+     "ano": 2021,
+     "numero": 213,
+     "url": "https://www.in.gov.br/web/dou/-/despacho-n-52-de-28-de-outubro-de-2026-741174555",
+     "nome": "Convênio ICMS 213/2021",
+     "ementa": "",
+     "publicado": "2026-10-29",
+     "vigencia": ""
+    }
+   }
   }
+ },
+ "diagnostico_confaz": {
+  "confaz_respostas": {
+   "0": 6
+  },
+  "confaz_ultimo_erro": "https://confaz.fazenda.gov.br/legislacao/convenios/2026/CV003_26 -> 0 ConnectionError",
+  "dou_dias_lidos": 54,
+  "em": "2026-10-29T10:33-03:00",
+  "atos_no_cache": 385
  }
 }
