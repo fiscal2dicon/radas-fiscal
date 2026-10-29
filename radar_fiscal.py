@@ -136,6 +136,9 @@ BUSCAS_TEMAS = [
     ("Exclusão da ST", '("substituição tributária" OR "ICMS-ST") (exclusão OR exclui OR retira OR revoga OR "deixa de")'),
     ("Reforma Tributária", '("reforma tributária" OR IBS OR CBS) (regulamentação OR "Comitê Gestor" OR alíquota OR nota fiscal)'),
     ("Imposto Seletivo", '"Imposto Seletivo"'),
+    ("Alíquota", '(alíquota OR "alíquota de referência" OR redutor) (CBS OR IBS OR "Imposto Seletivo")'),
+    ("Reforma Tributária", '"Comitê Gestor" IBS (resolução OR regulamento OR portaria OR publica OR aprova)'),
+    ("Reforma Tributária", '(CBS OR IBS) ("nota técnica" OR "NF-e" OR "split payment" OR "Receita Federal") (publica OR divulga OR obrigatório OR prazo)'),
     ("NCM", '(NCM OR "Nomenclatura Comum do Mercosul" OR TIPI) (alteração OR novos códigos OR tabela)'),
     ("Prazo", '("obrigação acessória" OR SPED OR EFD OR DCTFWeb OR "EFD-Reinf" OR ECF OR ECD) (prazo OR prorroga OR adiado)'),
     ("Nova obrigação", '("nova obrigação acessória" OR "nova declaração" OR "passa a ser obrigatória") (fiscal OR tributária)'),
@@ -176,17 +179,18 @@ TAGS = {
                        "revoga a substituicao", "saida da st", "exclusao da st", "excluidos do regime de st",
                        "excluir da substituicao"],
     "Substituição Tributária": ["substituicao tributaria", "icms-st", "icms st", "icms/st"],
-    "ICMS": ["icms"],
+    "ICMS": ["icms", "difal"],
+    "IPI": [" ipi", "ipi ", "tipi"],
     "IBS": [" ibs", "ibs ", "imposto sobre bens e servicos"],
     "CBS": [" cbs", "cbs ", "contribuicao sobre bens e servicos"],
-    "Imposto Seletivo": ["imposto seletivo"],
+    "Imposto Seletivo": ["imposto seletivo", "imposto do pecado"],
     "Reforma Tributária": ["reforma tributaria", "comite gestor", "lc 214", "lei complementar 214", "split payment",
                            "plp 108", "ec 132", "emenda constitucional 132", "cashback"],
     "NCM": ["ncm", "nomenclatura comum do mercosul", "tipi", "classificacao fiscal"],
     "Prazo": ["prazo", "prorroga", "prorrogacao", "adiad", "data limite", "ate o dia", "postergad"],
     "Vencimento": ["vencimento", "data de pagamento", "data de recolhimento"],
     "Obrigação acessória": ["obrigacao acessoria", "obrigacoes acessorias", "sped", "efd ", "efd-", "ecd", "ecf",
-                            "dctf", "reinf", "esocial", "gia", "dirf", "dime", "desif", "dmed", "declaracao",
+                            "dctf", "reinf", "gia", "dirf", "dime", "desif", "dmed", "declaracao",
                             "escrituracao", "bloco k"],
     "Nova obrigação": ["nova obrigacao", "novas obrigacoes", "nova declaracao", "passa a ser obrigatori",
                        "passam a ser obrigatori", "institui a declaracao", "torna obrigatori", "nova escrituracao"],
@@ -194,7 +198,8 @@ TAGS = {
     "Agro": ["agro", "produtor rural", "rural", "agricultura", "pecuaria"],
     "PIS/Cofins": ["pis", "cofins"],
     "IRPJ/CSLL": ["irpj", "csll", "imposto de renda pessoa juridica"],
-    "ISS": [" iss", "iss ", "imposto sobre servicos", "issqn"],
+    "ISS": [" iss ", " iss,", " iss.", " iss;", " iss:", "(iss", " iss)", "imposto sobre servicos", "issqn",
+            "iss-"],
     "NF-e/NFS-e": ["nf-e", "nfe", "nfs-e", "nfse", "nota fiscal", "nfc-e", "ct-e", "mdf-e"],
     "Parcelamento/Transação": ["parcelamento", "transacao tributaria", "refis", "regularizacao de debitos",
                                "divida ativa", "edital de transacao", "litigio zero"],
@@ -208,7 +213,8 @@ TAGS = {
 }
 TAGS_REFORMA = {"IBS", "CBS", "Imposto Seletivo", "Reforma Tributária"}
 TAGS_FISCAL = {"Exclusão da ST", "Substituição Tributária", "NCM", "Prazo", "Vencimento", "Obrigação acessória",
-               "Nova obrigação", "NF-e/NFS-e", "Legislação estadual", "ICMS", "ISS", "Benefício fiscal"}
+               "Nova obrigação", "NF-e/NFS-e", "Legislação estadual", "ICMS", "ISS", "Benefício fiscal", "IPI",
+               "PIS/Cofins", "Nova regra"}
 
 # Palavras que indicam assunto tributário (para filtrar portais e fontes gerais)
 PALAVRAS_TRIBUTARIAS = ["tribut", "imposto", "icms", "iss", "ibs", "cbs", "pis", "cofins", "irpj", "csll",
@@ -216,15 +222,72 @@ PALAVRAS_TRIBUTARIAS = ["tribut", "imposto", "icms", "iss", "ibs", "cbs", "pis",
                         "ncm", "funrural", "obrigacao", "aliquota", "nota fiscal", "parcelamento", "simples nacional",
                         "contab", "divida ativa", "transacao", "esocial", "reinf", "dctf", "reforma"]
 
-PESO = {"Exclusão da ST": 4, "Nova obrigação": 3, "Prazo": 2, "Vencimento": 3, "NCM": 3,
-        "Reforma Tributária": 2, "IBS": 2, "CBS": 2, "Imposto Seletivo": 2, "Substituição Tributária": 2,
-        "Legislação estadual": 1, "Obrigação acessória": 1, "FUNRURAL": 1, "ICMS": 1, "Benefício fiscal": 1}
-GATILHOS_ALTO = ["entra em vigor", "a partir de", "passa a valer", "obrigatorio", "obrigatoria", "revoga",
-                 "altera", "publicado", "publica", "fica prorrogado", "multa", "novo prazo", "ultimo dia",
-                 "prazo final", "vence"]
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║   FILTRO DE RELEVÂNCIA — só entra o que importa para o Fiscal    ║
+# ╚══════════════════════════════════════════════════════════════════╝
+
+# A notícia só entra no painel se tiver pelo menos UM destes assuntos
+NUCLEO_FISCAL = {"Exclusão da ST", "Substituição Tributária", "ICMS", "IPI", "IBS", "CBS", "Imposto Seletivo",
+                 "Reforma Tributária", "NCM", "Vencimento", "Obrigação acessória", "Nova obrigação", "NF-e/NFS-e",
+                 "Legislação estadual", "Benefício fiscal", "PIS/Cofins", "ISS", "FUNRURAL", "Simples Nacional",
+                 "Parcelamento/Transação", "Internacional"}
+
+# Assuntos descartados mesmo que falem de tributo (não são rotina do Departamento Fiscal)
+DESCARTAR = [r"malha fina", r"restituic\w*", r"lote (residual|de restituic)", r"\birpf\b",
+             r"declaracao (anual )?do (imposto de renda|ir)\b", r"imposto de renda (pessoa fisica|2026|2027)",
+             r"\binss\b", r"aposentad", r"\bfgts\b", r"carteira assinada", r"trabalho temporario", r"\b6x1\b",
+             r"sorteio", r"concurso", r"exame de suficiencia", r"cartilha", r"\bcursos?\b", r"palestra", r"webinar",
+             r"semin[aá]rio", r"usdt|bitcoin|cripto", r"\blci\b|\bcdb\b", r"maus-tratos", r"lavagem de dinheiro",
+             r"eleic|eleit", r"ultraprocessad", r"leilao", r"\bipva\b", r"\bitcmd\b", r"heranca", r"pix\b",
+             r"esocial", r"icms (esportivo|ecologico|cultural|educacional)", r"\bissb\b"]
+FONTES_BLOQUEADAS = ["instagram", "facebook", "youtube", "tiktok", "linkedin", "twitter", "x.com", "threads"]
+
+# Peso de cada assunto (vale o maior) — base do impacto
+PESO_BASE = {"Exclusão da ST": 4, "Nova obrigação": 3, "Vencimento": 3, "NCM": 3, "IBS": 2, "CBS": 2,
+             "Imposto Seletivo": 2, "Reforma Tributária": 2, "Substituição Tributária": 2, "Prazo": 2,
+             "ICMS": 1, "IPI": 1, "PIS/Cofins": 1, "ISS": 1, "Obrigação acessória": 1, "NF-e/NFS-e": 1,
+             "Legislação estadual": 1, "Benefício fiscal": 1, "FUNRURAL": 1, "Simples Nacional": 1,
+             "Parcelamento/Transação": 1, "Internacional": 1}
+
+# EVENTOS: o que transforma uma notícia em algo que pede ação
+_VERBO_DEF = r"\b(fix|defin|aprov|calcul|propo|divulg|public|anunci|apresent|homolog|confirm|sancion|vot|estabelec)\w*"
+EVENTOS = [
+    # (nome/etiqueta, [expressões que precisam aparecer TODAS], pontos)
+    ("Alíquota", [r"\b(aliquotas?|redutor)\b", r"\b(cbs|ibs|imposto seletivo|imposto do pecado)\b", _VERBO_DEF], 4),
+    ("Alíquota", [r"\b(cbs|ibs)\b[^.]{0,40}\d+[,.]\d+ ?%|\d+[,.]\d+ ?%[^.]{0,40}\b(cbs|ibs)\b"], 4),
+    ("Nova regra", [r"\b(publica|aprova|sanciona|institui|edita|regulamenta|atualiza|altera|revoga|prorroga|divulga|"
+                    r"lanca|determina|fixa)\w*",
+                    r"\b(regulamento|decreto|instrucao normativa|in rfb|resolucao|portaria|ato declaratorio|"
+                    r"ato cotepe|nota tecnica|manual|leiautes?|layout|ajuste sinief|convenio|protocolo|"
+                    r"lei complementar|plp|medida provisoria|lei)\b"], 3),
+    ("Prazo", [r"\b(prazos?|data limite|ultimos? dias?|vencimento)\b",
+               r"\b(acaba|termina|encerra|vence|prorrog|adiad|novo prazo|posterg|ate (o dia|amanha|hoje|esta|"
+               r"nesta|sexta|segunda|terca|quarta|quinta|\d))"], 3),
+    ("Vigência", [r"(entra em vigor|entram em vigor|passa a valer|passam a valer|passa a ser obrigatori|"
+                  r"torna obrigatori|a partir de (hoje|amanha|\d{1,2}(/| de )))"], 2),
+]
+PENALIDADES = [
+    # especulação / previsão (ainda não aconteceu)
+    (r"\b(deve|devem|pode|podem|podera|poderao|devera|deverao|vai|vao|promete|estuda|discute|debate|cogita|"
+     r"nesta semana|esta semana|essa semana|na proxima semana|em breve|preve|pauta|julga)\b", 1),
+    # conteúdo explicativo / opinião
+    (r"^(o que|entenda|saiba|veja|como|por que|quais|qual)\b|\b(entenda|saiba mais|veja como|dicas?|o que muda|"
+     r"o que e|guia|passo a passo|especialistas|opiniao|artigo)\b", 1),
+    # decisão judicial isolada
+    (r"\b(juiz|juiza|justica|liminar|sentenca|trf|stf|stj|carf|tese)\b", 1),
+]
+LIMITE_ALTO = 6       # pontos para ALTO impacto
+LIMITE_MEDIO = 3      # pontos para MÉDIO impacto
+LIMITE_MINIMO = 1     # abaixo disso a notícia nem entra no painel
+
+# Veículos de referência (preferidos para representar uma notícia repetida)
+VEICULOS_REFERENCIA = ["valor", "jota", "portal contabeis", "contabeis", "agencia brasil", "agencia senado",
+                       "consultor juridico", "conjur", "estadao", "folha", "g1", "o globo", "cnn", "infomoney",
+                       "migalhas", "fenacon", "jornal contabil", "exame", "reuters", "poder360"]
 
 # Frase simples "Por que importa" — vale a primeira regra que combinar
 POR_QUE_IMPORTA = [
+    ("Alíquota", "Define quanto será cobrado do novo tributo. Afeta preço, margem e a simulação de carga dos clientes."),
     ("Exclusão da ST", "Muda quem recolhe o ICMS desses produtos. Revise cadastro de produtos, estoque e preços."),
     ("Nova obrigação", "Surgiu uma entrega nova para o fisco. Verifique quais clientes são obrigados e a partir de quando."),
     ("Vencimento", "A data de pagamento mudou. Ajuste o calendário para evitar multa e juros."),
@@ -478,7 +541,10 @@ def carregar_destaques():
              "data": f"{d.get('publicado_em') or vig}T12:00:00+00:00"}
         if d.get("uf"):
             n["_uf"] = d["uf"]
-        n = classificar(n)
+        base = dict(n)
+        n = classificar(n) or {**base, "esfera": d.get("esfera", "Estadual"), "uf": d.get("uf", ""), "tags": [],
+                                "porque": "", "reforma": False, "fiscal": True, "internacional": False,
+                                "impacto": "alto", "outras_fontes": []}
         for campo in ("esfera", "impacto", "porque"):
             if d.get(campo):
                 n[campo] = d[campo]
@@ -529,18 +595,58 @@ def detectar_uf(texto):
     return m.group(1).upper() if m else ""
 
 
+def eventos_de(texto):
+    achados, pontos = [], 0
+    for nome, exprs, pts in EVENTOS:
+        if nome in achados:
+            continue
+        if all(re.search(e, texto) for e in exprs):
+            achados.append(nome)
+            pontos += pts
+    return achados, pontos
+
+
 def classificar(n):
+    """Classifica a notícia. Devolve None quando ela não interessa ao Departamento Fiscal."""
+    titulo_sa = sem_acento(n["titulo"])
     texto = " " + sem_acento(n["titulo"] + " " + n["resumo"]) + " "
+
+    # 1) Descarte: fonte de rede social ou assunto fora do Fiscal
+    if any(b in sem_acento(n.get("fonte", "")) for b in FONTES_BLOQUEADAS):
+        return None
+    if any(re.search(p, texto) for p in DESCARTAR):
+        return None
+
     tags = [t for t, palavras in TAGS.items() if any(p in texto for p in palavras)]
     if "Exclusão da ST" not in tags and RE_EXCLUSAO_ST.search(texto):
         tags.append("Exclusão da ST")
-    if n.get("_tag_busca") and n["_tag_busca"] not in tags and n["_tag_busca"] in ("FUNRURAL", "Imposto Seletivo"):
+    if n.get("_tag_busca") in ("FUNRURAL", "Imposto Seletivo") and n["_tag_busca"] not in tags:
         tags.append(n["_tag_busca"])
     if "Exclusão da ST" in tags and "Substituição Tributária" in tags:
         tags.remove("Substituição Tributária")
-    if "Agro" in tags and "FUNRURAL" not in tags and len(tags) > 3:
-        tags.remove("Agro")
+    for fraco in ("Agro", "IRPJ/CSLL"):
+        if fraco in tags and len(tags) > 2:
+            tags.remove(fraco)
 
+    oficial = n["tipo_fonte"] in TIPO_OFICIAL
+    nucleo = set(tags) & NUCLEO_FISCAL
+    if "Parcelamento/Transação" in nucleo and not oficial and len(nucleo) == 1:
+        nucleo = set()          # parcelamento só vale vindo do órgão oficial
+    if not nucleo:
+        return None
+
+    eventos, pts_evento = eventos_de(texto)
+    if "Consulta" in (n.get("_ato") or "") and "Nova regra" in eventos:
+        eventos.remove("Nova regra")      # Resposta à Consulta interpreta a regra, não cria regra nova
+        pts_evento -= 3
+    # Reforma "genérica" (opinião, política, previsão) sem nenhum fato concreto: fora
+    if nucleo <= {"Reforma Tributária"} and not eventos:
+        return None
+
+    # Notícia achada na busca de um estado, mas que não fala dele (ex.: tema nacional): não prende ao estado
+    if n.get("_uf") and n["tipo_fonte"] != "SEFAZ estadual" and "sefaz" not in texto \
+            and detectar_uf(texto) != n["_uf"]:
+        n.pop("_uf")
     uf = n.get("_uf") or detectar_uf(texto)
 
     # Esfera
@@ -559,33 +665,145 @@ def classificar(n):
     if esfera == "Federal" and "Legislação estadual" in tags and not uf:
         tags.remove("Legislação estadual")
 
-    # Impacto (pontuação)
-    pontos = sum(PESO.get(t, 0) for t in tags)
+    # Pontuação
+    pontos = max(PESO_BASE.get(t, 0) for t in tags if t in PESO_BASE) if any(t in PESO_BASE for t in tags) else 0
+    if len(nucleo) >= 3:
+        pontos += 1
+    pontos += pts_evento
     if uf in ESTADOS_FOCO:
         pontos += 2
-    if n["tipo_fonte"] in TIPO_OFICIAL:
+    if oficial:
         pontos += 1
-    if any(g in texto for g in GATILHOS_ALTO):
-        pontos += 1
-    impacto = "alto" if pontos >= 6 else "medio" if pontos >= 3 else "baixo"
+    for expr, menos in PENALIDADES:
+        if re.search(expr, titulo_sa):
+            pontos -= menos
+    if pontos < LIMITE_MINIMO:
+        return None
 
-    porque = next((frase for tag, frase in POR_QUE_IMPORTA if tag in tags), "")
+    for ev in eventos:
+        if ev in ("Alíquota", "Nova regra") and ev not in tags:
+            tags.insert(0, ev)
     ordem = list(TAGS.keys())
-    tags.sort(key=lambda t: (-PESO.get(t, 0), ordem.index(t)))
+    tags.sort(key=lambda t: (t not in ("Alíquota", "Nova regra"), -PESO_BASE.get(t, 0),
+                             ordem.index(t) if t in ordem else 0))
+    porque = next((frase for tag, frase in POR_QUE_IMPORTA if tag in tags), "")
 
     n.update({
         "esfera": esfera, "uf": uf if esfera in ("Estadual", "Municipal") or uf else "",
-        "impacto": impacto, "tags": tags[:6], "porque": porque,
+        "tags": tags[:6], "porque": porque, "pontos": pontos,
         "reforma": bool(set(tags) & TAGS_REFORMA), "fiscal": bool(set(tags) & TAGS_FISCAL),
         "internacional": "Internacional" in tags,
     })
+    n["impacto"] = nivel(pontos)
     if "Consulta" in (n.get("_ato") or ""):
         n["tags"] = (["Resposta à Consulta"] + n["tags"])[:6]
     elif n.get("_ato"):
         n["ato"] = n["_ato"]
+    outras = n.get("_outras") or n.get("outras_fontes") or []
     for k in [k for k in n if k.startswith("_")]:
         n.pop(k)
+    n["outras_fontes"] = outras
     return n
+
+
+def nivel(pontos):
+    return "alto" if pontos >= LIMITE_ALTO else "medio" if pontos >= LIMITE_MEDIO else "baixo"
+
+
+# ---------- Agrupar a mesma notícia publicada por vários veículos ----------
+PALAVRAS_VAZIAS = set("para pela pelo pelos pelas entre como mais menos apos ainda sera serao esta este essa esse "
+                      "isso desde pode podem deve devem nova novo novas novos governo brasil diz dizem afirma veja "
+                      "saiba entenda sobre quando onde qual quais todos todas cada pois porque".split())
+
+
+def assinatura(n):
+    t = sem_acento(n["titulo"])
+    nums = {re.sub(r"^(\d+)[,.](\d).*$", r"\1,\2", x) for x in re.findall(r"\d+[,.]\d+", t)}
+    palavras = {w for w in re.findall(r"[a-z]{4,}", t) if w not in PALAVRAS_VAZIAS}
+    return palavras, nums
+
+
+def prioridade_fonte(n):
+    if n["tipo_fonte"] in TIPO_OFICIAL:
+        return 0
+    f = sem_acento(n["fonte"])
+    return 1 if any(v in f for v in VEICULOS_REFERENCIA) else 2
+
+
+def agrupar(lista):
+    """Junta notícias sobre o mesmo fato num só cartão (com a lista das outras fontes)."""
+    lista = sorted(lista, key=lambda n: (prioridade_fonte(n), not n.get("resumo"), n["data"]))
+    grupos = []
+    for n in lista:
+        pal, nums = assinatura(n)
+        dn = datetime.fromisoformat(n["data"])
+        alvo = None
+        for g in grupos:
+            if abs((datetime.fromisoformat(g["rep"]["data"]) - dn).days) > 4:
+                continue
+            gp, gn = g["sig"]
+            uniao = len(pal | gp) or 1
+            jac = len(pal & gp) / uniao
+            tags_comuns = set(n["tags"]) & set(g["rep"]["tags"]) & (NUCLEO_FISCAL | {"Alíquota"})
+            mesma_aliquota = ("Alíquota" in n["tags"] and "Alíquota" in g["rep"]["tags"]
+                              and set(n["tags"]) & set(g["rep"]["tags"]) & {"CBS", "IBS", "Imposto Seletivo"}
+                              and abs((datetime.fromisoformat(g["rep"]["data"]) - dn).days) <= 2)
+            if (jac >= 0.4 or (nums & gn and tags_comuns and len(pal & gp) >= 1)
+                    or (jac >= 0.25 and len(tags_comuns) >= 2) or mesma_aliquota):
+                alvo = g
+                break
+        if alvo:
+            alvo["membros"].append(n)
+        else:
+            grupos.append({"rep": n, "sig": (pal, nums), "membros": [n]})
+
+    def nota_rep(m):
+        t = sem_acento(m["titulo"])
+        midia = bool(re.match(r"(audio|video|podcast|ao vivo)\b", t))
+        tem_numero = bool(re.search(r"\d+[,.]\d+ ?%", t))
+        return (midia, prioridade_fonte(m), -m.get("pontos", 0), not tem_numero, not m.get("resumo"))
+
+    saida = []
+    for g in grupos:
+        g["membros"].sort(key=nota_rep)
+        rep = dict(g["membros"][0])
+        fontes, vistos = [], {sem_acento(rep["fonte"])}
+        for m in g["membros"][1:] + [o for m in g["membros"] for o in m.get("outras_fontes", [])]:
+            chave_f = sem_acento(m["fonte"])
+            if chave_f in vistos or not m.get("link"):
+                continue
+            vistos.add(chave_f)
+            fontes.append({"fonte": m["fonte"], "link": m["link"]})
+        rep["outras_fontes"] = fontes[:12]
+        rep["n_fontes"] = 1 + len(fontes)
+        rep["data"] = max(m["data"] for m in g["membros"])
+        pontos = max(m.get("pontos", 0) for m in g["membros"])
+        pontos += 2 if rep["n_fontes"] >= 6 else 1 if rep["n_fontes"] >= 3 else 0
+        tags = list(rep["tags"])
+        for m in g["membros"]:
+            for t in m["tags"]:
+                if t in ("Alíquota", "Nova regra") and t not in tags:
+                    tags.insert(0, t)
+        rep["tags"] = tags[:6]
+        if "Alíquota" in tags:
+            rep["porque"] = next(f for t, f in POR_QUE_IMPORTA if t == "Alíquota")
+        rep["pontos"], rep["impacto"] = pontos, nivel(pontos)
+        saida.append(rep)
+    return saida
+
+
+def cru(n):
+    """Reconstrói a notícia guardada no histórico para ser reclassificada com as regras atuais."""
+    r = {k: n.get(k, "") for k in ("titulo", "resumo", "link", "fonte", "tipo_fonte", "data")}
+    if n.get("esfera") == "Estadual" and n.get("uf"):
+        r["_uf"] = n["uf"]
+    if "Resposta à Consulta" in n.get("tags", []):
+        r["_ato"] = "Respostas de Consultas"
+    elif n.get("ato"):
+        r["_ato"] = n["ato"]
+    if n.get("outras_fontes"):
+        r["_outras"] = n["outras_fontes"]
+    return r
 
 
 def chave(n):
@@ -798,8 +1016,9 @@ def executar(teste=False, sem_email=False):
         log.info(f" SEFAZ-{uf}{' ★' if uf in ESTADOS_FOCO else '  '}{'':<15} {len(itens):>3} notícia(s)")
         coletadas += itens
 
-    novas = deduplicar([classificar(n) for n in coletadas])
-    log.info(f"Total após remover repetidas: {len(novas)} "
+    brutas = len(coletadas)
+    novas = deduplicar([c for c in (classificar(n) for n in coletadas) if c])
+    log.info(f"Coletadas {brutas}; relevantes para o Fiscal: {len(novas)} "
              f"(alto: {sum(n['impacto'] == 'alto' for n in novas)}, "
              f"médio: {sum(n['impacto'] == 'medio' for n in novas)}, "
              f"baixo: {sum(n['impacto'] == 'baixo' for n in novas)})")
@@ -815,7 +1034,15 @@ def executar(teste=False, sem_email=False):
     if not novas and historico:
         log.info("Nenhuma notícia nova encontrada (internet fora do ar?). Painel mantido como estava.")
     simplificar_com_ia(novas)
-    todas = juntar(historico, novas)
+    # Reclassifica também o histórico com as regras atuais e junta notícias repetidas
+    antigas = deduplicar([c for c in (classificar(cru(n)) for n in historico) if c])
+    todas = juntar(antigas, novas)
+    todas = agrupar(todas)
+    todas.sort(key=lambda n: n["data"], reverse=True)
+    log.info(f"Após juntar repetidas: {len(todas)} notícia(s) "
+             f"(alto: {sum(n['impacto'] == 'alto' for n in todas)}, "
+             f"médio: {sum(n['impacto'] == 'medio' for n in todas)}, "
+             f"baixo: {sum(n['impacto'] == 'baixo' for n in todas)})")
     ids_fixos = {f["id"] for f in fixos}
     todas = fixos + [n for n in todas if n["id"] not in ids_fixos]
     atualizar_painel(todas, n_fontes)

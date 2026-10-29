@@ -163,6 +163,14 @@ aside h3:first-child{margin-top:0}
 .ler{margin-left:auto;font-size:12.5px;font-weight:700;color:#8C97FF;text-decoration:none;display:flex;align-items:center;gap:4px}
 :root[data-theme="light"] .ler{color:#2737CF}
 .ler:hover{text-decoration:underline}
+.fontes{font-size:12px;color:var(--soft)}
+.fontes summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:6px;font-weight:700;color:var(--muted)}
+.fontes summary::-webkit-details-marker{display:none}
+.fontes summary:hover{color:var(--text)}
+.fontes summary .cnt{font-family:"JetBrains Mono",monospace;font-size:11px;background:rgba(91,107,255,.18);border:1px solid var(--line-strong);padding:1px 7px;border-radius:20px}
+.fontes ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.fontes li a{display:inline-block;font-size:11.5px;text-decoration:none;padding:3px 9px;border-radius:20px;border:1px solid var(--line);background:var(--bg2);color:var(--muted)}
+.fontes li a:hover{border-color:var(--glow);color:var(--text)}
 .vazio{padding:40px;text-align:center;color:var(--muted)}
 .vazio b{display:block;font-family:Sora,sans-serif;font-size:18px;color:var(--text);margin-bottom:6px}
 .mais{align-self:center}
@@ -11786,7 +11794,7 @@ function filtrar(ignorarSecao){
     if(fim && n._d>fim) return false;
     if(t){ const alvo=(n.titulo+" "+n.resumo+" "+n.fonte+" "+n.tags.join(" ")+" "+(n.uf||"")).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,""); if(!alvo.includes(t)) return false; }
     return true;
-  }).sort((a,b)=> F.ordem==="data" ? b._d-a._d : (IMP[b.impacto].p-IMP[a.impacto].p) || (b._d-a._d));
+  }).sort((a,b)=> F.ordem==="data" ? b._d-a._d : (IMP[b.impacto].p-IMP[a.impacto].p) || ((b.pontos||0)-(a.pontos||0)) || (b._d-a._d));
 }
 
 /* ================= MENU E FILTROS ================= */
@@ -11842,6 +11850,7 @@ function card(n){
     <h5>${esc(n.titulo)}</h5>
     ${n.resumo?`<p class="resumo">${esc(n.resumo)}</p>`:""}
     ${n.porque?`<div class="porque"><b>Por que importa:</b> ${esc(n.porque)}</div>`:""}
+    ${(n.outras_fontes&&n.outras_fontes.length)?`<details class="fontes"><summary>📰 Também noticiado por <span class="cnt">${(n.n_fontes||n.outras_fontes.length+1)-1}</span> ${(n.n_fontes||n.outras_fontes.length+1)-1===1?"veículo":"veículos"} ▾</summary><ul>${n.outras_fontes.map(o=>`<li><a href="${esc(o.link)}" target="_blank" rel="noopener">${esc(o.fonte)}</a></li>`).join("")}</ul></details>`:""}
     <div class="card-base">
       ${n.tags.slice(0,5).map(t=>`<span class="tag ${F.tags.includes(t)?"on":""}" data-tag="${esc(t)}">${esc(t)}</span>`).join("")}
       <a class="ler" href="${esc(n.link)}" target="_blank" rel="noopener">Ler na fonte ↗</a>
@@ -11966,7 +11975,7 @@ function listaBoletim(){
   if(!l.length && nf.length){ const ult=Math.max(...nf.map(n=>+n._d)); l=nf.filter(n=>n._d>=new Date(ult-24*3600*1000)); }
   return l.sort((a,b)=>(IMP[b.impacto].p-IMP[a.impacto].p)||(b._d-a._d));
 }
-function itemBol(n){ const i=IMP[n.impacto]; return `<div class="bol-item"><span class="selo" style="--imp:${i.c}">${i.n}</span><div><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a><small>${esc(n.fonte)}${n.uf?" · "+esc(n.uf):""} — ${esc(n.porque||n.resumo||"")}</small></div></div>`; }
+function itemBol(n){ const i=IMP[n.impacto]; return `<div class="bol-item"><span class="selo" style="--imp:${i.c}">${i.n}</span><div><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a><small>${esc(n.fonte)}${n.uf?" · "+esc(n.uf):""}${(n.outras_fontes&&n.outras_fontes.length)?" (+"+n.outras_fontes.length+" veículos)":""} — ${esc(n.porque||n.resumo||"")}</small></div></div>`; }
 function abrirBoletim(){
   const l=listaBoletim();
   $("#bolData").textContent=new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"2-digit",month:"long",year:"numeric"})+" · "+l.length+" notícia(s)";
