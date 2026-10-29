@@ -183,6 +183,9 @@ aside h3:first-child{margin-top:0}
 .fixos-top span{font-size:12px;color:var(--soft)}
 .fixo{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:start;padding:12px 0;border-top:1px dashed var(--line-strong)}
 .fixo:first-of-type{border-top:0;padding-top:0}
+.fixos .mais-fixos{margin-top:10px;background:transparent;border:1px solid var(--line-strong);color:var(--muted);padding:7px 12px;border-radius:10px;font-weight:700;font-size:12.5px}
+.fixos .mais-fixos:hover{color:var(--text);border-color:var(--glow)}
+.fixos.fechado .fixo.extra{display:none}
 .vig{min-width:96px;text-align:center;border-radius:12px;padding:8px 10px;background:var(--bg2);border:1px solid var(--line-strong)}
 .vig b{display:block;font-family:Sora,sans-serif;font-size:20px;line-height:1.1}
 .vig small{font-size:10.5px;color:var(--soft);text-transform:uppercase;letter-spacing:.06em}
@@ -4422,8 +4425,8 @@ window.RADAR_DADOS = {
 /* ================= CONFIGURAÇÃO DO PAINEL ================= */
 const UFS = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
 const UF_FOCO = ["SP","AM","BA","CE","ES","GO","MG","PE","PI","RJ","RN","SC"];
-const TAGS_FOCO = ["Exclusão da ST","Reforma Tributária","NCM","Prazo","Nova obrigação","Vencimento","Legislação estadual","ICMS","IBS","CBS","FUNRURAL"];
-const TIPOS = ["Órgão federal","Legislativo","SEFAZ estadual","Entidade contábil","Portal de notícias"];
+const TAGS_FOCO = ["Ajuste SINIEF","NF-e/NFS-e","Exclusão da ST","Reforma Tributária","NCM","Prazo","Nova obrigação","Vencimento","Legislação estadual","ICMS","IBS","CBS","FUNRURAL"];
+const TIPOS = ["Órgão federal","CONFAZ","Legislativo","SEFAZ estadual","Entidade contábil","Portal de notícias"];
 const SECOES = [
   {id:"radar",nome:"Radar do Dia",ic:"◉"},
   {id:"reforma",nome:"Reforma Tributária",ic:"⟳"},
@@ -4616,6 +4619,7 @@ function grade(lista){
 }
 function ligarCards(){
   document.querySelectorAll(".tag[data-tag]").forEach(t=>t.onclick=()=>{const v=t.dataset.tag;F.tags=F.tags.includes(v)?F.tags.filter(x=>x!==v):[...F.tags,v];render();});
+  const mf=$("#maisFixos"); if(mf) mf.onclick=()=>{FIXOS_ABERTO=!FIXOS_ABERTO;renderConteudo();};
   const vm=$("#verMais"); if(vm) vm.onclick=()=>{F.limite+=24;renderConteudo();};
   document.querySelectorAll(".uf[data-uf]").forEach(u=>u.onclick=()=>{F.uf=F.uf===u.dataset.uf?"todas":u.dataset.uf;$("#fUF").value=F.uf;render();});
   const ord=$("#ordem"); if(ord) ord.onchange=e=>{F.ordem=e.target.value;renderConteudo();};
@@ -4695,14 +4699,20 @@ function fixosDaSecao(){
   return NOT.filter(n=>n.fixo && naSecao(n,F.secao) && (F.esfera==="todas"||n.esfera===F.esfera) && (F.uf==="todas"||n.uf===F.uf))
     .sort((a,b)=>(a.vigencia||"").localeCompare(b.vigencia||""));
 }
+let FIXOS_ABERTO=false;
 function blocoFixos(){
   const l=fixosDaSecao(); if(!l.length) return "";
-  return `<div class="fixos painel"><div class="fixos-top"><h4>📌 Fique de olho — atos que mudam a rotina</h4><span>fixados pela equipe · ficam aqui até a data combinada</span></div>
-  ${l.map(n=>{const s=situacaoVig(n);return `<div class="fixo">
+  const auto=l.every(n=>n.auto);
+  const titulo=auto?"⏰ Entram em vigor em breve — mudanças em documentos fiscais e convênios":"📌 Fique de olho — atos que mudam a rotina";
+  const sub=auto?"lido direto do CONFAZ · some sozinho 7 dias após a vigência":"atos oficiais e fixados pela equipe";
+  const VIS=4;
+  return `<div class="fixos painel ${FIXOS_ABERTO?"":"fechado"}" id="blocoFixos"><div class="fixos-top"><h4>${titulo}</h4><span>${sub}</span></div>
+  ${l.map((n,i)=>{const s=situacaoVig(n);return `<div class="fixo ${i>=VIS?"extra":""}">
     <div class="vig ${s.cls}"><small>${s.cls==="ativa"?s.txt:""}</small><b>${s.num}</b><small>${s.cls==="futura"?s.txt:""}</small></div>
     <div><h5>${esc(n.titulo)}</h5>${n.resumo?`<p>${esc(n.resumo)}</p>`:""}${n.porque?`<div class="porque"><b>O que fazer:</b> ${esc(n.porque)}</div>`:""}</div>
     <a class="ler" href="${esc(n.link)}" target="_blank" rel="noopener">Ler o ato ↗</a>
-  </div>`;}).join("")}</div>`;
+  </div>`;}).join("")}
+  ${l.length>VIS?`<button class="mais-fixos" id="maisFixos">${FIXOS_ABERTO?"Mostrar menos":"Ver todos os "+l.length+" atos"}</button>`:""}</div>`;
 }
 function renderConteudo(){
   const lista=filtrar(false);
@@ -4739,7 +4749,7 @@ function abrirBoletim(){
   h+=`<p style="font-size:13px;color:#4A5290">Por esfera: ${porEsf.map(x=>`<b>${x[0]}</b> ${x[1]}`).join(" · ")}</p>`;
   if(!l.length) h+=`<p>Nenhuma notícia nova hoje.</p>`;
   const fx=NOT.filter(n=>n.fixo);
-  if(fx.length) h+=`<h4>📌 Fique de olho</h4>${fx.map(n=>`<div class="bol-item"><span class="selo" style="--imp:var(--alto)">${situacaoVig(n).cls==="ativa"?"Em vigor":"Em breve"}</span><div><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a><small>${situacaoVig(n).frase} — ${esc(n.porque||n.resumo||"")}</small></div></div>`).join("")}`;
+  if(fx.length) h+=`<h4>⏰ Entram em vigor em breve</h4>${fx.map(n=>`<div class="bol-item"><span class="selo" style="--imp:var(--alto)">${situacaoVig(n).cls==="ativa"?"Em vigor":"Em breve"}</span><div><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a><small>${situacaoVig(n).frase} — ${esc(n.porque||n.resumo||"")}</small></div></div>`).join("")}`;
   if(alto.length) h+=`<h4>🔴 Precisa de atenção</h4>${alto.slice(0,10).map(itemBol).join("")}`;
   if(prazos.length) h+=`<h4>📅 Prazos, vencimentos e obrigações</h4>${prazos.slice(0,8).map(itemBol).join("")}`;
   if(reforma.length) h+=`<h4>⟳ Reforma Tributária</h4>${reforma.slice(0,6).map(itemBol).join("")}`;

@@ -55,6 +55,16 @@ DIAS_PRIMEIRA_EXECUCAO = 30   # na 1ª execução (sem histórico) busca mais pa
 DIAS_LEGISLACAO = 15          # atos do portal de legislação da SEFAZ-SP: últimos X dias
 INCLUIR_RESPOSTAS_CONSULTA = True   # incluir as Respostas à Consulta (RC) da SEFAZ-SP
 ARQUIVO_DESTAQUES = PASTA / "destaques.json"  # atos fixados pela equipe ("Fique de olho")
+
+# CONFAZ: Ajustes SINIEF (documentos fiscais) e Convênios ICMS, lidos direto do site oficial
+CONFAZ_ATIVO = True
+CONFAZ_TIPOS = {
+    # sigla: (nome, pasta no site do CONFAZ, prefixo do arquivo)
+    "AJ": ("Ajuste SINIEF", "ajustes", "AJ"),
+    "CV": ("Convênio ICMS", "convenios", "CV"),
+}
+VIGENCIA_ANTECEDENCIA = 30    # faixa "Entram em vigor em breve": atos que começam a valer nos próximos X dias
+VIGENCIA_APOS = 7             # ...e continuam na faixa por X dias depois de entrar em vigor
 DIAS_NO_PAINEL = 30           # o painel guarda notícias dos últimos X dias
 MAX_NO_PAINEL = 600           # limite de notícias no painel
 
@@ -144,6 +154,8 @@ BUSCAS_TEMAS = [
     ("Nova obrigação", '("nova obrigação acessória" OR "nova declaração" OR "passa a ser obrigatória") (fiscal OR tributária)'),
     ("Vencimento", '(ICMS OR ISS OR DARF OR tributo) ("data de vencimento" OR "altera vencimento" OR "novo vencimento")'),
     ("FUNRURAL", 'Funrural'),
+    ("Documento fiscal", '("Ajuste SINIEF" OR "Nota Técnica" OR "Convênio ICMS" OR "Ato COTEPE") (NF-e OR NFC-e OR CT-e OR MDF-e OR NFS-e OR Confaz)'),
+    ("Documento fiscal", '(NF-e OR NFC-e OR CT-e OR MDF-e) (rejeição OR leiaute OR "nova regra" OR obrigatório OR inutilização OR prazo)'),
 ]
 
 # SEFAZ dos 27 estados: UF -> (nome do estado, site oficial)
@@ -200,7 +212,10 @@ TAGS = {
     "IRPJ/CSLL": ["irpj", "csll", "imposto de renda pessoa juridica"],
     "ISS": [" iss ", " iss,", " iss.", " iss;", " iss:", "(iss", " iss)", "imposto sobre servicos", "issqn",
             "iss-"],
-    "NF-e/NFS-e": ["nf-e", "nfe", "nfs-e", "nfse", "nota fiscal", "nfc-e", "ct-e", "mdf-e"],
+    "NF-e/NFS-e": ["nf-e", "nfe", "nfs-e", "nfse", "nota fiscal", "nfc-e", "nfce", "ct-e", "cte", "mdf-e", "mdfe",
+                   "nf3e", "nf3-e", "nfcom", "bp-e", "bpe", "cteos", "ct-e os", "dc-e", "gtv-e", "documento fiscal",
+                   "documentos fiscais", "inutilizacao", "manual de orientacao do contribuinte", "nota tecnica"],
+    "Ajuste SINIEF": ["ajuste sinief", "ajustes sinief"],
     "Parcelamento/Transação": ["parcelamento", "transacao tributaria", "refis", "regularizacao de debitos",
                                "divida ativa", "edital de transacao", "litigio zero"],
     "Legislação estadual": ["decreto", "convenio icms", "convenio", "protocolo icms", "ajuste sinief",
@@ -212,7 +227,7 @@ TAGS = {
                       "tarifa de importacao", "tarifaco", "exterior", "preco de transferencia", "mercosul"],
 }
 TAGS_REFORMA = {"IBS", "CBS", "Imposto Seletivo", "Reforma Tributária"}
-TAGS_FISCAL = {"Exclusão da ST", "Substituição Tributária", "NCM", "Prazo", "Vencimento", "Obrigação acessória",
+TAGS_FISCAL = {"Ajuste SINIEF", "Exclusão da ST", "Substituição Tributária", "NCM", "Prazo", "Vencimento", "Obrigação acessória",
                "Nova obrigação", "NF-e/NFS-e", "Legislação estadual", "ICMS", "ISS", "Benefício fiscal", "IPI",
                "PIS/Cofins", "Nova regra"}
 
@@ -230,7 +245,7 @@ PALAVRAS_TRIBUTARIAS = ["tribut", "imposto", "icms", "iss", "ibs", "cbs", "pis",
 NUCLEO_FISCAL = {"Exclusão da ST", "Substituição Tributária", "ICMS", "IPI", "IBS", "CBS", "Imposto Seletivo",
                  "Reforma Tributária", "NCM", "Vencimento", "Obrigação acessória", "Nova obrigação", "NF-e/NFS-e",
                  "Legislação estadual", "Benefício fiscal", "PIS/Cofins", "ISS", "FUNRURAL", "Simples Nacional",
-                 "Parcelamento/Transação", "Internacional"}
+                 "Parcelamento/Transação", "Internacional", "Ajuste SINIEF"}
 
 # Assuntos descartados mesmo que falem de tributo (não são rotina do Departamento Fiscal)
 DESCARTAR = [r"malha fina", r"restituic\w*", r"lote (residual|de restituic)", r"\birpf\b",
@@ -245,7 +260,8 @@ FONTES_BLOQUEADAS = ["instagram", "facebook", "youtube", "tiktok", "linkedin", "
 # Peso de cada assunto (vale o maior) — base do impacto
 PESO_BASE = {"Exclusão da ST": 4, "Nova obrigação": 3, "Vencimento": 3, "NCM": 3, "IBS": 2, "CBS": 2,
              "Imposto Seletivo": 2, "Reforma Tributária": 2, "Substituição Tributária": 2, "Prazo": 2,
-             "ICMS": 1, "IPI": 1, "PIS/Cofins": 1, "ISS": 1, "Obrigação acessória": 1, "NF-e/NFS-e": 1,
+             "ICMS": 1, "IPI": 1, "PIS/Cofins": 1, "ISS": 1, "Obrigação acessória": 1, "NF-e/NFS-e": 2,
+             "Ajuste SINIEF": 3,
              "Legislação estadual": 1, "Benefício fiscal": 1, "FUNRURAL": 1, "Simples Nacional": 1,
              "Parcelamento/Transação": 1, "Internacional": 1}
 
@@ -287,6 +303,7 @@ VEICULOS_REFERENCIA = ["valor", "jota", "portal contabeis", "contabeis", "agenci
 
 # Frase simples "Por que importa" — vale a primeira regra que combinar
 POR_QUE_IMPORTA = [
+    ("Ajuste SINIEF", "Muda regras de emissão de documentos fiscais (NF-e, NFC-e, CT-e etc.). Avise clientes e confira se o sistema emissor está atualizado até a data de vigência."),
     ("Alíquota", "Define quanto será cobrado do novo tributo. Afeta preço, margem e a simulação de carga dos clientes."),
     ("Exclusão da ST", "Muda quem recolhe o ICMS desses produtos. Revise cadastro de produtos, estoque e preços."),
     ("Nova obrigação", "Surgiu uma entrega nova para o fisco. Verifique quais clientes são obrigados e a partir de quando."),
@@ -557,6 +574,147 @@ def carregar_destaques():
     return saida
 
 
+# ------------------------------- CONFAZ -------------------------------
+# Os atos ficam em endereços numerados, ex.: /legislacao/ajustes/2026/AJ040_26.
+# O robô guarda o último número encontrado e testa os seguintes a cada execução.
+CONFAZ_BASE = "https://www.confaz.fazenda.gov.br/legislacao"
+MESES = {"janeiro": 1, "fevereiro": 2, "marco": 3, "abril": 4, "maio": 5, "junho": 6, "julho": 7, "agosto": 8,
+         "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12}
+
+
+def _data_extenso(dia, mes, ano):
+    try:
+        return datetime(int(ano), MESES[sem_acento(mes)], int(re.sub(r"\D", "", dia) or 1)).date()
+    except (KeyError, ValueError):
+        return None
+
+
+def ler_ato_confaz(sigla, ano, numero):
+    nome, pasta, prefixo = CONFAZ_TIPOS[sigla]
+    url = f"{CONFAZ_BASE}/{pasta}/{ano}/{prefixo}{numero:03d}_{str(ano)[2:]}"
+    try:
+        r = SESSAO.get(url, timeout=TIMEOUT)
+    except Exception as e:  # noqa: BLE001
+        return "erro", None
+    if r.status_code == 404:
+        return "nao_existe", None
+    if r.status_code != 200 or not r.content:
+        return "erro", None
+    if not r.encoding or r.encoding.lower() == "iso-8859-1":
+        r.encoding = r.apparent_encoding
+    texto = limpar_html(re.sub(r"(?is)<(script|style).*?</\1>", " ", r.text))
+    sa = sem_acento(texto)
+    if f"{sem_acento(nome)}" not in sa:
+        return "nao_existe", None   # página genérica (ex.: "página não encontrada" com código 200)
+
+    # Data de publicação: "Publicado no DOU de 14.09.26" (ou a data do próprio ato)
+    pub = None
+    m = re.search(r"publicad[oa] no d\.?o\.?u\.? de (\d{1,2})[./](\d{1,2})[./](\d{2,4})", sa)
+    if m:
+        a = int(m.group(3)); a = a + 2000 if a < 100 else a
+        try:
+            pub = datetime(a, int(m.group(2)), int(m.group(1))).date()
+        except ValueError:
+            pub = None
+    if not pub:
+        m = re.search(rf"{sem_acento(nome)} n?[o°º.]*\s*{numero}\s*,?\s*de (\d{{1,2}}º?) de (\w+) de (\d{{4}})", sa)
+        pub = _data_extenso(*m.groups()) if m else None
+
+    # Ementa: primeira frase "Altera / Dispõe / Autoriza ..." antes de "O Conselho Nacional..."
+    corpo = re.split(r"O Conselho Nacional de Pol[ií]tica Fazend[áa]ria", texto)[0]
+    m = re.search(r"((?:Altera|Disp[õo]e|Institui|Autoriza|Prorroga|Revoga|Acrescenta|Estabelece|Concede|Dispensa|"
+                  r"Aprova|Define|Inclui|Reduz|Fixa|Torna)[^.]{8,600}\.)", corpo)
+    ementa = m.group(1).strip() if m else ""
+
+    # Vigência: "produzindo efeitos a partir de 1º de novembro de 2026" (vale a data mais distante citada)
+    datas = [_data_extenso(*x) for x in re.findall(
+        r"a partir de (\d{1,2})º? de (janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|"
+        r"novembro|dezembro) de (\d{4})", sa)]
+    datas = [d for d in datas if d]
+    vig = max(datas) if datas else None
+    if not vig and re.search(r"entra em vigor na data de sua publicacao", sa) and pub:
+        vig = pub
+    return "ok", {"sigla": sigla, "ano": ano, "numero": numero, "url": url, "nome": f"{nome} {numero}/{ano}",
+                  "ementa": ementa, "publicado": pub.isoformat() if pub else "",
+                  "vigencia": vig.isoformat() if vig else ""}
+
+
+def atualizar_cache_confaz(cache):
+    """Procura atos novos (número seguinte ao último conhecido) e guarda no cache."""
+    hoje = datetime.now(FUSO_BR).date()
+    anos = sorted({hoje.year, (hoje - timedelta(days=45)).year})
+    novos = 0
+    for sigla in CONFAZ_TIPOS:
+        for ano in anos:
+            chave_ano = f"{sigla}-{ano}"
+            info = cache.setdefault(chave_ano, {"ultimo": 0, "atos": {}})
+            n, faltas, erros = info["ultimo"] + 1, 0, 0
+            teto = info["ultimo"] + (300 if info["ultimo"] == 0 else 80)   # 1ª vez: lê o ano todo
+            while faltas < 3 and erros < 3 and n < teto:
+                status, ato = ler_ato_confaz(sigla, ano, n)
+                if status == "ok":
+                    info["atos"][str(n)] = ato
+                    info["ultimo"] = n
+                    novos += 1
+                    faltas = 0
+                elif status == "nao_existe":
+                    faltas += 1
+                else:
+                    erros += 1
+                n += 1
+                time.sleep(0.4)
+            if erros >= 3:
+                log.info(f"   ! CONFAZ ({CONFAZ_TIPOS[sigla][0]} {ano}) não respondeu; tento de novo na próxima execução")
+    return novos
+
+
+def itens_confaz(cache):
+    """Transforma os atos em notícias (publicados há pouco) e em alertas de vigência (começam a valer em breve)."""
+    hoje = datetime.now(FUSO_BR).date()
+    noticias, alertas = [], []
+    limite_pub = hoje - timedelta(days=max(DIAS_LEGISLACAO, DIAS_PARA_TRAS))
+    for info in cache.values():
+        for ato in info.get("atos", {}).values():
+            pub = datetime.fromisoformat(ato["publicado"]).date() if ato.get("publicado") else None
+            vig = datetime.fromisoformat(ato["vigencia"]).date() if ato.get("vigencia") else None
+            doc = bool(re.search(r"nf-?e|nfc-?e|ct-?e|mdf-?e|nf3-?e|nfcom|bp-?e|gtv-?e|dc-?e|documento|inutiliza|"
+                                 r"escritura|efd|sped", sem_acento(ato["ementa"])))
+            base = {
+                "titulo": f"{ato['nome']}: {encurtar(ato['ementa'], 170)}" if ato["ementa"] else ato["nome"],
+                "resumo": ato["ementa"] if len(ato["ementa"]) > 170 else "",
+                "link": ato["url"], "fonte": "CONFAZ", "tipo_fonte": "CONFAZ",
+                "data": f"{(pub or hoje).isoformat()}T12:00:00+00:00", "_esfera_fonte": "Estadual",
+                "_minimo": 7 if (ato["sigla"] == "AJ" and doc) else 4, "vigencia": ato.get("vigencia", ""),
+            }
+            if ato["sigla"] == "AJ" and "ajuste sinief" not in sem_acento(base["titulo"]):
+                base["titulo"] = "Ajuste SINIEF · " + base["titulo"]
+            if pub and pub >= limite_pub:
+                noticias.append(dict(base))
+            if vig and hoje - timedelta(days=VIGENCIA_APOS) <= vig <= hoje + timedelta(days=VIGENCIA_ANTECEDENCIA) \
+                    and (doc or ato["sigla"] == "CV"):
+                alertas.append(dict(base))
+    return noticias, alertas
+
+
+def carregar_cache_confaz():
+    try:
+        return json.loads(ARQUIVO_HISTORICO.read_text(encoding="utf-8")).get("confaz", {})
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def alerta_vigencia(n):
+    """Monta o item da faixa 'Entram em vigor em breve' a partir de um ato já classificado."""
+    c = classificar(dict(n))
+    if not c:
+        c = {**n, "esfera": "Estadual", "uf": "", "tags": ["Ajuste SINIEF"], "reforma": False, "fiscal": True,
+             "internacional": False, "porque": "", "outras_fontes": []}
+        for k in [k for k in c if k.startswith("_")]:
+            c.pop(k)
+    c.update({"id": "vig-" + chave(c), "fixo": True, "auto": True, "vigencia": n["vigencia"], "impacto": "alto"})
+    return c
+
+
 def coletar_temas():
     achadas = []
     for tag, consulta in BUSCAS_TEMAS:
@@ -584,7 +742,7 @@ CAPITAIS = {"rio branco": "AC", "maceio": "AL", "macapa": "AP", "manaus": "AM", 
 # Verbo de saída + "substituição tributária" na mesma frase = Exclusão da ST
 RE_EXCLUSAO_ST = re.compile(r"\b(exclu\w*|retir\w*|revog\w*|deixa\w* de|fim d[aoe]|saida d\w*|remov\w*|tira\w*)\b"
                             r"[^.]{0,80}\b(substituicao tributaria|icms[- /]?st|regime de st|da st)\b")
-TIPO_OFICIAL = {"Órgão federal", "Legislativo", "SEFAZ estadual"}
+TIPO_OFICIAL = {"Órgão federal", "Legislativo", "SEFAZ estadual", "CONFAZ"}
 
 
 def detectar_uf(texto):
@@ -677,6 +835,7 @@ def classificar(n):
     for expr, menos in PENALIDADES:
         if re.search(expr, titulo_sa):
             pontos -= menos
+    pontos = max(pontos, n.get("_minimo", 0))
     if pontos < LIMITE_MINIMO:
         return None
 
@@ -803,6 +962,10 @@ def cru(n):
         r["_ato"] = n["ato"]
     if n.get("outras_fontes"):
         r["_outras"] = n["outras_fontes"]
+    if n.get("tipo_fonte") == "CONFAZ":
+        r["_minimo"] = n.get("pontos", 0)
+        if n.get("vigencia"):
+            r["vigencia"] = n["vigencia"]
     return r
 
 
@@ -886,6 +1049,9 @@ def juntar(historico, novas):
     return lista[:MAX_NO_PAINEL]
 
 
+CACHE_CONFAZ = {}
+
+
 def atualizar_painel(noticias, n_fontes):
     dados = {"meta": {"atualizado_em": datetime.now(timezone.utc).isoformat(), "demo": False,
                       "fontes_consultadas": n_fontes, "versao": 1},
@@ -898,7 +1064,8 @@ def atualizar_painel(noticias, n_fontes):
         raise RuntimeError("Não achei as marcações <!--DADOS_INICIO--> / <!--DADOS_FIM--> no index.html")
     ARQUIVO_PAINEL.write_text(novo, encoding="utf-8")
     ARQUIVO_HISTORICO.write_text(json.dumps({"atualizado_em": dados["meta"]["atualizado_em"],
-                                             "noticias": noticias}, ensure_ascii=False, indent=1),
+                                             "noticias": noticias, "confaz": CACHE_CONFAZ},
+                                            ensure_ascii=False, indent=1),
                                  encoding="utf-8")
 
 
@@ -999,6 +1166,17 @@ def executar(teste=False, sem_email=False):
     log.info(f" {'SEFAZ-SP · Legislação':<24} {len(legis):>3} ato(s)")
     coletadas += legis
 
+    global CACHE_CONFAZ
+    alertas_confaz = []
+    if CONFAZ_ATIVO:
+        CACHE_CONFAZ = carregar_cache_confaz()
+        novos = atualizar_cache_confaz(CACHE_CONFAZ)
+        n_fontes += 1
+        noticias_cf, alertas_confaz = itens_confaz(CACHE_CONFAZ)
+        log.info(f" {'CONFAZ (SINIEF/Convênios)':<24} {novos:>3} ato(s) novo(s); "
+                 f"{len(noticias_cf)} recente(s); {len(alertas_confaz)} entrando em vigor")
+        coletadas += noticias_cf
+
     for f in FONTES:
         itens = coletar_fonte(f)
         n_fontes += 1
@@ -1031,6 +1209,7 @@ def executar(teste=False, sem_email=False):
 
     fixos = carregar_destaques()
     log.info(f"Destaques fixados pela equipe: {len(fixos)}")
+    fixos += [alerta_vigencia(a) for a in alertas_confaz]
     if not novas and historico:
         log.info("Nenhuma notícia nova encontrada (internet fora do ar?). Painel mantido como estava.")
     simplificar_com_ia(novas)
