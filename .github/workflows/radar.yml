@@ -4,9 +4,16 @@ on:
   schedule:
     - cron: "17 10,15 * * *"
   workflow_dispatch:
+  issues:
+    types: [opened, edited, closed, reopened, deleted]
 
 permissions:
   contents: write
+  issues: read
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
 
 jobs:
   radar:
@@ -19,8 +26,10 @@ jobs:
       - name: Instalar componentes
         run: pip install -r requirements.txt
       - name: Buscar notícias e atualizar o painel
+        if: github.event_name != 'issues'
         env:
           TZ: America/Sao_Paulo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DICON_EMAIL_ATIVO: ${{ secrets.DICON_EMAIL_ATIVO }}
           DICON_EMAIL_USUARIO: ${{ secrets.DICON_EMAIL_USUARIO }}
           DICON_EMAIL_SENHA: ${{ secrets.DICON_EMAIL_SENHA }}
@@ -28,10 +37,17 @@ jobs:
           DICON_LINK_PAINEL: ${{ secrets.DICON_LINK_PAINEL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python radar_fiscal.py
+      - name: Atualizar somente os fixados
+        if: github.event_name == 'issues'
+        env:
+          TZ: America/Sao_Paulo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python radar_fiscal.py --so-fixados
       - name: Salvar o painel atualizado
         run: |
           git config user.name "Radar Dicon"
           git config user.email "radar@users.noreply.github.com"
           git add index.html noticias.json
           git diff --cached --quiet || git commit -m "Radar atualizado $(date +'%d/%m/%Y %H:%M')"
+          git pull --rebase --autostash || true
           git push
