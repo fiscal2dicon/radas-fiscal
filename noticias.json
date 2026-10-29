@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-29T16:14:18.600414+00:00",
+ "atualizado_em": "2026-10-29T16:36:50.293711+00:00",
  "noticias": [
   {
    "titulo": "Ajuste SINIEF 40/2026: muda regras de integração e a inutilização de numeração da NF-e",
@@ -1885,6 +1885,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "6422d5dde927",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -1912,6 +1913,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "cc5580c06e36",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -2279,7 +2281,7 @@
    "titulo": "Receita e CGIBS criam 25 grupos para implementar reforma tributária",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYU50QTFland5bzdkLTU5dEhZSENBRzUtQktOYUliOW5MNzhNeklXVTZGMXBfRTFzSEJuMlp2OFpMaExPQnZnVDRURm1kNEtFeE1OOW5zUmdYQXdaZWRNRU5sRm1haG9kYmdnalQtX3FJdmYtU0haZm80LUZ2VmFMUkEtOGktbmY5d1Vkd2hGVzNHTkhBTVdMc2hlb0ZYMHc5bjFmX0tzZUhNaFE1SmZYU2VR?oc=5",
-   "fonte": "Portal Contabeis",
+   "fonte": "Portal Contábeis",
    "tipo_fonte": "Portal de notícias",
    "data": "2026-10-27T18:09:45+00:00",
    "esfera": "Federal",
@@ -2687,6 +2689,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "0d0e77bc48f6",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -2711,6 +2714,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "35f1a50560da",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -2735,6 +2739,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "fa963fa0bc44",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -2760,6 +2765,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "1bc8232fbcd7",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -2784,6 +2790,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "65cdaf2f8239",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -2809,6 +2816,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "a0d5e52d0865",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -3332,6 +3340,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "351037843090",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -3357,6 +3366,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "2dd4b96b490c",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -3382,6 +3392,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "dbee74ad5790",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4383,6 +4394,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "87e8e6d8e744",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4406,6 +4418,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "91b70c071fc8",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4429,6 +4442,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "9a54058f8a57",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4455,6 +4469,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "3dbeb471400c",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4480,6 +4495,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "ea858083e616",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4503,6 +4519,7 @@
    "ato": "Decretos",
    "outras_fontes": [],
    "id": "17c542fad92c",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4526,6 +4543,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "d923bd683173",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4550,6 +4568,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "1774c679f06b",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4576,6 +4595,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "2ae07e38a3d9",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4624,6 +4644,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "2eed7ed84f4e",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4648,6 +4669,7 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "5468f6007928",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4674,6 +4696,7 @@
    "ato": "Portarias CAT/SRE",
    "outras_fontes": [],
    "id": "164935fdc03b",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -4699,6 +4722,7 @@
    "ato": "Portarias CAT/SRE",
    "outras_fontes": [],
    "id": "3c3f996d396f",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -8857,13 +8881,14 @@
    }
   }
  },
+ "agenda": [],
  "diagnostico_confaz": {
   "confaz_respostas": {
    "0": 6
   },
   "confaz_ultimo_erro": "https://confaz.fazenda.gov.br/legislacao/convenios/2026/CV003_26 -> 0 ConnectionError",
   "dou_dias_lidos": 3,
-  "em": "2026-10-29T13:12-03:00",
+  "em": "2026-10-29T13:35-03:00",
   "atos_no_cache": 385
  }
 }
