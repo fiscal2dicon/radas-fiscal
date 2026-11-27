@@ -1,18 +1,19 @@
 {
- "atualizado_em": "2026-11-26T19:53:34.537843+00:00",
+ "atualizado_em": "2026-11-27T19:38:44.903202+00:00",
  "noticias": [
   {
-   "titulo": "Simples Nacional: Sefaz reabre prazo para regularização e impugnação dos Termos de Exclusão",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYWoxOVBqek9sN0owLUJRLUdSa3lXNG95ZlRqZVBvaHVZR1VDSGpib1NuNXhwSDNtbDcxNTRtTXpJQk0wQjJ3TWY4TmJLbmgzdEJXd2cydThkc3NITHo1Y1dHOTRhUnFSaTJDLWIxQTZuU1FkdlN1a05DTkdmS3RHRVRieHZSS2FXY0RaMmY1WTk0bXhkWUFwNXplbGRNZzFCRlFqMHNFN1V3cnhVc1JhbER3Y3c?oc=5",
-   "fonte": "SEFAZ-ES",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-26T19:30:01+00:00",
-   "esfera": "Estadual",
-   "uf": "ES",
+   "titulo": "ICMS: ES prorroga adesão à transação tributária até dezembro",
+   "resumo": "Foto: Towfiqu barbhuiya / Unsplash · Licença Unsplash PGE-ES estende até 23 de dezembro o prazo para contribuintes habilitados concluírem a adesão à negociação de débitos de ICMS . Leia mais em…",
+   "link": "https://www.contabeis.com.br/noticias/81239/icms-es-prorroga-adesao-a-transacao-tributaria-ate-dezembro/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T19:30:02+00:00",
+   "esfera": "Federal",
+   "uf": "",
    "tags": [
     "Prazo",
-    "Simples Nacional"
+    "ICMS",
+    "Parcelamento/Transação"
    ],
    "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
    "pontos": 5,
@@ -20,13 +21,1152 @@
    "fiscal": true,
    "internacional": false,
    "impacto": "medio",
+   "outras_fontes": [],
+   "id": "16d61aba3a6e",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Dividendos: veja os prazos do IRRF para residentes e não residentes",
+   "resumo": "Receita Federal esclareceu que o imposto sobre dividendos pagos ao exterior vence no próprio dia do fato gerador; para residentes, prazo é no mês seguinte. Leia mais em…",
+   "link": "https://www.contabeis.com.br/noticias/81249/dividendos-veja-os-prazos-do-irrf-para-residentes-e-nao-residentes/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T19:15:02+00:00",
+   "esfera": "Internacional",
+   "uf": "",
+   "tags": [
+    "Prazo",
+    "Internacional"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "pontos": 5,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": true,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "2fed4d8749d7",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "CPRB: retenção na NFe contribuição da empresa têm cálculos diferentes",
+   "resumo": "Entenda por que a retenção previdenciária de 3,5% ou 11% na nota fiscal não corresponde ao cálculo da CPRB devida pela prestadora. Leia mais em https://www.contabeis.com.br/noticias/81237/cprb-retencao-na-nfe-contribuicao-da-empresa-tem-calculos-diferentes/",
+   "link": "https://www.contabeis.com.br/noticias/81237/cprb-retencao-na-nfe-contribuicao-da-empresa-tem-calculos-diferentes/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T18:30:02+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "NF-e/NFS-e"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 2,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "11a975a049f3",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Simples Nacional: fim do regime de caixa exige atenção em 2027",
+   "resumo": "A partir de janeiro, receitas serão tributadas pelo faturamento, mesmo sem recebimento; regra de transição exige atenção aos valores pendentes em 2026. Leia mais em…",
+   "link": "https://www.contabeis.com.br/noticias/81245/simples-nacional-fim-do-regime-de-caixa-exige-atencao-em-2027/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T18:15:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Simples Nacional"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "4c82acab5401",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Simples Nacional: como recolher DAS inferior a R$ 10",
+   "resumo": "Confira como proceder com impostos abaixo de R$ 10, diferenças após retificação e valores acumulados não pagos. Leia mais em https://www.contabeis.com.br/noticias/81235/simples-nacional-como-recolher-das-inferior-a-r-10/",
+   "link": "https://www.contabeis.com.br/noticias/81235/simples-nacional-como-recolher-das-inferior-a-r-10/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T17:45:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "NF-e/NFS-e",
+    "Simples Nacional"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 2,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "138cdd9388c5",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Broad Legal: Receita Federal abre ambiente de testes da CBS para todas as empresas",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUFrbUZ2VG5EOGFXMms2N2lyaGFneFdQUVdTYWtRUGtlVzVaUnVyMTFyTy1JbXJGX3RiVU13U212czRXLWE3WE5QLVFLa2U5enBZLXAtTEFUdWxDQ3hzbWcyR0FwdTBVWGptbnJmRDRfMURpenJQOVdOOTlpMHhNMVNIcGs1MHY0dnVrNVR6WGx0YXhWYnFoQlpXajEyZTUtTXVhNzNBNnlRMV9yLVUwT1JB?oc=5",
+   "fonte": "Martinelli Advogados",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T17:41:20+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "de84bcdac0dd",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Nova regra do ICMS ameaça sobrevivência dos comerciantes de cacau da Bahia",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUl9ORjBxOWFXSWJWM3pzSHlreXFCRFpEX2hnRWxrSG9DLU9aSHZmUmxxcXJEanVXVFZDOFZjRmhzNXdIY19UeWdyMmE1RFN6bXJ3WFozZjl0c0Qwb1FmWWY1RkMwRE0tZlg3SWlLUV9NLXlpSXFnVTZ2SkEyYzdxUS1iNUtjR3Bwdmt1bEVIUzVjTnJuYm4ybExjYzhzVXNLeWFDaS14SmRfaHVBcHFEaXlHWmEwQTJhcnhiZHdjNi1uaHFyanpTQTBtRk8?oc=5",
+   "fonte": "Itamaraju Notícias",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T17:38:51+00:00",
+   "esfera": "Estadual",
+   "uf": "BA",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 3,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "67ababe2b8f5",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Permuta no Simples Nacional: troca também gera receita bruta",
+   "resumo": "Trocar mercadorias ou serviços sem receber dinheiro pode gerar receita no Simples Nacional . Veja como tratar a permuta e revisar a apuração do PGDAS-D . Leia mais em…",
+   "link": "https://www.contabeis.com.br/noticias/81241/permuta-no-simples-nacional-troca-tambem-gera-receita-bruta/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T17:15:02+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Simples Nacional"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "18c37593ed07",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Reforma Tributária: regra de créditos da CBS pode pressionar caixa das empresas em 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOYm5DQ0RwZjk3ek5DcEpnbDFfakM3dUQ0dTFnZThfRTNmZGxSa0t1Y0xQUzRfekRxSHFJaDE1bkpNVk9odkQ4c2JQM1k3UFRYN1JVVERGWmQySzh6V0VjM2h3NjQ4RFhPb0Z3a1llVlVId1U1cVpndWdTdlowLU1TaDJkU3NHM3NlLW93c2FiMzlJYm1NNTNKUG0xSEVGUUtYNTBmaklDUkstZ0sxQW43dGhTeW4xM09aSTlQRGFpYTdFWmNPaFhvSGJIRnBLWjM3c1R2aDF1dUxVMjJ5XzcxRzd4U29GeDhaWV9VXzR4cWtNY1R6Q2VJSk1R?oc=5",
+   "fonte": "Portal do Agronegócio",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T17:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS",
+    "Reforma Tributária"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "c0afb3ee3e58",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Receita Federal e CGIBS esclarecem emissão de documento fiscal por condomínios conforme a LC nº 214/2025",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY05pTG84ZVJUbS1odE0xNld5eG9tNUwtUkpBMjhlN1djMWlwa2l0MmlkVkh1a1VPRDlkSGJ1OEY2REM2cVJoN0huTE45M2VqanBCMExNWUsxSy1ScEktWnVTbTJfclZqVjFkd3BEal9vVFBDQWtmdzNDSFRlNmJmN3Jnam4zUFQxc2dPSWFEUXZSZHByWGxqbXlGM0NMb1JhZ0RQaXl3?oc=5",
+   "fonte": "Receita Federal",
+   "tipo_fonte": "Órgão federal",
+   "data": "2026-11-27T16:39:28+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "IBS",
+    "NF-e/NFS-e"
+   ],
+   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
+   "pontos": 3,
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [
+    {
+     "fonte": "Governo Federal",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQVliOVAwTGgtdDcyaGtKRGFTOFdZUXgzRTRfclFBSzlQbW8zSF9zcEV0QmJTZFdLcDFjQ0I2ZDRoYmhxWU1IUmE1aUZhdXZuX29YN1NRU29RczlFT0h0WEZkWVZHTnhRWG5lYlVKUGVpZUQ1VFhqN3VKRkVrRG5rRjNYamNXVElHWkM4dFI1THlDeHVjbnJQSDllWmxxMmlmZ0lMQkRVeTBobWFSOEVVUUFyRW1vZUtRdWc0bWx2YjBTUnNscXhkVWdQd25OMHVvanRCVWRlaHloLWZyb2gyQW15aUE?oc=5"
+    }
+   ],
+   "id": "1d1d9705c3f5",
+   "n_fontes": 2
+  },
+  {
+   "titulo": "Simples Nacional: prazo para cancelar opção termina em 20 de dezembro",
+   "resumo": "Empresas que solicitaram ingresso em 2027 ou escolheram recolher IBS e CBS por fora do DAS ainda podem desistir O post Simples Nacional: prazo para cancelar opção termina em 20 de dezembro apareceu primeiro em Jornal Contábil - Independência e compromisso .",
+   "link": "https://jornalcontabil.com.br/noticia/simples-nacional-prazo-para-cancelar-opcao-termina-em-20-de-dezembro/",
+   "fonte": "Jornal Contábil",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T16:22:33+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "IBS",
+    "CBS",
+    "Prazo",
+    "Simples Nacional"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "pontos": 7,
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
    "outras_fontes": [
     {
      "fonte": "Portal Contábeis",
-     "link": "https://www.contabeis.com.br/noticias/81207/simples-nacional-es-reabre-prazo-para-contestar-exclusao/"
+     "link": "https://www.contabeis.com.br/noticias/81104/empresas-do-simples-podem-cancelar-regime-hibrido-ate-dezembro/"
+    },
+    {
+     "fonte": "Contadores.cnt.br",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeEZSM25teFdRa2RlTzhWNGJjWE1RdURMZ2h6X1puY2gzTlNOWEJYalVFVGRJV2oxWkxWUXBkQzh3c2RrYU9FdDFRV2lhTS1HZFRybVVORGxka1dQYUlBTWpZQWpRN0dPUVNScHc0VUlPeGpRUkRVMEtzbXBJOG96eTVvUE44RG9BNi1OSkhjc2ZMUzlyaGgwa3FCZUNoRUR4cGpzclpPUkRkTlBwUGdJaUljVnlpZ1BNeGFVSTNCck9CMVVEMER5Z3lDZGNjOW0wWnFwU2Y2UGlVUEdWaVl0VG1ER1ZUWkF1ODJv?oc=5"
     }
    ],
-   "id": "9d6116a8d365",
+   "id": "0ee7b96e7012",
+   "n_fontes": 3
+  },
+  {
+   "titulo": "Áudio: CAE analisa projeto que torna obrigatória remoção de veículos abandonados",
+   "resumo": "Está na Comissão de Assuntos Econômicos (CAE) projeto que altera a Política Nacional de Resíduos Sólidos (Lei 12.305/2010) para tornar obrigatória a remoção de veículos abandonados em vias públicas, por oferecerem riscos ao meio ambiente e à saúde da…",
+   "link": "https://www12.senado.leg.br/noticias/audios/2026/11/cae-analisa-projeto-que-torna-obrigatoria-remocao-de-veiculos-abandonados",
+   "fonte": "Senado Federal",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-11-27T16:16:31+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Nova regra",
+    "Nova obrigação"
+   ],
+   "porque": "Surgiu uma entrega nova para o fisco. Verifique quais clientes são obrigados e a partir de quando.",
+   "pontos": 9,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [],
+   "id": "64717bc80350",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "RC 33914/2026: ICMS – Substituição tributária – Crédito extemporâneo decorrente de levantamento de estoque de mercadorias excluídas do regime da substituição…",
+   "resumo": "ICMS – Substituição tributária – Crédito extemporâneo decorrente de levantamento de estoque de mercadorias excluídas do regime da substituição tributária – Portaria CAT 28/2020 – Escrituração Fiscal Digital – Registro de Inventário – Entrega extemporânea. I. Tendo em vista que a Portaria CAT 28/2020 determina, em seu artigo 2º, a escrituração do livro…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC33914_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-27T16:05:17+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "Exclusão da ST",
+    "ICMS",
+    "Obrigação acessória",
+    "Legislação estadual"
+   ],
+   "porque": "Muda quem recolhe o ICMS desses produtos. Revise cadastro de produtos, estoque e preços.",
+   "pontos": 8,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [
+    {
+     "fonte": "www.agenciasp.sp.gov.br",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWGtIcENYTTFtdmtZcDBHbVBhX0NhSDBPUE9MZTNiZG5VMVA4WE9DUlM3OEdab2M2RWhuS1R1Q2x1Q3RGREg3cTRoalVrcEQyT1JuVjUxQ1RtYl95dXE5amI0eG15bUhrSWN0TTc5YkZGcEtqY0RhUHNzYnYzQU4yUWYxUQ?oc=5"
+    }
+   ],
+   "id": "737aaa4b70ad",
+   "vigencia": "",
+   "n_fontes": 2
+  },
+  {
+   "titulo": "Cervejeiros artesanais do Brasil pedem redução de 95% no novo imposto seletivo",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRzVhZ3RyWWRXQkliWm5YN29QQV9lZExOTHBsY1psdm45UlBydWpwY2FBRUVNd2NrelJ0aGJ0YkdrVnZIZTBORTZpY0g2V2JGZTBDQlV0dzBtM2xVZV9RTFN3T3U5Zk5zY0tqRXRPZkxheWJNRS1wSWpPNnd2WXZJQ190UmZXeHJFYmZYMUI3VEI3dmsxM0E5ZGpEei1BSHZNcnpzXzNqN1ViQ2fSAbABQVVfeXFMUDAwdXFsX2tlQktkd3VqVUVnZF82YTkzWFA2NklKRWdLTWRKSFZDTzBmNmozNF9zRFFsbk85Ym9pSS01QWFkOW5JcjRPQm9DR1dVOTYtakUzU3Z2UkUwa1NvOUI2MnhhN212S3JQaTNEVlN5NFEtTkNLR3lZS3B4dmZUaGlkcmlubHYwQ2lrMVlXMkdKZkI0VnJyMlN2aTN3SENUUnhEeVcwYzg1dXh4ajY?oc=5",
+   "fonte": "Vinetur",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T16:04:26+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Imposto Seletivo"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "20baeb65d1d1",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Expocacer conquista devolução milionária do Funrural a cafeicultores cooperados",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFNJSDFicldFZzhweE15M1hab3F3M1NKSEdEOE8ycVU5WW9sQ1lldmt3MmlqbjFTWWo4VHctb1JlZ3ZSX3RvR2g1bFFwNFN3ek16eEhJT3NoYk8wanRtclJQWWNFQ3FvbTBwQkx4WkRMa1dUZzY2NmpGdmljMndGeE1EUmRMRFdyMzRsZ1V5UERycmJLdGJVNW91OFFVNGNvYkNMRnhFaFNfTGE1R1NqZHd4d3A1QlNs?oc=5",
+   "fonte": "MundoCoop",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T15:58:06+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "FUNRURAL",
+    "Agro"
+   ],
+   "porque": "Afeta produtores rurais e quem compra deles. Confira clientes do agro.",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "363aa05ea5eb",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Áudio: Projeto permite que estados e municípios exijam programas de integridade em licitações",
+   "resumo": "O projeto de lei que permite que estados e municípios exijam programas de integridade em licitações de valor inferior ao dos contratos “de grande vulto” (PL 4.687/2023) avançou no Senado: o texto recebeu na quarta-feira (25) parecer favorável na Comissão de…",
+   "link": "https://www12.senado.leg.br/noticias/audios/2026/11/projeto-permite-que-estados-e-municipios-exijam-programas-de-integridade-em-licitacoes",
+   "fonte": "Senado Federal",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-11-27T15:46:01+00:00",
+   "esfera": "Municipal",
+   "uf": "",
+   "tags": [
+    "NF-e/NFS-e"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 3,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "51203acb38ee",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Áudio: Nova agência poderá coordenar prevenção a ataques digitais",
+   "resumo": "A Comissão de Relações Exteriores e Defesa Nacional (CRE) aprovou, na quarta-feira (25), relatório de atividades do senador Nelsinho Trad (PSD-MS) sobre a Política Nacional de Cibersegurança. Para coordenar ações de prevenção e resposta a ataques digitais, o…",
+   "link": "https://www12.senado.leg.br/noticias/audios/2026/11/nova-agencia-podera-coordenar-prevencao-a-ataques-digitais",
+   "fonte": "Senado Federal",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-11-27T15:05:42+00:00",
+   "esfera": "Internacional",
+   "uf": "",
+   "tags": [
+    "Internacional"
+   ],
+   "porque": "Interessa a clientes que importam, exportam ou têm operações no exterior.",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": false,
+   "internacional": true,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "a52d4d784bef",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Nota fiscal de aluguel vale em dezembro e Receita aperta cerco",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtc2dIZE5zY25zV2x0Yi1YcTlsUWRjQTJWTk1ENEszVHpxMUxRd2dWQTR2XzVXSXA0SWJuSEY1TG5ONldxNTFfN3B3U0hVLVcyeVVuRzQtYXp5akFoTnFtLV9LN2RLTUQwSlBGTFJ2a3o?oc=5",
+   "fonte": "TV Zoom",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T14:39:36+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "NF-e/NFS-e"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 2,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "0c45d5b5fee4",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Imposto Seletivo: sobretaxação de bebidas pode punir setor",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZGR1R3dPa2VhVi00d3VadFZPM1dKTHByTVJoOWRHSk53SmF4aUpCZnd0Y2pOSTFKQXFGR3AxMkRZeDlOLXBSQ0FNMFZzSDVwTEQ4dGdTeFlSeWZPR09wWDI0SXVlR3VhU29DQTNPNktDWWlkb29idDJjX2EtQk83QmZiY0VVM2FOQlNxNUZFWnpZR2ZENXpv?oc=5",
+   "fonte": "economiasp.com",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T14:21:23+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Imposto Seletivo"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "da5bc7f45f19",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Goiás aprova incentivo fiscal para atrair investimentos em energia renovável – Secretaria da Economia",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZmtpR0tvdUZvMk1HeHVvaDlQNVlEU2tVY0lXVEx6bTNNVUJBX2piS19STGZ1ZGt1VmhwaEl2U3U5OW1IZlBMaG0yRG1hVVBxY3kwMzZYLTZXT3lhaE9LemxNMFdWLWZUc2YzR3EzQm5JVkxMbF82eWlxWXRjZmFkYUZPYVF2VUVUUXB0VDZjMm1iQjhsVlJZaEY5UWlIVFRBdzJyQjAyZkZqZXM?oc=5",
+   "fonte": "SEFAZ-GO",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-27T14:15:48+00:00",
+   "esfera": "Estadual",
+   "uf": "GO",
+   "tags": [
+    "Obrigação acessória",
+    "Benefício fiscal"
+   ],
+   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [
+    {
+     "fonte": "Rádio Bandeirantes Goiânia",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdGZHcUNyX19uR1RRQzlBTzlsVzB4S0ZFQTRUR3g5b2VyTFgwN1hDMHp1LWxqRmFuX0lTOUEzQ2M3MEtSME1MRGdqZk4zX01YaDNiSnVGRVFVSi1iRThOQk1KQjl1b2ZseFdzM3FNWEU4b1VRaDA3N0JLQ1E4cmhpSS1wVHgwS2tnVHdsSDFLUnJNQ1hHTkFmSHpMLVB6bEJxaklsQzFHREFkdkRwVFhUeGFZdGd4NzY1VVRqMURLcFJjWkZVeUF3?oc=5"
+    }
+   ],
+   "id": "72bc54e3f360",
+   "n_fontes": 2
+  },
+  {
+   "titulo": "Receita muda EFD-Contribuições para a chegada da CBS",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaFJSNi1SYU15OXBxV3NEY3ZBNm9fb3BYbTVOZzRnU2FFdjZ5SnFsMUNyRWdfYV9RUHdUV2dkNU5rdVdxV3YwV0N0T1MtNFhjcG50S3Ffc2hqV21Md0hGdUJfcklRNHJfY29qMDgzaHFCNHEwbmxTRnlmb2t2VmRWeTIyRjFDZUg4RjdackUxejhUMDJ6cGfSAZsBQVVfeXFMUFR4RGczS3dfRDM4TnBZLUx6azZ4LXhLUzF4QU1UR2RHM3M3UUp4YTNwM2VuYjZvTTRHUFlCbHllSGhHRG5TcjdNRmhRMkhlLXBQU3pwUGZ0R1ZlSkxVb1h2VDVQdHJ3Z2QtMFBpaTdmMVB3SWRKY3VyOEczUDdrTFdFcHFlMlg1czZFanN4aFRuTTBXZkYyTFZFdWc?oc=5",
+   "fonte": "Jornal Contábil",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T13:46:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS",
+    "Obrigação acessória"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "a90c64592856",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "TCU apresenta ao Senado proposta de alíquota de 11,3% para CBS, novo tributo — Senado Notícias",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYV9NekFGVlA5MnV3WGptSU9qRms3WXg1aUtUOWV5WlhzLUFqUG9ybmhGTFZIZ1ZqYi1pUW9LSnZVdnFDaVFZbnhJSzJwWW5KLWJ6cVJkNmVDQi1JaTRmU1FtYjhwbHNWMXo2N3MtQzlBaU5zUkZ1c1h1QlRlZEJvTExnM2Q0YUNkQmtoS2djNTc0a1poQmk2NjZSU09qYU8zdTd6MWJnX25MZG5XZVZnN3diWUhwc1hPRzZxa3pKR1NVQkI3?oc=5",
+   "fonte": "Senado Federal",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-11-27T13:34:37+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Nova regra",
+    "Alíquota",
+    "CBS"
+   ],
+   "porque": "Define quanto será cobrado do novo tributo. Afeta preço, margem e a simulação de carga dos clientes.",
+   "pontos": 15,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [
+    {
+     "fonte": "Sistema FENACON",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOTloeHFyZ2kxOWtfU1pvQ09KeWcwMkI5UUlpOGhvVkhRWF9QR2I5UVlaZkZMaW5pLWVzbDNXd3ZNWDRSWnJzc0Frb2NiaU4yb2tOUEVFYmZxb3c2OUxzcXdlWlJnbF9qci1DTG13Zm5XX3dzSGw1bVdmVzdYVTcwNGpMb2Jmc0hMbWl4blhLeUw5QzVLQnhEU0taZXVhV0s1em9hNkVJUU9XNFIydWJXNHZtcWM?oc=5"
+    },
+    {
+     "fonte": "Portal Contabeis",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU21xdld6d0UwQVdqSjJwREtFTFpNZEUyOHJwNXF2cGJDdWxkWWhhN1JKZGpzcGo3b0MxSjIxbVlqQUVQdGNUd3dZS1FjdVZtN3NwUTFKQjVtdXZSbXJ0d0xsd1Yyc1Jqb2pBbC1KdjZpNjhYUGY0aEg0S01iU0VQSHpBc0Jnb3JTSjltam9RWnFHZC15T2tiTFUwQnNuSGRjalE?oc=5"
+    },
+    {
+     "fonte": "Poder360",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORVNDTmZKbC1pWExra05NZFVUTWlXRk4yR29CNDdVN0NGVTZFUVByeTJtbjJEV1BfbkJ5RTlEcnUxeFhiSGFMZ1k5bnI4dU5CTWFRekJYVFRITWdydWtLS21aQVh0d25aeGFYRnAtT1ZHUnZaYnNnYzFDSnFCZ3hqdGZqbC1MVXBGcWRHSS1RaHVtVWNlYnBUYUktdGVMRzhnVGpzOFZTRm52UQ?oc=5"
+    },
+    {
+     "fonte": "Estadão",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQndvMms1Z1ZXNzJENW0wR2F3Zm9EeVdaSzkwZEdweS10WWU2cW52b2EyaFZMUEt4dnFfR3oydmlfUF9fbWQ3RkFVRlN5eXZvMXUxbEZGS1VidzJhVjYtUFJYUkhIaUo5N2F6cjA4TVRPZGxHNkdLNWZZbThlbVlGVy1EaTZKSDJJSlpabUtZcGgyV2tjcmJUZ2xoWHNCYlVfczBsRlVpZ19DYTJTbGtoeGRJd0U2S1NzNVRrUDVRMTE4RjI3aG9JNHVfNjNxaUZJbFlEQnA3ZFM5T19YMnJCQlYweXBpemF2d3paMTJXV0k?oc=5"
+    },
+    {
+     "fonte": "Valor Econômico",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSjZsOXd3amVpempVMnRUanpDangwNDdRMDNFZmJqeVdkZ0d1dVdwV0RiRXd4enEzM2FZN3Y3SldqUWM4RHNRN0VKS2xDWFg4T2tCZHBEMXgyNDhOSGo3Q25DdFBWRTlyWmtiVWhOT0oyLVJrZW5zNnkzeGNydlVVeWFzNGxWOXlLSG02bGVORm5NckhMV3hsRVdJQ3VGeUtVREp0NVdzWlAxT0FfdXNwcC1yU2J1NUFYMFNqX2k3WDdIMnBaaFJ1b3A2eFZvYXpPdjNxYTNEbjlWYi1VTUptNjlVdlDSAfMBQVVfeXFMT1lPeVpPVjhTbHRMQlZoM3ZSczY0OUN5ZHBreGVjZ3FfRDdxOGthTTlHY0xKeHV1dm92bUE4YngyU01WdDVRQ1UxSlJGSXp1cll6YktwOWN6aG43THo3SXFlWWFsRS1JV04yTWs5MURtRWhHRTduYk1Zc2FKM3RnZVRmVHhENm9udHhlSTlHLWlWMXFXVmhPaGdrRGctRHhkaF9iODh5THozbkRHdVRPREZKMFp2Zm1SNWNXRk9JUl9ZVjlpSnBYZnhVRnRhYXpWWWJsTFVadjBHY0Ywa2VkSHJ1cGV4eGNDSEJjVU9YMWdMc2Rn?oc=5"
+    },
+    {
+     "fonte": "Folha de S.Paulo",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORzd3RXRDNVdEb2lNSXFYRlJnVmF2SnJHOVp4VzZiX0tjVWNGZ21fQnpodG1Kb3o5UE9JUXJnOU16YnViMklhV0NBZXhqR3UtU2ZYeHphdGZ3SkE5QTNjNjNhWjRZS1l4dndybFdGUi0tcmcwVm1ORENYWmRyaFEyMGFseE5aanRkS2liM1FlVXN0VzJsd1duVFU1d09SNk1LOGZPcVdYbTRuSXV1WDh1WS1MSVlWUmIxUFo0SGtISWk0NWJ0V1dmZ0tMVE5lMFV6c051OEE3TQ?oc=5"
+    },
+    {
+     "fonte": "O GLOBO",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT1JSdzVxbExiblozbDBFTllmWUl6alk2UmkzYW50WDRLaXo4UjNiemlMWUhNMEdRU1QyYWlnTTJqRjZhcmhCQzR3TE5fcThRWDNGOTZFX1g5cEdCRXFGYXZlZl9sazVkZTNmLTFYWFBoT1o0aFlLZ1RPR1ZwNTh4dzZhVTZ2YVZZekNRYng5X3lqM2xuX1oyY1hlQXJLTlZRS0tfSDM2NUx2eGdzSUstbWRwZFE0a1lGSGI3di16eU44aklnZWlzTzdMVWdsaWN6YUtLSDdQbUx2VW1L0gHrAUFVX3lxTE5zenZIU0lldW9DU2s0YjFRYlZsdzhJQVluaHBabFJFSEY1MnplR0RVRTUxNmpBb2xZMVlLbzJnZ0JrODZ3OU5iN2N3OTl1Y1dWRGxSdkhQQ2duOVJPdE5PclJqc1Bpb1djMlhJYk5tUlQ5Z0w1YmZQMDdyQ1FhZFVTWUotZzh6RTdjVzM0WEw1ZXBuc2pWMTlQczRaYXBad1E2ZlR2NF9XdzFvWm5KU2JpUkwzdWJuekp3ZHdLdjQxS0V6NnUzUnhad0QteXdYQWlfMXlLbTFjZ2x2d29sTXZ5WHN3eG5HdElBRDQ?oc=5"
+    },
+    {
+     "fonte": "JOTA Info",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUzVGYUF2Qk9zTUxuWkc2X3NoNU1HcjI3Q0R6LWxmMlpxSWdhdDVxY01hSkVrX0lzZVYxUFM4TWx5Qkh5dHRPMTB5VU9HRy1UMzBXMUJzS2NEOG45WjFSRmp4Ukh3WEhSMFhELTA3Z2pFekw2cWZLT3dkUVNzZUVaM19iMW0?oc=5"
+    },
+    {
+     "fonte": "Exame",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObXh1RFZyMU5zZGkyd3h0UzJUeUlSMU1RaVp4UmFldDZ4NWQ4Q2JtRUtOTlkxVGFoZGw1MjNuSUYzRnFPOExPczVFVEo1bEZMSHlHOUwyVmh3Q2pabHRSSlF6UnFrb2NzamwwTHd4VXBoZ1poZU9CQmIxUUE1Q21wU19ENDlTUjNTVTlMcVlZcXNkMDBELU9hT0dB?oc=5"
+    },
+    {
+     "fonte": "Times Brasil | CNBC",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcF9oeUVoaUVfSDhYU2lEV3lTcHdiXzJULU14NzRPdER5MmNfU283akFMVXFBcXVxLWZ6R2QwM1lJRlk1WVlxT0QzUk9ZemcxdFllVjBBUGo2S0VDOWREQ0RCRHU2YmJVMm1NR0gwRzJuenZtb3MyV3BTa0NQQUZYdHdkT1pweE1QTXR6dm0zNUtCa19FQUdabWxvQTNMelBwTngzWWpiTFloN0hnUWJz?oc=5"
+    },
+    {
+     "fonte": "Claudio Dantas",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUZmV6aVNWTk9janFKMkFURDNMcTlYVEg1R0hfSXdzUGhUdHRRWHhQVmJzOUFmTmJULS1odXlkMDBybHROajZla2YtWTlqSGpmWUl0eGgxcFNpM0tUb01rTERxc0habTdFVDhNNHRSUHpnYXc?oc=5"
+    },
+    {
+     "fonte": "Abrafarma",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUFNfb0l6ODBhVXktem5zUm93cFg2QVRwWXlMbDRhT1RmN3R5RkpZd1JFV2I2WHVUaTdrQS1aZmU1amtHZjEtMk53RVhHV201UjdmNUxiZXpQd1J4Qk10bFVYZlgtbHJSa1RmVy1Zc3ZESkpwVHNfNGtDVmpxQ05pUmxIZkd5WW5CWWlyWlMxMWxDazVMYWh6enZuSFYyVk1Oc0hVSEktYXdIRVdobWkxZEdJOA?oc=5"
+    }
+   ],
+   "id": "45f0f5691151",
+   "n_fontes": 21
+  },
+  {
+   "titulo": "IBS e CBS passam a integrar a base de cálculo do ICMS no Espírito Santo a partir de 1º de janeiro de 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSWx5X1cteUk1TG4ySlRjeURjWjk1MGVvR0V0YUYtYzBxUnhRdkZZRTNnSElOMVQyRDdXbnJZMnRmbmxiQV9KOVBGR0dBRTZCZG5TenQ3eVQyWTNnSElNSnFVdWptQVJXbnZ6UjV2ZVBKVzZQNFA1SEZYa21pQm56dWtrMW9ESG43M0wyZzAtZkVFNUlZSHRMQlRsdFF5eXQ5bXVRSFpiZUpaWGNpT0hUaFFlOGV0YkgwOGFHWHFUT2cxNzAxMGpOU3E2U18zZElibkFNZW12b3Jzc1k?oc=5",
+   "fonte": "Fecomércio-ES",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T13:31:45+00:00",
+   "esfera": "Estadual",
+   "uf": "ES",
+   "tags": [
+    "IBS",
+    "CBS",
+    "ICMS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
+   "pontos": 5,
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "e53a7b724207",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Reforma Tributária: veja o que muda a partir de 2027",
+   "resumo": "CBS , IBS e Imposto Seletivo entram em nova etapa, enquanto PIS e Cofins deixam de existir e empresas passam a ter novas regras de apuração. Leia mais em https://www.contabeis.com.br/noticias/81230/reforma-tributaria-veja-o-que-muda-a-partir-de-2027/",
+   "link": "https://www.contabeis.com.br/noticias/81230/reforma-tributaria-veja-o-que-muda-a-partir-de-2027/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T13:30:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "IBS",
+    "CBS",
+    "Imposto Seletivo",
+    "Reforma Tributária",
+    "PIS/Cofins"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [
+    {
+     "fonte": "Portal ERP",
+     "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOZnN4Y2dIOG5OZEtUZDhPZ3RLOEx2M29kWWdRZFdpZjlRSldLdlE3cGNrejktVEJ5d3JIVjBNNktYSFVxQ1hlaVFjcG4zbHZnZG9FRVJKb2dPS2E4VVZxMjltd2VsZFpZajNMbE4xNlFvREtHYU13YmQ0ZVU1YmNUZVVoRV9feW85YlNnOWhwTmhDcV92c1c1bkhabXIxWVVNckFrSnZ1NzNJSlBEamZQbkN6bFpHVU5uRTVSV0VRSDl1MER4dUpaa3M5Y0NUbHVONEFNTU9WbHJqRF9EYXhxWXhjYWFtZzlnV25zNUp5N0pHZmx2aUw1ODJSdEVMLTFpbU11VkRvd2lEUWcwTXUtWkg3X1YyMWhGMllsdVdfTktyVHQ1VHQyRXRhdjE5SDMzb2VNcXJXZEpjSzZ1WFE?oc=5"
+    }
+   ],
+   "id": "78b8972651c5",
+   "n_fontes": 2
+  },
+  {
+   "titulo": "Alíquota da CBS: relator prevê recálculo e relatório até 9 de dezembro",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkI1aGZaNVFid2psNWJkZFlnNHB4LVk1UEZucGhnem5wa1U4ZTc2WTlNVUllcFdCZDRBbl9maGtubzFCZHpyWUpOeWdUeGJLR0tYS3ZJb3BqTU0zaU5uaTc0WnpiaHFWN21pX2lRWURQZmNiTG9fRFBuakkwS1FVbk5tN3d5NXJhMzZQc1ZTTFpXd2x3THMxSnozR3Z2VU1jSzlzR2RvUFBERlBldE5MMUwxdTU?oc=5",
+   "fonte": "Portal Contabeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T13:15:03+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "5f26606bead8",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Arrecadação do ICMS sobe 13,3% no Ceará no terceiro trimestre",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQk51WHkzWWg0blRURW81ZVVGV1NFbUdhVHNYMWhickc5dVZhZHJjOF96WDNJWlhTNEFnV1diajE4aGRPa0w2RlAxc2x6WTU4RkozWDd1eXZwLTBqUko1RUVNc1pBaXdBV0R6M0Zvd2VwdHB2Y2xGUFVXSzN6OFBMLU1GdjNQa0tKdTRQbDVyWXBIcHBaV3RFeTY2dVJLVmVZRWJvWmxCZ2w1akdsSThTUjlQZkVGV1MwMm1xODFiaw?oc=5",
+   "fonte": "O POVO",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T13:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "CE",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 3,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "9733ef6771ee",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "ICMS de combustíveis: atualizada tabela de PMPF para dezembro",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdUpDQjRRcTZrVVAwdEZfQUJhZndvcUV4ZE9HM2FaV3pYOVZlQ25mSXh4ZHdMNUxUajZMclc5U3JVSGdoUi10TFB3M3BZVWpXcWswQ1NmSEsyeHhPd1dUSW9BdWo3c295ZjllaHRsSFBjcFYtQi0wcVh6aGdra180eEJKTk9wa293OF9OZkRVYjJlbjluQXBwWWozUWdFb0puTE5fSGY5b1I?oc=5",
+   "fonte": "Portal Contabeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T12:53:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [
+    {
+     "fonte": "Contadores.cnt.br",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPS2pGNndyU05FVE40VlhOT29WUmh4dkI2bFgteklUbURhN25wbHZVSXJhdElxZG5FZzZ6YkNuZW5maHEyTEhXX0IxdmN4S003akp1SzJPQjJpWWRlVmVqSjdtOXROWWFwNks1QjgtNUxuS0h3dUNCeDdELVpVeHc5ekZfdXREQWZiQ0dGNzNaQmloNVpfUWVuaEVsVk1hWVl0YkozNEFPV2l2eEdGdGdKSjJWWDlZbUdMRGREbjdadm5LM0J3NVd6U0p2Ym54cnZzMDdvLWdzRUtpemhPVlRwUTlGT2tYY1I2TjZV?oc=5"
+    }
+   ],
+   "id": "6b650a1ba657",
+   "n_fontes": 2
+  },
+  {
+   "titulo": "STJ cria observatório para monitorar disputas da reforma",
+   "resumo": "Comissão acompanhará a aplicação do IBS , da CBS e do Imposto Seletivo e identificará divergências que possam gerar ações judiciais. Leia mais em https://www.contabeis.com.br/noticias/81226/stj-cria-observatorio-para-monitorar-disputas-da-reforma/",
+   "link": "https://www.contabeis.com.br/noticias/81226/stj-cria-observatorio-para-monitorar-disputas-da-reforma/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T12:45:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "IBS",
+    "CBS",
+    "Imposto Seletivo"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "f6b80e540598",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Comitê Gestor do Simples Nacional publica novas regras para o Simples Nacional e para a transição da Reforma Tributária — Receita Federal",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNbkFDUEJtWndubWpaYjl3RVVkZ2xQakRqRTJ0UmFtVjAzM3IwZ0o3enA5WXNJYW90NXV3d0RsZXhLY2NPVlVNTzU5cjJCZjU4TjZQa0ZUR0hMRFk1cktKdU1RZVdxYlhyVFdiRFdIaEpnQ1ZqOVBWRFpSTm1YdkNLaktJLVhnSzl0bmlsdE50TV9odlJuQlA4bXktd3B0akxiX3NjWHpMMmFDc2hYSXh4eG43MWxXN21SMlVvZ2FUVXotSm9Yal92bXd1R3B5SVRGRlEwMTNwTE5FSkdaTktiQmxvZkZaZnQ3NDkyOE1QbXBnSkpKZG5yQzhpZFVvRGxpamNMdk9qMnlRQ1dUTlU5ZlZvWkxwUU1kWHRj?oc=5",
+   "fonte": "Receita Federal",
+   "tipo_fonte": "Órgão federal",
+   "data": "2026-11-27T12:43:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Reforma Tributária",
+    "Simples Nacional"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "pontos": 4,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [
+    {
+     "fonte": "Administradores",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS0JfYmlCbHVxZEJ6U2NWMkhRZFFra01CanM4eGFVOEs5c2xZNlVSN1Y0UUFWYnozZTg4dkM5dW5wbHNHQUl5eWFvOHJlRnViQzJ3Z0xHSjAwU3RXT0ZHRGFZaWw5U0pzMTY2WnEydmJOT3FTTVBqMldpWFgyaFpqZTdBREJXQV9pcVlDaUcxQ0NkamxoZi1hMWxqaW95TGRXa3RYYldiaFpleHVCclN4OHRpTlVuUDJWNnc?oc=5"
+    },
+    {
+     "fonte": "Contadores.cnt.br",
+     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNm9BN2dScWRNR1d4RkY3TTNWeXVEWWdjbTFwRV9kdlhkMWZ4b1RYZ1J6ZmFIUDgxazFqUUtLWk01c1IwY1ZzR3JEXzlDcklUeVZ0TkVUTzZMSTQxczJ4MFJsdlZRTExieWtrOXZKc0VfdHRxRnFOR184ZG9YU2lQdThGY3BUR09ISzJVUDBab2hOU1pmZEU1dlcxeXFadk56TUFDMXpjSHB6UkQ0Vm5TLW9mZ0ZDTVg5RDFPRlVHejJ6M01MbTVSRjdlQUtzZHZfS0ZXUE1aTVptbkJTQW9vMTBZZjlBelBjTGdOekkwQk5ZQ0E5ZG01eEtCOEdyWDBnSURwVjhuVkJ0TjQ?oc=5"
+    }
+   ],
+   "id": "ea7b3d4efcba",
+   "n_fontes": 3
+  },
+  {
+   "titulo": "CBS em 2027: CNA, CNC e CNT pedem adiamento ao STF",
+   "resumo": "CNA, CNC e CNT pedem ao STF adiamento da CBS em 2027. Entidades apontam pendências nas regras e solicitam prazo para adaptação das empresas. Leia mais em https://www.contabeis.com.br/noticias/81225/cbs-em-2027-cna-cnc-e-cnt-pedem-adiamento-ao-stf/",
+   "link": "https://www.contabeis.com.br/noticias/81225/cbs-em-2027-cna-cnc-e-cnt-pedem-adiamento-ao-stf/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T12:30:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS",
+    "Prazo"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "efca2b6a337a",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "MEI: CGSN oficializa teto de R$ 110 mil e novas regras para janeiro de 2027",
+   "resumo": "Resolução do CGSN eleva o limite de faturamento do MEI para R$ 110 mil em 2027 e permite contratar até dois empregados. Leia mais em https://www.contabeis.com.br/noticias/81223/mei-cgsn-oficializa-teto-de-r-110-mil-e-novas-regras-para-janeiro-de-2027/",
+   "link": "https://www.contabeis.com.br/noticias/81223/mei-cgsn-oficializa-teto-de-r-110-mil-e-novas-regras-para-janeiro-de-2027/",
+   "fonte": "Portal Contábeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T12:00:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Simples Nacional"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "f5ba7caba715",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "NOTA FISCAL PODE COMEÇAR A SER EXIGIDA EM ALUGUÉIS EM 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOUxRdF9jaDZGSTZiaVF4U3dncENmMUZJSV80NUs2WEF5dkYxallVakhxOWNvS3dvMEJvcVJhUTEyb1pEblV0Q2Z2bVZJVzkzOHVwLU92bzFGdElFY3V5VEd6RGZjTEdSazYwWm9PUnM0dHZTVy1WNjJWV0JLQXF3MEU2UTFvZmlHTGdSTWlXZER5WU84R0ZUWlJCZmxPVkpkV1g2c3pWVkFibk80c2c0ajUxVDVtZw?oc=5",
+   "fonte": "Bahia Econômica",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T11:17:48+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "NF-e/NFS-e"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "31f6949858bc",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Safra que atravessa reforma: contratos de 2026, entregas de 2027 e CBS do produtor rural",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCOGc4bUthNy1kQjF5em1rRVBPSUUxNWRzR3RmQ1lKZXEzMTRmQmViX3prWklEZzJKbEJLaVU4UzJLbXJiSm5ZcDYxTmVxdUdydjhQdGcweXBOdFctTVhSeFZsQTRwSGNzWTh4MFhkSQ?oc=5",
+   "fonte": "Consultor Jurídico",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T11:00:19+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS",
+    "Agro"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "6d8f16b6e401",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Alíquota da CBS 2027: estudo da IFI mostra que exceções pesam 4,3 pontos, e Senado decide até 15 de dezembro",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nUDV2Z1pJQkJHU1FsRjIxX0VkUnJlMmlEdmJ4RHl2bGxGV1pQZWs3bzZXWnQ1OGJjNEZrR3lYaXpJZi1tZkRJMmRQSkVNVVJmOVgyclA5N1BlaHV4RVFJMkxQLWdMMXoxU3V2Mi1KRFY?oc=5",
+   "fonte": "Rádio Corredor",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T10:47:34+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "af537d6af062",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "‘Nas próximas duas semanas, indicações, fiscal e alíquota da CBS estarão resolvidos’, diz Durigan",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX1J4RTQ0MEY1ZTZpWG5aUDNCS0RiWjJLVDRxZm5ST0xqMWQ3STFwekxmNTZwQ1VaTTFLV09CMWF4bWdaR1NSUi1wT0tzUGVLSGg2YU9sUU5fOG9xUUp2M1RyTi1uNy1Mb1ZIakxZOU94Z1d0dkhNcWlSR3BPa050a2YzUmszOTBfa3hrTHBqbWVXdU1Ib0E2NFhTWW9CTVd2cXd1UUVGNmVod0hYclFkTWZmV3FyVlFjS2laWDlhNDB3aTNVQXhOS3F5bWQ0S0tYRjB3?oc=5",
+   "fonte": "Estadão",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T08:28:31+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "c454d6ad72e6",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Ato COTEPE/ICMS Nº 128 DE 27/11/2026",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaS1PdDNwcHdTQ2VwdmtSRlJka205RFQ0TTZZeGY5a1dSdDctQlR4ZjdNU3RTelVKRFZYRnJ1T3piVm5qb0t4Wjd0RTJrcElfQ2JnVUNBZzlVT1dxX1dKZFcxaG10VnRQWnNObV96THpiNUdBUzkxOUdocnRjdEZESFZhUEpTZXJhMU5z?oc=5",
+   "fonte": "Contadores.cnt.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T03:00:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "fc051f289961",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Solicitar análise e liberação de Declaração de Importação via sistema SISCOEX",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNjdSZHJBTENYSTdZMkJqNW1KbjYyUUo4MndERXNEaERnZElOaFNrd1N2c050cExQTlpjVEo0M1Z3S29hUmh4dkV3NGpKS0s1Ny1ncUNRcHFMcnUxWWFUZXQ5cEpvNzc1Ujc3ZkFXSUZacGhtc0FsUDBVY0N5d2RmRnlTSGlpMlQtS3ptUzZ6TzBSOHhQZmRXcV83NzY4TjFzeUdCbWFna09tc0xOWldYNTdKZkROTzZMNFhfUVBaSm5taWUyVHdzR3hZTFg3QkZGOEIwLU5KN1JiUFBlTkd0Wmc1eEdGTWhKSTUw?oc=5",
+   "fonte": "SEFAZ-CE",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-27T01:52:51+00:00",
+   "esfera": "Estadual",
+   "uf": "CE",
+   "tags": [
+    "Obrigação acessória"
+   ],
+   "porque": "Envolve declarações entregues ao fisco. Confira se muda algo na rotina.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "bf41314943ca",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "IFI estima redução da alíquota da CBS para 7% sem isenções fiscais",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZ01JWkVDVFBRUXJDNWt6bHEzdmt4MHh0VGhPbTFCSEJVWGZqRXhLcjNRTGJkZGtuNVFJSHFWOUFTV3VPNGxHQ0NMX1c0MHVIcUwtbFlkV0NMTmhjbjNZaHk3NF84QVpKREdxWGJWZzVQWnZ2ZkhIUExWV1pQdkwxX1dySUVEMWNkaWRXbmJrUkRWYnZOTUlCVzU3Y01Pa1dfT09nUUp5SDhRMjJXcGYwc2pQcGpWUU4zOGlQUGEyaXVKZ1dReXhDd01wZ0I5T1F2N1Uw?oc=5",
+   "fonte": "Senado Federal",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-27T01:34:11+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "2c6d480a3797",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Reforma Tributária: CNA, CNC e CNT, em ação conjunta, acionam STF para adiar início da cobrança efetiva da CBS",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZzZFOWJZS3VEcXlmQjRWSm9NMlNiU2oyWk8wUVQ5MDNxTDNIaDBDcHNxR2dzSFZPNVJQd1dyWnBGR01MSkZXRUtfQjVkUWhHUlQ3UG9LeHVTWF83dDZzYWlRU1VyRzNrTm16YS1HekJFZG1ZM2owNTNSaGxWYzRwcHFXWVRfb0FDRGVTWXNsUkl6Y1l0TndsTDVLMTg3MEp5d3NGZFhDTHVlM1B3RkszU2lwNDdrcUhyM3lXd29NNmVmMXBURVBRUk5IUkpTTy1xWmZodWN5elJZQ1R4OGROUjRPdkQtakVOTjFQNkpObUxfaXRXelFSUEoxNWNsZw?oc=5",
+   "fonte": "Correio Braziliense",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T22:28:35+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS",
+    "Reforma Tributária"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "48a19494af4c",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "IFI analisa cenários para a alíquota da CBS e impacto das isenções fiscais — Rádio Senado",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSDlsb3ZLcl9fT0VxeFIzT3hyUFVNa3FyejhZckUtWU1hRWlyNUhKSm5UbWtzLXhvdUVMY0NnT2RMVnFUMks5Vkcxb1pYcGhWVTUtOWVRaGhndHBVdTQ3RC1tdFFNd2JLWUlPbTVONThyZDlISGtYODBWbnJDVTk3Sm5LUTFSUVZ6LUZuTFlvLUVxLWt2OUxzTDIxMm9BUy1QVnVhYXlEbGhDd1ZpSGRGNy1IN0lpeWJ4QTB3ZC01SjVOZThWUndkeQ?oc=5",
+   "fonte": "Senado Federal",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-11-26T22:22:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 3,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "2d6f649657a3",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Lei do Rio ratifica isenção e suspensão de ICMS para a Copa do Mundo Feminina de 2027 e fixa metas de avaliação",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdlJMaGg0c3Fsb0ppMjdjMDFEMjNFeFNwY1JLQThLeHJpdGtjQ3ZaOC1oYmtyN19NbDBncC1wRHJjWkZpOXdrTk56N2VSVkk1c1hCekgxNFppV2FzMnNVVDRhMXhUUDNsZERKbGFQQlo4OVJXVm9ndGxhRWFFT0k4Ny1HTWhaRnU0aG9RdjUxQmhvUnRZNFNpNUUwbERER0IzaUFKdDFBUGVhOTNzdnBfdXZtWVM?oc=5",
+   "fonte": "atlaspublico.com.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T21:31:38+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Nova regra",
+    "ICMS",
+    "Benefício fiscal"
+   ],
+   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "06554fad9305",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Empresa do lucro presumido poderá ter crédito de CBS sobre o estoque, mas precisa inventariar em 31/12",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcEh6YUVHRDBoTUNKMkI5VVpSa3EyNjY1bVhLRnBNb2NaOW85MWtGTnJIZGx6Q1o3NENiVmhaZEQ4bERLeFI0NGZWWnQ0ZnNIQl9jaGc2dWo3UWszOEZmbmI4NTFMQ21LOEx0d1hlSnlyUE1FUERuSlRtUjdHcDYxcGp5bFNSUmRsWHF3MXQwdEJXaFhKMThrTGR3M05JSmlndGNLR05QN3pqVXNBeE1IOHlrNGhGT2RKdERDTlZIcHBJX2c2Sy0xeGtMaWdtX3pHUTZFaWNnbVhpR3Bya1E1VGIyR3dlOVowejVHMFA0OGhjZzFYLXdLWlZrenBUMkXSAf8BQVVfeXFMUHBIemFFR0QwaE1DSjJCOVVaUmtxMjY2NW1YS0ZwTW9jWjlvOTFrRk5ySGRsekNaNzRDYlZoWmREOGxES3hSNDRmVlp0NGZzSEJfY2hnNnVqN1FrMzhGZm5iODUxTENtSzhMdHdYZUp5clBNRVBEbkpUbVI3R3A2MXBqeWxTUlJkbFhxdzF0MHRCV2hYSjE4a0xkdzNOSUppZ3RjS0dOUDd6alVzQXhNSDh5azRoRk9kSnREQ05WSHBwSV9nNkstMXhrTGlnbV96R1E2RWljZ21YaUdwcmtRNVRiMkd3ZTlaMHo1RzBQNDhoY2cxWC13S1pWa3pwVDJF?oc=5",
+   "fonte": "Estado de Minas",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T21:07:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "fcbb2171d7f1",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Receita aponta R$ 44 bilhões em divergências em créditos de PIS e Cofins; como conferir o saldo antes da virada",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYmNoeDFKSkxDajB2ZUo4MmtwTll1S1RvVWRabThlSGRZVEFpMUNjbjNRdHgxUm5iaXZweGF1RTVwcUxqcVpPYWNRblR1dmtqSEdIY01RSWU2M01md2ZCSDBTaF9fZ1JTN2ZUQ2RQOGE0RzhzZTBPME41bDBtZFptdFI3VURNVEZVcll6T2d5VkxLejBZa2F6aWtzQVNWeV81T2g3ZEJWbGVUZGtpTWJoQzQtMFJPODRWOUVJMUhYZnVCTzVPb205enhFNElTSk56TDdHOTNtcXhJREgtZl8wUg?oc=5",
+   "fonte": "panoramagocomunicacao.com.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T21:05:48+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "NF-e/NFS-e",
+    "PIS/Cofins"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 2,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "af90f1af05a8",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Prazo da Receita para corrigir crédito de PIS e Cofins acabou; veja o que vem agora",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMkd2VEo1TUJNOEloVzhBVDlGdGxOMHdoVFN5MzN4NGRQaTJTRVllVU50ZjVXT3VjWTllbmVBUDB2bG5tT3VfQzFNendydWVybFl2d19KWERrLTZJdU55NHV5YzY5bjBvWkppWjQ1MjZhc0ZQSXF2cTBHTkVLU2lSaDdudk9yUjFuY1pyQ29MWDQtcXFqbEdPWWVOa0tkeFZ5Sm5lMGhiTi02cEtDejRtUzVJRVR5TEtIZ2FrZlJkbm9wa3NjS19iNV9BN2dQUdIBzgFBVV95cUxPMkd2VEo1TUJNOEloVzhBVDlGdGxOMHdoVFN5MzN4NGRQaTJTRVllVU50ZjVXT3VjWTllbmVBUDB2bG5tT3VfQzFNendydWVybFl2d19KWERrLTZJdU55NHV5YzY5bjBvWkppWjQ1MjZhc0ZQSXF2cTBHTkVLU2lSaDdudk9yUjFuY1pyQ29MWDQtcXFqbEdPWWVOa0tkeFZ5Sm5lMGhiTi02cEtDejRtUzVJRVR5TEtIZ2FrZlJkbm9wa3NjS19iNV9BN2dQUQ?oc=5",
+   "fonte": "Portal UAI",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T21:05:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Prazo",
+    "PIS/Cofins"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "pontos": 2,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "5f26b3c11d5e",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Entidades recorrem ao STF para adiar cobrança de tributos da reforma tributária",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMC1lamFrYzNVcVJJNW1ZbV9IOTRXQnNKZndlTl91b2tBV2FKT202UFZYb2dTY3U2NlM5aGRyNzVIMUVoaUFXZHpjdU5hUmVOUGlJZ19pdHcxd3V3bEZIY0FqZENQRGwwZGhDUGNjczlNaDhOODNTUGVpS0daVXk0Wk9DQktwR2VsMjFBN04xRFlibUlLdzRZeHlxZkswMUI1T0tMR1cwYkdETG5aVEswMWltWHZ6cEZBVlQ0Rw?oc=5",
+   "fonte": "Consultor Jurídico",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T20:51:20+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Imposto Seletivo",
+    "Reforma Tributária"
+   ],
+   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
+   "pontos": 1,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "da4de4c53034",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "CBIC pede ao governo adiar para 2028 a cobrança da CBS no setor imobiliário",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PQ0tXcWtWcTFlX21wMnJlT24wYjI2MmZtTnIySmVYUklpOEpjUTQyUThNN3VkRWlMTk1ESG5sOXZVSnZpcmFFbFI3NE94T0NUelhFNXo3OFFVdU93Tm4tQmJTTFBMLWhyaWdINTBpSXJ2QW5td0xod1d3?oc=5",
+   "fonte": "portas.com.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T20:17:39+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
+   ],
+   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "015eda42be75",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Reforma Tributária: entenda as regras que passam a valer a partir de 2027 — Secretaria de Comunicação Social",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbkhSdGVvbmZUczQwNkR5YjZUd09UU2I3dXh3aURranUtdVRCRDFHbDA2X2RBS1BORC01bzJOUlU3TkVub2ZqLWRyaWgzUHBYM0JaeFJHVTNJSUJodGpJbTlqLTBxWERsUlpZR0pwQlp5RUpXZjNVVFYtOHNQVzZYelVuX003d1ZLQmNiaUFQUjJWT2U0NElyRTZFYmdzT1RTNVZ1ZkRRb3dnWk5mZXEtRk8xR3NUVHNFNVlDdEZiWUFUVVJXUXhrMTB5b3M3czY2b3ppTzA2SQ?oc=5",
+   "fonte": "Receita Federal",
+   "tipo_fonte": "Órgão federal",
+   "data": "2026-11-26T20:05:31+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Reforma Tributária"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "pontos": 4,
+   "reforma": true,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [
+    {
+     "fonte": "Agência Gov",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ1kyblhVWTlXVmFyaHk0OU1ibWRWY0t5WFZLSFdmWnhIQmdKekh1RDFmNXFEcXBQNzExNU9OOXVKRF9TLXQtSllRRFVqRXJHZTE4VkI0S0JQR0NtSDl0Q3N6c1hUUWJxOFNzTUI5U0puY0xJTmhnWnkzb1ZMTkd1Xy10MkcxQ25rbEJWYzdWeW44NkJZeDBxemxaMzJWcFVVOThHcXJrb2hLVThzamtxbGE4bC1JWWQtdmN6Nw?oc=5"
+    }
+   ],
+   "id": "161e5268d399",
    "n_fontes": 2
   },
   {
@@ -79,87 +1219,6 @@
    "n_fontes": 1
   },
   {
-   "titulo": "IFI entrega estudo sobre alíquota da CBS para Eduardo Braga",
-   "resumo": "A Instituição Fiscal Independente (IFI) entregou nesta quinta-feira (26) à assessoria do senador Eduardo Braga (MDB-AM) uma Nota Técnica sobre a alíquota da Contribuição sobre Bens e Serviços (CBS), instituída pela Reforma Tributária. O texto tem o objetivo…",
-   "link": "https://www12.senado.leg.br/noticias/materias/2026/11/26/ifi-entrega-estudo-sobre-aliquota-da-cbs-para-eduardo-braga",
-   "fonte": "Senado Federal",
-   "tipo_fonte": "Legislativo",
-   "data": "2026-11-26T19:14:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Alíquota",
-    "Nova regra",
-    "CBS",
-    "Reforma Tributária",
-    "NF-e/NFS-e"
-   ],
-   "porque": "Define quanto será cobrado do novo tributo. Afeta preço, margem e a simulação de carga dos clientes.",
-   "pontos": 7,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [
-    {
-     "fonte": "Metrô News Jornal",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSFRUV0JPMWcwbUFJVjRNLUFBdGZjOXRnc1R5QWdFazVOdm40eTk5VWR2elRjVktKRWZKckE0eDNvdFl5WXJZZjI2bDZ1dnp0WlBQdzF0WUdhdGtHcGRQOFgwZ0hXZGQ2Vks2X1BlWHFJeXJOdGhLa0RsNEp4TG9feEZrNGQtb0pKXy04SktFWnh2RmhTVWh2eQ?oc=5"
-    }
-   ],
-   "id": "b35fc3bc49ba",
-   "n_fontes": 2
-  },
-  {
-   "titulo": "ALERJ APROVA PROGRAMA DE REGULARIZAÇÃO DE DÍVIDAS DE ICMS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VYmw4Wm0wT0ZsUWFOTzhRWEpHZ2I5SDVwUUhXYlo5b2xFY1drazdZcHo4WS1HX2lteVdKX1pZQlFtdkV6U295VHBQUGUtemM2eWVLZEFTMlpVc0tab0NXd0l3?oc=5",
-   "fonte": "Alerj",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T19:09:14+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "Elizeu Pires",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc3M2MGhWRGwtUEFXdVFPUm9jQ1BjUHU5SzEyNmVYM1hXMURDbTBrbkJhVFVxcDlKRXMtaHZrNXlLXzVXZ1kta1cwRkZ0Zy0wN3RySjBPTGgzQTFNaUhIdDZ6YUltVWZKcU5DTnZiS2E3cHg1d1JOcktiUXdoUEdvMjQ1bHQ4UER1MFhmVHRjaUJHXzF5dVAxYzAyaUJPWTJJTkIxTS1hb0tsYkhlM3lpVU5B?oc=5"
-    }
-   ],
-   "id": "8f70efa7b953",
-   "n_fontes": 2
-  },
-  {
-   "titulo": "Reforma Tributária: regra de créditos da CBS pode pressionar caixa das empresas em 2027",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOYm5DQ0RwZjk3ek5DcEpnbDFfakM3dUQ0dTFnZThfRTNmZGxSa0t1Y0xQUzRfekRxSHFJaDE1bkpNVk9odkQ4c2JQM1k3UFRYN1JVVERGWmQySzh6V0VjM2h3NjQ4RFhPb0Z3a1llVlVId1U1cVpndWdTdlowLU1TaDJkU3NHM3NlLW93c2FiMzlJYm1NNTNKUG0xSEVGUUtYNTBmaklDUkstZ0sxQW43dGhTeW4xM09aSTlQRGFpYTdFWmNPaFhvSGJIRnBLWjM3c1R2aDF1dUxVMjJ5XzcxRzd4U29GeDhaWV9VXzR4cWtNY1R6Q2VJSk1R?oc=5",
-   "fonte": "Portal do Agronegócio",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T19:00:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS",
-    "Reforma Tributária"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 1,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "c0afb3ee3e58",
-   "n_fontes": 1
-  },
-  {
    "titulo": "Deputados se reúnem com equipe técnica da Fazenda para discutir cálculo da CBS",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeXJod0czb1hBTXdPS0pPT3VCZDZpQWdHUHNHQmdqcXhFQloxdG9oU182Y2Y3S3Myd1llTWx5WFhLSUhQSlpibHQzR01OUXlaWVFyclBqYkR5bVpwb3d4OFc4b1hUcld5SlVzR0UwbDA0RG9Rd0JlQ3BDZHMwTDJWNnU2b2hkcmhUZWFIclV4VjJEZjBrR1NwRTE5aWt6LVluS0RYUXNPbnoyaW1QU1pBbXZJS2JXLTBSaGNTdFR1WjVwby1ieTNzTjE2bkdyQdIB3AFBVV95cUxQdVB3RnpHUUZudjB6aXpseFFXcW9JejBKM1RiRUR4R0pJUXQwVHh6cTYxeThqNGJkc2FzU1NPeEFrWU1NTUJzREYxNEppT2VKaGpVeVZaOWtVMTRGNkUzZXFoekp2RGVKTDFWTXFXZjMwemhhTkF0WkMwTE9Xc2ZsazU4Smx5ZUgwQ05HWjRuWHBLcDlOdDJQWXRhcVB1UUtISzRkQkRzTFVrSHFXbF9oREJmOU9QdGhBSDJfbWQ3MWFjNUc4SWNMb1dQUmVINTlPV1N4dnVyQ2ZnMjdZ?oc=5",
@@ -201,28 +1260,6 @@
    "impacto": "baixo",
    "outras_fontes": [],
    "id": "c0d7873866db",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "ICMS de combustíveis: atualizada tabela de PMPF para dezembro",
-   "resumo": "ICMS de combustíveis: Confaz atualiza os PMPF de etanol, GNV, GNI, QAV e óleo combustível, com vigência a partir de 1º de dezembro de 2026. Leia mais em https://www.contabeis.com.br/noticias/81189/icms-de-combustiveis-atualizada-tabela-de-pmpf-para-dezembro/",
-   "link": "https://www.contabeis.com.br/noticias/81189/icms-de-combustiveis-atualizada-tabela-de-pmpf-para-dezembro/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T18:45:01+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "6b650a1ba657",
    "n_fontes": 1
   },
   {
@@ -299,78 +1336,6 @@
    "n_fontes": 1
   },
   {
-   "titulo": "TCU apresenta ao Senado proposta de alíquota de 11,3% para CBS, novo tributo — Senado Notícias",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYV9NekFGVlA5MnV3WGptSU9qRms3WXg1aUtUOWV5WlhzLUFqUG9ybmhGTFZIZ1ZqYi1pUW9LSnZVdnFDaVFZbnhJSzJwWW5KLWJ6cVJkNmVDQi1JaTRmU1FtYjhwbHNWMXo2N3MtQzlBaU5zUkZ1c1h1QlRlZEJvTExnM2Q0YUNkQmtoS2djNTc0a1poQmk2NjZSU09qYU8zdTd6MWJnX25MZG5XZVZnN3diWUhwc1hPRzZxa3pKR1NVQkI3?oc=5",
-   "fonte": "Senado Federal",
-   "tipo_fonte": "Legislativo",
-   "data": "2026-11-26T18:17:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Alíquota",
-    "CBS"
-   ],
-   "porque": "Define quanto será cobrado do novo tributo. Afeta preço, margem e a simulação de carga dos clientes.",
-   "pontos": 9,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [
-    {
-     "fonte": "Estadão",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMnp5bVJ1bmtkdmtpZmprQ2RZeDZpN2swNEFuRDdxcjRmY2JTb1hEOVMtVHQ3TjFrN0ZpQTNZeF9sY09pNm91OG9pbkd5YW5PMlpJWnZFdm9LVXY3alM1UEJ5X0pOSWg0Q0M3OG5RNE50TDFpTjd0b01ITFdrZUVGNktMLS1YZEdVbXpsTFZCdlR4S3BzWTZSVHM0bmc4c013S2VpeHhNV3BmVTU4bHk0MC1RejZlWkhyanJJRFR6Z3FRTWVQM2p5ZTVxQmJGLTZZQTQ2NnNBREpWSnJNejlSSVhOTUdYd9IB6wFBVV95cUxPTVR3eXZ1dE53WmFUOGF4SGdiWkUyTU1IRGxUQ2M0ZldZbWJ3YXFVTnc5RXhfSWtueXFtOWNZdmR2OHFLeVBVWEI0Wm50b3E4ZVZSb0V3MnB2a2NfSDFEWjFsTDVHYjVEeXZ3STdGZmhNakVtSm5Qd1h1TXZuTmZxUXQxWVk4S1BsQmZ4V2JvUWFfdGZJaHJaeVV2R1hBaWxRSzJuZ1hFVm1ESmZTSFdNazRCdmFPbXhvbFI1THEteXFRbHhJekliTnJxZlVhQ0ZWaktSRnZ6UGRiQktrQXhJNEI2TGt6eHd4LWdn?oc=5"
-    },
-    {
-     "fonte": "Valor Econômico",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQTU2czZ4VldXMWpTVTFhcWh2T245dFc1RmtpWGExdHVJVmVqZDA1Ukxob2NIYWxzZEtCcHJ5OVNkb2RlZUtPVVNaUWJXOXdhUE9wUFF2aXE4Z0xPZ0tUUmpTdDNXVVlCTVl6cDk4WVpBUnowMFBJSVhOaEphckdRYjFuV0V3NkZOcVloSDBkNDkwUWwzU1hma1F3Q2U0ZU85Q1g3SHFMbmZwZms4SmpXUm9WZGl0VExvVk9sSDl5MlhYOEN2VW1ybHdVeUxPWXo5X1NZZ9IB4wFBVV95cUxOZHVrbHBJb1VyVUVOemNKZ0lWUjE0THJKY3R5bzJmNnVtc1NKNE9mNHdmOFkzNWh5Rjc3LVBNSC1WMFVzMm1ONHRzSTl6UDZMN29WcmJISExNa3NscGVMLXJjcS1oaUNFNENaS2JoRFFUemMwVUVucHNiT0xMeENmOHg4WjVpZzNKWHc0WUlHbUE3bnduR00xZlZjcXgxWG84aDBqc0lBNWhvZ0prWDJNamt1Y1J4TTh6NVVkTW1acDBEZFZjcWJvbGo5V0FjR2lBRjljeUxmalJzQkxESzVuX0h6WQ?oc=5"
-    },
-    {
-     "fonte": "Sistema FENACON",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOTloeHFyZ2kxOWtfU1pvQ09KeWcwMkI5UUlpOGhvVkhRWF9QR2I5UVlaZkZMaW5pLWVzbDNXd3ZNWDRSWnJzc0Frb2NiaU4yb2tOUEVFYmZxb3c2OUxzcXdlWlJnbF9qci1DTG13Zm5XX3dzSGw1bVdmVzdYVTcwNGpMb2Jmc0hMbWl4blhLeUw5QzVLQnhEU0taZXVhV0s1em9hNkVJUU9XNFIydWJXNHZtcWM?oc=5"
-    },
-    {
-     "fonte": "Portal Contabeis",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU21xdld6d0UwQVdqSjJwREtFTFpNZEUyOHJwNXF2cGJDdWxkWWhhN1JKZGpzcGo3b0MxSjIxbVlqQUVQdGNUd3dZS1FjdVZtN3NwUTFKQjVtdXZSbXJ0d0xsd1Yyc1Jqb2pBbC1KdjZpNjhYUGY0aEg0S01iU0VQSHpBc0Jnb3JTSjltam9RWnFHZC15T2tiTFUwQnNuSGRjalE?oc=5"
-    },
-    {
-     "fonte": "Poder360",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORVNDTmZKbC1pWExra05NZFVUTWlXRk4yR29CNDdVN0NGVTZFUVByeTJtbjJEV1BfbkJ5RTlEcnUxeFhiSGFMZ1k5bnI4dU5CTWFRekJYVFRITWdydWtLS21aQVh0d25aeGFYRnAtT1ZHUnZaYnNnYzFDSnFCZ3hqdGZqbC1MVXBGcWRHSS1RaHVtVWNlYnBUYUktdGVMRzhnVGpzOFZTRm52UQ?oc=5"
-    },
-    {
-     "fonte": "O GLOBO",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT1JSdzVxbExiblozbDBFTllmWUl6alk2UmkzYW50WDRLaXo4UjNiemlMWUhNMEdRU1QyYWlnTTJqRjZhcmhCQzR3TE5fcThRWDNGOTZFX1g5cEdCRXFGYXZlZl9sazVkZTNmLTFYWFBoT1o0aFlLZ1RPR1ZwNTh4dzZhVTZ2YVZZekNRYng5X3lqM2xuX1oyY1hlQXJLTlZRS0tfSDM2NUx2eGdzSUstbWRwZFE0a1lGSGI3di16eU44aklnZWlzTzdMVWdsaWN6YUtLSDdQbUx2VW1L0gHrAUFVX3lxTE5zenZIU0lldW9DU2s0YjFRYlZsdzhJQVluaHBabFJFSEY1MnplR0RVRTUxNmpBb2xZMVlLbzJnZ0JrODZ3OU5iN2N3OTl1Y1dWRGxSdkhQQ2duOVJPdE5PclJqc1Bpb1djMlhJYk5tUlQ5Z0w1YmZQMDdyQ1FhZFVTWUotZzh6RTdjVzM0WEw1ZXBuc2pWMTlQczRaYXBad1E2ZlR2NF9XdzFvWm5KU2JpUkwzdWJuekp3ZHdLdjQxS0V6NnUzUnhad0QteXdYQWlfMXlLbTFjZ2x2d29sTXZ5WHN3eG5HdElBRDQ?oc=5"
-    },
-    {
-     "fonte": "atlaspublico.com.br",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU2JvSUktWFZBb1ZpV1lfZ0MtSGRfZER6TmlMVGR6bGRTNVczSVo0QVlDdDN4ZTRjeGMybV85eXhTMEpxOXdISk1MSHROLW00QldYSlk5MTdzcThsaldNV2REY2VVcEgtUk5ZeGRaNWhNZjlHQzVlYnZwcUo4T2hnQnBpVW43TGcyRjV4MXBsZDZ1QU1ORjJRZ055WGdqY1VVaTQtUnhB?oc=5"
-    },
-    {
-     "fonte": "Tribuna do Paraná",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd0dZamRia3g3bEdXZkdBRVRJalNrWXByakxNVHJJRDJJZ0s1aFJXN2IxTXFZZmZYNUFrc2Flemd6Q2ZfS1FKcUFjLTlWSUlPamExTEdkUDNkZHJCX0RIOTNfVzcwU1BJZk0ybTZnX0lOR0ZsTWhfVDkwU2cwN1gwcGs2YkxRMFBPYWs3bjA5dXRFR1c4UkEwTTVySkhwamU0cDZ5bHJHQVRUUm_SAbABQVVfeXFMUEpwZE9MUUVxRElmaUM0b2hablZ6am1zLXJIdlgwT1d6RTU2bVpDeEFIWlB5T2FBM3N2aDItc29UcFlkTFFtZlc0MzRWbmZscmRSbjFFektSWjVxWmtNX1EtOG0xaVlzTUMyQ3Z3OFdyQmxDMXF0SHB2V1V0RktzOWRlRktLZWp5c2JmbExWTDV1Z2t6cjJ6YmhTT3VFbGtqYktmcUZvWVlDSzFsZnJucFI?oc=5"
-    },
-    {
-     "fonte": "Goiás 246",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOOFg5c19VellhNHR0T2stdHY5MjhpSV9DR0pJZTUyYURjRGQ1UGZaMENVNDJ6NkowNjBrMG1rVUM0clQ5cUItNnE0YnJXNDU4TkFwUDFqNEtHSkRXOXdiNERReHdIRXVlYXR0N0Z6Z0xHQVZKX3IxM0FaWDdySUhmaW1pdW5yS044aU9VR3BDUFB3R1dHNW9GTGhIX0l3UEpJcXZaekpTSzR5XzJJWTBPYi1jYUQ4YVQ1N3RGUlhLWFBiQVhHZXNzMVRtZUZMU0wtM2w0cXJoZ2FBbnB1OTJkUTExTUF4c2ZEdmc?oc=5"
-    },
-    {
-     "fonte": "Jornal de Brasília",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRXdxdnUyMlpNV0xuVzRfZUpDczZwanZCaE0wVHVmVW9ncmNRWDNsakZoVDZSS3YzMjJ6cWwyT2NHZmJmSjVHN0FRVXBudzF4WWxsaWlmYnZwaFRRU09tcWpxMXUwaHk2RUZlbG9ObEtaYUx3NUNTd2FLM2tGaXlRNnNwUWc0Uy1xOFp3ellvcHFEdmpRa1FBR2tHeWlDMEVqcHlpbHJlOGc0bXBPanV1dElGTmpRMUFfcnRCd0VRNmFpSkhwaFM2T3FkbzRjSDJmamVIUWRn?oc=5"
-    },
-    {
-     "fonte": "Jornal Grande Bahia",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTFMxb3Qyc3Z3elQzcU1JaktqY05hQVdRVzA0M2M5MTNodmNWbHVKa0ZmSzJ1NUo0R282R0NqQ3RqSFpPMnZrZXFLeDQtQnBvd0tLWEJycVU0a1RnMUwtRE1lN0p6b0YzVGNjZ3VwcWtrRkUtZU9Dakotb283QzI5QVprYXA2eUJ3TzFFN3ByWnhtVXh3UEhpNUk0eDc5Z21OV2hEQzJ5SjZRMjhOazM4blRaTXJjN3JxU2ZxYU9VSHF1NFFvNDhPeTN1VnlRRzRFQWk4cV9fWjhidl9GUFAwMGVIOXVESkdIdHJDa3lIRQ?oc=5"
-    },
-    {
-     "fonte": "Money Times",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWmgyQmpGUG9SUVJTc1VoUVcwZjY2ME16NWZTVkd1Q3M3cjFNSHF6R3FndUxGTXlqWlRaT2x2T2duVzc4Mm55Vm1ZMGQ0UnRsNUsyM1BEeWpvUmlyMUxQQnR5VjRPakVFQ1p0NFZxM0wzekw0VkZ2SWc5RDg4RW5jdmhDeVZvdmhicnQyTDNtRW1udFJIVjZ4SjFSZkRHeHU3aU9GUHQteXNYOVloTUZBeHFHaF9OSkxrZE1Pd3VvTURYVDQ3cFE?oc=5"
-    }
-   ],
-   "id": "45f0f5691151",
-   "n_fontes": 20
-  },
-  {
    "titulo": "Áudio: Senado aprova bafômetro em acidentes e proíbe fiança em caso de morte",
    "resumo": "A Comissão de Constituição e Justiça (CCJ) aprovou projeto de lei que torna obrigatório o teste de alcoolemia ou exame clínico para motoristas envolvidos em acidentes de trânsito ou parados em uma blitz, e impede a concessão de fiança, graça, indulto ou…",
    "link": "https://www12.senado.leg.br/noticias/audios/2026/11/senado-aprova-bafometro-em-acidentes-e-proibe-fianca-em-caso-de-morte",
@@ -438,31 +1403,26 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Deputados defendem alíquota da CBS abaixo de 11% em reunião na Fazenda",
+   "titulo": "IFI entrega estudo sobre alíquota da CBS para Eduardo Braga",
    "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWGZqOVBzeGJrYTlYanJJdE1BMGJENFBnMFJYMWNHOGNWdGhKRHFubWd5bC1IVFFSbnE0MnVaRGVCVG5XaWk2ZXJ1VkV2RGJuNWcyM01wWS1Pd3dIR1ZHYjQ5WDAxNkxNOUpTY2QxMUV5S1pJTEh6OEtnS290LXlPVXVnMzUyWUI3YWRnZ1dDeTA3d0h1bnZWMFE5NlhjaDA0TlVfSUFVd3A1VDF4?oc=5",
-   "fonte": "CNN Brasil",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T17:49:57+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUmJuM0hJTVRLVGJoelI4MTMzTHpXczFpQmFhWWU2dUtaRk9XM0ZjcktVZEd6LXY2X1NlYndscFd5ejN6d3JfcFhxS0NFTEQyYVBUWHEzQnFvczk2SzZ6RklfbU1Fd0c4em81cG12VUNqZjZXSWtzeHhxOXhSN3dWYmFtd2VqUE9lQlhnLWxLNVJQN1NJLXU2NVc1M3NvalczQWNUVEo2T2pucG9MMXVqUnQ1el9YRlU?oc=5",
+   "fonte": "Senado Federal",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-11-26T17:38:09+00:00",
    "esfera": "Federal",
    "uf": "",
    "tags": [
     "CBS"
    ],
    "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 2,
+   "pontos": 3,
    "reforma": true,
    "fiscal": false,
    "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "Vero Notícias",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSXMwZkhYNGN2aUNuYVVLaDl6RTJFbjFnZHl5eDdnR3ZRSWsyVk5sa1cxbkFSNkI1OWV1UGtJRWlRcGxOdndBaFZEUlRUOHFrQ2FLT3BKckN4MUJlT0ViR1oyZ1pkekxmejAxQW1URTY1X3lPQ3FWSTJHZlMzMzlHTWN2MFVlQ1B2RWc?oc=5"
-    }
-   ],
-   "id": "7603905d0be9",
-   "n_fontes": 2
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "b35fc3bc49ba",
+   "n_fontes": 1
   },
   {
    "titulo": "Stablecoins: Receita afasta IOF em operações sem câmbio",
@@ -484,6 +1444,74 @@
    "impacto": "baixo",
    "outras_fontes": [],
    "id": "0aa95f3901e3",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Governo do Paraná fixa por decreto os índices de participação dos municípios no ICMS de 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ1JtYkdSWlc0eURRaTRSTHNIMURLd3ZOTmRQOUYwTDQxbkppUVZkRmxZN1pCRW5seDlZSl8xem0yU0l1WUZ5Sm92QmIxYlNLN3dVQ3ZHYWZTX1hNcFVsNVJQbm02c3QxaFFwd2p2YjE3MDhuWmJfNXAyR1ZLZFNxQVlFODg0TEcwR3Q1cFdzM0poM2RBRVZjekZlR2JQN256ZHQwMVhB?oc=5",
+   "fonte": "atlaspublico.com.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T17:13:07+00:00",
+   "esfera": "Municipal",
+   "uf": "PR",
+   "tags": [
+    "Nova regra",
+    "ICMS",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "8ae0d05a949f",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Sergipe exclui serviços de comunicação da parcela adicional do ICMS a partir de 2027",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS3R6T3A3U1hvNG1SVzNNakhMSWFXZVIyTzBaRW1paWlxVVB3MWFUZXVXNUFNR1NCOGU2Z1pzVkdPZHViS1BLRjc0aTFFU2hNc25jaFBCS05HQVBWWjVZNzdlaG1qRXlkVUItNzVYZ1dfcmNaN3gxOURsOXJoUFB6Yl9od3AtQ2diY2RITjV1dDNramdZYVdJNDRFaWFmdzh5T1NjSmZ2dXJQbWxrTlYya2JxX04?oc=5",
+   "fonte": "atlaspublico.com.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T17:12:21+00:00",
+   "esfera": "Estadual",
+   "uf": "SE",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "02e004317b67",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Nota fiscal de devolução: como referenciar a original",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JcEpaQkVmd1JqdFdnT2U3Sml2UWRKdjNjYXJpejhMRWx6aGQxekd3U1o3Y05ZVmFJcEljV1NrZzBubmVYTEtOaU5vWVdaU1NiM1VDM1RKaDMzdHI3amZhbzJHNU1aZG9mcHIwcjU3cEhHbV9jNlZzcW1B?oc=5",
+   "fonte": "Nota Gateway",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T17:05:34+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "NF-e/NFS-e"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 2,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "0ea2dc6d186f",
    "n_fontes": 1
   },
   {
@@ -511,17 +1539,38 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Relator da reforma tributária defende alíquota da CBS com ‘freio de arrumação’ a partir de 2027",
+   "titulo": "ALERJ APROVA PROGRAMA DE REGULARIZAÇÃO DE DÍVIDAS DE ICMS",
    "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWmRtNWJHV0VjMVVrZzd0NWstS2FIZWpTVFVIY2RJMm40ZXdzdTFjN1BLYTNWYkJoQTZhNGxIbzZkd3ZiSnhFc015dUtGVGFRNFphTGQ3TzZEZTJkcVhaX0FJR3plYnhzOHNhLW9vOG91ZzBkNFNYMlltTUpUS0lOMWlIdnZnZWZRd1hiR2JaSTFwNlNiUUE0NVJpM2tqSXZKcmNYclg1NVBUYzc4c1M4Nk1vaDhoV0YwMUlPVTVZSEEwRnJUUGxfNTF30gHPAUFVX3lxTE9hV19GUWdUdFYxVTBpcWNuWEF1aG12ZWN0aGFXSkkxRy1UR2FQMnlwUm9JQUw2TGw3ME9QVzM2aHRTcUZyeHZzN1FRNmJZX05HdE9HT1hoV0tBeVFXRjJiZTBZUFBXYVJwX1NzRWZNcHFDeE9SZGZqUEFlenBHcUppbHdVU3NVZEs3YnlJQ3YxV0pLWUdsZmFsVlpBUkY5ZjNSemF3M2s0Rkl1Ym9xb2QyZWpzUHhVRG1WTF96TjN0M3h0Z1ptbER5WFhkT2xYTQ?oc=5",
-   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VYmw4Wm0wT0ZsUWFOTzhRWEpHZ2I5SDVwUUhXYlo5b2xFY1drazdZcHo4WS1HX2lteVdKX1pZQlFtdkV6U295VHBQUGUtemM2eWVLZEFTMlpVc0tab0NXd0l3?oc=5",
+   "fonte": "Alerj",
    "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T16:36:28+00:00",
+   "data": "2026-11-26T16:58:00+00:00",
    "esfera": "Federal",
    "uf": "",
    "tags": [
-    "CBS",
-    "Reforma Tributária"
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "8f70efa7b953",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Deputados defendem alíquota da CBS abaixo de 11% em reunião na Fazenda",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWGZqOVBzeGJrYTlYanJJdE1BMGJENFBnMFJYMWNHOGNWdGhKRHFubWd5bC1IVFFSbnE0MnVaRGVCVG5XaWk2ZXJ1VkV2RGJuNWcyM01wWS1Pd3dIR1ZHYjQ5WDAxNkxNOUpTY2QxMUV5S1pJTEh6OEtnS290LXlPVXVnMzUyWUI3YWRnZ1dDeTA3d0h1bnZWMFE5NlhjaDA0TlVfSUFVd3A1VDF4?oc=5",
+   "fonte": "CNN Brasil",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T16:19:15+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "CBS"
    ],
    "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
    "pontos": 2,
@@ -530,51 +1579,8 @@
    "internacional": false,
    "impacto": "baixo",
    "outras_fontes": [],
-   "id": "dd5bb9155423",
+   "id": "7603905d0be9",
    "n_fontes": 1
-  },
-  {
-   "titulo": "NFS-e libera novas funções para testes da Reforma Tributária",
-   "resumo": "Foto: Glenn Carstens-Peters / Unsplash · Licença Unsplash Release 2 da Nota Técnica 009 inclui campos, validações e ajustes para IBS , CBS e retenção do ISSQN. Leia mais em…",
-   "link": "https://www.contabeis.com.br/noticias/81181/nfs-e-libera-novas-funcoes-para-testes-da-reforma-tributaria/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T16:07:00+00:00",
-   "esfera": "Municipal",
-   "uf": "",
-   "tags": [
-    "IBS",
-    "CBS",
-    "Reforma Tributária",
-    "NF-e/NFS-e",
-    "ISS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 4,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [
-    {
-     "fonte": "Migalhas",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcmZPUlhsU3k2bjI4UWlvMjlsRVJtRVJRNGQ4MzEyOWQ0eXFjM0ppYTFNWFZDd1FHLXN6N1ZKWUE0R1ZyVGVrUW9DNEI0SFZDbWZmSV94MVBhVldhQVgxUTJTQW03U0o5cFE1Z0NrS2kyZ3lHdlVIbHJGSVlObnZRdVhINURuWmZyT1lfZXRENEpMWnNCTkl5dUtEZC1CVERic3c?oc=5"
-    },
-    {
-     "fonte": "JOTA Info",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZnNkdXpFTUZERXZFdjVnSnphZGNEMmI1eWJmYnplQk9ZcVJ0MGFZQ3dMYWp2Qk55ZUxuWmlIeW1zZlluQTlvZXFnMWxUYTZfMXFCN0ctdUJCX01WbW9Jel93di0ydERLSUp0a01YQWVZWkVVMUN6RUZocjZPWjQzY3c4WFZ6ajlQZWtYa3phbGJMejFRWkVDUUZNbFJ5Z3dhZ1Y5dkZnZVZYTXdHWld3bWxBZUFfZHVERzZHaTlfN1czU29KdVNEcmlzR0lLUVlIWTZz?oc=5"
-    },
-    {
-     "fonte": "Gazeta do Povo",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSzFEcVlYd0xIUFp1LUUwSGFCZDdHVmluR1BZRHN5WWs4a3llMFZoS2tGRzBQV2VWaFpONm9xcVlITjdjQk42N2VYZ09vYlFYMktxNEF1V0FFZy01OGxCX1MzY0FVVFBWS2xVaXZPS1lHRXltZ0FQNXE3MkxmcDVhYm1tSDdPRGR4RGh6Q2k4N2RJb0VpeG8tZDhwLVBOQjVrczMtcFlmQkREX1FlOTdYUWx5SDhOVTl5WlR6UHk4cHQ?oc=5"
-    },
-    {
-     "fonte": "Campo Grande News",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM0tPdUhKUGY5QmZZRU43R1NaOXY4R3JZQTFZSlRmUjd5aVJNalhwZkUxOEJWdEpERHFqbzF4cTdUZHp4N0ZXN000T2dRZS1UVlV3N2FSSTlJRFROWnQwY0h4NXE5VmN1YjRVdDc3NVhla3VZbnJoNU8zeVNPLXZSdHYwOU5sZWhvdW5HNTlRcXh6djdYWjJKYks3dkJoS09ndVlF0gGjAUFVX3lxTE1XQnhDLWlNTGRLMkJvazBUc0RlWjJ6NzFDdzJiTXp3REJTNmNfTWE2TVh2clpFQzJIUEhmaXR3dW9XeEtJYU9fcUY3aHBEalJPMks1MHgtQ3FpZk1XTklUUlotek5acW5DVjRHS2hJVE9BLUFhbkM5Q1I5c2NWV0kyZzVWVkh4NzhTV21yZ1c3T0NlcUQxWTlXdmxGVlV0emFieWc?oc=5"
-    }
-   ],
-   "id": "c0ef1b4c4d4a",
-   "n_fontes": 5
   },
   {
    "titulo": "CBS poderia ter alíquota de 7% sem benefícios tributários, diz IFI",
@@ -669,24 +1675,22 @@
   },
   {
    "titulo": "CONFAZ publica quatro protocolos que alteram regras de ICMS",
-   "resumo": "Novos protocolos prorrogam regras para aves, estabelecem suspensão do ICMS na industrialização de carne bovina e excluem o ES da ST de sorvetes. Leia mais em…",
-   "link": "https://www.contabeis.com.br/noticias/81186/confaz-publica-quatro-protocolos-que-alteram-regras-de-icms/",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRkotUGZCSVdISGVaTU1jYzNDdlB2Y28zWEZhN0xXZ3VFZU9Vd01rU2F5SGEtMjEyMXVoQXNkR3VPdUhiTmw3X0tOdmt6b0NTNURmR0dlSTRkenRvYk9kNmhXUlV5Vk9ncG83eHZfSWxCVnJqb2JiVXRiR0g2dUZTR2JIZUNLbzZzUkt0OG9pdEt2QjNVc1RUdkNGSEctVmpEdDV5ZG5rSQ?oc=5",
    "fonte": "Portal Contábeis",
    "tipo_fonte": "Portal de notícias",
    "data": "2026-11-26T14:07:26+00:00",
    "esfera": "Federal",
    "uf": "",
    "tags": [
-    "Exclusão da ST",
-    "Prazo",
     "ICMS"
    ],
-   "porque": "Muda quem recolhe o ICMS desses produtos. Revise cadastro de produtos, estoque e preços.",
-   "pontos": 4,
+   "porque": "",
+   "pontos": 1,
    "reforma": false,
    "fiscal": true,
    "internacional": false,
-   "impacto": "medio",
+   "impacto": "baixo",
    "outras_fontes": [
     {
      "fonte": "Mix Vale",
@@ -742,33 +1746,6 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Cancelada reunião para votar parecer sobre ampliação do limite de faturamento de MEIs",
-   "resumo": "Foi cancelada a reunião desta quarta-feira (25) da comissão especial da Câmara dos Deputados que analisa o aumento do limite anual de faturamento do Microempreendedor Individual ( MEI ). A expectativa era discutir o parecer do relator, deputado Jorge Goetten…",
-   "link": "https://www.camara.leg.br/noticias/1321031-cancelada-reuniao-para-votar-parecer-sobre-ampliacao-do-limite-de-faturamento-de-meis",
-   "fonte": "Câmara dos Deputados",
-   "tipo_fonte": "Legislativo",
-   "data": "2026-11-26T13:00:02+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Simples Nacional"
-   ],
-   "porque": "",
-   "pontos": 2,
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "Portal Contábeis",
-     "link": "https://www.contabeis.com.br/noticias/81187/mei-cancelada-reuniao-para-votar-parecer-sobre-novo-teto/"
-    }
-   ],
-   "id": "ad0c13982803",
-   "n_fontes": 2
-  },
-  {
    "titulo": "Reforma Tributária: Receita Federal amplia acesso a ambiente de produção restrita da CBS",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVGNDOHBQVzJRQ0gyUjFtdE5jdGpreXlZR2ZLUzJqMUJORUFsYzNVbHVFOWFrdE9wa1ZpREdSTEJsM1RZMUZiTThzRERNUHJiS2NuQ2tfanlpQXV0WU9ZNDY5TDJ0U0wzbmtvcWlfd0lDYkgyLWJVRGt3WUpvQ2lOZWtfeGFHTEgyUDc3eUtURWZvS1R3NFlGRm1qNXd2R2RxRmxlNnFxVnF0X1BKei1zSk00N0dsMHU4MjQ4aXdZQ1lZdDhOQXp2Q25nVHhKZGtCZTdJOUZtZnRDY1plVHRpYlJ6cjRWelpV?oc=5",
@@ -795,6 +1772,29 @@
    ],
    "id": "a33b5962bfac",
    "n_fontes": 2
+  },
+  {
+   "titulo": "NFS-e libera novas funções para testes da Reforma Tributária",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbThBZVFwRnVGbDNXRTJuS1F0clNvd3NIdjU1SVF0aXVLekQ2bXVyN0QzYWgtTklKbVZGTTNQSTVIQVJMUUZRcER6bW9xeHBNVWRfcEpRRWFmNVgyNEd4SkY4N0xGLXg5V0xzWC1pN3hhNjU2OF9haWpPMkx0YnZ2amtSXzE5SFRpXzlyS0NDa0VwMkNUanJERTVrZHFnbjRZR2l6V1BRcGs?oc=5",
+   "fonte": "Portal Contabeis",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T12:00:01+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Reforma Tributária",
+    "NF-e/NFS-e"
+   ],
+   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
+   "pontos": 2,
+   "reforma": true,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "c0ef1b4c4d4a",
+   "n_fontes": 1
   },
   {
    "titulo": "Mais de R$ 55 milhões são bloqueados de investigados por sonegar ICMS no comércio de grãos em Goiás",
@@ -839,6 +1839,28 @@
    "impacto": "baixo",
    "outras_fontes": [],
    "id": "ffda92371270",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Inteligência tributária vira estratégia para proteger margens",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZUU5Q3g4UzNVV0E2OHd5cmpVVEtwT1BxazJ4YllTYThQOXdBZmJHU1lkX3lyTm5tdGJEd2ZKb2NiejhIV3QtTmpJa0lyMmFZSjkxbjhxZFlBYUNTekVXZXprNTUxdDFaS3lXYUExanhHTUV1ZFVvVlBQLWF0RGZIaUZHbnpTdTlVN2FFcjQ3RlZ3alpILU1QZFZhdkZ6MTFmZVRhXzdJSG1FUHdnbFpwLWxwQ0g5ckxSNDFoUmRURTM3QQ?oc=5",
+   "fonte": "Contadores.cnt.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-26T11:29:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Obrigação acessória"
+   ],
+   "porque": "Envolve declarações entregues ao fisco. Confira se muda algo na rotina.",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "39fb94a957e8",
    "n_fontes": 1
   },
   {
@@ -957,48 +1979,126 @@
    "n_fontes": 1
   },
   {
-   "titulo": "‘Nas próximas duas semanas, indicações, fiscal e alíquota da CBS estarão resolvidos’, diz Durigan",
+   "titulo": "Sergipe muda regras do ICMS sobre mercadorias com Bahia e Pernambuco e sobre frete de amônia, ureia e cloreto de potássio",
    "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX1J4RTQ0MEY1ZTZpWG5aUDNCS0RiWjJLVDRxZm5ST0xqMWQ3STFwekxmNTZwQ1VaTTFLV09CMWF4bWdaR1NSUi1wT0tzUGVLSGg2YU9sUU5fOG9xUUp2M1RyTi1uNy1Mb1ZIakxZOU94Z1d0dkhNcWlSR3BPa050a2YzUmszOTBfa3hrTHBqbWVXdU1Ib0E2NFhTWW9CTVd2cXd1UUVGNmVod0hYclFkTWZmV3FyVlFjS2laWDlhNDB3aTNVQXhOS3F5bWQ0S0tYRjB3?oc=5",
-   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdWVkbkc0VnlBZUtHRHBjc3RVOG5SM181cTJ2dW4td2NsYW5MWDJGQ3NfbTFMb2RTT3dFektrNnhPTTRiZHctZ3RuQUJ0bXVwOVlhSGNQYTM1dkMxNnBpQjNKQ1VBT2V3eVBhU3JxYTFmdFBHLTJBNzJzaEFGZ3NMbDNNdVZ6RHJQUjRXQTdMcmZYcUtiV2JaRGMwTFN1bGJSUklGMUFUbnViWE01YVJ1MzZ3?oc=5",
+   "fonte": "atlaspublico.com.br",
    "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T03:59:49+00:00",
-   "esfera": "Federal",
-   "uf": "",
+   "data": "2026-11-26T05:01:05+00:00",
+   "esfera": "Estadual",
+   "uf": "PE",
    "tags": [
-    "CBS"
+    "ICMS"
    ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
+   "porque": "",
+   "pontos": 3,
+   "reforma": false,
+   "fiscal": true,
    "internacional": false,
-   "impacto": "baixo",
+   "impacto": "medio",
    "outras_fontes": [],
-   "id": "c454d6ad72e6",
+   "id": "2f838b95f7e8",
    "n_fontes": 1
   },
   {
-   "titulo": "Reforma Tributária: o que o Ato Técnico Conjunto CGIBS nº 1/2026 muda na emissão de notas fiscais da indústria?",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOZnN4Y2dIOG5OZEtUZDhPZ3RLOEx2M29kWWdRZFdpZjlRSldLdlE3cGNrejktVEJ5d3JIVjBNNktYSFVxQ1hlaVFjcG4zbHZnZG9FRVJKb2dPS2E4VVZxMjltd2VsZFpZajNMbE4xNlFvREtHYU13YmQ0ZVU1YmNUZVVoRV9feW85YlNnOWhwTmhDcV92c1c1bkhabXIxWVVNckFrSnZ1NzNJSlBEamZQbkN6bFpHVU5uRTVSV0VRSDl1MER4dUpaa3M5Y0NUbHVONEFNTU9WbHJqRF9EYXhxWXhjYWFtZzlnV25zNUp5N0pHZmx2aUw1ODJSdEVMLTFpbU11VkRvd2lEUWcwTXUtWkg3X1YyMWhGMllsdVdfTktyVHQ1VHQyRXRhdjE5SDMzb2VNcXJXZEpjSzZ1WFE?oc=5",
-   "fonte": "Portal ERP",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-26T01:09:36+00:00",
-   "esfera": "Federal",
-   "uf": "",
+   "vigencia": "",
+   "titulo": "RC 40344/2026: ICMS – Substituição tributária – Operações com abraçadeiras. I. As operações destinadas a contribuinte paulista com abraçadeiras, classificadas na…",
+   "resumo": "ICMS – Substituição tributária – Operações com abraçadeiras. I. As operações destinadas a contribuinte paulista com abraçadeiras, classificadas na posição 7326 da NCM e que dentre as finalidades para as quais foram concebidas e fabricadas encontra-se a de uso em obras de construção civil, estão submetidas à sistemática da substituição tributária, nos termos…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC40344_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-26T03:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
    "tags": [
-    "IBS",
-    "Reforma Tributária"
+    "Resposta à Consulta",
+    "NCM",
+    "Substituição Tributária",
+    "ICMS"
    ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
+   "porque": "O código do produto (NCM) mudou ou foi ajustado. Código errado gera imposto errado e nota rejeitada.",
+   "pontos": 7,
+   "reforma": false,
+   "fiscal": true,
    "internacional": false,
-   "impacto": "baixo",
+   "impacto": "alto",
    "outras_fontes": [],
-   "id": "5f612dc7680e",
+   "id": "af970daa9f72",
+   "n_fontes": 1
+  },
+  {
+   "vigencia": "",
+   "titulo": "RC 34305/2026: ICMS – Obrigações acessórias – Combustíveis – Revenda de Gasolina A importada e nacional armazenada no mesmo tanque – Código de Situação Tributária…",
+   "resumo": "ICMS – Obrigações acessórias – Combustíveis – Revenda de Gasolina A importada e nacional armazenada no mesmo tanque – Código de Situação Tributária (CST). I. Como regra, na revenda de bens ou mercadorias, o contribuinte deve manter o controle das informações apresentadas pelo seu fornecedor quanto à origem (Código de Situação Tributária) dos produtos que…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34305_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-26T03:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "ICMS",
+    "Obrigação acessória"
+   ],
+   "porque": "Envolve declarações entregues ao fisco. Confira se muda algo na rotina.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "09ae003abd89",
+   "n_fontes": 1
+  },
+  {
+   "vigencia": "",
+   "titulo": "RC 33815/2026: ICMS – Regime especial de tributação para contribuintes que exerçam a atividade de fornecimento de alimentação – Decreto 51.597/2007. I. Fornecimento…",
+   "resumo": "ICMS – Regime especial de tributação para contribuintes que exerçam a atividade de fornecimento de alimentação – Decreto 51.597/2007. I. Fornecimento de alimentação, para fins de aplicação do Decreto 51.597/2007, corresponde à atividade de venda a varejo de produtos alimentícios que sejam preparados e consumidos no próprio estabelecimento em que foram…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC33815_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-26T03:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "ICMS",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "64b803f72fde",
+   "n_fontes": 1
+  },
+  {
+   "vigencia": "",
+   "titulo": "RC 34109/2026: ICMS – Partes e peças retiradas de equipamento locado, integrante do ativo imobilizado do contribuinte. I. A movimentação relativa ao retorno das…",
+   "resumo": "ICMS – Partes e peças retiradas de equipamento locado, integrante do ativo imobilizado do contribuinte. I. A movimentação relativa ao retorno das peças substituídas deverá ser acobertada por documento fiscal emitido pelo remetente, em nome próprio e sem o destaque do imposto. II. Na determinação do valor da peça usada e retirada dos equipamentos consertados…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34109_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-26T03:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "NF-e/NFS-e",
+    "ICMS"
+   ],
+   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
+   "pontos": 5,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "409729d24d97",
    "n_fontes": 1
   },
   {
@@ -1096,10 +2196,56 @@
    "n_fontes": 1
   },
   {
+   "titulo": "CNA realiza live sobre renegociação de dívidas tributárias para agropecuários",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNk9mTUpEak9DeWt1OFVpQXZPY1JFWHFPZXpCUDNIbC0xakZPa0JmaGhpZS15bmxNQnJJVGtES2REQXhTSjFWaDhydm96S29JU2FUQXM2YVdJdEw5YUJHaWdXNWgtV3FIZVpKWnlHSGpVUU5GVzQxeWhBV3BmTm5FQXNwdGdOT1Y5Q0stRXBUcDRqS3dh?oc=5",
+   "fonte": "boca.com.br",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-25T20:40:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "FUNRURAL",
+    "Agro"
+   ],
+   "porque": "Afeta produtores rurais e quem compra deles. Confira clientes do agro.",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": false,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "4a59ddfe9933",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "PGFN prorroga vencimentos de dívidas e suspende cobranças em Tupanciretã (RS) por calamidade pública",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMUNlWVdYRzlVU2Z6YTVTUzR1NlVDNVM2YzlkNkVnQlNsQlN3Q2k1d203eXVVeFZRVGh0TnltT1Q5RVNuUFppV3RlLU1WRVBWZ1ZZbnlHUkJidkxsREtNazhmM0VhVmtNaTZyR0RGTWdEVXFBNXR1NWpmSDREQzJGcERKSFRMY2tJcW16c1cwRzJPaU5oeUpaOEJXNndrcl92TW9PdjVfUnJxTF9sNG5TV01qdm50ZUxueGpiMXdDcXNmcHhGTWNvSWE1R2tkcW9YUkJyUWV0MEhGWXJUUFJFd0ZMOFNOZw?oc=5",
+   "fonte": "PGFN",
+   "tipo_fonte": "Órgão federal",
+   "data": "2026-11-25T20:30:48+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "Vencimento",
+    "Prazo"
+   ],
+   "porque": "A data de pagamento mudou. Ajuste o calendário para evitar multa e juros.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "44f9e2912924",
+   "n_fontes": 1
+  },
+  {
    "titulo": "SP permite usar crédito de ICMS na compra de equipamentos",
-   "resumo": "Empresas comerciais podem transferir crédito acumulado para comprar bens novos do ativo imobilizado, desde que cumpram requisitos. Leia mais em https://www.contabeis.com.br/noticias/81167/sp-permite-usar-credito-de-icms-na-compra-de-equipamentos/",
-   "link": "https://www.contabeis.com.br/noticias/81167/sp-permite-usar-credito-de-icms-na-compra-de-equipamentos/",
-   "fonte": "Portal Contábeis",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdVhUMVBPdlB0ZEVKdGFHZ3Myd0ZPQVpLYXpVRER6SkpiaFRfSXpWVFlkMUNfOVZyN0QtZ0NzSEtpS091TEJCVnRuVl9fdDdJSFpjb2FiNDhSSHZnQUJmeUlkbm9vZUVJOUQ0TnlhdkFpR1Bfem1sVUlqV0FJVEZXRzlRYnFwdy1IZlpoeXdweDZMdFEzSW9paTlsZS03VzRSZ3FORg?oc=5",
+   "fonte": "Portal Contabeis",
    "tipo_fonte": "Portal de notícias",
    "data": "2026-11-25T20:15:01+00:00",
    "esfera": "Federal",
@@ -1164,6 +2310,37 @@
    "n_fontes": 1
   },
   {
+   "titulo": "Pacote fiscal avança na Alerj com mudanças nos royalties, ICMS e fundos estaduais",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRVZpMUxuS2QtOFVMb0FrcDd1enBKWVFfaDlaQkZmOU5qSWJySm9OOWFoUkp2bkZiemlKY242SkVpMVdwV1ZzY0VlUzc0RFo5LVc4R3djRWdYUHNrcFgwMDNGQjNWWnROUFE3M1VDSkFiOWZGVFJrOGhkVko5MjJMWFJ4U3JnZU43VXJqU09GTzRST0RzcFZ4U2pWck5WdV9sQ2ZLWm1TQUxselBtT01z?oc=5",
+   "fonte": "Agenda do Poder",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-25T19:02:00+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 2,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [
+    {
+     "fonte": "Diário Carioca",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRjhtTGRJeHN4THpvN0o0QzlDSzNmaXZBUGozX3dhdVZfei1jb0hfS0VjYUdtOGdVS0ZFa1NHS2FuY0JsbHZMZ3d3TzhwUHN4bkZKZ2s1SjNWaHJFc3BxeFpMblVLMGpkZC1RTHRPdDZwNkdkZFQyb2xnMWREbUJBeV9XU3lrY2E0cjByYlRaMmhHZ0po?oc=5"
+    },
+    {
+     "fonte": "Fala RIO",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdjF4WWl6UzJDVlNtZi1BeXY0cHZKN0VwTWpfSXF3Sjk1eHhjZFdZR0J1b0hlR25rOHhoWmo3SVlaSllBeW5IUjA1T0hxZVp4T2pwS0VROFZQTF9EaUdqOG95NjQ3M0p5Rk1zcEVENEYwNUk0SmVGZFpMcWhfdGV0aTIwSnlNbkZwVlFxQWpscFZWM3BVQW9lQktyUGFkVzR2ZWtPNzUwMUgtSGlibjVF?oc=5"
+    }
+   ],
+   "id": "3b5659e3369d",
+   "n_fontes": 3
+  },
+  {
    "titulo": "Gurupi abre Refis 2026 com descontos de até 100% em juros e multas",
    "resumo": "Mutirão ocorre de 30 de novembro a 5 de dezembro e oferece condições para negociar IPTU, ISS e outras dívidas municipais. Leia mais em https://www.contabeis.com.br/noticias/81152/gurupi-abre-refis-2026-com-descontos-de-ate-100-em-juros-e-multas/",
    "link": "https://www.contabeis.com.br/noticias/81152/gurupi-abre-refis-2026-com-descontos-de-ate-100-em-juros-e-multas/",
@@ -1185,41 +2362,6 @@
    "outras_fontes": [],
    "id": "2ab21e4d3307",
    "n_fontes": 1
-  },
-  {
-   "titulo": "Confaz divulga preços médios de combustíveis para cálculo do ICMS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQWNHdGJDSkpjV2NBdW1EN25VdTJVemdKaXdLY3lid01NdnBlc2gxcndfNnRGVWY1U1RyaFc1UmhoS0NUQk1MUzE4QVI5NWxXaWZrXy1fb3J2Z2JGb1RBOEdNZThoamNtR0FJdG5EQTFkLXBGUTFVUEUyMWU5aXNuc1A2R2JNM1BxNllUaWpJMmpSdlhabmg0MUdJME1yc0s4N183M29HWWZHZHpJcnR2YmlwOGtBajRVZG45UUlKWmp1X1pLQ0xGT3NmS1Ixdw?oc=5",
-   "fonte": "Repórter PB",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-25T18:58:46+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 2,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "Band News FM Curitiba",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQzFyUjFibTlJdlB1WFN1VHFnRjBMQ2xlN2FkV1h4S3QyMmJOcjlaQnNyRzhIamtBbTQ0MmxSV3pKeE5KbW5OaVFtWlNlLXVnc2t0dUFLY3U5aEhIWFV0NUlfTlVOX1RTNS1KNFVmUzFoU01vQ0UxZUYySUp0X0MxT2JDcnJsSVprVXBKczNLdEFuZ3FyOFluaDBsOEtrdw?oc=5"
-    },
-    {
-     "fonte": "Monitor Mercantil",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaC0tTGFhQU9uYkFINzEyOENQZHFjR3hZRlRGVUVUTEN1TUxaRU04MS1jbVpvRmN0c0tZRWhwUGxVWDIxaXFyMHZZOU9JaHNUanFOWkk4QzVWN1RyWkFnZzVEQ1k1WExBdjZVSDB4WHh0MndqMVB1b1NqTjBraXNORU5Ldk9yLU1BTjhxREd2bF9hYWxsZXFKSTQzbkF2WkVrOGVlOVJseWpJM1h2S3FBMGVn?oc=5"
-    },
-    {
-     "fonte": "SÃO FRANCISCO 24hs",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNDQ1ZkEtSEdvNW9penZWOE9EeTRKSFBOWG5ybFdrMHpXTjFmNDVlSUt6LUt0TUkxcHhpV3U3LS1kX0xXSGFjUWJUYTNZdnNEY29KazIzNzFrQmVZOGhjSHNXdjE2ZlUySXBDSWF6N3A2Vld2Nm9FUksweFRyNXhwaEZDblRIZUpyd2lBbDBxWDlLbjlmaUFta3pYZ2hSY2Q1THB5dG1fYkQyZw?oc=5"
-    }
-   ],
-   "id": "9aa736f5a35a",
-   "n_fontes": 4
   },
   {
    "titulo": "ICMS sobre etanol e GNV na Bahia permanece inalterado a partir de dezembro",
@@ -1482,12 +2624,12 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Pacote fiscal avança na Alerj com mudanças nos royalties, ICMS e fundos estaduais",
+   "titulo": "Dono da Ultrafarma vira réu em investigação sobre propina e fraude de ICMS em SP",
    "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRVZpMUxuS2QtOFVMb0FrcDd1enBKWVFfaDlaQkZmOU5qSWJySm9OOWFoUkp2bkZiemlKY242SkVpMVdwV1ZzY0VlUzc0RFo5LVc4R3djRWdYUHNrcFgwMDNGQjNWWnROUFE3M1VDSkFiOWZGVFJrOGhkVko5MjJMWFJ4U3JnZU43VXJqU09GTzRST0RzcFZ4U2pWck5WdV9sQ2ZLWm1TQUxselBtT01z?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWExSRHU0UTBYdHpEZnhWWU1ETzJuenM0VU14UmJ4UC1wU25lVTdYdWRGRllCdFBoRDVjWkN2X3ozMkNMRTJhTU5iaDVnVUlYV2hOREQweGxRcTMwVEJ0WmVkTXoxOHJSOENHUk5zeXc2TEdIWGFqR1FNTjZ6Y1FtVzBMbHN5bzhjLTB3MTlOaEJEVDFHRVZzUGE3WDRDUnpLYkwwcnE3VnZYR0FPbWg4?oc=5",
    "fonte": "Agenda do Poder",
    "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-25T16:42:13+00:00",
+   "data": "2026-11-25T15:38:00+00:00",
    "esfera": "Federal",
    "uf": "",
    "tags": [
@@ -1499,14 +2641,9 @@
    "fiscal": true,
    "internacional": false,
    "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "Diário Carioca",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnEtU2lUdm44TU1mM2RWZWplSkZOWlpBdXRxUXlSLUdIVDRVR3NkZ2dSTlN2SktnUGNJc3BNT2tpMjJ6WlREZi1rMldoY0dBclhNTEFIY0RMRlYxX2J6SHpjVzNUYUlBTmhOVHVydGg5c3VRMF9HWG9ka1BuWmVpcjlFSy14NmhvVTJRTzZZcTN3Z1VGWlozRUJLV0NURkU?oc=5"
-    }
-   ],
-   "id": "3b5659e3369d",
-   "n_fontes": 2
+   "outras_fontes": [],
+   "id": "2ddda7f842d2",
+   "n_fontes": 1
   },
   {
    "titulo": "PGFN diz que não há contradição entre alíquota elevada para Imposto Seletivo e função extrafiscal",
@@ -1788,6 +2925,28 @@
    "n_fontes": 1
   },
   {
+   "titulo": "Confaz divulga preços médios de combustíveis para cálculo do ICMS",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNDQ1ZkEtSEdvNW9penZWOE9EeTRKSFBOWG5ybFdrMHpXTjFmNDVlSUt6LUt0TUkxcHhpV3U3LS1kX0xXSGFjUWJUYTNZdnNEY29KazIzNzFrQmVZOGhjSHNXdjE2ZlUySXBDSWF6N3A2Vld2Nm9FUksweFRyNXhwaEZDblRIZUpyd2lBbDBxWDlLbjlmaUFta3pYZ2hSY2Q1THB5dG1fYkQyZw?oc=5",
+   "fonte": "SÃO FRANCISCO 24hs",
+   "tipo_fonte": "Portal de notícias",
+   "data": "2026-11-25T13:28:09+00:00",
+   "esfera": "Federal",
+   "uf": "",
+   "tags": [
+    "ICMS"
+   ],
+   "porque": "",
+   "pontos": 1,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "9aa736f5a35a",
+   "n_fontes": 1
+  },
+  {
    "titulo": "Imposto Seletivo: CLP propõe mudanças para reduzir danos",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYS1fd25CRGFQSzZwX29wR1p6Wm5DMi1SZzdSM3dIbU42cUZkZG14Y0xpeEZYdUNDWXhPZXhTS1d0YUN5T1NqbjFQUkwtVlpQMFV4TE1vSmNoUk95cHg0QjJfVE0tdmtvZnJjRWNrTDdoR3p1V2Roc0MxZFl1aEZ3eGZMS0pSaC00aElEekxuVTQ2QVhCdl80MUxJRjdBNlNlM1E?oc=5",
@@ -1805,71 +2964,31 @@
    "fiscal": false,
    "internacional": false,
    "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXRzc2xHZVVfMHpfXzkycHlDalVzN3hELUxDRGpKR0RwdWpvd1k1eUZZRldvNkxteU9FaWwzb0I1Y2pTc0ZYazJ5V0I3RmdudGs2QTgyZ242NlNROF9Vb2NrVzVnTGNlaXJocUxiMll2OUc3eG9sT3ljOXM3bl9XWXlFMW53TTBsU095a3hPYkJHdGdEcmhTSnBWMXpyczFWa2pSZEhtMmpQY3ZZVHRj?oc=5"
-    }
-   ],
+   "outras_fontes": [],
    "id": "d210785686e9",
-   "n_fontes": 2
+   "n_fontes": 1
   },
   {
-   "titulo": "Comitê Gestor do Simples Nacional publica novas regras para o Simples Nacional e para a transição da Reforma Tributária — Receita Federal",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNbkFDUEJtWndubWpaYjl3RVVkZ2xQakRqRTJ0UmFtVjAzM3IwZ0o3enA5WXNJYW90NXV3d0RsZXhLY2NPVlVNTzU5cjJCZjU4TjZQa0ZUR0hMRFk1cktKdU1RZVdxYlhyVFdiRFdIaEpnQ1ZqOVBWRFpSTm1YdkNLaktJLVhnSzl0bmlsdE50TV9odlJuQlA4bXktd3B0akxiX3NjWHpMMmFDc2hYSXh4eG43MWxXN21SMlVvZ2FUVXotSm9Yal92bXd1R3B5SVRGRlEwMTNwTE5FSkdaTktiQmxvZkZaZnQ3NDkyOE1QbXBnSkpKZG5yQzhpZFVvRGxpamNMdk9qMnlRQ1dUTlU5ZlZvWkxwUU1kWHRj?oc=5",
-   "fonte": "Receita Federal",
-   "tipo_fonte": "Órgão federal",
-   "data": "2026-11-25T13:00:13+00:00",
+   "titulo": "Cancelada reunião para votar parecer sobre ampliação do limite de faturamento de MEIs",
+   "resumo": "Foi cancelada a reunião desta quarta-feira (25) da comissão especial da Câmara dos Deputados que analisa o aumento do limite anual de faturamento do Microempreendedor Individual ( MEI ). A expectativa era discutir o parecer do relator, deputado Jorge Goetten…",
+   "link": "https://www.camara.leg.br/noticias/1321031-cancelada-reuniao-para-votar-parecer-sobre-ampliacao-do-limite-de-faturamento-de-meis",
+   "fonte": "Câmara dos Deputados",
+   "tipo_fonte": "Legislativo",
+   "data": "2026-11-25T13:15:00+00:00",
    "esfera": "Federal",
    "uf": "",
    "tags": [
-    "Reforma Tributária",
     "Simples Nacional"
    ],
-   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
-   "pontos": 3,
-   "reforma": true,
+   "porque": "",
+   "pontos": 2,
+   "reforma": false,
    "fiscal": false,
    "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [
-    {
-     "fonte": "Administradores",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS0JfYmlCbHVxZEJ6U2NWMkhRZFFra01CanM4eGFVOEs5c2xZNlVSN1Y0UUFWYnozZTg4dkM5dW5wbHNHQUl5eWFvOHJlRnViQzJ3Z0xHSjAwU3RXT0ZHRGFZaWw5U0pzMTY2WnEydmJOT3FTTVBqMldpWFgyaFpqZTdBREJXQV9pcVlDaUcxQ0NkamxoZi1hMWxqaW95TGRXa3RYYldiaFpleHVCclN4OHRpTlVuUDJWNnc?oc=5"
-    }
-   ],
-   "id": "ea7b3d4efcba",
-   "n_fontes": 2
-  },
-  {
-   "titulo": "Empresas do Simples podem cancelar regime híbrido até dezembro",
-   "resumo": "Prazo para desistir do recolhimento regular de IBS e CBS termina em 20 de dezembro de 2026, conforme resolução do CGSN. Leia mais em https://www.contabeis.com.br/noticias/81104/empresas-do-simples-podem-cancelar-regime-hibrido-ate-dezembro/",
-   "link": "https://www.contabeis.com.br/noticias/81104/empresas-do-simples-podem-cancelar-regime-hibrido-ate-dezembro/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-25T12:41:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "IBS",
-    "CBS",
-    "Prazo"
-   ],
-   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
-   "pontos": 5,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [
-    {
-     "fonte": "Contadores.cnt.br",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeEZSM25teFdRa2RlTzhWNGJjWE1RdURMZ2h6X1puY2gzTlNOWEJYalVFVGRJV2oxWkxWUXBkQzh3c2RrYU9FdDFRV2lhTS1HZFRybVVORGxka1dQYUlBTWpZQWpRN0dPUVNScHc0VUlPeGpRUkRVMEtzbXBJOG96eTVvUE44RG9BNi1OSkhjc2ZMUzlyaGgwa3FCZUNoRUR4cGpzclpPUkRkTlBwUGdJaUljVnlpZ1BNeGFVSTNCck9CMVVEMER5Z3lDZGNjOW0wWnFwU2Y2UGlVUEdWaVl0VG1ER1ZUWkF1ODJv?oc=5"
-    }
-   ],
-   "id": "ec53c97889c0",
-   "n_fontes": 2
+   "impacto": "baixo",
+   "outras_fontes": [],
+   "id": "ad0c13982803",
+   "n_fontes": 1
   },
   {
    "titulo": "Sefa alerta para mudanças no recolhimento do ICMS de mercadorias vindas de São Paulo",
@@ -1942,6 +3061,29 @@
    ],
    "id": "b7f8cee01d57",
    "n_fontes": 2
+  },
+  {
+   "titulo": "Simples Nacional: Sefaz reabre prazo para regularização e impugnação dos Termos de Exclusão",
+   "resumo": "",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYWoxOVBqek9sN0owLUJRLUdSa3lXNG95ZlRqZVBvaHVZR1VDSGpib1NuNXhwSDNtbDcxNTRtTXpJQk0wQjJ3TWY4TmJLbmgzdEJXd2cydThkc3NITHo1Y1dHOTRhUnFSaTJDLWIxQTZuU1FkdlN1a05DTkdmS3RHRVRieHZSS2FXY0RaMmY1WTk0bXhkWUFwNXplbGRNZzFCRlFqMHNFN1V3cnhVc1JhbER3Y3c?oc=5",
+   "fonte": "SEFAZ-ES",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-25T12:07:00+00:00",
+   "esfera": "Estadual",
+   "uf": "ES",
+   "tags": [
+    "Prazo",
+    "Simples Nacional"
+   ],
+   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
+   "pontos": 5,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "9d6116a8d365",
+   "n_fontes": 1
   },
   {
    "titulo": "Convênio ICMS 142/2018",
@@ -2221,7 +3363,6 @@
    "n_fontes": 1
   },
   {
-   "vigencia": "",
    "titulo": "RC 33971/2026: ICMS – Isenção – Operações interestaduais com peras e maçãs importadas. I. O artigo 140 do Anexo I do RICMS/2000 prevê isenção nas operações internas…",
    "resumo": "ICMS – Isenção – Operações interestaduais com peras e maçãs importadas. I. O artigo 140 do Anexo I do RICMS/2000 prevê isenção nas operações internas com maçãs e peras, independentemente da origem dos produtos. II. As operações interestaduais com peras e maçãs não estão abrangidas pelas isenções previstas na Lei Estadual 16.887/2018 e no artigo 36 do Anexo…",
    "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC33971_2026.aspx",
@@ -2244,10 +3385,10 @@
    "impacto": "medio",
    "outras_fontes": [],
    "id": "6d9b44651148",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
-   "vigencia": "",
    "titulo": "RC 34209/2026: ICMS – Remessa de mercadorias elencadas no Ajuste SINIEF 02/2024 para não contribuinte do imposto localizado em outro Estado – Diferencial de…",
    "resumo": "ICMS – Remessa de mercadorias elencadas no Ajuste SINIEF 02/2024 para não contribuinte do imposto localizado em outro Estado – Diferencial de alíquotas (DIFAL) – Emenda Constitucional 87/2015. I. Na remessa interestadual das mercadorias constantes da cláusula primeira para hospitais ou clínicas, nos termos do Ajuste SINIEF 02/2024, o estabelecimento…",
    "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34209_2026.aspx",
@@ -2270,6 +3411,7 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "598b2b6669af",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -3022,28 +4164,6 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Governo busca alternativas para evitar redução na arrecadação de impostos",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbjNSTHc0N0FnaVBsMkpWM3dmdVZHQWdsbV9uMi0wazZwd29aNFJ6R3ZNbXFvbFlObld2b0c3X0tGMlg0UzA1d2JMRXE3eFlnVXBsaUVBaXdSVmpTbTU1dnVWcFhFazkzUUgtRURxVl9BVXhxc1Vobkp3TEdSa2V4RkY1b01nQkxoX2NlNFRHeUxfMmhQb0tNUEdVekg?oc=5",
-   "fonte": "Jornal O Sepeense",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-24T13:17:53+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Imposto Seletivo"
-   ],
-   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "e10062772d33",
-   "n_fontes": 1
-  },
-  {
    "titulo": "Simples Nacional: CGSN atualiza regras para adaptação à Reforma",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXRzc0V3LW5QZHZfb21TeGdKTmtnMWxZOUc1SUF6TkhVVURFbzRnTEkxdFVtbUxtYksydFlXeFVRaXdldW1YRGZWRFg2QTgyUzNUeWl0WXdjZlgxeGpxNXpVWWdjWWVsVE1sZVJqaXdNRXFqb3FzUWFSVTBkdmI4dVRnQzF0Ylkyb2RzdEhGRWZQTkIza3Nac0dVclRFTlVKZUhtM01jc002MTQ?oc=5",
@@ -3202,38 +4322,6 @@
    "outras_fontes": [],
    "id": "0da72fb947db",
    "n_fontes": 1
-  },
-  {
-   "titulo": "RC 34212/2026: ICMS – Substituição tributária – Transferência interestadual de motocicletas elétricas importadas entre estabelecimentos do mesmo titular –…",
-   "resumo": "ICMS – Substituição tributária – Transferência interestadual de motocicletas elétricas importadas entre estabelecimentos do mesmo titular – Caracterização de estabelecimento varejista – Margem de Valor Agregado (MVA). I. Na transferência interestadual de motocicletas elétricas novas, classificadas no código 8711.60.00 da NCM, de estabelecimento alagoano com…",
-   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34212_2026.aspx",
-   "fonte": "SEFAZ-SP · Legislação",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-24T12:08:46+00:00",
-   "esfera": "Estadual",
-   "uf": "SP",
-   "tags": [
-    "Resposta à Consulta",
-    "NCM",
-    "Substituição Tributária",
-    "NF-e/NFS-e",
-    "ICMS"
-   ],
-   "porque": "O código do produto (NCM) mudou ou foi ajustado. Código errado gera imposto errado e nota rejeitada.",
-   "pontos": 7,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [
-    {
-     "fonte": "LegisWeb",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QeVVHZy1Db1pTeWpYM3BqM0VxT0t0M0tkTFgtZHY0SGtqNkl0SndGTnhQUDE2OG1NUUZVdXFsYWgwdEhUWm5yYnBhaDF4eUk2LTF4OXhBUlQ?oc=5"
-    }
-   ],
-   "id": "b517ef726e93",
-   "vigencia": "",
-   "n_fontes": 2
   },
   {
    "titulo": "Convênio ICMS 34/1990: Dispõe sobre a exclusão do Estado do Espírito Santo e altera o Protocolo ICMS nº 20, de 1º de julho de 2005, que dispõe sobre a substituição tributária nas operações com…",
@@ -3524,6 +4612,33 @@
    "n_fontes": 1
   },
   {
+   "titulo": "RC 34212/2026: ICMS – Substituição tributária – Transferência interestadual de motocicletas elétricas importadas entre estabelecimentos do mesmo titular –…",
+   "resumo": "ICMS – Substituição tributária – Transferência interestadual de motocicletas elétricas importadas entre estabelecimentos do mesmo titular – Caracterização de estabelecimento varejista – Margem de Valor Agregado (MVA). I. Na transferência interestadual de motocicletas elétricas novas, classificadas no código 8711.60.00 da NCM, de estabelecimento alagoano com…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34212_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-24T03:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "NCM",
+    "Substituição Tributária",
+    "NF-e/NFS-e",
+    "ICMS"
+   ],
+   "porque": "O código do produto (NCM) mudou ou foi ajustado. Código errado gera imposto errado e nota rejeitada.",
+   "pontos": 7,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [],
+   "id": "b517ef726e93",
+   "vigencia": "",
+   "n_fontes": 1
+  },
+  {
    "titulo": "RC 34287/2026: ICMS – Redução de base de cálculo – Artigo 39, inciso XIII, do Anexo II do RICMS/2000 – Saídas internas de água de coco embalada. I. Aplica-se a…",
    "resumo": "ICMS – Redução de base de cálculo – Artigo 39, inciso XIII, do Anexo II do RICMS/2000 – Saídas internas de água de coco embalada. I. Aplica-se a redução de base de cálculo prevista no inciso XIII do artigo 39 do Anexo II do RICMS/2000 às saídas internas de água de coco classificada no Capítulo 20 da NCM, realizadas por estabelecimento fabricante ou…",
    "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34287_2026.aspx",
@@ -3547,33 +4662,6 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "4dc59949dc2f",
-   "vigencia": "",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "RC 33914/2026: ICMS – Substituição tributária – Crédito extemporâneo decorrente de levantamento de estoque de mercadorias excluídas do regime da substituição…",
-   "resumo": "ICMS – Substituição tributária – Crédito extemporâneo decorrente de levantamento de estoque de mercadorias excluídas do regime da substituição tributária – Portaria CAT 28/2020 – Escrituração Fiscal Digital – Registro de Inventário – Entrega extemporânea. I. Tendo em vista que a Portaria CAT 28/2020 determina, em seu artigo 2º, a escrituração do livro…",
-   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC33914_2026.aspx",
-   "fonte": "SEFAZ-SP · Legislação",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-24T03:00:00+00:00",
-   "esfera": "Estadual",
-   "uf": "SP",
-   "tags": [
-    "Resposta à Consulta",
-    "Exclusão da ST",
-    "ICMS",
-    "Obrigação acessória",
-    "Legislação estadual"
-   ],
-   "porque": "Muda quem recolhe o ICMS desses produtos. Revise cadastro de produtos, estoque e preços.",
-   "pontos": 8,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [],
-   "id": "737aaa4b70ad",
    "vigencia": "",
    "n_fontes": 1
   },
@@ -5659,34 +6747,6 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Expocacer conquista devolução milionária do Funrural a cafeicultores cooperados",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQlU2d3ZiNGZBZloxQzc5bW1icFZkekNzaWVGTWZQSVFqd0ZTYS1UUEJXbHN1eXlRMTNMRTlZMFJQTzdPcU5DZllrTmZucnlsY3plYUFpbjZ2RDMySl9vUmJhNVB5bFhGbW1veHBQcE5mSkVQWkZsVjE3WXJXSG1kY3JkWHl3X0x5ZXZqRWprSGZWVlZCTlEwY2s5MHMzbm1pNWZheS1RaVQxWlM3SjEzem5FeDhrUXYyQjhlWHpTQ1IyekxCTWVLWWFMM3NfQkh0QkNWY0RrNlpmUdIB3wFBVV95cUxQZVRyeDFLcjZBYlcxbHEzU1pPbFlTdGl3TndtUVJwRXdSaGFnSUw4TWJfM0pyeDVJaHE2cEZUa0NZZkVaaXRuRzVZbG90aVdSMkV5c3JJd0plTWJVeEhIV1BSNmpCcE5YdmwzeGNoZFVuOW9ERkFLdUJCc0Y1ajloM2FLOW1McDU5dktKbzE1MS1MZ3Z6U1U3UDExMndmTkVxdTRNZWtfLXJDUEVHNkh6ZTRhenM5YjNKTl9YN3pkZGtZN3pMeFIxQ250dlBUYnloenZYaElBTE4wRjdXZXhR?oc=5",
-   "fonte": "Notícias Agrícolas",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-19T13:11:40+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "FUNRURAL",
-    "Agro"
-   ],
-   "porque": "Afeta produtores rurais e quem compra deles. Confira clientes do agro.",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "universo.coop",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdWxQTHc0NXpNOXNZcVRENGFEazEwdGNxS0ZIUmUzdGVLdUs0TUthQmEyUC01RDJZeTNWeDROdmJIanBucmVObGxQdXVUWWpXdS1OVjNScjN5WVRNU0c3d1Q0NkhveDBfX1BXWDltVF9hMy1TaXhLeUxJSjZldlFodnJod0RsLXoyMFpxTmU0NUFObkd6c3YzUVQxN3FJdmhsa1E?oc=5"
-    }
-   ],
-   "id": "363aa05ea5eb",
-   "n_fontes": 2
-  },
-  {
    "titulo": "Receita vai mapear falhas na emissão de notas com CBS",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjRwQ3hWWmRjQkRnZndLaUp1QlltdFFybjhQa05Ob0NHRl9jRV9WUGdLem1MRVVhQnIwU1UyRVp4akdfTkJQUmVVMDFOa0dkRi1BS2MwWkNKQTJQQ0E4c0wtNGdoYzd6WUlhQXBtS2pyNnFqTkdoaUlzYnNEdW11RVBqcUtJcDR3QmdEZFc1cE5XWlZRRWlQVlNWa1QtZ2M?oc=5",
@@ -5826,29 +6886,31 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Convênio ICMS 134/2026: Prorroga as disposições de convênios ICMS que dispõem sobre benefícios fiscais.",
+   "titulo": "Convênio ICMS 133/2026: Prorroga benefícios fiscais previstos em convênios ICMS e regula o atendimento das condicionantes relativas ao PIS/Pasep, à Cofins e ao IPI.",
    "resumo": "",
    "link": "https://www.in.gov.br/web/dou/-/despacho-n-54-de-17-de-novembro-de-2026-744976425",
    "fonte": "CONFAZ",
    "tipo_fonte": "CONFAZ",
    "data": "2026-11-19T12:00:00+00:00",
-   "vigencia": "",
    "esfera": "Estadual",
    "uf": "",
    "tags": [
     "Nova regra",
     "Prazo",
     "ICMS",
-    "Legislação estadual"
+    "IPI",
+    "Obrigação acessória",
+    "PIS/Cofins"
    ],
    "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
-   "pontos": 6,
+   "pontos": 7,
    "reforma": false,
    "fiscal": true,
    "internacional": false,
    "impacto": "alto",
    "outras_fontes": [],
-   "id": "17018bbc8bed",
+   "id": "e11d7020d0a7",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -7052,34 +8114,6 @@
    "n_fontes": 1
   },
   {
-   "titulo": "Convênio ICMS 133/2026: Prorroga benefícios fiscais previstos em convênios ICMS e regula o atendimento das condicionantes relativas ao PIS/Pasep, à Cofins e ao IPI.",
-   "resumo": "",
-   "link": "https://www.in.gov.br/web/dou/-/despacho-n-54-de-17-de-novembro-de-2026-744976425",
-   "fonte": "CONFAZ",
-   "tipo_fonte": "CONFAZ",
-   "data": "2026-11-18T12:00:00+00:00",
-   "esfera": "Estadual",
-   "uf": "",
-   "tags": [
-    "Nova regra",
-    "Prazo",
-    "ICMS",
-    "IPI",
-    "Obrigação acessória",
-    "PIS/Cofins"
-   ],
-   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
-   "pontos": 7,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [],
-   "id": "e11d7020d0a7",
-   "vigencia": "",
-   "n_fontes": 1
-  },
-  {
    "titulo": "Entrega dos cartões do Devolve ICMS será suspensa na sexta-feira (20) em razão do feriado",
    "resumo": "",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORXpCY2VVYVhDVGtISlZKZjd1eVFrZU1yNGNkNlI1bFN3d1Q1Z1pPTVRnUllUTDZTTFlqVE1Iakk2bXNBYTZEdEtfT1I3TjBrSmxGOVBZbWtSR0FXSE1MZEVLUWtveElzYkNDSkExZlVWS1B6U0VvY2h6SjFxZXc1a1NLM3dSTzBBNHVCN1B2Y3NSWmJfS0VWampubXFvenJtSU45eG1TbnVEX29mVGlQd1RKMA?oc=5",
@@ -7099,6 +8133,33 @@
    "impacto": "baixo",
    "outras_fontes": [],
    "id": "fd244589f570",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "Convênio ICMS 132/2026: Dispõe sobre o atendimento de condicionantes relativas ao PIS/Pasep, à Cofins e ao IPI previstas em convênios ICMS.",
+   "resumo": "",
+   "link": "https://www.in.gov.br/web/dou/-/despacho-n-54-de-17-de-novembro-de-2026-744976425",
+   "fonte": "CONFAZ",
+   "tipo_fonte": "CONFAZ",
+   "data": "2026-11-18T12:00:00+00:00",
+   "vigencia": "",
+   "esfera": "Estadual",
+   "uf": "",
+   "tags": [
+    "ICMS",
+    "IPI",
+    "Obrigação acessória",
+    "PIS/Cofins",
+    "Legislação estadual"
+   ],
+   "porque": "Mudança na lei do estado. Verifique se algum cliente opera ali.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "506ef5e831a3",
    "n_fontes": 1
   },
   {
@@ -7214,61 +8275,6 @@
    "n_fontes": 1
   },
   {
-   "titulo": "RC 34166/2026: ICMS – Obrigações Acessórias – Prestação de serviço de transporte aquaviário intermunicipal realizado por balsa – Transporte de veículo com o…",
-   "resumo": "ICMS – Obrigações Acessórias – Prestação de serviço de transporte aquaviário intermunicipal realizado por balsa – Transporte de veículo com o passageiro embarcado. I. No transporte aquaviário em que o passageiro embarca com o seu veículo, a prestação caracteriza-se como transporte de passageiro, não havendo transporte autônomo do veículo, que permanece na…",
-   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34166_2026.aspx",
-   "fonte": "SEFAZ-SP · Legislação",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-18T03:00:00+00:00",
-   "esfera": "Municipal",
-   "uf": "SP",
-   "tags": [
-    "Resposta à Consulta",
-    "NF-e/NFS-e",
-    "ICMS",
-    "Obrigação acessória"
-   ],
-   "porque": "Envolve declarações entregues ao fisco. Confira se muda algo na rotina.",
-   "pontos": 6,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [],
-   "id": "82c325ba5401",
-   "vigencia": "",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "RC 34236/2026: ICMS – Obrigações acessórias – Venda para entrega futura – Nota Fiscal de simples faturamento – Ajuste SINIEF 49/2025. I. O Ajuste SINIEF 49/2025…",
-   "resumo": "ICMS – Obrigações acessórias – Venda para entrega futura – Nota Fiscal de simples faturamento – Ajuste SINIEF 49/2025. I. O Ajuste SINIEF 49/2025 estabelece procedimentos específicos para as operações de venda para entrega futura quando houver pagamento antecipado total ou parcial pelo adquirente, prevendo a emissão de Nota Fiscal Eletrônica (NF-e) para…",
-   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34236_2026.aspx",
-   "fonte": "SEFAZ-SP · Legislação",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-18T03:00:00+00:00",
-   "esfera": "Estadual",
-   "uf": "SP",
-   "tags": [
-    "Resposta à Consulta",
-    "Ajuste SINIEF",
-    "NF-e/NFS-e",
-    "ICMS",
-    "Obrigação acessória",
-    "Legislação estadual"
-   ],
-   "porque": "Muda regras de emissão de documentos fiscais (NF-e, NFC-e, CT-e etc.). Avise clientes e confira se o sistema emissor está atualizado até a data de vigência.",
-   "pontos": 7,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [],
-   "id": "1be13e9ab68c",
-   "vigencia": "",
-   "n_fontes": 1
-  },
-  {
-   "vigencia": "",
    "titulo": "RC 34215/2026: ICMS - Obrigações acessórias - Venda para entrega futura – Operação sem pagamento antecipado - Nota Fiscal de simples faturamento - Ajuste SINIEF…",
    "resumo": "ICMS - Obrigações acessórias - Venda para entrega futura – Operação sem pagamento antecipado - Nota Fiscal de simples faturamento - Ajuste SINIEF 49/2025. I. O disposto na cláusula segunda do Ajuste SINIEF 49/2025 não se aplica à emissão de Nota Fiscal de simples faturamento relativa à venda para entrega futura quando não houver pagamento antecipado, total…",
    "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34215_2026.aspx",
@@ -7293,6 +8299,33 @@
    "impacto": "alto",
    "outras_fontes": [],
    "id": "8966638b0503",
+   "vigencia": "",
+   "n_fontes": 1
+  },
+  {
+   "titulo": "RC 34166/2026: ICMS – Obrigações Acessórias – Prestação de serviço de transporte aquaviário intermunicipal realizado por balsa – Transporte de veículo com o…",
+   "resumo": "ICMS – Obrigações Acessórias – Prestação de serviço de transporte aquaviário intermunicipal realizado por balsa – Transporte de veículo com o passageiro embarcado. I. No transporte aquaviário em que o passageiro embarca com o seu veículo, a prestação caracteriza-se como transporte de passageiro, não havendo transporte autônomo do veículo, que permanece na…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34166_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-18T03:00:00+00:00",
+   "esfera": "Municipal",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "NF-e/NFS-e",
+    "ICMS",
+    "Obrigação acessória"
+   ],
+   "porque": "Envolve declarações entregues ao fisco. Confira se muda algo na rotina.",
+   "pontos": 6,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [],
+   "id": "82c325ba5401",
+   "vigencia": "",
    "n_fontes": 1
   },
   {
@@ -8529,33 +9562,6 @@
    "n_fontes": 2
   },
   {
-   "titulo": "RC 32512M1/2026: ICMS – Simples Nacional – Diferimento – Operações com pescados – MODIFICAÇÃO DE RESPOSTA. I. O diferimento previsto no artigo 391 do RICMS/2000 não é…",
-   "resumo": "ICMS – Simples Nacional – Diferimento – Operações com pescados – MODIFICAÇÃO DE RESPOSTA. I. O diferimento previsto no artigo 391 do RICMS/2000 não é aplicável em operações com peixes vivos. II. Na saída de peixe filetado realizada por estabelecimento que não tenha como CNAE principal os códigos 1020-1/01 ou 1020-1/02, aplica-se o diferimento do lançamento…",
-   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC32512M1_2026.aspx",
-   "fonte": "SEFAZ-SP · Legislação",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-17T03:00:00+00:00",
-   "esfera": "Estadual",
-   "uf": "SP",
-   "tags": [
-    "Resposta à Consulta",
-    "ICMS",
-    "Legislação estadual",
-    "Benefício fiscal",
-    "Simples Nacional"
-   ],
-   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
-   "pontos": 4,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "cf56fcee4e79",
-   "vigencia": "",
-   "n_fontes": 1
-  },
-  {
    "titulo": "RC 40047/2026: ICMS – Venda interestadual para entrega futura de ARLA 32 a destinatários paulistas – Entrega a granel, com fracionamento por medidor de vazão –…",
    "resumo": "ICMS – Venda interestadual para entrega futura de ARLA 32 a destinatários paulistas – Entrega a granel, com fracionamento por medidor de vazão – Emissão de documentos fiscais. I. Não se aplicam as regras da Portaria CAT 127/2015 às vendas interestaduais de ARLA 32 com destinatários e quantidades previamente determinados. II. Na venda para entrega futura, a…",
    "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC40047_2026.aspx",
@@ -8681,6 +9687,58 @@
    "outras_fontes": [],
    "id": "7ea45a084b23",
    "vigencia": "",
+   "n_fontes": 1
+  },
+  {
+   "vigencia": "",
+   "titulo": "RC 34284/2026: ICMS – Obrigações acessórias – Nota fiscal emitida em desacordo com a legislação tributária paulista. I. Não é admitido o uso de Carta de Correção…",
+   "resumo": "ICMS – Obrigações acessórias – Nota fiscal emitida em desacordo com a legislação tributária paulista. I. Não é admitido o uso de Carta de Correção Eletrônica (CC-e) para corrigir variáveis consideradas no cálculo do valor do imposto. II. O procedimento para cancelamento de Nota Fiscal Eletrônica (NF-e) só pode ser realizado se não houver circulação da…",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC34284_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-17T03:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "NF-e/NFS-e",
+    "ICMS",
+    "Obrigação acessória"
+   ],
+   "porque": "Envolve declarações entregues ao fisco. Confira se muda algo na rotina.",
+   "pontos": 6,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "alto",
+   "outras_fontes": [],
+   "id": "4b3b6ebde67b",
+   "n_fontes": 1
+  },
+  {
+   "vigencia": "",
+   "titulo": "RC 33996/2026: ICMS – Diferimento – Operações com peixes – Perecimento no estabelecimento do contribuinte. I. O diferimento previsto no artigo 391 do RICMS/2000 não…",
+   "resumo": "ICMS – Diferimento – Operações com peixes – Perecimento no estabelecimento do contribuinte. I. O diferimento previsto no artigo 391 do RICMS/2000 não é aplicável em operações com peixes vivos.",
+   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC33996_2026.aspx",
+   "fonte": "SEFAZ-SP · Legislação",
+   "tipo_fonte": "SEFAZ estadual",
+   "data": "2026-11-17T03:00:00+00:00",
+   "esfera": "Estadual",
+   "uf": "SP",
+   "tags": [
+    "Resposta à Consulta",
+    "ICMS",
+    "Legislação estadual",
+    "Benefício fiscal"
+   ],
+   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
+   "pontos": 4,
+   "reforma": false,
+   "fiscal": true,
+   "internacional": false,
+   "impacto": "medio",
+   "outras_fontes": [],
+   "id": "6a51f3a9f736",
    "n_fontes": 1
   },
   {
@@ -9992,1037 +11050,6 @@
    ],
    "id": "5b9617a77275",
    "n_fontes": 2
-  },
-  {
-   "titulo": "RC 33622/2026: ICMS – Diferimento – Redução de base de cálculo – Crédito outorgado – Operações internas com pescados. I. As saídas internas de pescado farão jus à…",
-   "resumo": "ICMS – Diferimento – Redução de base de cálculo – Crédito outorgado – Operações internas com pescados. I. As saídas internas de pescado farão jus à redução de base de cálculo prevista no artigo 3º, inciso VIII, do Anexo II do RICMS/2000 desde que observadas as condições previstas neste artigo. II. As saídas internas dos pescados indicados no artigo 391 do…",
-   "link": "https://legislacao.fazenda.sp.gov.br/Paginas/RC33622_2026.aspx",
-   "fonte": "SEFAZ-SP · Legislação",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-16T03:00:00+00:00",
-   "esfera": "Estadual",
-   "uf": "SP",
-   "tags": [
-    "Resposta à Consulta",
-    "ICMS",
-    "Legislação estadual",
-    "Benefício fiscal"
-   ],
-   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
-   "pontos": 5,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "c4f9944cbdf6",
-   "vigencia": "",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Nota Fiscal de Consumidor Eletrônica - NFC-e",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOellNd1VwWTI0UU9ydXpGaUNKdEw0UmFlYk9vRmdqVUgwTlFrR1ZwZGNQS3NRMnJYaE1TTW8xcHBESkVCMFhqbk5ndDA2a2UwNTFhS3R1a2R2WXhrdFE3eHVBRThLWlA4RjlmbFZSTjhqd2ZDOTlmS3gwM0hzTHluMnpzU25YM2ltYWVhSUUxUzZ6dVpaNTZLY0ZVSXJvaXdFYVZxUWtucE5PN3hSYTdWVW85aHFSWXA1SlBSNnFKdE1IZHVYcXdqbklBMzRBaUtfbFlZc2dIVEZvUUprakVMTFVSUVhSdFE4clFTN3hha1l0UEZPb2RtMlk4NmY1LXJORXFMVjBPTlJyVTBjX0pmMlQ0b1U1b2xrczAwdmQ2ZTJhX2lvN3V3VTVsbkI0OUxGMU50bTZ3N2F4QQ?oc=5",
-   "fonte": "SEFAZ-AL",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-15T19:00:00+00:00",
-   "esfera": "Estadual",
-   "uf": "AL",
-   "tags": [
-    "NF-e/NFS-e"
-   ],
-   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
-   "pontos": 3,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "24292675e2e2",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Pedido de homologação de ICMS do imobilizado segue regra de 2029",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnlQdURFWFpQeVpnYW5rNV9ncDlDMUtuNlFtX1hUSmlaUHJDeGpYTGZnazRRZTk5a1ZoTDgtOWk1cEtJek83cUJnb19VT3JscVJJSEhoZlNRd1FodGNpV2dtVWZrbjNxVmFKdE9Pb281eDlMZk5BWUtJcUcyTzVXZlpZTjJrdDFuV3pVZGtKWUJPRWl1aUZEQjA0MHBGbTdvY2FPcjR3?oc=5",
-   "fonte": "Mix Vale",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-15T13:59:55+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "cc2b7c4d3295",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Apuração assistida da CBS: simplificação ou risco ao contribuinte?",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHN3FwazR6akZOemIyZEM5aFN2TGlZbEhmaHo2S3NScU9qNUc3bTk0cXVWbjNFT25mcGtBZVRHbWxjWUhLVkJ0MWFxUGxzNTQzZ1FXSHFuY0JCZVNRRFFoamZRSEQ2TUZFLUNpRA?oc=5",
-   "fonte": "Consultor Jurídico",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-15T12:26:50+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "da459b06e87f",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "CBS: os desafios da governança são maiores do que os da alíquota",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONFZWZVlRWjlOaWNmem1qN3gxM1U3c2c5ZjBENTd6QUJoRmI5OUxoTzFZb2xJZDNTRE5nZTNXNndfMi1tVW16MzB6NW1zdDkxcC1mcU4tN1I4X1ZsWWluSWFJMEQxYlpaeDJGQzMwVDRrNkZaaGI0MUFYVnpQWXdULXNPU25FaXQ4ci03ZUpYbUtXcEd0VXB0eWV2VnRBVHF2ZHc?oc=5",
-   "fonte": "Poder360",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-15T09:03:36+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "a6c1f88146ac",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Simples Nacional: prazo para novas notas vai a 2027",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zbXkzR2oxaEw3Q1lWenM2VlFJd2pDemxTRHhBNXRBUEJvSjM4Q0lkSmdDMkNiSVowNVVVd0dLZ185djh3N1ViVkV1c21EOThiWWZDN2xhLWlQbmN4Z2xIc0tyQjZsVGtZbEVVSjJIVWtSM2dxNU11ZWFkOA?oc=5",
-   "fonte": "Seu Crédito Digital",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-15T03:00:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Prazo",
-    "Simples Nacional"
-   ],
-   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "89022cbda709",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Reforma Tributária e NF-e: Novas Regras Técnicas Exigem Ajuste Operacional Imediato das Empresas",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONUEyTGVrSGtSVHBEZ2pldm80VjZ6MmZ5cUxfN2owMkdnWmNOTnowbXRNeG1CTTdQa3IwOHV2Q05BM1N3T3Bycm43NUlXakdLVDBhMXlvcFBCeXNLQTZ4d2NEUWVob0VZaXhtaGgtalk3SDlsaFFCTnRMdk5jNHJKYjRackJqd1BhUEZkV3dfcV9nRlVUT0RQY1JvNEJtZUItbTBHQ3dqQzBuVnl0OUsyRHJhNlZkckVVa3FSTWJzSTl5ODEz?oc=5",
-   "fonte": "Brasil Inovador",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T23:00:08+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Reforma Tributária",
-    "NF-e/NFS-e"
-   ],
-   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "34d6c265e4ae",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "NOTA TÉCNICA – MALHA FISCAL 138 “NF-E COM ICMS-ST REGISTRADO A MENOR NA SAÍDA” 1. DESCRIÇÃO DA MALHA 1.1 Nota fiscal d",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWU9sM0VWaWo4eC1Kb0RhWGNxMnJzUkRlVTh3V1pEaVY3Ul90OTNfaGM1V0RMeGZhUmk2SEs1ZlRnSWZUS3B3STVSOGFUcEtQajRqdG1RZXJyMFRaTGZXQnl4Q1FKV3BSTjJWLUNobHZXbHMwRF9qSk5xR1JHY2RCS2pSdXhoYjFpZXV0Vllkd09FQXZKaXQw?oc=5",
-   "fonte": "SEFAZ-GO",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-14T13:50:54+00:00",
-   "esfera": "Estadual",
-   "uf": "GO",
-   "tags": [
-    "Substituição Tributária",
-    "NF-e/NFS-e",
-    "ICMS"
-   ],
-   "porque": "Mexe na substituição tributária do ICMS. Confira produtos e estados envolvidos.",
-   "pontos": 6,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [],
-   "id": "ed8dbf856d34",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Arquivo de Conselho Superior IBS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aYnVHVWtqRGJWeWNjcjZnRlJpZWNkN3pCTHVsUGt6LVRobEZGamFoY1gtV1plbVN4Zl90azdvdnRSbUxOTkJCRWpzLWJvMkxFSVN4MnhndUdQaG5JZDBjQTRMSFcyN0hTeGQ1eQ?oc=5",
-   "fonte": "Jornal Contábil",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T13:14:19+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "IBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "dd2d97dcf64b",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Dívidas do MEI serão perdoadas automaticamente: veja 10 perguntas e respostas sobre a medida",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORndVbFpaT181Wl9vcWZad29pU2J5NFMwUDdURFFFdkpNeE9vcjYweGxrVFFmSm8wZ1J3LURWUXY3LW02aHdfYlZtdk11WHBoa0tLdlBQbXRod0NNZS0tUjVkTjdJd1U4Mi1KQWFMa3hBSm94cGVvUG9rUi1SMFNTMTV6V1FpMjZGeGxvc2prNmZveTR3NmpyYXk5TnZjYWk3S3NOU1RxdW1vR0trZzJXU3J0R0J6S3U5QVdyS9IBvAFBVV95cUxORndVbFpaT181Wl9vcWZad29pU2J5NFMwUDdURFFFdkpNeE9vcjYweGxrVFFmSm8wZ1J3LURWUXY3LW02aHdfYlZtdk11WHBoa0tLdlBQbXRod0NNZS0tUjVkTjdJd1U4Mi1KQWFMa3hBSm94cGVvUG9rUi1SMFNTMTV6V1FpMjZGeGxvc2prNmZveTR3NmpyYXk5TnZjYWk3S3NOU1RxdW1vR0trZzJXU3J0R0J6S3U5QVdySw?oc=5",
-   "fonte": "G1",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T12:16:56+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Simples Nacional"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "d5233b664ce4",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "NFS-e: adesão municipal e preenchimento de IBS e CBS",
-   "resumo": "Entenda por que a adesão do município à NFS-e Nacional não define o emissor nem a obrigação de preencher os campos de IBS e CBS . Leia mais em https://www.contabeis.com.br/noticias/80823/nfs-e-adesao-municipal-e-preenchimento-de-ibs-e-cbs/",
-   "link": "https://www.contabeis.com.br/noticias/80823/nfs-e-adesao-municipal-e-preenchimento-de-ibs-e-cbs/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T12:00:02+00:00",
-   "esfera": "Municipal",
-   "uf": "",
-   "tags": [
-    "IBS",
-    "CBS",
-    "NF-e/NFS-e"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 3,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "b03ec41bbfea",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "MEI terá perdão de dívidas previdenciárias vencidas até outubro",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaHAtbUdyc1BGVXJZWDFDUFFYVEVWUk0xRWZmT3JTS05NU3hnUjdLanJFYWJ2QmRkcU9pUXJZcWg5dDdHOEdOZXRVMkZIYjBSaFVkMVoxTTYwZHQ5NmV2NU13YzU2T1dVdGlKM0VTdE5oWndQQWh1Z2NiYzBwVUE5VndMY0ljaW9kd3VtY2V0bm5lUm4z?oc=5",
-   "fonte": "Vitória News",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T10:08:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Simples Nacional"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "95b316e30c0d",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Governo federal propõe adiar início do pagamento da CBS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd1lQekk0WjRHaHYzU2gtdmRscGFFMGU2bE5rWW1oX2FCNmFhVmZFRmlubzVfNWt0X3lsU0t5UklWbHRnd2laelZNM1VyZFNvbl9PclR4OE5vOU81OXBCcWNfQUJxbnMtTTBYdGRJZkRxVy0zeDFvRFFCVUNtQW9Ed1N0QUhrZGxiYWppbjctNW81WUlEblJMTnhqeUU1LWdsRThoZTlkZDJYYWduRm9fVkRKdkc0VVZX0gHHAUFVX3lxTE5jMU1RcjJySlVVZ1NVekR0Ukh5dTdvOWZycHRqdGYyTDRSaHRpVmlJdTRDc3NvZ3haZk5UbzNvdDN0UjA4bGhlNDlxQ204UVNQTHBMZzZORXc5WmxyR3NjWWdDRGVGcE4yTkdmcnJzRXlXNl9TazgzTzNBd2R3X0FNcXR1ZkFDdW8wN3pSMnJWMTFrYXpkRHpQb3NfdlRfdWVDZXN4cXJLNi0xZ0NmYmhxQ0k3cS1DbmxVVmZFZDYxbThnSWw0UTA?oc=5",
-   "fonte": "G1",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T05:03:13+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [
-    {
-     "fonte": "Congresso em Foco",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWRTcE9rVEVnUlF3Y2NXOG1mQUNwb0lWNkVMYXVXOGtFdUdDSG92UDJxNUhRQ04zN1FweThBVWpiZWhKRERfRmZ0eWc4ZmU0UUdOSDRBajlGaTNOUzhxaWZfTUVBTFlSbmdaSy15MFpQeVBtazJVVnNma3VTcU5mODFzX00wWVhkeG11cjEyMFRzdFlLbklYaFNrOGZyZ0QwNzdzdWtfVlRvdFpsMEdKNVlJS2hXWEE?oc=5"
-    }
-   ],
-   "id": "5b694ab6e209",
-   "n_fontes": 2
-  },
-  {
-   "titulo": "Reforma tributária exige CNPJ para produtor rural em 2027; veja quem terá de pagar CBS e IBS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVjFQdV8wQWx5ejN2elZHaVpJcHhCOUJpai1tYVdNU3hOT3ZvcHdRQy1pdTZfcFcxa1JpV2Jub1FuTHRiaVUtazI3OUI4Mkhpa2NXeVp3bnByRE1EOXBaeldnVXR6b1FoR2xyeTl4Wlh5TmQzV1Znem8wV29CSHZHNkRqS1g1N2F2cTRnZURMYmRycFpYcFpJRkJUYndpbm9VZlBZcklXVDR3SFJ5TkpiT2hLaVBEb0wyMmlLOQ?oc=5",
-   "fonte": "CompreRural",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T02:18:08+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "IBS",
-    "CBS",
-    "Reforma Tributária"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 3,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "f902d48afe99",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "MS prepara pacote de reforma tributária e ICMS de até 19,5%",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQVBGM1N4WGpYeFh6Q3hiU2tsT2RaU1NlaE0xZjVoMmd2S3R5V1dIM0FXbVJkUHE4NTJkYUROcnNfTlpyeDdFUDR5dU9mRk4tNUhnVXVzLWVWY2k1WVp5REZLQ2R6bHd2MVlnTE9teWZ6N0pYT0ZDUUIzLXA4S25ScnN6THp2OVM4akdzandRSGFwMmFlNEdjREl1bWtnNXFpVDVuT0o2VjlJZnh2OTlDT1JDb0p3Y1haVlHSAboBQVVfeXFMTmEzN2xEQUwwQXIydXJMazR6SEVSMjduU0RIYXJMQWdpYXRNN1B6SU9OQ2R2M01OLS0xaFdHUnN2STl3WEZWTDJGYXJuRnhmaTRqQUQyd3hjUUdfa2dSNUtPQXFRMHVGN1VnLUJGNm5WUVdwYkJBeVRmbTIyM2RheXZDY1RnYzVHR2JpSmNLUnhpaDlnN0NleWs3WUluaC1XMEdEcXQzQUYxcFFoRDVBcnFxWHRVbUd0UFVB?oc=5",
-   "fonte": "Campo Grande News",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-14T00:41:26+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Reforma Tributária",
-    "ICMS"
-   ],
-   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
-   "pontos": 3,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [
-    {
-     "fonte": "jornaltribuna.com.br",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOc2lVWHNKVThzdnZSaXJ5X2t6M2YtZ0J0dGUtek1BeGJRXzhOVFc0c2JDWGNiTkN5UmdCbGM5Q21TRjF0V0J4TjNPSERpYUY2RUw3RU1nYVJnMGozeUtoaVpFVzNkZGdBRFJPUklzNWFxOGlnTjROQlgwd1pad1VGY1dMMHlUaVdsVkM3Zm1HMEVtQTc2cFNwU2Z4RkJaekdrU2FMWUM0LWRpbURJd1B0U3VQa2ZpdkRWUE1fTWs4WXBWWlJBNEU0OWZIS2w?oc=5"
-    },
-    {
-     "fonte": "rolecomfish.com.br",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTVFKM0V0N3BLNTdRRzFFajVZMjdZaGZ6eUMyZWd3dm5nOThCVWNvVHJiV1lkMWFaVU9iVU56VVlaZ0dhLS1pckc2T21zTWlHSzZ3VHhfZzVESzNpdk5iRHRyQXljQnNrbW1lOVF6d09wVExmX3hvQ0JIUTU0Q2RSWFZrMWYtTGNoZ296QlVGRnd1RUpacGJfUmdqengwYTl2cXhJRGVZcFI3Rkp4Q3NKRnJJSnJJdnZ6UHpQTDlZdGpBWWRhaWZncG9aVDBUYlhN?oc=5"
-    }
-   ],
-   "id": "d1cd1b2f2db1",
-   "n_fontes": 3
-  },
-  {
-   "titulo": "CBS em 2027: empresas cobram prazo para adaptação",
-   "resumo": "Com a CBS prevista para 2027, empresas e contadores pedem tempo para adaptar sistemas e rotinas diante de regras e ferramentas ainda pendentes. Leia mais em https://www.contabeis.com.br/noticias/80883/cbs-em-2027-empresas-cobram-prazo-para-adaptacao/",
-   "link": "https://www.contabeis.com.br/noticias/80883/cbs-em-2027-empresas-cobram-prazo-para-adaptacao/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T22:00:01+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS",
-    "Prazo"
-   ],
-   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "afa742f359fe",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Fazenda do RJ divulga base de cálculo do ICMS-ST para álcool (R$ 4,76/litro) e GNV (R$ 4,55/m³)",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVVUwbDRHOF9TNDhRWExpMUJxbF8tMlU4bHhlQnNSMi1ZTWpnbU1xZEVjZk9mVFZjUVA5QVhjNzVzUktnQWRtV2ZIWWxTeG1VRC1JOXJWTUhEbkRkck9DRkJrXzVQbUlZRjBGcFBxUHhzU0lnNmYtWUhfb3JHNXhET090SmprcGw1aGRHVkZYM21ZZjU2UmtJZERfVGtyeGY1NlBUeWYteXNTdm1z?oc=5",
-   "fonte": "atlaspublico.com.br",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T21:31:07+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Substituição Tributária",
-    "ICMS"
-   ],
-   "porque": "Mexe na substituição tributária do ICMS. Confira produtos e estados envolvidos.",
-   "pontos": 2,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "c56e790f5888",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Projeto prevê uso de créditos da CBS para pagar tributos",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY3paTUxfNG1HVlFYVXRXbVpLX2lnZl95SnZDRkpvRzhrSDBLY3Z1RVVTVmNlY0RLMldfa0JvZ1VCNlZXZlh3d2x5MXByYjlRSS1KbWc0V3hSSHlBLUdIYXMyTmw5bXdFX01kU2FPRFdSNkl3UmV1LU0zWHJaMjZpWlQyRkE4ZkJwbVFQSTBzWlBUU1BnWUMzQmNDdUJSb0FKR1BV?oc=5",
-   "fonte": "Portal Contabeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T21:30:01+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 1,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "ced10ca365b4",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Lideranças do agronegócio paranaense se reúnem para traçar estratégias diante da Reforma Tributária",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNelBCek52aW9jcy1NM3pmOHJNRlBEV2pTUk1PSkxDU2VjS2UxQzR2TDlGRnhTM3hGNHk2by1CZUdmdkpzUHhLdGZrUnlPNDFvMzF5QnlOX0R5LU9WUVJGTWhxT2JlaUlrRlBUYk1WakFmdG5MaFVISi1kYVZBdjVxN1lqZjdydVVCRzdFaXNTT0hXRXAxWXdKSXlUR3FrVmdYWnpxdnh1XzliTzhwQ1hiMTJJSHo0NWdmYVV2UERSSGJZRWlMd0FSVXB3bzJzY19KUXh5cHhrWUhHWlJD?oc=5",
-   "fonte": "Costa Oeste News",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T20:38:47+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Reforma Tributária",
-    "Obrigação acessória"
-   ],
-   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "b90142c1f617",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "MEI terá dívida mensal apagada por inteiro sem fazer pedido; saiba quando o cancelamento começa",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWEI0YnhmOTlabjVZdDY3S0VSS0ZmQk5lM3JtdU1ONEd0d2JLajI2dmpLaDBSYW00WmF5QmhaSWxBbDB3Yi1Qb2VwS3VzbmwwQTJlclBLUkN4dGxsWENIX2dHUjlOWU5pTDBmT2NMUEwxeC1raWFIVmxUQkpJR3VDV3ltV3dSSDM2OW9seV9SNzF1T28xd3pVUnp3RE9jSWRfMEl0TkZ3OUxnNUIxVUdxdElETVFITzNFeXVfMHpPemIzREF1ZklhYkVBbGszVkU?oc=5",
-   "fonte": "Diário do Comércio",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T20:29:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Simples Nacional"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "94df79ccceab",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Emílio Júnior anuncia estudos sobre ICMS e detalha mudanças na tributação do Piauí",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVmk4UUxJUm1XLUpmWFlJWlJ0Z0tfd1ZXemJCRHFUOUVmOGsyWVFDR19pV3R5R0MyeVlhVXpVR19idGNUNmpSWEVzQ1Q1Vnp5Nzh4Z19mSEtQVUJ0S1pYZUJ2SkpLTzBUQ0hYSTVVMEZxbGV6cUhkRlYtMC1IbEJjMTR5el9xSzQ3enZTOUh0c0d0Z0FWMmRrQnA1Y0N5SlVEZWhzWXFjNjJIV0FyR3ZjY2NNTGpwSXBDbDk4VURZZHh1UVJDb2ZoczFzSnlZZVIt?oc=5",
-   "fonte": "Portal O Dia",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T20:28:12+00:00",
-   "esfera": "Estadual",
-   "uf": "PI",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 3,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "0166ebf3151f",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Em congresso nacional, presidente do Comsefaz destaca avanços e confiança na implementação do IBS -",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWDRVT2pWRTBBZUxsdkZMSGJ0YXlHemtPYnI4dlRrcnZpWl9VVHdubTZpdjVObkxFTlJUTGdMMnhFc2pIVzlPeWxhQU1XZTFxMEVhZ1dsV3hCSmpEaEFMYUVIaEJReGVOTlJBSkdiVllwcTNDQ0UwTWZuMm1zdWRUUklLRmpKbzRlV1NROE5Kd1czcEZ4eGZpdHYxQWFGaXBqcVNlclBmTWRtMzVmMndvMXNUbjhhSGtUbjBPVmVidkV0REhL?oc=5",
-   "fonte": "- Comsefaz",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T19:49:49+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "IBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "4ec9ced29b92",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Oportunidade: Conferência Nacional de Perícia Contábil abre inscrições para modalidade on-line",
-   "resumo": "Os profissionais da contabilidade que não puderem vir a Brasília nos dias 2 e 3 de dezembro terão a chance de participar da Conferência Nacional de Perícia Contábil (CNPC) a distância. A decisão atende aos pedidos de peritos de todo o país que solicitaram a…",
-   "link": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-abre-inscricoes-para-modalidade-on-line/",
-   "fonte": "CFC",
-   "tipo_fonte": "Entidade contábil",
-   "data": "2026-11-13T19:36:27+00:00",
-   "esfera": "Federal",
-   "uf": "DF",
-   "tags": [
-    "NF-e/NFS-e"
-   ],
-   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
-   "pontos": 2,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "aea4068879d5",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Governo empurra para 2027 a nota fiscal com IBS e CBS de serviços, aluguéis e condomínios",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWkVIa3pDcjVqUGdQX1N0dnBzdEFURUJ2UHdnOHA5Wm5hdjRON3Bfa2hrd05SWkt5SDFseTFtU184czlIV1Z4YkljcklWYkVUSHoybm1oZXZsV0lkNmNPR1BHMkY5NEt4TkZSeXVDQ3F5cjhkRkR2QlVtdWRBZFk0MzZrZ0RJcXNNcnpBQ3djNmZQV3RnZUhiTWUweE9PUkNwZmZYbXBxYmhUV3JpNnJ5NVppNmZiYW52c3IxY1VyOW9OME5wOFUtaHJ0U2ZSUUk2OHR0aDZR0gHbAUFVX3lxTE5fVTBDeTJyMlVSa3BLMjJTalFuOV91SDJfZHRZYUdqYk1lTWItal9EYklpV2pKTTFWX0c5Wk1Qbm5LRW9TWmhaNGhpUm1hZnFrQUU1b1JnLTAtSVotRWdFS01wdzNZdG8tZDc4RVc4UTlSeUV5TngwcjJlYW9WQzF4VVdrTjBEeTBXMXJOUEdtZlg1bmw4Ykc2dW91MlFhS2k4anlobU5VZktfam9kSnFxZGdqYTdFaXFoaWZXZ3E4azhKamxheFp0cUhpbkQ1Z29DenF3ZFVnMlVPMA?oc=5",
-   "fonte": "Diário do Poder",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T19:20:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "IBS",
-    "CBS",
-    "NF-e/NFS-e"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 3,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "fb325ba0eebe",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "DITR com divergência: quando retificar ou enviar documentos",
-   "resumo": "Receita Federal orienta como corrigir erros na DITR e responder a intimações de malha fiscal do ITR. Veja os procedimentos e documentos necessários. Leia mais em…",
-   "link": "https://www.contabeis.com.br/noticias/80879/ditr-com-divergencia-quando-retificar-ou-enviar-documentos/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T19:15:02+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Obrigação acessória"
-   ],
-   "porque": "Envolve declarações entregues ao fisco. Confira se muda algo na rotina.",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "57fd1a57fe1a",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "CGIBS anuncia dispensa de CNPJ para produtor rural e autônomo",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1I1bGhkUG84MGI4dzVLYzFSck5henBTVzZ2S01BX1M3eHhhcHFjcUJmbXd1WXJOcnBITHQ3QWdfVURJazJ1V1p6M2t5ekw3RGZZb3dacFJUcGFhbkg3VW54eDVXVXNLaFZ4b2IyY2xtOTc5SnpuT1oxYk5nemYyY3h4cVJveUFuZG4zRk5CRlkxUXB0czNZVFEzSjBIdjFrTFNTbU11UDJ1QQ?oc=5",
-   "fonte": "Portal Contabeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T18:45:01+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "IBS",
-    "Agro"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "fc53847a06ba",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "13/11/2026 - Apuração Assistida do Simples Nacional (ASN) passa a ser alternativa à DeSTDA",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWEJBbTZRYm43TVFrU1pEVEJJT0pqMDkxdXNFQk9Yc20taWJOcWlMc2JUbGI0LUdEODhGQ01lM3RzZlVJOUQwR0doaS00LTgxQW8zQThCQVdrWFJiS25xRW9UOHQtUUpzdHJycnUtZ0lOMGxQWnhlakZzcm9mdzllOVc5NE9fNTJyNThqUjhHS0V2MWtPelU3UG9iS3pqNndJRjVyR3ZfLWllRmZfYmxTdWY5RjE4eFU1bmRYMg?oc=5",
-   "fonte": "SEFAZ-RS",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-13T18:21:24+00:00",
-   "esfera": "Estadual",
-   "uf": "RS",
-   "tags": [
-    "Simples Nacional"
-   ],
-   "porque": "",
-   "pontos": 2,
-   "reforma": false,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "42d15843277d",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "PEC 22/2026 propõe manter IPI até início do Imposto Seletivo",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdlhuZUlTdmVlUkV6bTJOYXR4MUF1Q3pjNjV5LWcxcFMtWUlvQVdnbThpRTVLaUw5YXNnSHA5WmpYczRkTEpNNnlkV3NfRFpRVlZ4QTJfakVoVGdzaG9wVERVcEpxMG42TWtMTEFHSW5UdkZ1TWxORmVNYVFmemstNVVWLWpTdjJ6OXEtcVA5c09aREQ4UENhY0c2RnBwS3hZM2ZPZUFya3o?oc=5",
-   "fonte": "Portal Contabeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T18:15:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Imposto Seletivo",
-    "IPI"
-   ],
-   "porque": "Pode encarecer produtos específicos a partir de 2027. Veja se algum cliente é afetado.",
-   "pontos": 3,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [
-    {
-     "fonte": "Migalhas",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV3ZZaEJNZWl0MFZ4SGRFOFIwZzZCQXRoeGtTUkZJMzJ1Zm0taHBNWU5PdnVrNW9CcXNwdWJTWjVwRGJJY1dzRU9TVmtZMFpsZ2dKRVppVHZMSENUMVA4clpick5KYmQ1blczUTFUYmdMWjRmODl5V1d6TFRoY1V0dzhaS2EwT0NHd202QWg5dWJpSDE4bXotbHdZam5od0J2SWtHTE9XcGQ3RHFlTVlN?oc=5"
-    },
-    {
-     "fonte": "Fenafisco",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZE9lelNjRFFiZWhEbUEtNzVHa1VTU0JTQUtqZUhoZUd2eUJGczRwQWR6RnZ4TGxVSE9Gakt6NENZQWhVUHdQc2VyOWc3dGZXN2JNVWp3Wk1CTnplSFprd29jS29JcHVYNk83SjMxWW1pWktnN3dNa09henlWWFlMbzhSUnk2TUhZeG5GMjBpWGl3MHRTTWloeFFWaXhna3hmOTVLdENjTFVDTkFqTWdKU1RIekJHb2dlQ3FTVmhnSUbSAcABQVVfeXFMTWRPZXpTY0RRYmVoRG1BLTc1R2tVU1NCU0FLamVIaGVHdnlCRnM0cEFkekZ2eExsVUhPRmpLejRDWUFoVVB3UHNlcjlnN3RmVzdiTVVqd1pNQk56ZUhaa3dvY0tvSXB1WDZPN0ozMVltaVpLZzd3TWtPYXp5VlhZTG84UlJ5Nk1IWXhuRjIwaVhpdzB0U01paHhRVml4Z2t4Zjk1S3RDY0xVQ05Bak1nSlNUSHpCR29nZUNxU1ZoZ0lG?oc=5"
-    }
-   ],
-   "id": "671e8b02d7c4",
-   "n_fontes": 3
-  },
-  {
-   "titulo": "APIs da CBS exigem nova credencial para consulta de débitos e créditos",
-   "resumo": "Receita Federal orienta usuários das APIs da CBS a cancelar a credencial antiga e emitir outra para acessar as funcionalidades da versão 2.0. Leia mais em…",
-   "link": "https://www.contabeis.com.br/noticias/80864/apis-da-cbs-exigem-nova-credencial-para-consulta-de-debitos-e-creditos/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T18:00:03+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS",
-    "PIS/Cofins"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "d4b9a811124e",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "NF-e e CT-e: o que muda em 16/11 e o que fica para dezembro",
-   "resumo": "Veja quais mudanças na NF-e seguem previstas para 16 de novembro e quais notas técnicas da NF-e, da NFC-e e do CT-e ficam para 14 de dezembro. Leia mais em https://www.contabeis.com.br/noticias/80863/nf-e-e-ct-e-o-que-muda-em-16-11-e-o-que-fica-para-dezembro/",
-   "link": "https://www.contabeis.com.br/noticias/80863/nf-e-e-ct-e-o-que-muda-em-16-11-e-o-que-fica-para-dezembro/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T17:30:02+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "NF-e/NFS-e"
-   ],
-   "porque": "Pode exigir ajuste no sistema emissor de notas fiscais.",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "481396f8edd4",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Decreto do RS muda regras do ICMS sobre substituição tributária com efeitos retroativos a agosto e outubro de 2026",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZDF3NUZLQmhoZTRqcUpfYzRhRUZNOTM5dU55bTQ4eVZQYk1fcUxadFR1T3JWeEJQTEd5TXVtM3hVRktWY1ZHMmdTSklBQ3liRDNqUl9HdDBCYjFyOUdpWUhPRzVEOFplYnZsQjZPUHdxRVpuNWRsUlFoMlAyV1VscDlxSzRJcDVERjUyRElNUkhFX2Zsdk02a2dJTFFrOEdDT0JpYVRjT095THM?oc=5",
-   "fonte": "atlaspublico.com.br",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T17:14:52+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Substituição Tributária",
-    "ICMS"
-   ],
-   "porque": "Mexe na substituição tributária do ICMS. Confira produtos e estados envolvidos.",
-   "pontos": 3,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "22afde0b24ab",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Minas Gerais autoriza Transportes Cisne, de Itabira, a comprar até 790 mil litros de diesel com benefício fiscal até abril de 2027",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcnRTei1Qa0FtT2JocncxTVB2OEVpUDRqQ3h0NlUxQnlLSHN4bXlNX1NCN1BCWWsxMmlyeTdHSFAtclgzRlRIb0xlWVBXeWM1RDVSZnBjeXB0SDd4Z3hNZXlnbUVSaUZ4dUJmYjFjNkVYVzMyRnFTMXdOMDlBelFlMDVsU29rTE9PR013QmNKVm5oTDZSUnpaaUJsZXJMVjR0cUVoLW1BVXd0ZU1HMXVqTHBKMUdrR1d3WEhYRDlHMklENWhXa2txUmpISlVJbkp3OEtTUXY2ZVRlcVVkamJBYTdLUXdBTUxCVi1oTktzZlJ5MmhuNWpLR21SN09icVFHcVhSWjlUdVhDd9IBigJBVV95cUxQcnRTei1Qa0FtT2JocncxTVB2OEVpUDRqQ3h0NlUxQnlLSHN4bXlNX1NCN1BCWWsxMmlyeTdHSFAtclgzRlRIb0xlWVBXeWM1RDVSZnBjeXB0SDd4Z3hNZXlnbUVSaUZ4dUJmYjFjNkVYVzMyRnFTMXdOMDlBelFlMDVsU29rTE9PR013QmNKVm5oTDZSUnpaaUJsZXJMVjR0cUVoLW1BVXd0ZU1HMXVqTHBKMUdrR1d3WEhYRDlHMklENWhXa2txUmpISlVJbkp3OEtTUXY2ZVRlcVVkamJBYTdLUXdBTUxCVi1oTktzZlJ5MmhuNWpLR21SN09icVFHcVhSWjlUdVhDdw?oc=5",
-   "fonte": "Diário do Transporte",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T17:00:34+00:00",
-   "esfera": "Estadual",
-   "uf": "MG",
-   "tags": [
-    "Benefício fiscal"
-   ],
-   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
-   "pontos": 3,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "4f48d9e038e2",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "CT-e corrige schemas das NTs 2026.004 e 2026.005",
-   "resumo": "Portal do CT-e republica schemas e ajusta o campo de declaração de pagamento no evento de crédito presumido. Veja as regras e a data de implantação. Leia mais em https://www.contabeis.com.br/noticias/80860/ct-e-corrige-schemas-das-nts-2026-004-e-2026-005/",
-   "link": "https://www.contabeis.com.br/noticias/80860/ct-e-corrige-schemas-das-nts-2026-004-e-2026-005/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T17:00:01+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "NF-e/NFS-e",
-    "Obrigação acessória",
-    "Benefício fiscal"
-   ],
-   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
-   "pontos": 3,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "cb97748a609f",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Receita aprova leiautes de declarações de importação com IBS e CBS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHJMdEd5SU9WV0xGQTBRdUNTLV9TT29tcmdQZUNlZDdGM081WUhxVFlJUnRSOWppd1dNWXVtYjc4T0h0UnQ3ZkdaVVVCYTVmWkt4alFmVU9uUmdzOWZWRUI2RTR1WEF4MW03RDZBTE5nMENiRmg1NEppWmRWekhnQ3JMX3FvaXdyM1VFc1FGNE1zWWg1VGpiU1FnNFpWUHFNYXRTcF9sbURfOGVjMXfSAa4BQVVfeXFMUGRyTHRHeUlPVldMRkEwUXVDUy1fU09vbXJnUGVDZWQ3RjNPNVlIcVRZSVJ0UjlqaXdXTVl1bWI3OE9IdFJ0N2ZHWlVVQmE1ZlpLeGpRZlVPblJnczlmVkVCNkU0dVhBeDFtN0Q2QUxOZzBDYkZoNTRKaVpkVnpIZ0NyTF9xb2l3cjNVRXNRRjRNc1loNVRqYlNRZzRaVlBxTWF0U3BfbG1EXzhlYzF3?oc=5",
-   "fonte": "Jornal Contábil",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T16:02:56+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Nova regra",
-    "IBS",
-    "CBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 5,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "49cdaa81ebab",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Solicitar análise do ICMS dos Leilões da Receita Federal (bens apreendidos e abandonados)",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQWmRaX3NVY19lWm1NcDBVMWNIU3c1eHpfbGdic1d4aGtRUENxR0JzRHc3VVd3WXh5cDZxRUt0eG1SOXVuejBPZHdETkNOME9rdElrNHdvZll0TnNnUVpHM1JYb0p1SnRqaGVSNWFEaU1mTXpzVGt2VFhDd0c3Y2RMZ2tGaFdaa0RwTGpGa3VZY3RmTzJBMF9scXZTa0dFTXNWd0czYjNvVzB4TkhZYXFuTjZvdjEydFQ5M0xZRjRrdlQtR3NQWUlmcjRidHZZRVJKR2RYdThUSlF5UGU5Z3VkeFR1a0w0TUZPZ0hUV0U2Q0pJX2ZXa3F5OQ?oc=5",
-   "fonte": "SEFAZ-CE",
-   "tipo_fonte": "SEFAZ estadual",
-   "data": "2026-11-13T15:07:17+00:00",
-   "esfera": "Estadual",
-   "uf": "CE",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 4,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "281f5d752ef3",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Comissão aprova isenção de imposto para bebidas à base de frutos regionais da Amazônia",
-   "resumo": "Isenção limita-se ao Imposto sobre Produtos Industrializados; a Câmara dos Deputados continua discutindo o assunto",
-   "link": "https://www.camara.leg.br/noticias/1319232-comissao-aprova-isencao-de-imposto-para-bebidas-a-base-de-frutos-regionais-da-amazonia",
-   "fonte": "Câmara dos Deputados",
-   "tipo_fonte": "Legislativo",
-   "data": "2026-11-13T15:02:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Benefício fiscal"
-   ],
-   "porque": "Pode reduzir imposto de algum cliente. Vale conferir se ele se enquadra.",
-   "pontos": 2,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "0e2d741338c1",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Sala de situação começa a discutir desafios da reforma tributária",
-   "resumo": "Sala de situação terá reuniões semanais para discutir problemas da reforma tributária , com prioridade para Simples Nacional e transição de PIS e Cofins . Leia mais em…",
-   "link": "https://www.contabeis.com.br/noticias/80861/sala-de-situacao-comeca-a-discutir-desafios-da-reforma-tributaria/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T15:00:01+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Reforma Tributária",
-    "PIS/Cofins",
-    "Simples Nacional"
-   ],
-   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
-   "pontos": 3,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "214be92ab04a",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Arquivo de pagamento da CBS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SNEhReF9zX0VtckFlWm41UFN6QzBkTVoxQ0pIT21hM0tSbFBYY2hvb0ZXQ3cydzZKVklNYk9jN2VPRG54M2tUQllnalJTTnMydUJwS1B4ckxVaFBnaHhZdmJIQVBTUQ?oc=5",
-   "fonte": "Jornal Contábil",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T14:55:45+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "CBS"
-   ],
-   "porque": "Faz parte da Reforma Tributária: a CBS substitui PIS e Cofins a partir de 2027.",
-   "pontos": 2,
-   "reforma": true,
-   "fiscal": false,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "4c8711d2a0e3",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Reforma Tributária: Receita e Comitê Gestor publicam novo cronograma de emissão de documentos fiscais do IBS e da CBS",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMFFqUmJRYnVPeXF2SHNPRnl4Y01Ea0xxdE91d1p3NjVIR3dnYkhfNnpKd3pPVWpicEpXTnBXbURYckw4WHJJSDBhX0w2dG9NRF9ELVFudklyVldMSzRSSkRfbE9NN01HdVlwdFFuMGhQdDlXNkc5MV9pMWpTc3FTaEdTcDQ2VU9JcElnaFV2cjJtUGs1LW9ZbG93QkduaGM2ZGNodDJIeThPb1JLOV8zemFJLThzeHRVaDU5TU1YbVdvQWlaZHJIS0lyeVRwc2NHeFlZLWZqd1Zsc3YwX1BkUw?oc=5",
-   "fonte": "Martinelli Advogados",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T14:55:17+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "IBS",
-    "CBS",
-    "Reforma Tributária",
-    "NF-e/NFS-e"
-   ],
-   "porque": "Faz parte da Reforma Tributária: muda notas fiscais, sistemas e cálculo dos impostos sobre consumo.",
-   "pontos": 3,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [
-    {
-     "fonte": "Confederação Nacional de Municípios (CNM)",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMllObFJEX09FRDJhaTJOY0NYYU9kcXE2UXlRT3ZWWkZ6RzlWTDdXY1R0NWNMVHRsTWRFdTN6d2hrX20zS2YyUjZ2SWwtdEVDYVpDaE9vYXFfWjlwRkRqWnZIQ1NsX0REZEJ1ZGYzcFRjZkxZRmZmazBwamEyOG5qeFJVQVRfRmRmc1hUTVAyNGV6andzOWhmRWxnUFhBVGc1TC1mV3REYUwzUGVrd2I5TXptbW41NkYySlN1UEpNRjlsUl9vQzFRVFVMRnU1YUdIblE?oc=5"
-    }
-   ],
-   "id": "69dfa6d4624c",
-   "n_fontes": 2
-  },
-  {
-   "titulo": "Adriane estima perda de R$ 30 milhões do ICMS e aposta em cortes e judicialização para reverter déficit",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbFUtWHkyOWk1aUNKWjkwUlNERG5ITlFvX0lYZVN0RmNlRmRoTjFoeFFkLXhUaGw5VWNDMWU4VjAzcGFPUk5VaWYxVzFsYXBQYklRbkg4eFlsMzR4MDZ1X2NMWXNVeGpLSGJPdVNva280a21oXzJQUmtYV2hjNGUzUXBkODlWV1VmTnhQcm5lYzdmRm1xTi1BMXZ3Y09CUEtCRFc5VlNHUGNBQTNLcWpFZU5ZZk43UlVDbUd2MUN2VjY?oc=5",
-   "fonte": "Midiamax",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T14:47:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "9ef09e3a810f",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Dólar alto encarece manutenção de aeronaves e dá mais peso ao ICMS de 4%",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUERSemVzWGd2Y0hoX3NCczFPNEp6X3Z6RUNhUWFqNWpJR2hmcHIwNlRoOXFwXy1FRk9rNGhhT3AxajZsRnY0cG5Sb29xNU9qWk9OdWhOZ0dIY3NjaThXWUF2VWYybG5GTE1ZVHhhSjhPcTZZZTQ3TEZ3Qzd6bU5iMlVSWWplM3Q2cWJCc3hhU0t0ZDl4V3hBNTdmMDQ0ZUFsdU5PZy1ZUW91SXZ6dEE?oc=5",
-   "fonte": "panoramagocomunicacao.com.br",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T14:35:46+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "ICMS"
-   ],
-   "porque": "",
-   "pontos": 1,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "baixo",
-   "outras_fontes": [],
-   "id": "d5f57d726f6d",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Convênio ICMS 75/91: Confaz prorroga até 2028 redução do imposto sobre aeronaves e peças",
-   "resumo": "",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRk5kZ0hvTWMtRVFLWldCR05waVlRMUpMdFg2cllSQTl2d3B2WFk0TnktX2lGczJ0TUQtZ2Q4S1U5OUFlNzNCSk5CamNXeXRQb0lqWmlpQUpUcGVUNDBHRU54ZVZDU0MzYnZteTZYdzRNaHRwMWhxX0Nkc3RkQUFBdGZ0bnpPMXpqUmprYjdtOGFiaHdRV0toLWF2X2IzcVI1VmdCRUpCd3VKekVnM1d4bE83cGFEVGo5aXhQVGFLVmtGTi1ad0xF?oc=5",
-   "fonte": "www.broadcast.com.br",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T14:35:00+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Nova regra",
-    "Prazo",
-    "ICMS"
-   ],
-   "porque": "Há prazo novo ou alterado. Atualize a agenda de obrigações da equipe.",
-   "pontos": 5,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "7b6eb9b4ca0c",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Lei do Bem pode alcançar empresas do Simples Nacional",
-   "resumo": "Projeto aprovado em comissão do Senado amplia acesso de startups e pequenos negócios a incentivos fiscais para pesquisa e desenvolvimento tecnológico. Leia mais em…",
-   "link": "https://www.contabeis.com.br/noticias/80859/lei-do-bem-pode-alcancar-empresas-do-simples-nacional/",
-   "fonte": "Portal Contábeis",
-   "tipo_fonte": "Portal de notícias",
-   "data": "2026-11-13T14:30:02+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Nova regra",
-    "Simples Nacional"
-   ],
-   "porque": "",
-   "pontos": 3,
-   "reforma": false,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "medio",
-   "outras_fontes": [],
-   "id": "fbb092f4aa9b",
-   "n_fontes": 1
-  },
-  {
-   "titulo": "Áudio: Benefício tributário a entidades filantrópicas é aprovado pela CAS",
-   "resumo": "A Comissão de Assuntos Sociais (CAS) aprovou na quarta-feira (11) projeto que permite a entidades filantrópicas de educação, saúde e assistência social manterem os créditos dos tributos pagos na compra de bens e serviços após a reforma tributária (PLP…",
-   "link": "https://www12.senado.leg.br/noticias/audios/2026/11/beneficio-tributario-a-entidades-filantropicas-e-aprovado-pela-cas",
-   "fonte": "Senado Federal",
-   "tipo_fonte": "Legislativo",
-   "data": "2026-11-13T14:28:47+00:00",
-   "esfera": "Federal",
-   "uf": "",
-   "tags": [
-    "Nova regra",
-    "Reforma Tributária"
-   ],
-   "porque": "Novidade da Reforma Tributária. Acompanhe para planejar a adaptação dos clientes.",
-   "pontos": 6,
-   "reforma": true,
-   "fiscal": true,
-   "internacional": false,
-   "impacto": "alto",
-   "outras_fontes": [],
-   "id": "6f21c3f52913",
-   "n_fontes": 1
   }
  ],
  "confaz": {
@@ -11757,7 +11784,7 @@
    }
   },
   "_dou": {
-   "ultimo_dia": "2026-11-25"
+   "ultimo_dia": "2026-11-23"
   },
   "CV-2024": {
    "ultimo": 0,
@@ -15886,9 +15913,9 @@
    "0": 6
   },
   "confaz_ultimo_erro": "https://confaz.fazenda.gov.br/legislacao/convenios/2026/CV003_26 -> 0 ConnectionError",
-  "dou_ultimo_erro": "2026-11-26 -> 200",
-  "dou_dias_lidos": 3,
-  "em": "2026-11-26T16:52-03:00",
+  "dou_ultimo_erro": "2026-11-27 -> 502",
+  "dou_dias_lidos": 1,
+  "em": "2026-11-27T16:37-03:00",
   "atos_no_cache": 460
  }
 }
